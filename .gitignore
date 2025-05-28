@@ -1,0 +1,56 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.dvi
+*.nav
+*.snm
+*.vrb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Temporary PDFs (keep only final versions)
+*_temp.pdf
+*_fixed.pdf
+*_draft.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files that shouldn't be versioned
+*.h5
+*.hdf5
+large_data/
+
+# But DO track important PDFs
+!DiBacco_2024_*.pdf
