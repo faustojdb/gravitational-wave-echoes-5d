@@ -1,0 +1,32 @@
+{
+  "klein_bottle_geometry": {
+    "radius_km": 1751.173,
+    "topology": "Non-orientable Klein bottle",
+    "evolution": "R(t) = 1751.173 × (t/13.8 Gyr)^(3/4) km"
+  },
+  "fundamental_constants": {
+    "5D_density_kg_m3": 4.45e+19,
+    "bulk_modulus_Pa": 1.0e+35,
+    "effective_velocity_m_s": 4.682e+7,
+    "velocity_ratio": 6.403,
+    "degrees_of_freedom": 4.02e+41
+  },
+  "observables": {
+    "fundamental_frequency_rad_s": 42.0,
+    "echo_delay_s": 0.1496,
+    "dark_matter_density_kg_m3": 2.39e-27,
+    "dark_matter_fraction": 0.26
+  },
+  "experimental_predictions": {
+    "frequency_spectrum": "ω_n = n × 42 rad/s (only odd n)",
+    "echo_times": "τ_n = 0.1496/n seconds (only odd n)",
+    "atomic_clock_signal": "δν/ν ~ 10^-18 sin(42t)",
+    "cmb_signature": "Power spectrum modulation with period 2π/R(z)"
+  },
+  "cosmological_parameters": {
+    "habitable_window_km": [1000, 2000],
+    "current_cosmic_age_gyr": 13.8,
+    "klein_bottle_age_gyr": "eternal",
+    "paradigm": "Eternal Klein bottle (pre-existing geometry)"
+  }
+}

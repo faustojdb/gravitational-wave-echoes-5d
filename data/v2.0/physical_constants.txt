@@ -1,0 +1,34 @@
+KLEIN BOTTLE THEORY - PHYSICAL CONSTANTS AND PARAMETERS
+=======================================================
+
+FUNDAMENTAL CONSTANTS
+--------------------
+Speed of light: c = 299,792,458 m/s
+Gravitational constant: G = 6.674×10^-11 m³/kg·s²
+Planck constant: ħ = 1.055×10^-34 J·s
+Boltzmann constant: k_B = 1.381×10^-23 J/K
+
+KLEIN BOTTLE PARAMETERS
+----------------------
+5D Radius: R = 1751.173 km
+5D Density: ρ₅ = 4.45×10^19 kg/m³
+Bulk Modulus: K = 10^35 Pa
+Effective Velocity: c_eff = c/6.403 = 4.682×10^7 m/s
+
+GRAVITATIONAL WAVE ECHOES
+------------------------
+Fundamental Frequency: ω₀ = 42 rad/s = 6.68 Hz
+Echo Delay: τ = 0.1496 s
+Mode Spectrum: ω_n = n×ω₀ (only odd n: 1,3,5,7...)
+
+DARK MATTER CONNECTION
+---------------------
+5D Vacuum Energy: N_eff = 4.02×10^41 degrees of freedom
+Dark Matter Density: ρ_DM = 2.39×10^-27 kg/m³
+Dark Matter Fraction: Ω_DM = 0.26
+
+EVOLUTION PARAMETERS
+-------------------
+Dimensional Evolution: R(t) ∝ a(t)^(3/4)
+Current Rate: dR/dt ≈ 94 μm/year
+Habitable Range: R ∈ [1000, 2000] km
