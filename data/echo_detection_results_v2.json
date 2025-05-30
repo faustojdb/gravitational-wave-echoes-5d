@@ -1,0 +1,58 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2024-12-30",
+    "version": "2.0.0",
+    "author": "Fausto José Di Bacco",
+    "catalog": "GWTC-1",
+    "total_events_analyzed": 10,
+    "analysis_type": "gravitational_wave_echo_detection"
+  },
+  
+  "theoretical_parameters": {
+    "fifth_dimension_radius_km": 1751.173,
+    "fundamental_frequency_rad_s": 42.0,
+    "klein_bottle_topology": true,
+    "predicted_echo_time_s": 0.1496,
+    "allowed_modes": [1, 3, 5, 7, 9],
+    "forbidden_modes": [2, 4, 6, 8, 10]
+  },
+  
+  "observational_results": {
+    "mean_echo_time_s": 0.1494,
+    "echo_time_uncertainty_s": 0.0021,
+    "detection_rate": 0.50,
+    "statistical_significance_sigma": 3.1,
+    "p_value": 0.0016,
+    "events_with_detection": 5,
+    "total_events": 10
+  },
+  
+  "event_summary": {
+    "detected": ["GW150914", "GW151226", "GW170104", "GW170729", "GW170814"],
+    "not_detected": ["GW170608", "GW170809", "GW170817", "GW170818", "GW170823"],
+    "neutron_star_events": ["GW170817"]
+  },
+  
+  "statistical_analysis": {
+    "binomial_test": {
+      "successes": 5,
+      "trials": 10,
+      "null_probability": 0.1,
+      "observed_probability": 0.5,
+      "significance_sigma": 3.1
+    },
+    "mass_independence": {
+      "correlation_coefficient": 0.02,
+      "conclusion": "No significant mass dependence"
+    }
+  },
+  
+  "future_predictions": {
+    "ligo_o4_o5": {
+      "mode_n3_time_s": 0.0499,
+      "mode_n3_frequency_hz": 20.05,
+      "mode_n5_time_s": 0.0299,
+      "expected_new_detections": ">15 events"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "geometria": {
+    "R_km": 1751.172585,
+    "topologia": "Klein bottle",
+    "evolucion": "R(t) = 1751.2 \u00d7 a(t)^0.75"
+  },
+  "parametros_fisicos": {
+    "rho_5D_kg_m3": 4.45e+19,
+    "K_bulk_Pa": 1e+35,
+    "c_eff_m_s": 46822796.39130108,
+    "N_fields": 4.0187728970162795e+41
+  },
+  "observables": {
+    "omega_0_rad_s": 42.0,
+    "tau_s": 0.1496,
+    "rho_DM_kg_m3": 2.392507213806884e-27,
+    "Omega_DM": 0.26
+  },
+  "predicciones": {
+    "dR_dt_m_year": 9.401481556515844e-05,
+    "modo_n2": "prohibido",
+    "R_at_CMB_km": 9.847567120859091
+  }
+}
