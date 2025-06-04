@@ -1,0 +1,28 @@
+{
+  "script1_metadata": {
+    "method": "Maximum Likelihood Estimation",
+    "population_size": 65,
+    "optimization_date": "2025-01-03",
+    "objective": "Population-wide Klein bottle parameter optimization"
+  },
+  "optimal_parameters": {
+    "temporal_law": {
+      "a_tau": 2.57440275952649,
+      "b_tau": 0.2729373902203157,
+      "n_tau": 0.826004063784554,
+      "formula": "tau = 2.574/M^0.826 + 0.273"
+    },
+    "physical_dependencies": {
+      "distance_exponent": 2.9999999432868387,
+      "snr_exponent": 1.9999999565679156,
+      "mass_exponent": -0.5943452611447395,
+      "base_coupling": 0.03059398270970501
+    }
+  },
+  "population_statistics": {
+    "total_events": 65,
+    "detected_events": 3,
+    "detection_rate": 0.046153846153846156,
+    "avg_significance": 2.765184693442389
+  }
+}
