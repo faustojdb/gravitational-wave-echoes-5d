@@ -1,0 +1,101 @@
+{
+  "Figure_1_Methodology_Comparison.png": {
+    "type": "main",
+    "title": "Methodological Evolution in Extra-Dimensional Searches",
+    "panels": 4,
+    "description": "Four-panel comparison showing (a) traditional selective analysis with confirmation bias, (b) population-based approach using all 65 events, (c) random experiment validation framework, and (d) statistical improvement quantification",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with transparency"
+  },
+  "Figure_2_Klein_Theory.png": {
+    "type": "main",
+    "title": "Klein Bottle Theoretical Framework",
+    "panels": 4,
+    "description": "Theoretical foundation showing (a) Klein bottle topology visualization, (b) mathematical identification conditions, (c) mode suppression mechanism for even/odd harmonics, (d) 5D gravitational wave propagation geometry",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with vector elements"
+  },
+  "Figure_3_Population_Overview.png": {
+    "type": "main",
+    "title": "LIGO-Virgo Event Population Overview",
+    "panels": 4,
+    "description": "Population characteristics showing (a) mass-distance distribution with selection criteria, (b) network SNR distribution, (c) temporal timeline of 65 events, (d) theoretical detection efficiency mapping",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with colormap"
+  },
+  "Figure_4_Optimization_Results.png": {
+    "type": "main",
+    "title": "Population-Wide Parameter Optimization Results",
+    "panels": 4,
+    "description": "Optimization outcomes showing (a) likelihood surface convergence, (b) parameter correlation matrix, (c) cross-validation stability, (d) comparison with literature values",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with heatmaps"
+  },
+  "Figure_5_Random_Framework.png": {
+    "type": "main",
+    "title": "Random Experiment Statistical Framework",
+    "panels": 4,
+    "description": "Bias-free validation showing (a) random sampling schematic, (b) detection rate distribution across 100 experiments, (c) significance distribution with 2.80\u03c3 mean, (d) null hypothesis rejection analysis",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with statistical plots"
+  },
+  "Figure_6_Klein_Parameters.png": {
+    "type": "main",
+    "title": "Optimized Klein Bottle Parameters and Predictions",
+    "panels": 4,
+    "description": "Parameter results showing (a) mass-dependent echo time scaling law, (b) frequency spectrum with 6.65 Hz fundamental, (c) Klein bottle spatial geometry, (d) coupling strength visualization",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with 3D elements"
+  },
+  "Figure_7_Event_Detections.png": {
+    "type": "main",
+    "title": "Individual Event Echo Detections",
+    "panels": 4,
+    "description": "Detection evidence showing (a) time-frequency spectrograms for 3 detected events, (b) matched filter SNR time series, (c) significance for all 65 events, (d) timing precision analysis",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with spectrograms"
+  },
+  "Figure_8_Random_Results.png": {
+    "type": "main",
+    "title": "Random Experiment Statistical Results",
+    "panels": 4,
+    "description": "Statistical outcomes showing (a) individual significance distribution, (b) combined significance using Fisher method, (c) detection rate comparison with null, (d) null hypothesis rejection with p<0.0001",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with histograms"
+  },
+  "Figure_9_Significance_Analysis.png": {
+    "type": "main",
+    "title": "Comprehensive Statistical Significance Analysis",
+    "panels": 4,
+    "description": "Significance assessment showing (a) significance hierarchy from individual to combined, (b) p-value distributions, (c) effect size analysis with Cohen's d, (d) statistical power validation",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with error bars"
+  },
+  "Figure_10_Theory_Implications.png": {
+    "type": "main",
+    "title": "Theoretical Implications and Physical Framework",
+    "panels": 4,
+    "description": "Physics implications showing (a) dimensional hierarchy with macroscopic 5th dimension, (b) spacetime topology schematic, (c) gravitational wave 5D propagation, (d) coupling strength diagram",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with physics diagrams"
+  },
+  "Figure_11_Future_Predictions.png": {
+    "type": "main",
+    "title": "Future Experimental Predictions and Tests",
+    "panels": 4,
+    "description": "Future prospects showing (a) projected O4 significance increase, (b) third-generation detector capabilities, (c) cosmological redshift evolution, (d) laboratory test predictions",
+    "size": "2-column width",
+    "resolution": "300 DPI",
+    "format": "PNG with projections"
+  }
+}

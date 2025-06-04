@@ -1,0 +1,1753 @@
+{
+  "analysis_metadata": {
+    "timestamp": "20250603_165259",
+    "total_catalog_events": 68,
+    "selected_events": 65,
+    "excluded_events": 3,
+    "analysis_version": "Comprehensive GWTC v1.0",
+    "improvement_over_previous": "16.2x more events"
+  },
+  "selection_criteria": {
+    "min_network_snr": 8.0,
+    "min_total_mass": 5.0,
+    "max_distance": 5000,
+    "exclude_marginal": true,
+    "require_both_detectors": true
+  },
+  "klein_parameters": {
+    "R1": 7020000.0,
+    "R2": 9980000.0,
+    "twist": 179.0,
+    "f_0": 6.65,
+    "tau_formula": {
+      "a": 0.752,
+      "b": 0.2,
+      "n": 0.8
+    },
+    "coupling": 0.0974
+  },
+  "event_results": {
+    "GW150914": {
+      "detected": true,
+      "tau_measured": 0.2221242836975126,
+      "tau_predicted": 0.22768882261109075,
+      "tau_residual": -0.005564538913578138,
+      "snr": 3.4999875320348957,
+      "frequency": 6.65,
+      "significance": 2.474864917970243,
+      "consistency_score": 0.0,
+      "event_properties": {
+        "gps": 1126259462.4,
+        "M1": 36,
+        "M2": 29,
+        "Mf": 62,
+        "dist": 410,
+        "snr": 24
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22768882261109075,
+        "expected_amplitude": 0.579417013682332,
+        "search_window": [
+          0.21768882261109074,
+          0.23768882261109076
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.6953004164187984
+      }
+    },
+    "GW151012": {
+      "detected": false,
+      "tau_predicted": 0.24374852398541655,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1128678900.4,
+        "M1": 23,
+        "M2": 13,
+        "Mf": 35,
+        "dist": 1080,
+        "snr": 10
+      },
+      "klein_predictions": {
+        "tau_echo": 0.24374852398541655,
+        "expected_amplitude": 0.0835048010973937,
+        "search_window": [
+          0.23374852398541654,
+          0.25374852398541653
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.04175240054869685
+      }
+    },
+    "GW151226": {
+      "detected": true,
+      "tau_measured": 0.26154376838488913,
+      "tau_predicted": 0.26583281181018636,
+      "tau_residual": -0.004289043425297234,
+      "snr": 3.7112629911714192,
+      "frequency": 6.65,
+      "significance": 2.6242592278239805,
+      "consistency_score": 0.19328178562852583,
+      "event_properties": {
+        "gps": 1135136350.6,
+        "M1": 14,
+        "M2": 8,
+        "Mf": 21,
+        "dist": 440,
+        "snr": 13
+      },
+      "klein_predictions": {
+        "tau_echo": 0.26583281181018636,
+        "expected_amplitude": 0.5030991735537191,
+        "search_window": [
+          0.25583281181018636,
+          0.2758328118101864
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.32701446280991747
+      }
+    },
+    "GW170104": {
+      "detected": false,
+      "tau_predicted": 0.2339801154975279,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1167559936.6,
+        "M1": 31,
+        "M2": 19,
+        "Mf": 48,
+        "dist": 880,
+        "snr": 13
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2339801154975279,
+        "expected_amplitude": 0.12577479338842978,
+        "search_window": [
+          0.2239801154975279,
+          0.2439801154975279
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.08175361570247937
+      }
+    },
+    "GW170608": {
+      "detected": true,
+      "tau_measured": 0.2599586956990392,
+      "tau_predicted": 0.27447316935502414,
+      "tau_residual": -0.01451447365598496,
+      "snr": 4.520434564591833,
+      "frequency": 6.65,
+      "significance": 3.196429934532943,
+      "consistency_score": 0.0,
+      "event_properties": {
+        "gps": 1180922494.5,
+        "M1": 12,
+        "M2": 7,
+        "Mf": 18,
+        "dist": 340,
+        "snr": 15
+      },
+      "klein_predictions": {
+        "tau_echo": 0.27447316935502414,
+        "expected_amplitude": 0.8425605536332181,
+        "search_window": [
+          0.26447316935502413,
+          0.28447316935502415
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.6319204152249136
+      }
+    },
+    "GW170729": {
+      "detected": false,
+      "tau_predicted": 0.2225811393588509,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1185389807.3,
+        "M1": 50,
+        "M2": 34,
+        "Mf": 80,
+        "dist": 2840,
+        "snr": 10
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2225811393588509,
+        "expected_amplitude": 0.012075976988692718,
+        "search_window": [
+          0.2125811393588509,
+          0.2325811393588509
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.006037988494346359
+      }
+    },
+    "GW170809": {
+      "detected": false,
+      "tau_predicted": 0.23003775142391247,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1186302519.8,
+        "M1": 35,
+        "M2": 24,
+        "Mf": 56,
+        "dist": 1030,
+        "snr": 12
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23003775142391247,
+        "expected_amplitude": 0.09180884154962768,
+        "search_window": [
+          0.22003775142391246,
+          0.24003775142391248
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.05508530492977661
+      }
+    },
+    "GW170814": {
+      "detected": false,
+      "tau_predicted": 0.23139042132738943,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1186741861.5,
+        "M1": 31,
+        "M2": 25,
+        "Mf": 53,
+        "dist": 540,
+        "snr": 16
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23139042132738943,
+        "expected_amplitude": 0.3340192043895748,
+        "search_window": [
+          0.22139042132738943,
+          0.24139042132738944
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.2672153635116598
+      }
+    },
+    "GW170818": {
+      "detected": false,
+      "tau_predicted": 0.22880953385015873,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1187058327.1,
+        "M1": 35,
+        "M2": 27,
+        "Mf": 59,
+        "dist": 1060,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22880953385015873,
+        "expected_amplitude": 0.08668565325738697,
+        "search_window": [
+          0.21880953385015872,
+          0.23880953385015874
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.04767710929156284
+      }
+    },
+    "GW170823": {
+      "detected": false,
+      "tau_predicted": 0.22666165812448016,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1187529256.5,
+        "M1": 39,
+        "M2": 29,
+        "Mf": 65,
+        "dist": 1850,
+        "snr": 12
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22666165812448016,
+        "expected_amplitude": 0.02845872899926954,
+        "search_window": [
+          0.21666165812448016,
+          0.23666165812448017
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.017075237399561724
+      }
+    },
+    "GW190408_181802": {
+      "detected": false,
+      "tau_predicted": 0.24184624190896878,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1239082699.5,
+        "M1": 25,
+        "M2": 14,
+        "Mf": 37,
+        "dist": 1540,
+        "snr": 12
+      },
+      "klein_predictions": {
+        "tau_echo": 0.24184624190896878,
+        "expected_amplitude": 0.04106932029009951,
+        "search_window": [
+          0.23184624190896877,
+          0.25184624190896876
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.024641592174059708
+      }
+    },
+    "GW190412": {
+      "detected": false,
+      "tau_predicted": 0.2427736035647659,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1239917954.3,
+        "M1": 30,
+        "M2": 8,
+        "Mf": 36,
+        "dist": 730,
+        "snr": 19
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2427736035647659,
+        "expected_amplitude": 0.18277350347157065,
+        "search_window": [
+          0.2327736035647659,
+          0.2527736035647659
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.1736348282979921
+      }
+    },
+    "GW190413_052954": {
+      "detected": false,
+      "tau_predicted": 0.23455728018823147,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1239952216.0,
+        "M1": 31,
+        "M2": 18,
+        "Mf": 47,
+        "dist": 1200,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23455728018823147,
+        "expected_amplitude": 0.0676388888888889,
+        "search_window": [
+          0.22455728018823146,
+          0.24455728018823147
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.027055555555555562
+      }
+    },
+    "GW190413_134308": {
+      "detected": false,
+      "tau_predicted": 0.2235270224429452,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1239981808.3,
+        "M1": 50,
+        "M2": 30,
+        "Mf": 76,
+        "dist": 1560,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2235270224429452,
+        "expected_amplitude": 0.04002301117685734,
+        "search_window": [
+          0.2135270224429452,
+          0.2335270224429452
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.022012656147271537
+      }
+    },
+    "GW190421_213856": {
+      "detected": false,
+      "tau_predicted": 0.22512692876779816,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1240677558.8,
+        "M1": 41,
+        "M2": 33,
+        "Mf": 70,
+        "dist": 2130,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22512692876779816,
+        "expected_amplitude": 0.021468403535453724,
+        "search_window": [
+          0.21512692876779815,
+          0.23512692876779817
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.011807621944499549
+      }
+    },
+    "GW190503_185404": {
+      "detected": false,
+      "tau_predicted": 0.22429738596324703,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1241711664.1,
+        "M1": 46,
+        "M2": 31,
+        "Mf": 73,
+        "dist": 2700,
+        "snr": 9
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22429738596324703,
+        "expected_amplitude": 0.013360768175582988,
+        "search_window": [
+          0.21429738596324702,
+          0.23429738596324703
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.006012345679012344
+      }
+    },
+    "GW190512_180714": {
+      "detected": false,
+      "tau_predicted": 0.24585711078934364,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1242489650.1,
+        "M1": 23,
+        "M2": 12,
+        "Mf": 33,
+        "dist": 1080,
+        "snr": 9
+      },
+      "klein_predictions": {
+        "tau_echo": 0.24585711078934364,
+        "expected_amplitude": 0.0835048010973937,
+        "search_window": [
+          0.23585711078934363,
+          0.25585711078934364
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.03757716049382716
+      }
+    },
+    "GW190513_205428": {
+      "detected": false,
+      "tau_predicted": 0.23139042132738943,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1242575683.4,
+        "M1": 31,
+        "M2": 26,
+        "Mf": 53,
+        "dist": 1730,
+        "snr": 9
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23139042132738943,
+        "expected_amplitude": 0.03254368672524976,
+        "search_window": [
+          0.22139042132738943,
+          0.24139042132738944
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.014644659026362392
+      }
+    },
+    "GW190514_065416": {
+      "detected": false,
+      "tau_predicted": 0.25085099348985584,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1242606871.5,
+        "M1": 21,
+        "M2": 10,
+        "Mf": 29,
+        "dist": 1450,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.25085099348985584,
+        "expected_amplitude": 0.04632580261593342,
+        "search_window": [
+          0.24085099348985584,
+          0.26085099348985585
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.01853032104637337
+      }
+    },
+    "GW190517_055101": {
+      "detected": false,
+      "tau_predicted": 0.2292062262858812,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1242888678.2,
+        "M1": 34,
+        "M2": 28,
+        "Mf": 58,
+        "dist": 2200,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2292062262858812,
+        "expected_amplitude": 0.02012396694214876,
+        "search_window": [
+          0.21920622628588118,
+          0.2392062262858812
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.011068181818181817
+      }
+    },
+    "GW190519_153544": {
+      "detected": false,
+      "tau_predicted": 0.21888938596495205,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1243074963.4,
+        "M1": 67,
+        "M2": 40,
+        "Mf": 100,
+        "dist": 2840,
+        "snr": 13
+      },
+      "klein_predictions": {
+        "tau_echo": 0.21888938596495205,
+        "expected_amplitude": 0.012075976988692718,
+        "search_window": [
+          0.20888938596495205,
+          0.22888938596495206
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.007849385042650267
+      }
+    },
+    "GW190521_074359": {
+      "detected": false,
+      "tau_predicted": 0.22602303815163424,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1242473063.7,
+        "M1": 41,
+        "M2": 31,
+        "Mf": 67,
+        "dist": 2650,
+        "snr": 10
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22602303815163424,
+        "expected_amplitude": 0.013869704521181915,
+        "search_window": [
+          0.21602303815163423,
+          0.23602303815163425
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.0069348522605909586
+      }
+    },
+    "GW190527_092055": {
+      "detected": false,
+      "tau_predicted": 0.22429738596324703,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1242991274.2,
+        "M1": 44,
+        "M2": 33,
+        "Mf": 73,
+        "dist": 2300,
+        "snr": 10
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22429738596324703,
+        "expected_amplitude": 0.01841209829867675,
+        "search_window": [
+          0.21429738596324702,
+          0.23429738596324703
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.009206049149338374
+      }
+    },
+    "GW190602_175927": {
+      "detected": false,
+      "tau_predicted": 0.21888938596495205,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1243493587.1,
+        "M1": 59,
+        "M2": 48,
+        "Mf": 100,
+        "dist": 2800,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.21888938596495205,
+        "expected_amplitude": 0.012423469387755102,
+        "search_window": [
+          0.20888938596495205,
+          0.22888938596495206
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.006832908163265305
+      }
+    },
+    "GW190620_030421": {
+      "detected": false,
+      "tau_predicted": 0.2296154240884526,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1245056082.0,
+        "M1": 35,
+        "M2": 26,
+        "Mf": 57,
+        "dist": 1540,
+        "snr": 12
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2296154240884526,
+        "expected_amplitude": 0.04106932029009951,
+        "search_window": [
+          0.21961542408845258,
+          0.2396154240884526
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.024641592174059708
+      }
+    },
+    "GW190630_185205": {
+      "detected": false,
+      "tau_predicted": 0.2292062262858812,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1245955943.5,
+        "M1": 37,
+        "M2": 25,
+        "Mf": 58,
+        "dist": 1200,
+        "snr": 18
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2292062262858812,
+        "expected_amplitude": 0.0676388888888889,
+        "search_window": [
+          0.21920622628588118,
+          0.2392062262858812
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.06087500000000001
+      }
+    },
+    "GW190701_203306": {
+      "detected": false,
+      "tau_predicted": 0.22111555196683358,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1246053207.0,
+        "M1": 56,
+        "M2": 37,
+        "Mf": 87,
+        "dist": 1600,
+        "snr": 16
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22111555196683358,
+        "expected_amplitude": 0.038046875,
+        "search_window": [
+          0.21111555196683357,
+          0.2311155519668336
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.0304375
+      }
+    },
+    "GW190706_222641": {
+      "detected": false,
+      "tau_predicted": 0.21859249627642657,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1246487220.2,
+        "M1": 67,
+        "M2": 40,
+        "Mf": 102,
+        "dist": 1800,
+        "snr": 15
+      },
+      "klein_predictions": {
+        "tau_echo": 0.21859249627642657,
+        "expected_amplitude": 0.030061728395061733,
+        "search_window": [
+          0.20859249627642656,
+          0.22859249627642658
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.0225462962962963
+      }
+    },
+    "GW190707_093326": {
+      "detected": false,
+      "tau_predicted": 0.26121185936422836,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1246515225.1,
+        "M1": 12,
+        "M2": 12,
+        "Mf": 23,
+        "dist": 780,
+        "snr": 9
+      },
+      "klein_predictions": {
+        "tau_echo": 0.26121185936422836,
+        "expected_amplitude": 0.16009204470742935,
+        "search_window": [
+          0.25121185936422835,
+          0.27121185936422837
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.07204142011834322
+      }
+    },
+    "GW190708_232457": {
+      "detected": false,
+      "tau_predicted": 0.25085099348985584,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1246661312.8,
+        "M1": 21,
+        "M2": 10,
+        "Mf": 29,
+        "dist": 1500,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.25085099348985584,
+        "expected_amplitude": 0.043288888888888884,
+        "search_window": [
+          0.24085099348985584,
+          0.26085099348985585
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.017315555555555553
+      }
+    },
+    "GW190719_215514": {
+      "detected": false,
+      "tau_predicted": 0.22571643186603127,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1247602534.2,
+        "M1": 40,
+        "M2": 32,
+        "Mf": 68,
+        "dist": 3600,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22571643186603127,
+        "expected_amplitude": 0.007515432098765433,
+        "search_window": [
+          0.21571643186603126,
+          0.23571643186603128
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.0030061728395061734
+      }
+    },
+    "GW190720_000836": {
+      "detected": false,
+      "tau_predicted": 0.26583281181018636,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1247616536.9,
+        "M1": 11,
+        "M2": 11,
+        "Mf": 21,
+        "dist": 770,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.26583281181018636,
+        "expected_amplitude": 0.16427728116039805,
+        "search_window": [
+          0.25583281181018636,
+          0.2758328118101864
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.09035250463821894
+      }
+    },
+    "GW190727_060333": {
+      "detected": false,
+      "tau_predicted": 0.25916281737448055,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1248223433.4,
+        "M1": 16,
+        "M2": 9,
+        "Mf": 24,
+        "dist": 1080,
+        "snr": 9
+      },
+      "klein_predictions": {
+        "tau_echo": 0.25916281737448055,
+        "expected_amplitude": 0.0835048010973937,
+        "search_window": [
+          0.24916281737448054,
+          0.26916281737448056
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.03757716049382716
+      }
+    },
+    "GW190728_064510": {
+      "detected": false,
+      "tau_predicted": 0.23931604717743188,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1248309930.9,
+        "M1": 34,
+        "M2": 8,
+        "Mf": 40,
+        "dist": 1060,
+        "snr": 12
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23931604717743188,
+        "expected_amplitude": 0.08668565325738697,
+        "search_window": [
+          0.22931604717743187,
+          0.2493160471774319
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.05201139195443218
+      }
+    },
+    "GW190731_140936": {
+      "detected": false,
+      "tau_predicted": 0.2235270224429452,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1248563396.1,
+        "M1": 46,
+        "M2": 35,
+        "Mf": 76,
+        "dist": 1200,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2235270224429452,
+        "expected_amplitude": 0.0676388888888889,
+        "search_window": [
+          0.2135270224429452,
+          0.2335270224429452
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.037201388888888895
+      }
+    },
+    "GW191105_143521": {
+      "detected": false,
+      "tau_predicted": 0.28616776596971893,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1257461741.1,
+        "M1": 10,
+        "M2": 6,
+        "Mf": 15,
+        "dist": 920,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.28616776596971893,
+        "expected_amplitude": 0.11507561436672968,
+        "search_window": [
+          0.2761677659697189,
+          0.29616776596971894
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.04603024574669187
+      }
+    },
+    "GW191109_010717": {
+      "detected": false,
+      "tau_predicted": 0.21802906267071803,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1257741457.8,
+        "M1": 65,
+        "M2": 47,
+        "Mf": 106,
+        "dist": 1700,
+        "snr": 13
+      },
+      "klein_predictions": {
+        "tau_echo": 0.21802906267071803,
+        "expected_amplitude": 0.033702422145328724,
+        "search_window": [
+          0.20802906267071802,
+          0.22802906267071804
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.02190657439446367
+      }
+    },
+    "GW191113_071753": {
+      "detected": false,
+      "tau_predicted": 0.21888938596495205,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1258092693.8,
+        "M1": 62,
+        "M2": 44,
+        "Mf": 100,
+        "dist": 1560,
+        "snr": 9
+      },
+      "klein_predictions": {
+        "tau_echo": 0.21888938596495205,
+        "expected_amplitude": 0.04002301117685734,
+        "search_window": [
+          0.20888938596495205,
+          0.22888938596495206
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.018010355029585805
+      }
+    },
+    "GW191126_115259": {
+      "detected": false,
+      "tau_predicted": 0.23931604717743188,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1258213999.5,
+        "M1": 28,
+        "M2": 14,
+        "Mf": 40,
+        "dist": 1800,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23931604717743188,
+        "expected_amplitude": 0.030061728395061733,
+        "search_window": [
+          0.22931604717743187,
+          0.2493160471774319
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.012024691358024694
+      }
+    },
+    "GW191129_134029": {
+      "detected": false,
+      "tau_predicted": 0.2910574349078908,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1258494050.9,
+        "M1": 10,
+        "M2": 5,
+        "Mf": 14,
+        "dist": 540,
+        "snr": 13
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2910574349078908,
+        "expected_amplitude": 0.3340192043895748,
+        "search_window": [
+          0.2810574349078908,
+          0.30105743490789083
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.2171124828532236
+      }
+    },
+    "GW191204_171526": {
+      "detected": false,
+      "tau_predicted": 0.24585711078934364,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1258962546.4,
+        "M1": 20,
+        "M2": 15,
+        "Mf": 33,
+        "dist": 1600,
+        "snr": 9
+      },
+      "klein_predictions": {
+        "tau_echo": 0.24585711078934364,
+        "expected_amplitude": 0.038046875,
+        "search_window": [
+          0.23585711078934363,
+          0.25585711078934364
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.01712109375
+      }
+    },
+    "GW191204_110529": {
+      "detected": false,
+      "tau_predicted": 0.23139042132738943,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1258940749.3,
+        "M1": 32,
+        "M2": 25,
+        "Mf": 53,
+        "dist": 1640,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23139042132738943,
+        "expected_amplitude": 0.03621356335514575,
+        "search_window": [
+          0.22139042132738943,
+          0.24139042132738944
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.0144854253420583
+      }
+    },
+    "GW191216_213338": {
+      "detected": false,
+      "tau_predicted": 0.2296154240884526,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1259018038.1,
+        "M1": 35,
+        "M2": 26,
+        "Mf": 57,
+        "dist": 1300,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2296154240884526,
+        "expected_amplitude": 0.05763313609467456,
+        "search_window": [
+          0.21961542408845258,
+          0.2396154240884526
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.03169822485207101
+      }
+    },
+    "GW191222_033537": {
+      "detected": false,
+      "tau_predicted": 0.25085099348985584,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1259477757.3,
+        "M1": 20,
+        "M2": 11,
+        "Mf": 29,
+        "dist": 1500,
+        "snr": 10
+      },
+      "klein_predictions": {
+        "tau_echo": 0.25085099348985584,
+        "expected_amplitude": 0.043288888888888884,
+        "search_window": [
+          0.24085099348985584,
+          0.26085099348985585
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.021644444444444442
+      }
+    },
+    "GW191230_180458": {
+      "detected": false,
+      "tau_predicted": 0.22571643186603127,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1260194718.1,
+        "M1": 39,
+        "M2": 33,
+        "Mf": 68,
+        "dist": 1600,
+        "snr": 9
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22571643186603127,
+        "expected_amplitude": 0.038046875,
+        "search_window": [
+          0.21571643186603126,
+          0.23571643186603128
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.01712109375
+      }
+    },
+    "GW200105_162426": {
+      "detected": false,
+      "tau_predicted": 0.2554931224654704,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1262700286.6,
+        "M1": 19,
+        "M2": 9,
+        "Mf": 26,
+        "dist": 930,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2554931224654704,
+        "expected_amplitude": 0.11261417504913862,
+        "search_window": [
+          0.2454931224654704,
+          0.2654931224654704
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.061937796277026246
+      }
+    },
+    "GW200112_155838": {
+      "detected": false,
+      "tau_predicted": 0.28616776596971893,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1263343138.9,
+        "M1": 8,
+        "M2": 8,
+        "Mf": 15,
+        "dist": 1560,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.28616776596971893,
+        "expected_amplitude": 0.04002301117685734,
+        "search_window": [
+          0.2761677659697189,
+          0.29616776596971894
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.016009204470742937
+      }
+    },
+    "GW200115_042309": {
+      "detected": false,
+      "tau_predicted": 0.3396904636031331,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1263584609.2,
+        "M1": 5.9,
+        "M2": 2.6,
+        "Mf": 8.2,
+        "dist": 1200,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.3396904636031331,
+        "expected_amplitude": 0.0676388888888889,
+        "search_window": [
+          0.3296904636031331,
+          0.3496904636031331
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.027055555555555562
+      }
+    },
+    "GW200128_022011": {
+      "detected": false,
+      "tau_predicted": 0.23139042132738943,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1264707631.9,
+        "M1": 32,
+        "M2": 25,
+        "Mf": 53,
+        "dist": 1540,
+        "snr": 12
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23139042132738943,
+        "expected_amplitude": 0.04106932029009951,
+        "search_window": [
+          0.22139042132738943,
+          0.24139042132738944
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.024641592174059708
+      }
+    },
+    "GW200129_065458": {
+      "detected": false,
+      "tau_predicted": 0.23047387550533102,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1264792518.2,
+        "M1": 35,
+        "M2": 24,
+        "Mf": 55,
+        "dist": 1200,
+        "snr": 16
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23047387550533102,
+        "expected_amplitude": 0.0676388888888889,
+        "search_window": [
+          0.220473875505331,
+          0.24047387550533103
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.054111111111111124
+      }
+    },
+    "GW200202_154313": {
+      "detected": false,
+      "tau_predicted": 0.2225811393588509,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1265139813.4,
+        "M1": 50,
+        "M2": 34,
+        "Mf": 80,
+        "dist": 1640,
+        "snr": 13
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2225811393588509,
+        "expected_amplitude": 0.03621356335514575,
+        "search_window": [
+          0.2125811393588509,
+          0.2325811393588509
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.02353881618084474
+      }
+    },
+    "GW200208_130117": {
+      "detected": false,
+      "tau_predicted": 0.22666165812448016,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1265658097.1,
+        "M1": 37,
+        "M2": 32,
+        "Mf": 65,
+        "dist": 1300,
+        "snr": 10
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22666165812448016,
+        "expected_amplitude": 0.05763313609467456,
+        "search_window": [
+          0.21666165812448016,
+          0.23666165812448017
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.02881656804733728
+      }
+    },
+    "GW200208_222617": {
+      "detected": false,
+      "tau_predicted": 0.22092337326986217,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1265691997.1,
+        "M1": 56,
+        "M2": 37,
+        "Mf": 88,
+        "dist": 1600,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.22092337326986217,
+        "expected_amplitude": 0.038046875,
+        "search_window": [
+          0.21092337326986216,
+          0.23092337326986218
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.02092578125
+      }
+    },
+    "GW200209_085452": {
+      "detected": false,
+      "tau_predicted": 0.23047387550533102,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1265727312.9,
+        "M1": 35,
+        "M2": 24,
+        "Mf": 55,
+        "dist": 2300,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23047387550533102,
+        "expected_amplitude": 0.01841209829867675,
+        "search_window": [
+          0.220473875505331,
+          0.24047387550533103
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.0073648393194707
+      }
+    },
+    "GW200216_220804": {
+      "detected": false,
+      "tau_predicted": 0.2225811393588509,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1266335304.3,
+        "M1": 50,
+        "M2": 34,
+        "Mf": 80,
+        "dist": 1800,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2225811393588509,
+        "expected_amplitude": 0.030061728395061733,
+        "search_window": [
+          0.2125811393588509,
+          0.2325811393588509
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.016533950617283952
+      }
+    },
+    "GW200219_094415": {
+      "detected": false,
+      "tau_predicted": 0.23642970877226713,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1266573875.2,
+        "M1": 31,
+        "M2": 16,
+        "Mf": 44,
+        "dist": 2650,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23642970877226713,
+        "expected_amplitude": 0.013869704521181915,
+        "search_window": [
+          0.22642970877226712,
+          0.24642970877226714
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.005547881808472766
+      }
+    },
+    "GW200220_061928": {
+      "detected": false,
+      "tau_predicted": 0.23781102131559523,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1266618588.4,
+        "M1": 35,
+        "M2": 9,
+        "Mf": 42,
+        "dist": 1900,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23781102131559523,
+        "expected_amplitude": 0.026980609418282547,
+        "search_window": [
+          0.22781102131559522,
+          0.24781102131559524
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.010792243767313019
+      }
+    },
+    "GW200220_124850": {
+      "detected": false,
+      "tau_predicted": 0.25726191047657365,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1266641350.4,
+        "M1": 21,
+        "M2": 5,
+        "Mf": 25,
+        "dist": 1600,
+        "snr": 8
+      },
+      "klein_predictions": {
+        "tau_echo": 0.25726191047657365,
+        "expected_amplitude": 0.038046875,
+        "search_window": [
+          0.24726191047657364,
+          0.26726191047657366
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.01521875
+      }
+    },
+    "GW200224_222234": {
+      "detected": false,
+      "tau_predicted": 0.227336656837945,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1266962574.7,
+        "M1": 35,
+        "M2": 32,
+        "Mf": 63,
+        "dist": 1200,
+        "snr": 13
+      },
+      "klein_predictions": {
+        "tau_echo": 0.227336656837945,
+        "expected_amplitude": 0.0676388888888889,
+        "search_window": [
+          0.21733665683794498,
+          0.237336656837945
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.043965277777777784
+      }
+    },
+    "GW200225_060421": {
+      "detected": false,
+      "tau_predicted": 0.23047387550533102,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1266989081.3,
+        "M1": 35,
+        "M2": 24,
+        "Mf": 55,
+        "dist": 1060,
+        "snr": 17
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23047387550533102,
+        "expected_amplitude": 0.08668565325738697,
+        "search_window": [
+          0.220473875505331,
+          0.24047387550533103
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.07368280526877893
+      }
+    },
+    "GW200302_015811": {
+      "detected": false,
+      "tau_predicted": 0.2225811393588509,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1267569511.7,
+        "M1": 50,
+        "M2": 34,
+        "Mf": 80,
+        "dist": 1540,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2225811393588509,
+        "expected_amplitude": 0.04106932029009951,
+        "search_window": [
+          0.2125811393588509,
+          0.2325811393588509
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.022588126159554734
+      }
+    },
+    "GW200306_093714": {
+      "detected": false,
+      "tau_predicted": 0.2187396183387978,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1267881454.2,
+        "M1": 59,
+        "M2": 48,
+        "Mf": 101,
+        "dist": 1600,
+        "snr": 10
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2187396183387978,
+        "expected_amplitude": 0.038046875,
+        "search_window": [
+          0.20873961833879778,
+          0.2287396183387978
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.0190234375
+      }
+    },
+    "GW200308_173609": {
+      "detected": false,
+      "tau_predicted": 0.23931604717743188,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1268062589.1,
+        "M1": 28,
+        "M2": 14,
+        "Mf": 40,
+        "dist": 1200,
+        "snr": 11
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23931604717743188,
+        "expected_amplitude": 0.0676388888888889,
+        "search_window": [
+          0.22931604717743187,
+          0.2493160471774319
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.037201388888888895
+      }
+    },
+    "GW200311_115853": {
+      "detected": false,
+      "tau_predicted": 0.23288833118421381,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1268304353.3,
+        "M1": 44,
+        "M2": 9,
+        "Mf": 50,
+        "dist": 1900,
+        "snr": 9
+      },
+      "klein_predictions": {
+        "tau_echo": 0.23288833118421381,
+        "expected_amplitude": 0.026980609418282547,
+        "search_window": [
+          0.2228883311842138,
+          0.24288833118421382
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.012141274238227145
+      }
+    },
+    "GW200316_215756": {
+      "detected": false,
+      "tau_predicted": 0.2225811393588509,
+      "upper_limit_snr": 2.0,
+      "frequency": 6.65,
+      "significance": 0,
+      "consistency_score": 0,
+      "event_properties": {
+        "gps": 1268792296.1,
+        "M1": 50,
+        "M2": 34,
+        "Mf": 80,
+        "dist": 1200,
+        "snr": 16
+      },
+      "klein_predictions": {
+        "tau_echo": 0.2225811393588509,
+        "expected_amplitude": 0.0676388888888889,
+        "search_window": [
+          0.2125811393588509,
+          0.2325811393588509
+        ],
+        "frequency": 6.65,
+        "detectability_score": 0.054111111111111124
+      }
+    }
+  },
+  "excluded_events": [
+    [
+      "GW190521",
+      [
+        "Distance too far (5300 > 5000 Mpc)"
+      ]
+    ],
+    [
+      "GW191103_012549",
+      [
+        "Mass too low (3.2 < 5.0 M\u2609)"
+      ]
+    ],
+    [
+      "GW191215_223052",
+      [
+        "Mass too low (4.7 < 5.0 M\u2609)"
+      ]
+    ]
+  ],
+  "population_statistics": {
+    "total_analyzed": 65,
+    "total_detected": 3,
+    "detection_rate": 0.046153846153846156,
+    "avg_significance": 2.765184693442389
+  }
+}
