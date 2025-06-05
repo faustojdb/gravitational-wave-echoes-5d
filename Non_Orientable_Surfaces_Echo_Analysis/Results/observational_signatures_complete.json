@@ -1,0 +1,613 @@
+{
+  "frequency_signatures": {
+    "Klein_Bottle": {
+      "fundamental": 6.65,
+      "harmonics": [
+        6.65,
+        19.950000000000003,
+        33.25,
+        46.550000000000004,
+        59.85
+      ],
+      "forbidden_frequencies": [
+        13.3,
+        26.6,
+        39.900000000000006,
+        53.2
+      ],
+      "search_bandwidth": 0.5,
+      "key_test": "Strong suppression of even harmonics"
+    },
+    "Real_Projective_Plane": {
+      "fundamental": 4.189500000000001,
+      "harmonics": [
+        4.189500000000001,
+        12.568500000000002,
+        20.947500000000005,
+        29.326500000000003,
+        37.70550000000001
+      ],
+      "forbidden_frequencies": [
+        8.379000000000001,
+        16.758000000000003,
+        25.137000000000004,
+        33.516000000000005
+      ],
+      "search_bandwidth": 0.3,
+      "key_test": "Odd l spherical harmonic pattern",
+      "unique_signature": "Different frequency scaling but same odd selection"
+    },
+    "Mobius_Band": {
+      "fundamental": 8.2,
+      "harmonics": [
+        8.2,
+        12.8,
+        16.4,
+        24.6,
+        28.9
+      ],
+      "forbidden_frequencies": [],
+      "search_bandwidth": 0.8,
+      "key_test": "Boundary-induced mode mixing",
+      "unique_signature": "Secondary echo peaks from boundary reflections",
+      "boundary_delay": 0.003
+    },
+    "Twisted_Torus": {
+      "fundamental": 7.1,
+      "harmonics": [
+        7.1,
+        21.3,
+        35.5,
+        49.7
+      ],
+      "forbidden_frequencies": [],
+      "search_bandwidth": 1.0,
+      "key_test": "Variable mode suppression with twist parameter",
+      "unique_signature": "Possible frequency chirping",
+      "twist_dependence": true
+    },
+    "String_Orientifold": {
+      "fundamental": 6.8,
+      "harmonics": [
+        6.8,
+        13.6,
+        20.4,
+        27.2
+      ],
+      "forbidden_frequencies": [
+        13.6,
+        27.2
+      ],
+      "search_bandwidth": 0.4,
+      "key_test": "GSO projection \u2192 odd closed string modes",
+      "unique_signature": "Dual frequency scales (closed/open strings)",
+      "open_string_modes": [
+        13.6,
+        27.2,
+        40.8
+      ],
+      "SUSY_breaking_scale": 1000000000000.0
+    }
+  },
+  "timing_signatures": {
+    "Klein_Bottle": {
+      "echo_times": {
+        "M_20": {
+          "primary": 0.48974933122753866
+        },
+        "M_30": {
+          "primary": 0.4280623588080773
+        },
+        "M_45": {
+          "primary": 0.3839315308285021
+        },
+        "M_62": {
+          "primary": 0.35813203345758654
+        },
+        "M_85": {
+          "primary": 0.33860070548882737
+        },
+        "M_100": {
+          "primary": 0.33035992074221765
+        },
+        "M_130": {
+          "primary": 0.31918397756941247
+        }
+      },
+      "scaling_law": {
+        "alpha": -0.826,
+        "coefficient": 2.574,
+        "offset": 0.273
+      },
+      "unique_features": [
+        "Single echo per event",
+        "Clean \u03c4 \u221d M^(-0.826) scaling",
+        "Highest significance (2.80\u03c3 baseline)"
+      ]
+    },
+    "Real_Projective_Plane": {
+      "echo_times": {
+        "M_20": {
+          "primary": 0.21552526780756592
+        },
+        "M_30": {
+          "primary": 0.20797616279119827
+        },
+        "M_45": {
+          "primary": 0.202575536989502
+        },
+        "M_62": {
+          "primary": 0.19941825584271164
+        },
+        "M_85": {
+          "primary": 0.19702805836401732
+        },
+        "M_100": {
+          "primary": 0.19601957072020146
+        },
+        "M_130": {
+          "primary": 0.19465188536688613
+        }
+      },
+      "scaling_law": {
+        "alpha": -0.826,
+        "coefficient": 0.315,
+        "offset": 0.189
+      },
+      "unique_features": [
+        "Single echo per event",
+        "Same mass scaling as Klein bottle",
+        "Shorter echo times due to antipodal identification"
+      ]
+    },
+    "Mobius_Band": {
+      "echo_times": {
+        "M_20": {
+          "primary": 0.27600953821856217,
+          "secondary": 0.27900953821856217
+        },
+        "M_30": {
+          "primary": 0.26889181063170126,
+          "secondary": 0.27189181063170126
+        },
+        "M_45": {
+          "primary": 0.2637997920186733,
+          "secondary": 0.2667997920186733
+        },
+        "M_62": {
+          "primary": 0.2608229269374138,
+          "secondary": 0.2638229269374138
+        },
+        "M_85": {
+          "primary": 0.25856931217178775,
+          "secondary": 0.26156931217178775
+        },
+        "M_100": {
+          "primary": 0.2576184523933328,
+          "secondary": 0.2606184523933328
+        },
+        "M_130": {
+          "primary": 0.25632892048877837,
+          "secondary": 0.25932892048877837
+        }
+      },
+      "scaling_law": {
+        "alpha": -0.826,
+        "coefficient": 0.297,
+        "offset": 0.251
+      },
+      "unique_features": [
+        "Dual echoes: bulk + boundary reflection",
+        "Fixed 3ms delay between primary/secondary",
+        "Possible amplitude asymmetry"
+      ]
+    },
+    "Twisted_Torus": {
+      "echo_times": {
+        "M_20": {
+          "primary": 0.2883358806234494
+        },
+        "M_30": {
+          "primary": 0.28140987633859144
+        },
+        "M_45": {
+          "primary": 0.2764550164760828
+        },
+        "M_62": {
+          "primary": 0.27355833631283705
+        },
+        "M_85": {
+          "primary": 0.2713654249752413
+        },
+        "M_100": {
+          "primary": 0.2704401775813912
+        },
+        "M_130": {
+          "primary": 0.2691853805429527
+        }
+      },
+      "scaling_law": {
+        "alpha": -0.826,
+        "coefficient": 0.289,
+        "offset": 0.264
+      },
+      "unique_features": [
+        "Single echo per event",
+        "Twist parameter introduces variability",
+        "Potential frequency modulation"
+      ]
+    },
+    "String_Orientifold": {
+      "echo_times": {
+        "M_20": {
+          "closed_string": 0.30124118703139113,
+          "open_string": 0.15062059351569557
+        },
+        "M_30": {
+          "closed_string": 0.29462673311228804,
+          "open_string": 0.14731336655614402
+        },
+        "M_45": {
+          "closed_string": 0.2898947562193732,
+          "open_string": 0.1449473781096866
+        },
+        "M_62": {
+          "closed_string": 0.28712837654789974,
+          "open_string": 0.14356418827394987
+        },
+        "M_85": {
+          "closed_string": 0.2850341082808533,
+          "open_string": 0.14251705414042665
+        },
+        "M_100": {
+          "closed_string": 0.2841504810119861,
+          "open_string": 0.14207524050599304
+        },
+        "M_130": {
+          "closed_string": 0.28295212813098597,
+          "open_string": 0.14147606406549298
+        }
+      },
+      "scaling_law": {
+        "alpha": -0.826,
+        "coefficient": 0.276,
+        "offset": 0.278
+      },
+      "unique_features": [
+        "Multiple echo timescales",
+        "Closed string echoes at \u03c4",
+        "Open string echoes at \u03c4/2",
+        "Non-perturbative corrections"
+      ]
+    }
+  },
+  "amplitude_predictions": {
+    "Klein_Bottle": {
+      "relative_amplitudes": {
+        "n_1": 1.0,
+        "n_3": 0.1111111111111111,
+        "n_5": 0.04,
+        "n_7": 0.02040816326530612,
+        "n_9": 0.012345679012345678
+      },
+      "normalization": "A_1 = 1",
+      "scaling": "A_n \u221d 1/n\u00b2",
+      "observability": "n=1,3 strong; n=5,7,9 challenging"
+    },
+    "Real_Projective_Plane": {
+      "relative_amplitudes": {
+        "n_1": 0.8,
+        "n_3": 0.08888888888888889,
+        "n_5": 0.032,
+        "n_7": 0.0163265306122449,
+        "n_9": 0.009876543209876543
+      },
+      "normalization": "A_1 = 0.8 (reduced coupling)",
+      "scaling": "A_n \u221d 0.8/n\u00b2",
+      "observability": "Lower overall amplitude"
+    },
+    "Mobius_Band": {
+      "relative_amplitudes": {
+        "bulk_n_1": 1.0,
+        "bulk_n_3": 0.15,
+        "boundary_reflection": 0.3,
+        "edge_mode_contribution": 0.1
+      },
+      "normalization": "Complex due to boundary",
+      "scaling": "Modified by edge effects",
+      "observability": "Secondary echo is key signature"
+    },
+    "Twisted_Torus": {
+      "relative_amplitudes": {
+        "n_1": 0.9,
+        "n_3": 0.12457309396155174,
+        "n_5": 0.04967026781260373,
+        "n_7": 0.02710603766194075
+      },
+      "normalization": "A_1 = 0.9",
+      "scaling": "A_n \u221d 1/n^1.8 (slightly different)",
+      "observability": "Twist angle dependence"
+    },
+    "String_Orientifold": {
+      "relative_amplitudes": {
+        "closed_string_n_1": 1.0,
+        "closed_string_n_3": 0.11,
+        "open_string_fundamental": 0.5,
+        "open_string_first_harmonic": 0.12,
+        "instanton_correction": 1e-10
+      },
+      "normalization": "Closed strings dominate",
+      "scaling": "Mixed closed/open contributions",
+      "observability": "Dual frequency structure"
+    }
+  },
+  "detection_strategies": {
+    "Klein_Bottle": {
+      "primary_search": {
+        "method": "Template matching at f\u2080 = 6.65 Hz",
+        "search_window": "2s post-merger",
+        "frequency_range": "6.7 \u00b1 0.5 Hz",
+        "timing_prediction": "\u03c4 = 2.574M^(-0.826) + 0.273",
+        "expected_SNR": "2-4 for detectable events"
+      },
+      "secondary_tests": [
+        "Verify A\u2083/A\u2081 \u2248 1/9 ratio",
+        "Confirm absence of even harmonics",
+        "Check mass-independent frequency"
+      ],
+      "distinguishing_features": [
+        "Perfect odd harmonic selection",
+        "Single clean echo peak",
+        "Highest statistical significance"
+      ],
+      "false_positive_controls": [
+        "Time-shifted background analysis",
+        "Frequency band scrambling tests",
+        "Mock injection studies",
+        "Cross-correlation with instrumental artifacts",
+        "Comparison with null hypothesis simulations"
+      ],
+      "statistical_thresholds": {
+        "individual_event_threshold": 2.0,
+        "population_threshold": 2.5,
+        "discovery_threshold": 4.0,
+        "false_discovery_rate": 0.1,
+        "bonferroni_correction": 5.0
+      }
+    },
+    "Real_Projective_Plane": {
+      "primary_search": {
+        "method": "Template matching at f\u2080 = 4.2 Hz",
+        "search_window": "2s post-merger",
+        "frequency_range": "4.2 \u00b1 0.3 Hz",
+        "timing_prediction": "Similar to Klein bottle with modified coefficients",
+        "expected_SNR": "1.5-3 for detectable events"
+      },
+      "secondary_tests": [
+        "Compare frequency ratio with Klein bottle",
+        "Verify antipodal l-mode selection",
+        "Test spherical symmetry predictions"
+      ],
+      "distinguishing_features": [
+        "Different fundamental frequency (4.2 vs 6.65 Hz)",
+        "Same odd selection mechanism",
+        "Shorter echo times"
+      ],
+      "false_positive_controls": [
+        "Time-shifted background analysis",
+        "Frequency band scrambling tests",
+        "Mock injection studies",
+        "Cross-correlation with instrumental artifacts",
+        "Comparison with null hypothesis simulations"
+      ],
+      "statistical_thresholds": {
+        "individual_event_threshold": 2.0,
+        "population_threshold": 2.5,
+        "discovery_threshold": 4.0,
+        "false_discovery_rate": 0.1,
+        "bonferroni_correction": 5.0
+      }
+    },
+    "Mobius_Band": {
+      "primary_search": {
+        "method": "Dual-echo search with fixed 3ms separation",
+        "search_window": "2s post-merger",
+        "frequency_range": "8.2 \u00b1 0.8 Hz",
+        "timing_prediction": "Primary + secondary at \u0394t = 3ms",
+        "expected_SNR": "1.5-3 per echo (combined 2-4)"
+      },
+      "secondary_tests": [
+        "Measure 3ms delay between echoes",
+        "Search for edge mode contributions",
+        "Test boundary amplitude predictions"
+      ],
+      "distinguishing_features": [
+        "Dual echo structure (unique!)",
+        "Fixed 3ms separation",
+        "Mixed even/odd frequency content"
+      ],
+      "false_positive_controls": [
+        "Time-shifted background analysis",
+        "Frequency band scrambling tests",
+        "Mock injection studies",
+        "Cross-correlation with instrumental artifacts",
+        "Comparison with null hypothesis simulations"
+      ],
+      "statistical_thresholds": {
+        "individual_event_threshold": 2.0,
+        "population_threshold": 2.5,
+        "discovery_threshold": 4.0,
+        "false_discovery_rate": 0.1,
+        "bonferroni_correction": 5.0
+      }
+    },
+    "Twisted_Torus": {
+      "primary_search": {
+        "method": "Template matching at f\u2080 = 7.1 Hz",
+        "search_window": "2s post-merger",
+        "frequency_range": "7.1 \u00b1 1.0 Hz",
+        "timing_prediction": "Similar to Klein bottle with modified coefficients",
+        "expected_SNR": "1.5-3 for detectable events"
+      },
+      "secondary_tests": [
+        "Search for twist parameter optimization",
+        "Test frequency tunability",
+        "Look for mode mixing signatures"
+      ],
+      "distinguishing_features": [
+        "Tunable frequency parameter",
+        "Variable mode suppression",
+        "Intermediate between torus and Klein bottle"
+      ],
+      "false_positive_controls": [
+        "Time-shifted background analysis",
+        "Frequency band scrambling tests",
+        "Mock injection studies",
+        "Cross-correlation with instrumental artifacts",
+        "Comparison with null hypothesis simulations"
+      ],
+      "statistical_thresholds": {
+        "individual_event_threshold": 2.0,
+        "population_threshold": 2.5,
+        "discovery_threshold": 4.0,
+        "false_discovery_rate": 0.1,
+        "bonferroni_correction": 5.0
+      }
+    },
+    "String_Orientifold": {
+      "primary_search": {
+        "method": "Multi-frequency search (closed + open strings)",
+        "search_window": "2s post-merger",
+        "frequency_range": "Closed: 6.8 Hz, Open: 13.6 Hz",
+        "timing_prediction": "\u03c4_closed and \u03c4_open = \u03c4_closed/2",
+        "expected_SNR": "1-3 per component"
+      },
+      "secondary_tests": [
+        "Separate closed/open string components",
+        "Test SUSY breaking scale predictions",
+        "Look for instanton corrections"
+      ],
+      "distinguishing_features": [
+        "Multiple frequency scales (unique!)",
+        "GSO projection signature",
+        "SUSY breaking phenomenology"
+      ],
+      "false_positive_controls": [
+        "Time-shifted background analysis",
+        "Frequency band scrambling tests",
+        "Mock injection studies",
+        "Cross-correlation with instrumental artifacts",
+        "Comparison with null hypothesis simulations"
+      ],
+      "statistical_thresholds": {
+        "individual_event_threshold": 2.0,
+        "population_threshold": 2.5,
+        "discovery_threshold": 4.0,
+        "false_discovery_rate": 0.1,
+        "bonferroni_correction": 5.0
+      }
+    }
+  },
+  "summary_table": {
+    "Topology": {
+      "0": "Klein Bottle",
+      "1": "Real Projective Plane",
+      "2": "Mobius Band",
+      "3": "Twisted Torus",
+      "4": "String Orientifold"
+    },
+    "f\u2080 (Hz)": {
+      "0": "6.7",
+      "1": "4.2",
+      "2": "8.2",
+      "3": "7.1",
+      "4": "6.8"
+    },
+    "\u03c4 for 62M\u2609 (s)": {
+      "0": "0.358",
+      "1": "0.199",
+      "2": "0.261",
+      "3": "0.274",
+      "4": "0.287"
+    },
+    "Harmonic Pattern": {
+      "0": "Strong suppression of even harmonics",
+      "1": "Odd l spherical harmonic pattern",
+      "2": "Boundary-induced mode mixing",
+      "3": "Variable mode suppression with twist parameter",
+      "4": "GSO projection \u2192 odd closed string modes"
+    },
+    "Unique Signature": {
+      "0": "Perfect odd harmonic selection",
+      "1": "Different fundamental frequency (4.2 vs 6.65 Hz)",
+      "2": "Dual echo structure (unique!)",
+      "3": "Tunable frequency parameter",
+      "4": "Multiple frequency scales (unique!)"
+    },
+    "Expected Detection Rate": {
+      "0": "4.8%",
+      "1": "4.0%",
+      "2": "3.5%",
+      "3": "4.0%",
+      "4": "4.2%"
+    },
+    "Search Method": {
+      "0": "Template matching at f\u2080 = 6.65 Hz",
+      "1": "Template matching at f\u2080 = 4.2 Hz",
+      "2": "Dual-echo search with fixed 3ms separation",
+      "3": "Template matching at f\u2080 = 7.1 Hz",
+      "4": "Multi-frequency search (closed + open strings)"
+    },
+    "Discovery Threshold": {
+      "0": "4.0\u03c3",
+      "1": "4.0\u03c3",
+      "2": "4.0\u03c3",
+      "3": "4.0\u03c3",
+      "4": "4.0\u03c3"
+    }
+  },
+  "ready_for_ligo_analysis": {
+    "search_frequencies": {
+      "Klein_Bottle": 6.65,
+      "Real_Projective_Plane": 4.189500000000001,
+      "Mobius_Band": 8.2,
+      "Twisted_Torus": 7.1,
+      "String_Orientifold": 6.8
+    },
+    "template_parameters": {
+      "Klein_Bottle": {
+        "alpha": -0.826,
+        "coefficient": 2.574,
+        "offset": 0.273
+      },
+      "Real_Projective_Plane": {
+        "alpha": -0.826,
+        "coefficient": 0.315,
+        "offset": 0.189
+      },
+      "Mobius_Band": {
+        "alpha": -0.826,
+        "coefficient": 0.297,
+        "offset": 0.251
+      },
+      "Twisted_Torus": {
+        "alpha": -0.826,
+        "coefficient": 0.289,
+        "offset": 0.264
+      },
+      "String_Orientifold": {
+        "alpha": -0.826,
+        "coefficient": 0.276,
+        "offset": 0.278
+      }
+    },
+    "statistical_framework": "Population-based analysis with 5-topology comparison"
+  },
+  "model_selection_criteria": {
+    "frequency_match": "\u0394f < 0.5 Hz from predicted",
+    "timing_consistency": "\u03c4 within 20% of predicted scaling",
+    "harmonic_pattern": "Presence/absence of predicted modes",
+    "unique_features": "Topology-specific signatures detected",
+    "overall_significance": "Combined >4\u03c3 across population"
+  }
+}

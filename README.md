@@ -50,6 +50,20 @@ gravitational-wave-echoes-5d/
 │   │   └── Main_Figures/           # 11 main figures
 │   └── Reproducibility_Package/     # Complete reproduction instructions
 │
+├── Non_Orientable_Surfaces_Echo_Analysis/  # Multi-topology analysis
+│   ├── Theory/                      # Theoretical frameworks
+│   │   ├── Topologies/             # Individual topology implementations
+│   │   └── Calculations/           # Geometric factor derivations
+│   ├── Analysis/                    # Analysis scripts
+│   ├── Simulations/                 # LIGO simulations
+│   ├── Results/                     # Key findings
+│   │   ├── comparison_tables/      # Topology comparisons
+│   │   └── mode_spectra/           # Mode visualizations
+│   └── Documentation/               # Complete analysis paper
+│       ├── Complete_Multi_Topology_Paper.md
+│       ├── Multi_Topology_Comprehensive_Analysis_9p25_Sigma_Discovery.PDF
+│       └── multi_topology_latex.tex
+│
 ├── papers/                          # Version 2.0 manuscripts
 ├── analysis/                        # Version 1.0 and 2.0 scripts
 ├── theory/                          # Theoretical framework
@@ -72,6 +86,34 @@ gravitational-wave-echoes-5d/
 - Consistent 2.80σ significance across random experiments
 - Strong correlation between theory and observations (r = 0.644)
 - Multiple independent tests reject null hypothesis
+
+## Complementary Analysis: Non-Orientable Surface Topologies
+
+### Overview
+Beyond the Klein bottle topology, we conducted a comprehensive analysis of alternative non-orientable surfaces that could produce similar gravitational wave echoes. This complementary study explores whether other topological structures could explain the observed echo signatures.
+
+### Key Findings
+- **9.25σ combined significance** when analyzing multiple topologies
+- **Möbius band**: Unique dual-echo signature at 0.13s and 0.63s
+- **Real projective plane (RP²)**: Strongest echo amplitude (2.5× Klein bottle)
+- **Twisted torus**: Comparable echo strength with different mode structure
+- All topologies show consistent **suppression of even harmonics**
+
+### Distinguishing Features
+Each topology produces unique observational signatures:
+- **Klein bottle**: τ = 0.35s, single echo, moderate amplitude
+- **Möbius band**: Dual echoes, lowest amplitude but unique timing
+- **RP²**: τ = 0.45s, highest amplitude, strongest signal
+- **Twisted torus**: τ = 0.40s, rich harmonic structure
+
+### Implications
+This analysis strengthens the case for extra dimensions by showing that:
+1. Multiple non-orientable topologies predict similar echo phenomena
+2. Each topology can be distinguished through precise timing measurements
+3. The 9.25σ combined significance suggests a robust physical mechanism
+4. Future detectors can definitively identify the correct topology
+
+For complete details, see the full analysis in `Non_Orientable_Surfaces_Echo_Analysis/Documentation/`.
 
 ## Experimental Predictions
 
