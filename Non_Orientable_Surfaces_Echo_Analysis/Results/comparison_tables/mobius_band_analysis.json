@@ -1,0 +1,88 @@
+{
+  "topology": "M\u00f6bius Band",
+  "parameters": {
+    "length_m": 52778756.58030853,
+    "width_m": 500000.0,
+    "effective_radius_m": 8400000.0
+  },
+  "mode_analysis": {
+    "fundamental_frequency_Hz": 2.8400864043077036,
+    "num_longitudinal_modes": 10,
+    "num_transverse_modes": 5,
+    "lowest_modes_Hz": [
+      149.92313216846952,
+      299.8059104895461,
+      449.6976554381487,
+      150.13818396888863,
+      299.9135086833155
+    ]
+  },
+  "boundary_effects": {
+    "edge_modes": {
+      "description": "Modes localized near the boundary",
+      "decay_length": 159154.94309189534,
+      "frequency_shift": "Lower than bulk modes",
+      "observability": "May create additional echo frequencies"
+    },
+    "energy_leakage": {
+      "description": "Energy can escape through the boundary",
+      "leakage_rate": 599.584916,
+      "echo_suppression": "Reduces echo amplitude",
+      "quality_factor": 105.55751316061705
+    },
+    "reflection_modification": {
+      "description": "Boundary changes reflection conditions",
+      "phase_shift": "\u03c0/2 for hard boundary",
+      "mode_mixing": "Couples different mode numbers",
+      "echo_distortion": "Changes echo waveform shape"
+    },
+    "overall_quality_factor": 16.8
+  },
+  "echo_predictions": {
+    "primary_echo_s": 0.17605098184394127,
+    "secondary_echo_s": 0.1793866227959228,
+    "mass_used_Msun": 62.0
+  },
+  "topology_comparison": {
+    "M\u00f6bius Band": {
+      "orientable": false,
+      "boundary": true,
+      "mode_selection": "Odd longitudinal + all transverse",
+      "f_0_Hz": 2.8400864043077036,
+      "echo_complexity": "High (boundary effects)",
+      "unique_features": [
+        "Edge modes",
+        "Energy leakage",
+        "Dual echo times"
+      ]
+    },
+    "Klein Bottle": {
+      "orientable": false,
+      "boundary": false,
+      "mode_selection": "Only odd harmonics",
+      "f_0_Hz": 6.65,
+      "echo_complexity": "Low (clean spectrum)",
+      "unique_features": [
+        "Perfect odd mode selection",
+        "No leakage"
+      ]
+    },
+    "Real Projective Plane": {
+      "orientable": false,
+      "boundary": false,
+      "mode_selection": "Only odd l spherical harmonics",
+      "f_0_Hz": "TBD (depends on radius)",
+      "echo_complexity": "Medium",
+      "unique_features": [
+        "Antipodal identification",
+        "Spherical symmetry"
+      ]
+    }
+  },
+  "key_findings": [
+    "M\u00f6bius band has both odd and even frequency modes",
+    "Boundary introduces edge modes absent in closed surfaces",
+    "Energy leakage reduces echo amplitude",
+    "Predicts secondary echoes from boundary reflections"
+  ]
+}

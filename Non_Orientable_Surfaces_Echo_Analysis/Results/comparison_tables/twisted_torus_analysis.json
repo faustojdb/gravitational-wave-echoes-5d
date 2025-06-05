@@ -1,0 +1,34 @@
+{
+  "topology": "Twisted Torus",
+  "parameters": {
+    "L1_m": 52778756.58030853,
+    "L2_m": 6283185.307179586,
+    "initial_twist_rad": 3.141592653589793,
+    "optimal_twist_rad": 6.232102850028154,
+    "optimal_twist_deg": 357.07319079806507
+  },
+  "mode_analysis": {
+    "fundamental_frequency_Hz": 5.680172808615407,
+    "mode_suppression": {
+      "at_pi_twist": "Strong (Klein-like)",
+      "at_zero_twist": "None (ordinary torus)",
+      "tunable": true
+    }
+  },
+  "echo_prediction": {
+    "echo_time_s": 0.24796367042547718,
+    "mass_Msun": 62.0
+  },
+  "key_findings": [
+    "Twist angle controls mode suppression",
+    "\u03b8 = \u03c0 gives Klein bottle-like behavior",
+    "\u03b8 = 0 gives ordinary torus (no suppression)",
+    "Intermediate angles allow tunable suppression",
+    "Can optimize \u03b8 to match observed echo frequency"
+  ],
+  "advantages": [
+    "Tunable parameter (twist angle)",
+    "Interpolates between torus and Klein bottle",
+    "Could explain variations in echo strength"
+  ]
+}
