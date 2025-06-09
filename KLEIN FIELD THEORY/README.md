@@ -22,6 +22,9 @@ Final_Paper_Structure/
 ├── KLEIN_FIELD_THEORY_COMPLETE_PAPER.md       # 🎯 MAIN PAPER (Markdown)
 ├── KLEIN_FIELD_THEORY_PAPER.tex               # 🎯 MAIN PAPER (LaTeX)  
 ├── KLEIN_FIELD_THEORY_PAPER.pdf               # 🎯 MAIN PAPER (PDF)
+├── TEORIA_CAMPO_KLEIN_PAPER_COMPLETO.md       # 🇪🇸 PAPER COMPLETO (Markdown)
+├── TEORIA_CAMPO_KLEIN_PAPER.tex               # 🇪🇸 PAPER COMPLETO (LaTeX)
+├── TEORIA_CAMPO_KLEIN_PAPER.pdf               # 🇪🇸 PAPER COMPLETO (PDF)
 ├── FIGURES_AND_TABLES_SPECIFICATIONS.md       # Publication figures specs
 ├── PAPER_IMPROVEMENTS_SUMMARY.md              # Enhancement documentation
 ├── 1_Theory/                                   # Theoretical foundations
