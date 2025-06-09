@@ -1,0 +1,83 @@
+{
+  "threshold_analysis": {
+    "M_threshold_fit": 1084970.6999999995,
+    "r_klein_fit": 9.221342585309095,
+    "delta_chi2": 713.6129908995251,
+    "threshold_improvement": true
+  },
+  "environment_analysis": {
+    "environment_results": {
+      "isolated": {
+        "n_galaxies": 114,
+        "mean_core": 5.147625591401768,
+        "std_core": 2.9437739091637987,
+        "median_core": 5.2711901637122764,
+        "mean_klein_deviation": 0.43080622704380106,
+        "klein_consistency": false,
+        "p_value": 2.661857682923927e-21,
+        "coefficient_variation": 0.5718702452021514
+      },
+      "group": {
+        "n_galaxies": 31,
+        "mean_core": 6.864169119395142,
+        "std_core": 2.303783670223147,
+        "median_core": 6.490913511904349,
+        "mean_klein_deviation": 0.2914173174390383,
+        "klein_consistency": false,
+        "p_value": 0.0009854189242474985,
+        "coefficient_variation": 0.33562454976723416
+      },
+      "satellite": {
+        "n_galaxies": 60,
+        "mean_core": 2.268532831288956,
+        "std_core": 1.7572153173049154,
+        "median_core": 1.410980965221984,
+        "mean_klein_deviation": 0.7299365677036956,
+        "klein_consistency": false,
+        "p_value": 9.961360124854632e-35,
+        "coefficient_variation": 0.7746043138844434
+      }
+    },
+    "environments_differ": true,
+    "anova_p_value": 4.1633235402211675e-15,
+    "environmental_dependence": true
+  },
+  "morphology_analysis": {
+    "morphology_results": {
+      "spiral": {
+        "n_galaxies": 129,
+        "mean_core": 6.9815517799894256,
+        "std_core": 2.4355038124205874,
+        "mean_klein_deviation": 0.2820445671656372,
+        "mass_core_correlation": 0.6733796567198361,
+        "mass_core_p_value": 2.274832466415242e-18,
+        "chi2_klein": 121.9921390879123,
+        "chi2_scaling": 58.100980772366356,
+        "delta_chi2": 63.89115831554595,
+        "preferred_model": "Scaling"
+      },
+      "dwarf": {
+        "n_galaxies": 126,
+        "mean_core": 2.142145637934542,
+        "std_core": 1.7179104451035123,
+        "mean_klein_deviation": 0.7449826621506498,
+        "mass_core_correlation": 0.6309335676631066,
+        "mass_core_p_value": 2.403445237096532e-15,
+        "chi2_klein": 631.6793627132615,
+        "chi2_scaling": 91.22919795265865,
+        "delta_chi2": 540.4501647606029,
+        "preferred_model": "Scaling"
+      }
+    },
+    "types_differ": true,
+    "comparison_p_value": 5.701732755464155e-48,
+    "morphological_dependence": true
+  },
+  "overall": {
+    "evidence_score": 6,
+    "max_evidence": 6,
+    "confidence": 1.0,
+    "verdict": "STRONG EVIDENCE for Klein Universal Field Context-Dependence",
+    "total_galaxies": 255
+  }
+}

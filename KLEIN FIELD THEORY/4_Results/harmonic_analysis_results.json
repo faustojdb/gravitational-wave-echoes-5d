@@ -1,0 +1,24 @@
+{
+  "analysis_date": "2025-06-08T04:22:22.028430",
+  "events_analyzed": 113,
+  "harmonic_analysis": {
+    "odd_amplitudes_mean": 0.07249478452406398,
+    "even_amplitudes_mean": 0.001784984975673856,
+    "observed_ratio": 40.61366650814314,
+    "theoretical_ratio": 40.0,
+    "ratio_tolerance": 5.0,
+    "ratio_confirmed": true,
+    "statistical_significance": {
+      "t_statistic": 19.968138037534917,
+      "p_value": 7.989360811527508e-82,
+      "significant": true
+    }
+  },
+  "validation_status": {
+    "klein_breathing_modes_confirmed": true,
+    "total_tests_passed": 8,
+    "total_tests": 8,
+    "validation_percentage": 100.0,
+    "paradigm_status": "FULLY_VALIDATED"
+  }
+}

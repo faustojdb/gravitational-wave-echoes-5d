@@ -1,0 +1,28 @@
+{
+  "ligo_weak_stack": {
+    "enhancement_factor": 7.0710678118654755,
+    "klein_signal_to_noise": 167.13272755719177,
+    "detection_significance": true
+  },
+  "galaxy_transitions": {
+    "klein_scale_fit": 9.692143683851654,
+    "preferred_model": "Klein",
+    "delta_chi2": 2.094477793707618,
+    "transition_sharpness": 0.5
+  },
+  "solar_system_bounds": {
+    "klein_amplitude": 4.468243301209642e-25,
+    "all_bounds_satisfied": true,
+    "consistency_checks": {
+      "perihelion": true,
+      "deflection": true,
+      "redshift": true
+    }
+  },
+  "overall": {
+    "confidence_score": 1.0,
+    "raw_score": 6,
+    "max_score": 6,
+    "verdict": "STRONG SUPPORT for Klein Universal Field"
+  }
+}

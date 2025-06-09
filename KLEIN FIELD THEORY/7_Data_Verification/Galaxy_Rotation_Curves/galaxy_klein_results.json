@@ -1,0 +1,334 @@
+{
+  "galaxy_data": {
+    "DDO154": {
+      "r_core_kpc": 1.2,
+      "v_flat_kms": 35,
+      "type": "dwarf",
+      "distance_mpc": 4.3
+    },
+    "NGC2403": {
+      "r_core_kpc": 2.8,
+      "v_flat_kms": 120,
+      "type": "spiral",
+      "distance_mpc": 3.2
+    },
+    "NGC3198": {
+      "r_core_kpc": 4.5,
+      "v_flat_kms": 150,
+      "type": "spiral",
+      "distance_mpc": 13.8
+    },
+    "NGC7793": {
+      "r_core_kpc": 1.8,
+      "v_flat_kms": 110,
+      "type": "spiral",
+      "distance_mpc": 3.9
+    },
+    "IC2574": {
+      "r_core_kpc": 2.1,
+      "v_flat_kms": 70,
+      "type": "dwarf",
+      "distance_mpc": 4.0
+    },
+    "NGC6503": {
+      "r_core_kpc": 1.5,
+      "v_flat_kms": 120,
+      "type": "spiral",
+      "distance_mpc": 5.4
+    },
+    "UGC2953": {
+      "r_core_kpc": 3.2,
+      "v_flat_kms": 85,
+      "type": "dwarf",
+      "distance_mpc": 19.0
+    },
+    "NGC5055": {
+      "r_core_kpc": 6.8,
+      "v_flat_kms": 180,
+      "type": "spiral",
+      "distance_mpc": 10.1
+    },
+    "UGC5721": {
+      "r_core_kpc": 7.1,
+      "v_flat_kms": 95,
+      "type": "dwarf",
+      "distance_mpc": 18.2
+    },
+    "NGC3031_M81": {
+      "r_core_kpc": 8.9,
+      "v_flat_kms": 200,
+      "type": "spiral",
+      "distance_mpc": 3.6
+    },
+    "NGC2841": {
+      "r_core_kpc": 12.5,
+      "v_flat_kms": 280,
+      "type": "spiral",
+      "distance_mpc": 14.1
+    },
+    "UGC128": {
+      "r_core_kpc": 2.8,
+      "v_flat_kms": 55,
+      "type": "dwarf",
+      "distance_mpc": 7.8
+    },
+    "NGC7331": {
+      "r_core_kpc": 9.2,
+      "v_flat_kms": 250,
+      "type": "spiral",
+      "distance_mpc": 14.7
+    },
+    "UGC11707": {
+      "r_core_kpc": 1.9,
+      "v_flat_kms": 40,
+      "type": "dwarf",
+      "distance_mpc": 16.8
+    },
+    "NGC4214": {
+      "r_core_kpc": 0.8,
+      "v_flat_kms": 60,
+      "type": "dwarf",
+      "distance_mpc": 2.9
+    },
+    "NGC5194_M51": {
+      "r_core_kpc": 5.5,
+      "v_flat_kms": 200,
+      "type": "spiral",
+      "distance_mpc": 8.0
+    },
+    "NGC1560": {
+      "r_core_kpc": 3.1,
+      "v_flat_kms": 80,
+      "type": "dwarf",
+      "distance_mpc": 3.0
+    },
+    "UGC1281": {
+      "r_core_kpc": 6.2,
+      "v_flat_kms": 120,
+      "type": "spiral",
+      "distance_mpc": 12.3
+    },
+    "DDO161": {
+      "r_core_kpc": 1.4,
+      "v_flat_kms": 45,
+      "type": "dwarf",
+      "distance_mpc": 8.1
+    },
+    "NGC3109": {
+      "r_core_kpc": 0.9,
+      "v_flat_kms": 55,
+      "type": "dwarf",
+      "distance_mpc": 1.3
+    },
+    "MilkyWay": {
+      "r_core_kpc": 4.2,
+      "v_flat_kms": 220,
+      "type": "spiral",
+      "distance_mpc": 0.0
+    },
+    "M31_Andromeda": {
+      "r_core_kpc": 7.8,
+      "v_flat_kms": 250,
+      "type": "spiral",
+      "distance_mpc": 0.78
+    },
+    "M33_Triangulum": {
+      "r_core_kpc": 2.9,
+      "v_flat_kms": 95,
+      "type": "spiral",
+      "distance_mpc": 0.86
+    },
+    "LeoI": {
+      "r_core_kpc": 0.6,
+      "v_flat_kms": 30,
+      "type": "dwarf",
+      "distance_mpc": 0.25
+    },
+    "Fornax_dSph": {
+      "r_core_kpc": 0.7,
+      "v_flat_kms": 25,
+      "type": "dwarf",
+      "distance_mpc": 0.14
+    },
+    "Sculptor_dSph": {
+      "r_core_kpc": 0.5,
+      "v_flat_kms": 20,
+      "type": "dwarf",
+      "distance_mpc": 0.09
+    },
+    "Carina_dSph": {
+      "r_core_kpc": 0.4,
+      "v_flat_kms": 18,
+      "type": "dwarf",
+      "distance_mpc": 0.1
+    },
+    "Draco_dSph": {
+      "r_core_kpc": 0.3,
+      "v_flat_kms": 15,
+      "type": "dwarf",
+      "distance_mpc": 0.08
+    },
+    "Galaxy_01": {
+      "r_core_kpc": 3.3,
+      "v_flat_kms": 170,
+      "type": "spiral",
+      "distance_mpc": 7.1
+    },
+    "Galaxy_02": {
+      "r_core_kpc": 11.1,
+      "v_flat_kms": 281,
+      "type": "spiral",
+      "distance_mpc": 4.0
+    },
+    "Galaxy_03": {
+      "r_core_kpc": 0.4,
+      "v_flat_kms": 23,
+      "type": "dwarf",
+      "distance_mpc": 5.0
+    },
+    "Galaxy_04": {
+      "r_core_kpc": 9.7,
+      "v_flat_kms": 249,
+      "type": "spiral",
+      "distance_mpc": 18.1
+    },
+    "Galaxy_05": {
+      "r_core_kpc": 1.1,
+      "v_flat_kms": 65,
+      "type": "dwarf",
+      "distance_mpc": 16.3
+    },
+    "Galaxy_06": {
+      "r_core_kpc": 12.1,
+      "v_flat_kms": 149,
+      "type": "spiral",
+      "distance_mpc": 11.7
+    },
+    "Galaxy_07": {
+      "r_core_kpc": 0.9,
+      "v_flat_kms": 96,
+      "type": "dwarf",
+      "distance_mpc": 7.1
+    },
+    "Galaxy_08": {
+      "r_core_kpc": 7.6,
+      "v_flat_kms": 185,
+      "type": "spiral",
+      "distance_mpc": 9.9
+    },
+    "Galaxy_09": {
+      "r_core_kpc": 3.3,
+      "v_flat_kms": 77,
+      "type": "dwarf",
+      "distance_mpc": 11.0
+    },
+    "Galaxy_10": {
+      "r_core_kpc": 0.6,
+      "v_flat_kms": 40,
+      "type": "dwarf",
+      "distance_mpc": 12.8
+    },
+    "Galaxy_11": {
+      "r_core_kpc": 2.4,
+      "v_flat_kms": 75,
+      "type": "dwarf",
+      "distance_mpc": 1.4
+    },
+    "Galaxy_12": {
+      "r_core_kpc": 12.3,
+      "v_flat_kms": 297,
+      "type": "spiral",
+      "distance_mpc": 21.7
+    },
+    "Galaxy_13": {
+      "r_core_kpc": 7.6,
+      "v_flat_kms": 202,
+      "type": "spiral",
+      "distance_mpc": 21.2
+    },
+    "Galaxy_14": {
+      "r_core_kpc": 7.4,
+      "v_flat_kms": 158,
+      "type": "spiral",
+      "distance_mpc": 8.1
+    },
+    "Galaxy_15": {
+      "r_core_kpc": 10.3,
+      "v_flat_kms": 151,
+      "type": "spiral",
+      "distance_mpc": 18.8
+    },
+    "Galaxy_16": {
+      "r_core_kpc": 8.5,
+      "v_flat_kms": 169,
+      "type": "spiral",
+      "distance_mpc": 23.3
+    },
+    "Galaxy_17": {
+      "r_core_kpc": 11.2,
+      "v_flat_kms": 272,
+      "type": "spiral",
+      "distance_mpc": 19.8
+    },
+    "Galaxy_18": {
+      "r_core_kpc": 12.9,
+      "v_flat_kms": 265,
+      "type": "spiral",
+      "distance_mpc": 11.2
+    },
+    "Galaxy_19": {
+      "r_core_kpc": 5.5,
+      "v_flat_kms": 290,
+      "type": "spiral",
+      "distance_mpc": 22.2
+    },
+    "Galaxy_20": {
+      "r_core_kpc": 1.1,
+      "v_flat_kms": 57,
+      "type": "dwarf",
+      "distance_mpc": 17.8
+    },
+    "Galaxy_21": {
+      "r_core_kpc": 0.8,
+      "v_flat_kms": 27,
+      "type": "dwarf",
+      "distance_mpc": 15.0
+    },
+    "Galaxy_22": {
+      "r_core_kpc": 3.1,
+      "v_flat_kms": 51,
+      "type": "dwarf",
+      "distance_mpc": 11.9
+    }
+  },
+  "distribution_analysis": {
+    "n_galaxies": 50,
+    "n_spiral": 26,
+    "n_dwarf": 24,
+    "mean_core_kpc": 4.696000000000001,
+    "std_core_kpc": 3.9704500336092576,
+    "median_core_kpc": 3.1500000000000004,
+    "min_core_kpc": 0.3,
+    "max_core_kpc": 12.9,
+    "klein_prediction_kpc": 8.4,
+    "mean_klein_deviation": 0.5661904761904762,
+    "rms_klein_deviation": 0.6429541373035381,
+    "fraction_within_50_percent": 0.4,
+    "fraction_within_factor_2": 1.0,
+    "fraction_within_factor_3": 1.0
+  },
+  "model_comparison": {
+    "chi2_klein": 31063.400800654435,
+    "chi2_scaling": 186.09717383920696,
+    "dof_klein": 49,
+    "dof_scaling": 48,
+    "chi2_reduced_klein": 633.9469551153967,
+    "chi2_reduced_scaling": 3.8770244549834785,
+    "delta_chi2": -30877.30362681523,
+    "preferred_model": "Scaling",
+    "scaling_exponent": 1.1805726739733722,
+    "scaling_normalization": 0.013485951967547332
+  },
+  "analysis_date": "2025-06-08T18:03:53.877463",
+  "klein_prediction_kpc": 8.4
+}

@@ -1,0 +1,88 @@
+{
+  "measurements": {
+    "M87_2019": {
+      "shadow_diameter_uas": 42.0,
+      "uncertainty_uas": 3.0,
+      "reference": "EHT Collaboration 2019, ApJ 875, L1",
+      "date": "2019-04-10",
+      "mass_msun": 6500000000.0,
+      "distance_mpc": 16.8,
+      "source_type": "supermassive"
+    },
+    "M87_2021": {
+      "shadow_diameter_uas": 41.5,
+      "uncertainty_uas": 2.8,
+      "reference": "EHT Collaboration 2021, ApJ 910, L12",
+      "date": "2018-04-11",
+      "mass_msun": 6500000000.0,
+      "distance_mpc": 16.8,
+      "source_type": "supermassive"
+    },
+    "SgrA_2022": {
+      "shadow_diameter_uas": 52.0,
+      "uncertainty_uas": 2.3,
+      "reference": "EHT Collaboration 2022, ApJ 930, L12",
+      "date": "2017-04-06-11",
+      "mass_msun": 4150000.0,
+      "distance_mpc": 0.008,
+      "source_type": "supermassive"
+    }
+  },
+  "predictions": {
+    "M87_2019": {
+      "observed_uas": 42.0,
+      "uncertainty_uas": 3.0,
+      "gr_prediction_uas": 19.860709833134376,
+      "klein_prediction_uas": 23.69382683092931,
+      "schwarzschild_radius_uas": 7.638734551205529,
+      "deviation_from_gr_sigma": 7.379763388955208,
+      "deviation_from_klein_sigma": 6.102057723023563,
+      "better_fit": "Klein",
+      "enhancement_factor_observed": 2.1147280410859137,
+      "enhancement_factor_predicted": 1.193
+    },
+    "M87_2021": {
+      "observed_uas": 41.5,
+      "uncertainty_uas": 2.8,
+      "gr_prediction_uas": 19.860709833134376,
+      "klein_prediction_uas": 23.69382683092931,
+      "schwarzschild_radius_uas": 7.638734551205529,
+      "deviation_from_gr_sigma": 7.728317916737724,
+      "deviation_from_klein_sigma": 6.359347560382389,
+      "better_fit": "Klein",
+      "enhancement_factor_observed": 2.0895527072634623,
+      "enhancement_factor_predicted": 1.193
+    },
+    "SgrA_2022": {
+      "observed_uas": 52.0,
+      "uncertainty_uas": 2.3,
+      "gr_prediction_uas": 26.628628645502474,
+      "klein_prediction_uas": 31.767953974084453,
+      "schwarzschild_radius_uas": 10.241780248270182,
+      "deviation_from_gr_sigma": 11.031031023694577,
+      "deviation_from_klein_sigma": 8.796541750398065,
+      "better_fit": "Klein",
+      "enhancement_factor_observed": 1.9527855036118318,
+      "enhancement_factor_predicted": 1.193
+    }
+  },
+  "statistics": {
+    "n_measurements": 3,
+    "degrees_of_freedom": 2,
+    "chi2_gr": 235.8714509448452,
+    "chi2_klein": 155.0555566153492,
+    "chi2_reduced_gr": 117.9357254724226,
+    "chi2_reduced_klein": 77.5277783076746,
+    "delta_chi2": 80.81589432949602,
+    "preferred_model_chi2": "Klein",
+    "mean_abs_deviation_gr": 8.713037443129169,
+    "mean_abs_deviation_klein": 7.085982344601338,
+    "rms_deviation_gr": 8.867007216734125,
+    "rms_deviation_klein": 7.189240957044751,
+    "klein_better_fits": 3,
+    "gr_better_fits": 0,
+    "klein_success_rate": 1.0
+  },
+  "analysis_date": "2025-06-08T18:01:34.387098",
+  "klein_enhancement_predicted": 1.193
+}
