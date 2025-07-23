@@ -52,15 +52,16 @@ Complete implementation:
 - Additional analysis scripts...
 
 ### 📂 6_Data_Sources/
-Original datasets and documentation:
-- **gwtc21_extracted/** - GWTC-2.1 subthreshold data (1,201 events)
-- `gwtc21_subthreshold_candidates.tar.xml.gz` - Original data file
-- `gwtc21_subthreshold_analysis.ipynb` - Analysis notebook
-- `gwtc3_subthreshold_*.hdf5` - GWTC-3 subthreshold populations
+Data documentation and analysis metadata:
+- `gwtc21_subthreshold_documentation.md` - GWTC-2.1 documentation  
 - `gwtc3_subthreshold_documentation.md` - GWTC-3 documentation
-- `gwtc3_subthreshold_analysis.ipynb` - Analysis notebook
 - `subthreshold_download_summary.json` - Download summary
 - **klein_analysis_ready/** - Analysis-ready metadata
+
+📋 **Large Data Files**: The original datasets (~1.8GB total) are available separately:
+- GWTC-2.1 subthreshold data (1,201 events, 877 MB)
+- GWTC-3 subthreshold populations (multiple files, 500+ MB)
+- Available from LIGO Open Science Center or contact author
 
 ### 📂 7_Validation_Framework/
 Comprehensive validation components:
@@ -97,12 +98,12 @@ Comprehensive validation components:
 
 ## Data Files Summary
 
-### Large Data Files
-- `gwtc21_subthreshold_candidates.tar.xml.gz` (877 MB)
-- `gwtc3_subthreshold_mixture_population.hdf5` (411 MB)
-- `gwtc3_subthreshold_*.hdf5` (89 MB each)
+### Large Data Files (Available Separately)
+- GWTC-2.1 subthreshold candidates (877 MB) - Contact author for access
+- GWTC-3 subthreshold populations (500+ MB) - Available from LIGO OSC  
+- Original XML files and HDF5 datasets - See documentation for sources
 
-### Key Results Files
+### Key Results Files (Included in Repository)
 - JSON: Analysis results, validation summaries
 - PNG: Visualization plots, validation figures
 - CSV: Detailed numerical results

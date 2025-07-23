@@ -89,10 +89,11 @@ Klein Subthreshold Theory/
 │   ├── klein_subthreshold_downloader.py        # Data acquisition
 │   ├── klein_subthreshold_analyzer.py          # Core analysis engine
 │   └── klein_massive_dataset_analyzer.py       # Large-scale analysis
-├── 6_Data_Sources/                              # 📂 Original datasets
-│   ├── gwtc21_subthreshold_documentation.md    # GWTC-2.1 documentation
-│   ├── gwtc3_subthreshold_*.hdf5              # GWTC-3 subthreshold data
+├── 6_Data_Sources/                              # 📂 Data documentation
+│   ├── gwtc21_subthreshold_documentation.md    # GWTC-2.1 documentation  
+│   ├── gwtc3_subthreshold_documentation.md     # GWTC-3 documentation
 │   └── subthreshold_download_summary.json      # Data acquisition summary
+│   📋 Note: Large data files (1.8GB) available separately via LIGO Open Science Center
 └── 7_Validation_Framework/                      # 🔬 Validation components
     ├── bayesian_validation/                     # Bayesian parameter estimation
     ├── cross_dataset_validation/                # Cross-dataset consistency
@@ -196,8 +197,8 @@ pip install numpy pandas matplotlib scipy seaborn pathlib
 
 ### Complete Analysis Pipeline
 ```bash
-# 1. Download and prepare data
-python 5_Code/klein_subthreshold_downloader.py
+# 1. Download data from LIGO Open Science Center (requires ~1.8GB disk space)
+# Contact author or see Data Sources documentation for download links
 
 # 2. Run massive analysis
 python 5_Code/klein_massive_dataset_analyzer.py
