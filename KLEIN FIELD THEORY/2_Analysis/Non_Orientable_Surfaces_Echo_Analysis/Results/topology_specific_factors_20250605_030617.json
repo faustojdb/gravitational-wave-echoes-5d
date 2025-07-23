@@ -1,0 +1,165 @@
+{
+  "derived_geometric_factors": {
+    "Klein_Bottle": {
+      "frequency_hz": 6.65,
+      "derived_geometric_factor": 3.554306350526693,
+      "radius_m": 25501988.571474675,
+      "radius_km": 25501.988571474674,
+      "radius_earth_radii": 4.00282350831497,
+      "factor_breakdown": {
+        "euler_factor": 1.4142135623730951,
+        "boundary_factor": 1.0,
+        "path_factor": 3.141592653589793,
+        "constraint_factor": 0.8,
+        "combined_factor": 3.554306350526693,
+        "has_boundary": false,
+        "edge_structure": "none",
+        "rationale": "\u03c0 path closure from self-intersection, reduced by topological constraints"
+      },
+      "boundary_effects": false
+    },
+    "Real_Projective_Plane": {
+      "frequency_hz": 4.19,
+      "derived_geometric_factor": 2.4,
+      "radius_m": 27329900.673433553,
+      "radius_km": 27329.900673433553,
+      "radius_earth_radii": 4.289734841223286,
+      "factor_breakdown": {
+        "euler_factor": 1.0,
+        "boundary_factor": 1.0,
+        "path_factor": 2.0,
+        "constraint_factor": 1.2,
+        "combined_factor": 2.4,
+        "has_boundary": false,
+        "edge_structure": "none",
+        "rationale": "Antipodal identification enhances path length, no boundary losses"
+      },
+      "boundary_effects": false
+    },
+    "Mobius_Band": {
+      "frequency_hz": 8.2,
+      "derived_geometric_factor": 0.5317361552716547,
+      "radius_m": 3094020.402983748,
+      "radius_km": 3094.0204029837478,
+      "radius_earth_radii": 0.4856412498797281,
+      "factor_breakdown": {
+        "euler_factor": 1.4142135623730951,
+        "boundary_factor": 0.5,
+        "path_factor": 3.141592653589793,
+        "constraint_factor": 0.6,
+        "combined_factor": 0.5317361552716547,
+        "has_boundary": true,
+        "edge_structure": "single_circle",
+        "rationale": "CRITICAL: Single boundary edge creates major reflections and standing waves"
+      },
+      "boundary_effects": true
+    },
+    "Twisted_Torus": {
+      "frequency_hz": 5.68,
+      "derived_geometric_factor": 7.9971892886850595,
+      "radius_m": 67178433.80293836,
+      "radius_km": 67178.43380293835,
+      "radius_earth_radii": 10.544409637880765,
+      "factor_breakdown": {
+        "euler_factor": 1.4142135623730951,
+        "boundary_factor": 1.0,
+        "path_factor": 6.283185307179586,
+        "constraint_factor": 0.9,
+        "combined_factor": 7.9971892886850595,
+        "has_boundary": false,
+        "edge_structure": "none",
+        "rationale": "Full 2\u03c0 path with twist, minor losses from periodicity constraints"
+      },
+      "boundary_effects": false
+    },
+    "String_Orientifold": {
+      "frequency_hz": 6.8,
+      "derived_geometric_factor": 1.0104145188980609,
+      "radius_m": 7089759.4464220395,
+      "radius_km": 7089.759446422039,
+      "radius_earth_radii": 1.1128173671985622,
+      "factor_breakdown": {
+        "euler_factor": 2.0,
+        "boundary_factor": 0.75,
+        "path_factor": 1.5,
+        "constraint_factor": 1.1,
+        "combined_factor": 1.0104145188980609,
+        "has_boundary": true,
+        "edge_structure": "open_closed_dual",
+        "rationale": "Dual open/closed boundaries, duality partially compensates losses"
+      },
+      "boundary_effects": true
+    }
+  },
+  "mobius_boundary_analysis": {
+    "boundary_length": "2\u03c0 * R_mobius",
+    "wave_reflection_coefficient": 0.5,
+    "standing_wave_modes": "Discrete due to boundary conditions",
+    "effective_path_reduction": "Factor ~0.5 from boundary losses",
+    "physical_interpretation": "Gravitational waves partially reflect at boundary edge",
+    "comparison_to_closed_surfaces": "Significantly different behavior",
+    "observational_consequences": "Lower detection efficiency expected"
+  },
+  "topology_characteristics": {
+    "Klein_Bottle": {
+      "boundary": false,
+      "self_intersecting": true,
+      "orientable": false,
+      "genus": 2,
+      "euler_characteristic": 0,
+      "fundamental_group": "Z/2Z * Z",
+      "path_closure": "\u03c0_twist",
+      "edge_structure": "none",
+      "constraint_type": "self_intersection"
+    },
+    "Real_Projective_Plane": {
+      "boundary": false,
+      "self_intersecting": false,
+      "orientable": false,
+      "genus": 1,
+      "euler_characteristic": 1,
+      "fundamental_group": "Z/2Z",
+      "path_closure": "antipodal",
+      "edge_structure": "none",
+      "constraint_type": "identification"
+    },
+    "Mobius_Band": {
+      "boundary": true,
+      "self_intersecting": false,
+      "orientable": false,
+      "genus": 0,
+      "euler_characteristic": 0,
+      "fundamental_group": "Z",
+      "path_closure": "\u03c0_twist",
+      "edge_structure": "single_circle",
+      "constraint_type": "edge_reflection"
+    },
+    "Twisted_Torus": {
+      "boundary": false,
+      "self_intersecting": false,
+      "orientable": false,
+      "genus": 1,
+      "euler_characteristic": 0,
+      "fundamental_group": "Z * Z",
+      "path_closure": "2\u03c0_with_twist",
+      "edge_structure": "none",
+      "constraint_type": "twisted_periodicity"
+    },
+    "String_Orientifold": {
+      "boundary": true,
+      "self_intersecting": false,
+      "orientable": false,
+      "genus": 0,
+      "euler_characteristic": -1,
+      "fundamental_group": "D_\u221e",
+      "path_closure": "dual_scale",
+      "edge_structure": "open_closed_dual",
+      "constraint_type": "string_duality"
+    }
+  },
+  "analysis_metadata": {
+    "timestamp": "20250605_030617",
+    "method": "topology_specific_derivation",
+    "key_insight": "boundary_effects_critical"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "conservative_dimensions": {
+    "Klein_Bottle": {
+      "frequency_hz": 6.65,
+      "radius_m": 7174955.126672094,
+      "radius_km": 7174.955126672094,
+      "radius_earth_radii": 1.1261897860103742,
+      "geometric_factor": 1.0,
+      "calculation_type": "conservative"
+    },
+    "Real_Projective_Plane": {
+      "frequency_hz": 4.19,
+      "radius_m": 11387458.613930648,
+      "radius_km": 11387.458613930648,
+      "radius_earth_radii": 1.7873895171763692,
+      "geometric_factor": 1.0,
+      "calculation_type": "conservative"
+    },
+    "Mobius_Band": {
+      "frequency_hz": 8.2,
+      "radius_m": 5818713.60882554,
+      "radius_km": 5818.71360882554,
+      "radius_earth_radii": 0.9133124484108524,
+      "geometric_factor": 1.0,
+      "calculation_type": "conservative"
+    },
+    "Twisted_Torus": {
+      "frequency_hz": 5.68,
+      "radius_m": 8400255.562036872,
+      "radius_km": 8400.255562036871,
+      "radius_earth_radii": 1.3185144501705968,
+      "geometric_factor": 1.0,
+      "calculation_type": "conservative"
+    },
+    "String_Orientifold": {
+      "frequency_hz": 6.8,
+      "radius_m": 7016684.057701386,
+      "radius_km": 7016.684057701385,
+      "radius_earth_radii": 1.1013473642601452,
+      "geometric_factor": 1.0,
+      "calculation_type": "conservative"
+    }
+  },
+  "ligo_results": {
+    "Klein_Bottle": {
+      "detector": "LIGO",
+      "n_events": 6,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    },
+    "Real_Projective_Plane": {
+      "detector": "LIGO",
+      "n_events": 6,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    },
+    "Mobius_Band": {
+      "detector": "LIGO",
+      "n_events": 6,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    },
+    "Twisted_Torus": {
+      "detector": "LIGO",
+      "n_events": 6,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    },
+    "String_Orientifold": {
+      "detector": "LIGO",
+      "n_events": 6,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    }
+  },
+  "virgo_results": {
+    "Klein_Bottle": {
+      "detector": "Virgo",
+      "n_events": 5,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    },
+    "Real_Projective_Plane": {
+      "detector": "Virgo",
+      "n_events": 5,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    },
+    "Mobius_Band": {
+      "detector": "Virgo",
+      "n_events": 5,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    },
+    "Twisted_Torus": {
+      "detector": "Virgo",
+      "n_events": 5,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    },
+    "String_Orientifold": {
+      "detector": "Virgo",
+      "n_events": 5,
+      "n_detections": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "combined_significance": 0,
+      "detections": []
+    }
+  },
+  "cross_validation": {
+    "Klein_Bottle": {
+      "ligo_significance": 0,
+      "virgo_significance": 0,
+      "ligo_detection_rate": 0.0,
+      "virgo_detection_rate": 0.0,
+      "significance_consistency": 0.0,
+      "rate_consistency": 0.0,
+      "consistency_score": 0.0,
+      "combined_significance": 0.0,
+      "validation_status": "consistent"
+    },
+    "Real_Projective_Plane": {
+      "ligo_significance": 0,
+      "virgo_significance": 0,
+      "ligo_detection_rate": 0.0,
+      "virgo_detection_rate": 0.0,
+      "significance_consistency": 0.0,
+      "rate_consistency": 0.0,
+      "consistency_score": 0.0,
+      "combined_significance": 0.0,
+      "validation_status": "consistent"
+    },
+    "Mobius_Band": {
+      "ligo_significance": 0,
+      "virgo_significance": 0,
+      "ligo_detection_rate": 0.0,
+      "virgo_detection_rate": 0.0,
+      "significance_consistency": 0.0,
+      "rate_consistency": 0.0,
+      "consistency_score": 0.0,
+      "combined_significance": 0.0,
+      "validation_status": "consistent"
+    },
+    "Twisted_Torus": {
+      "ligo_significance": 0,
+      "virgo_significance": 0,
+      "ligo_detection_rate": 0.0,
+      "virgo_detection_rate": 0.0,
+      "significance_consistency": 0.0,
+      "rate_consistency": 0.0,
+      "consistency_score": 0.0,
+      "combined_significance": 0.0,
+      "validation_status": "consistent"
+    },
+    "String_Orientifold": {
+      "ligo_significance": 0,
+      "virgo_significance": 0,
+      "ligo_detection_rate": 0.0,
+      "virgo_detection_rate": 0.0,
+      "significance_consistency": 0.0,
+      "rate_consistency": 0.0,
+      "consistency_score": 0.0,
+      "combined_significance": 0.0,
+      "validation_status": "consistent"
+    }
+  },
+  "analysis_metadata": {
+    "timestamp": "20250605_025849",
+    "conservative_factors": true,
+    "validation_method": "Independent LIGO-Virgo"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "timestamp": "2025-06-08T13:26:17.681352",
+  "tests": {
+    "mathematical_consistency": {
+      "passed": false,
+      "details": {
+        "klein_factor": {
+          "calculated": 2.0202020202020203,
+          "theoretical": 2.0,
+          "error": 0.020202020202020332,
+          "passed": false
+        },
+        "projection_operator": {
+          "idempotent_error": 0.24999974949924506,
+          "passed": "False"
+        },
+        "klein_identifications": {
+          "double_identification_error": 0.0,
+          "passed": true
+        }
+      }
+    },
+    "analytical_solutions": {
+      "passed": false,
+      "cases": {
+        "gaussian": {
+          "relative_error": 0.0,
+          "passed": "True"
+        },
+        "plane_wave": {
+          "phase_error": 0.0,
+          "passed": "True"
+        },
+        "harmonic_oscillator": {
+          "energy_error": 1552687.118091445,
+          "ground_state_energy": 5.272859085e-20,
+          "calculated_energy": 8.187105649650028e-14,
+          "passed": "False"
+        }
+      }
+    },
+    "heisenberg_emergence": {
+      "passed": true,
+      "measurements": [
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 6.738810119415257e-26,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        },
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 9.523992113532756e-25,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        },
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 5.386543934730629e-25,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        },
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 7.3433619669871055e-25,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        },
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 9.918658684702112e-25,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        },
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 9.822503169078442e-25,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        },
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 1.27114701147063e-25,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        },
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 7.891394186135245e-25,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        },
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 3.5881979440082753e-25,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        },
+        {
+          "uncertainty_5D": 0.0,
+          "uncertainty_product_4D": 7.100688477622388e-25,
+          "heisenberg_limit": 1.054571817e-34,
+          "satisfied": "True",
+          "klein_factor": 2.0
+        }
+      ],
+      "average_klein_factor": 2.0
+    },
+    "klein_topology": {
+      "passed": false,
+      "properties": {
+        "odd_even_ratio": {
+          "calculated": 1.4731391274719743,
+          "theoretical": 40.0,
+          "error": 0.9631715218132006,
+          "passed": "False"
+        },
+        "breathing_frequency": {
+          "calculated": 5.680172808615407,
+          "theoretical": 5.68,
+          "error": 0.00017280861540758252,
+          "passed": true
+        }
+      }
+    },
+    "inversion_convergence": {
+      "passed": true,
+      "methods": {
+        "spectral": {
+          "converged": true,
+          "position_error": 2.625800436611723,
+          "fidelity": 0.9999999999999998,
+          "passed": "False"
+        },
+        "ensemble": {
+          "converged": true,
+          "method_used": "spectral_decomposition",
+          "passed": true
+        }
+      }
+    },
+    "energy_conservation": {
+      "passed": true,
+      "energy_tests": [
+        {
+          "E_initial": 8.187130642348843e-14,
+          "E_kinetic": 7.497821088692722e-19,
+          "conserved": true,
+          "passed": true
+        },
+        {
+          "E_initial": 8.18711080661212e-14,
+          "E_kinetic": 1.5470891147797987e-19,
+          "conserved": true,
+          "passed": true
+        },
+        {
+          "E_initial": 8.187107468705994e-14,
+          "E_kinetic": 5.457168503510848e-20,
+          "conserved": true,
+          "passed": true
+        },
+        {
+          "E_initial": 8.187129471481242e-14,
+          "E_kinetic": 7.146559761317732e-19,
+          "conserved": true,
+          "passed": true
+        },
+        {
+          "E_initial": 8.187115402072258e-14,
+          "E_kinetic": 2.9257284116537823e-19,
+          "conserved": true,
+          "passed": true
+        }
+      ]
+    },
+    "statistical_validation": {
+      "passed": "True",
+      "statistics": {
+        "success_rate": 1.0,
+        "mean_klein_factor": 2.0,
+        "std_klein_factor": 0.0,
+        "theoretical_klein": 2.0,
+        "klein_factor_error": 0.0,
+        "chi2_test": {
+          "statistic": 0.0,
+          "p_value": 1.0,
+          "significant": "False"
+        }
+      }
+    }
+  },
+  "summary": {
+    "total_tests": 7,
+    "passed_tests": 4,
+    "failed_tests": 3,
+    "success_rate": 0.5714285714285714,
+    "conclusion": "VALIDATION FAILED"
+  }
+}

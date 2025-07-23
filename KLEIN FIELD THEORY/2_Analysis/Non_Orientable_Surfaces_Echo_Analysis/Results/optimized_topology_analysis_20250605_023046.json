@@ -1,0 +1,269 @@
+{
+  "topology_results": {
+    "Klein_Bottle": {
+      "topology": "Klein_Bottle",
+      "fundamental_freq": 6.65,
+      "n_events": 65,
+      "n_detections": 4,
+      "detection_rate": 0.06153846153846154,
+      "mean_significance": 0.8937980526239433,
+      "max_significance": 3.6178529939738597,
+      "combined_significance": 4.5370968669781995,
+      "top_detections": [
+        {
+          "event": "GW150914",
+          "mass": 62,
+          "tau_predicted": 0.35813203345758654,
+          "snr": 4.81785299397386,
+          "significance": 3.6178529939738597,
+          "detected": "True"
+        },
+        {
+          "event": "GW170814",
+          "mass": 53,
+          "tau_predicted": 0.36990734032367384,
+          "snr": 2.7595737699098226,
+          "significance": 1.5595737699098227,
+          "detected": "True"
+        },
+        {
+          "event": "GW190412",
+          "mass": 36,
+          "tau_predicted": 0.4063836743744623,
+          "snr": 2.5845003854309843,
+          "significance": 1.3845003854309843,
+          "detected": "True"
+        },
+        {
+          "event": "GW170608",
+          "mass": 18,
+          "tau_predicted": 0.5094576958737815,
+          "snr": 2.4364826919376243,
+          "significance": 1.2364826919376244,
+          "detected": "True"
+        }
+      ]
+    },
+    "Real_Projective_Plane": {
+      "topology": "Real_Projective_Plane",
+      "fundamental_freq": 4.19,
+      "n_events": 65,
+      "n_detections": 7,
+      "detection_rate": 0.1076923076923077,
+      "mean_significance": 1.3567529323689218,
+      "max_significance": 5.474117524346717,
+      "combined_significance": 8.824716261281665,
+      "top_detections": [
+        {
+          "event": "GW150914",
+          "mass": 62,
+          "tau_predicted": 0.19941825584271164,
+          "snr": 6.674117524346717,
+          "significance": 5.474117524346717,
+          "detected": "True"
+        },
+        {
+          "event": "GW170608",
+          "mass": 18,
+          "tau_predicted": 0.2179371306139243,
+          "snr": 5.609964303505081,
+          "significance": 4.409964303505081,
+          "detected": "True"
+        },
+        {
+          "event": "GW151226",
+          "mass": 21,
+          "tau_predicted": 0.21447753555503207,
+          "snr": 4.24113758721337,
+          "significance": 3.0411375872133695,
+          "detected": "True"
+        },
+        {
+          "event": "GW170814",
+          "mass": 53,
+          "tau_predicted": 0.2008592898997503,
+          "snr": 4.086494890066503,
+          "significance": 2.886494890066503,
+          "detected": "True"
+        },
+        {
+          "event": "GW190412",
+          "mass": 36,
+          "tau_predicted": 0.2053231769339377,
+          "snr": 3.217902879005205,
+          "significance": 2.017902879005205,
+          "detected": "True"
+        }
+      ]
+    },
+    "Mobius_Band": {
+      "topology": "Mobius_Band",
+      "fundamental_freq": 8.2,
+      "n_events": 65,
+      "n_detections": 6,
+      "detection_rate": 0.09230769230769231,
+      "mean_significance": 1.0506860924381975,
+      "max_significance": 4.573576906614642,
+      "combined_significance": 6.8639544703336846,
+      "top_detections": [
+        {
+          "event": "GW150914",
+          "mass": 62,
+          "tau_predicted": 0.2608229269374138,
+          "snr": 5.773576906614642,
+          "significance": 4.573576906614642,
+          "detected": "True"
+        },
+        {
+          "event": "GW170608",
+          "mass": 18,
+          "tau_predicted": 0.2782835802931286,
+          "snr": 4.4349866324583935,
+          "significance": 3.2349866324583934,
+          "detected": "True"
+        },
+        {
+          "event": "GW170814",
+          "mass": 53,
+          "tau_predicted": 0.2621816161911931,
+          "snr": 3.471069841457601,
+          "significance": 2.271069841457601,
+          "detected": "True"
+        },
+        {
+          "event": "GW151226",
+          "mass": 21,
+          "tau_predicted": 0.2750216763804588,
+          "snr": 3.388516683839156,
+          "significance": 2.188516683839156,
+          "detected": "True"
+        },
+        {
+          "event": "GW190412",
+          "mass": 36,
+          "tau_predicted": 0.2663904239662841,
+          "snr": 2.8646092637806624,
+          "significance": 1.6646092637806624,
+          "detected": "True"
+        }
+      ]
+    },
+    "Twisted_Torus": {
+      "topology": "Twisted_Torus",
+      "fundamental_freq": 5.68,
+      "n_events": 65,
+      "n_detections": 6,
+      "detection_rate": 0.09230769230769231,
+      "mean_significance": 0.9441369265717208,
+      "max_significance": 4.343307805272207,
+      "combined_significance": 6.596976899061741,
+      "top_detections": [
+        {
+          "event": "GW150914",
+          "mass": 62,
+          "tau_predicted": 0.27355833631283705,
+          "snr": 5.543307805272208,
+          "significance": 4.343307805272207,
+          "detected": "True"
+        },
+        {
+          "event": "GW170608",
+          "mass": 18,
+          "tau_predicted": 0.29054866903944165,
+          "snr": 4.3042396338696705,
+          "significance": 3.1042396338696703,
+          "detected": "True"
+        },
+        {
+          "event": "GW170814",
+          "mass": 53,
+          "tau_predicted": 0.27488042787627887,
+          "snr": 3.553290879625846,
+          "significance": 2.3532908796258463,
+          "detected": "True"
+        },
+        {
+          "event": "GW151226",
+          "mass": 21,
+          "tau_predicted": 0.28737462785842627,
+          "snr": 3.385554761920147,
+          "significance": 2.185554761920147,
+          "detected": "True"
+        },
+        {
+          "event": "GW190412",
+          "mass": 36,
+          "tau_predicted": 0.2789758670917714,
+          "snr": 2.7449850900420047,
+          "significance": 1.5449850900420048,
+          "detected": "True"
+        }
+      ]
+    },
+    "String_Orientifold": {
+      "topology": "String_Orientifold",
+      "fundamental_freq": 6.8,
+      "n_events": 65,
+      "n_detections": 6,
+      "detection_rate": 0.09230769230769231,
+      "mean_significance": 0.9616336635673027,
+      "max_significance": 4.215782016182412,
+      "combined_significance": 6.89652349649588,
+      "top_detections": [
+        {
+          "event": "GW150914",
+          "mass": 62,
+          "tau_predicted": 0.28712837654789974,
+          "snr": 5.415782016182412,
+          "significance": 4.215782016182412,
+          "detected": "True"
+        },
+        {
+          "event": "GW170608",
+          "mass": 18,
+          "tau_predicted": 0.3033544382522004,
+          "snr": 4.621009220410966,
+          "significance": 3.4210092204109657,
+          "detected": "True"
+        },
+        {
+          "event": "GW170814",
+          "mass": 53,
+          "tau_predicted": 0.2883909968645431,
+          "snr": 3.9690038373524046,
+          "significance": 2.769003837352405,
+          "detected": "True"
+        },
+        {
+          "event": "GW151226",
+          "mass": 21,
+          "tau_predicted": 0.3003231740101234,
+          "snr": 2.900891946933093,
+          "significance": 1.700891946933093,
+          "detected": "True"
+        },
+        {
+          "event": "GW190412",
+          "mass": 36,
+          "tau_predicted": 0.2923022121706883,
+          "snr": 2.8435455163704186,
+          "significance": 1.6435455163704187,
+          "detected": "True"
+        }
+      ]
+    }
+  },
+  "ranking": [
+    "Real_Projective_Plane",
+    "String_Orientifold",
+    "Mobius_Band",
+    "Twisted_Torus",
+    "Klein_Bottle"
+  ],
+  "best_topology": "Real_Projective_Plane",
+  "analysis_metadata": {
+    "timestamp": "2025-06-05T02:30:46.013475",
+    "n_events_analyzed": 65,
+    "batch_size": 8
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "Real_Projective_Plane": {
+    "dimensional_parameters": {
+      "R_effective_m": 22774917.227861296,
+      "R_effective_km": 22774.917227861297,
+      "R_earth_radii": 3.5747790343527384,
+      "R_lunar_distance": 0.05924796365208454,
+      "circumference_m": 143099025.29832932,
+      "surface_area_m2": 6518136913114160.0,
+      "volume_m3": 4.948334289201411e+22,
+      "geometric_factor": 2.0,
+      "fundamental_freq_hz": 4.19
+    },
+    "wave_properties": {
+      "lambda_4d_m": 71549512.64916468,
+      "lambda_5d_m": 35774756.32458234,
+      "lambda_5d_km": 35774.75632458234,
+      "lambda_earth_radii": 5.615249776264689,
+      "frequency_hz": 4.19
+    },
+    "energy_analysis": {
+      "energy_5d_joules": 5.400000000000001e+44,
+      "volume_5d_m3": 4.948334289201411e+22,
+      "energy_density_j_per_m3": 1.091276313280662e+22,
+      "energy_density_j_per_cm3": 1.0912763132806618e+16,
+      "energy_density_ev_per_m3": 6.811962005497266e+40,
+      "coupling_strength": 0.0054,
+      "ratio_to_vacuum": 1.0912763132806618e+31,
+      "ratio_to_cmb": 2.5982769363825287e+35
+    },
+    "observational_data": {
+      "fundamental_freq": 4.19,
+      "combined_significance": 8.82,
+      "detection_rate": 0.108,
+      "geometric_factor": 2.0,
+      "topological_constraint": "antipodal_identification"
+    }
+  },
+  "String_Orientifold": {
+    "dimensional_parameters": {
+      "R_effective_m": 10525026.086552078,
+      "R_effective_km": 10525.026086552078,
+      "R_earth_radii": 1.6520210463902179,
+      "R_lunar_distance": 0.027380400849511127,
+      "circumference_m": 66130689.264705874,
+      "surface_area_m2": 1392054459265397.5,
+      "volume_m3": 4.883803165889818e+21,
+      "geometric_factor": 1.5,
+      "fundamental_freq_hz": 6.8
+    },
+    "wave_properties": {
+      "lambda_4d_m": 44087126.17647059,
+      "lambda_5d_m": 29391417.450980395,
+      "lambda_5d_km": 29391.417450980396,
+      "lambda_earth_radii": 4.6133130514802065,
+      "frequency_hz": 6.8
+    },
+    "energy_analysis": {
+      "energy_5d_joules": 4.6e+44,
+      "volume_5d_m3": 4.883803165889818e+21,
+      "energy_density_j_per_m3": 9.41888901692026e+22,
+      "energy_density_j_per_cm3": 9.41888901692026e+16,
+      "energy_density_ev_per_m3": 5.879456315181186e+41,
+      "coupling_strength": 0.0046,
+      "ratio_to_vacuum": 9.41888901692026e+31,
+      "ratio_to_cmb": 2.2425926230762523e+36
+    },
+    "observational_data": {
+      "fundamental_freq": 6.8,
+      "combined_significance": 6.9,
+      "detection_rate": 0.092,
+      "geometric_factor": 1.5,
+      "topological_constraint": "open_closed_duality"
+    }
+  },
+  "Mobius_Band": {
+    "dimensional_parameters": {
+      "R_effective_m": 10473684.495885972,
+      "R_effective_km": 10473.684495885971,
+      "R_earth_radii": 1.6439624071395342,
+      "R_lunar_distance": 0.02724683791853791,
+      "circumference_m": 65808100.53658537,
+      "surface_area_m2": 1378506564587479.0,
+      "volume_m3": 4.812680944332304e+21,
+      "geometric_factor": 1.8,
+      "fundamental_freq_hz": 8.2
+    },
+    "wave_properties": {
+      "lambda_4d_m": 36560055.85365854,
+      "lambda_5d_m": 20311142.14092141,
+      "lambda_5d_km": 20311.14214092141,
+      "lambda_earth_radii": 3.188061864844045,
+      "frequency_hz": 8.2
+    },
+    "energy_analysis": {
+      "energy_5d_joules": 4.6e+44,
+      "volume_5d_m3": 4.812680944332304e+21,
+      "energy_density_j_per_m3": 9.558082185807954e+22,
+      "energy_density_j_per_cm3": 9.558082185807954e+16,
+      "energy_density_ev_per_m3": 5.9663434368339296e+41,
+      "coupling_strength": 0.0046,
+      "ratio_to_vacuum": 9.558082185807954e+31,
+      "ratio_to_cmb": 2.275733853763799e+36
+    },
+    "observational_data": {
+      "fundamental_freq": 8.2,
+      "combined_significance": 6.86,
+      "detection_rate": 0.092,
+      "geometric_factor": 1.8,
+      "topological_constraint": "single_twist"
+    }
+  },
+  "Twisted_Torus": {
+    "dimensional_parameters": {
+      "R_effective_m": 18480562.23648112,
+      "R_effective_km": 18480.56223648112,
+      "R_earth_radii": 2.900731790375313,
+      "R_lunar_distance": 0.048076384590221434,
+      "circumference_m": 116116797.11267608,
+      "surface_area_m2": 4291807391483322.5,
+      "volume_m3": 2.6438337868432406e+22,
+      "geometric_factor": 2.2,
+      "fundamental_freq_hz": 5.68
+    },
+    "wave_properties": {
+      "lambda_4d_m": 52780362.32394367,
+      "lambda_5d_m": 23991073.783610757,
+      "lambda_5d_km": 23991.07378361076,
+      "lambda_earth_radii": 3.7656684639163016,
+      "frequency_hz": 5.68
+    },
+    "energy_analysis": {
+      "energy_5d_joules": 4.6e+44,
+      "volume_5d_m3": 2.6438337868432406e+22,
+      "energy_density_j_per_m3": 1.7398975771061757e+22,
+      "energy_density_j_per_cm3": 1.7398975771061756e+16,
+      "energy_density_ev_per_m3": 1.0860783877067265e+41,
+      "coupling_strength": 0.0046,
+      "ratio_to_vacuum": 1.7398975771061756e+31,
+      "ratio_to_cmb": 4.1426132788242284e+35
+    },
+    "observational_data": {
+      "fundamental_freq": 5.68,
+      "combined_significance": 6.6,
+      "detection_rate": 0.092,
+      "geometric_factor": 2.2,
+      "topological_constraint": "twisted_periodicity"
+    }
+  },
+  "Klein_Bottle": {
+    "dimensional_parameters": {
+      "R_effective_m": 22540786.315789472,
+      "R_effective_km": 22540.78631578947,
+      "R_earth_radii": 3.5380295582780525,
+      "R_lunar_distance": 0.05863888219508187,
+      "circumference_m": 141627937.39164308,
+      "surface_area_m2": 6384810146182073.0,
+      "volume_m3": 4.7972880390658214e+22,
+      "geometric_factor": 3.141592653589793,
+      "fundamental_freq_hz": 6.65
+    },
+    "wave_properties": {
+      "lambda_4d_m": 45081572.631578945,
+      "lambda_5d_m": 14349910.253344188,
+      "lambda_5d_km": 14349.910253344187,
+      "lambda_earth_radii": 2.2523795720207485,
+      "frequency_hz": 6.65
+    },
+    "energy_analysis": {
+      "energy_5d_joules": 3.1000000000000004e+44,
+      "volume_5d_m3": 4.7972880390658214e+22,
+      "energy_density_j_per_m3": 6.461984301871657e+21,
+      "energy_density_j_per_cm3": 6461984301871657.0,
+      "energy_density_ev_per_m3": 4.033698066087177e+40,
+      "coupling_strength": 0.0031000000000000003,
+      "ratio_to_vacuum": 6.461984301871657e+30,
+      "ratio_to_cmb": 1.5385676909218232e+35
+    },
+    "observational_data": {
+      "fundamental_freq": 6.65,
+      "combined_significance": 4.54,
+      "detection_rate": 0.062,
+      "geometric_factor": 3.141592653589793,
+      "topological_constraint": "self_intersection"
+    }
+  }
+}

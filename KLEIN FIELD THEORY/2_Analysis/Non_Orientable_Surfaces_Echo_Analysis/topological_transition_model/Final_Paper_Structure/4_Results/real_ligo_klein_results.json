@@ -1,0 +1,58 @@
+{
+  "weak": {
+    "n_events": 36,
+    "enhancement_factor": 6.0,
+    "klein_signal_to_noise": 210192.27037037848,
+    "detection_significance": true,
+    "klein_peak_frequency": 5.74964904785287
+  },
+  "intermediate": {
+    "n_events": 3,
+    "enhancement_factor": 1.732050807568877,
+    "klein_signal_to_noise": 210192.27037037836,
+    "detection_significance": true,
+    "klein_peak_frequency": 5.74964904785287
+  },
+  "strong": {
+    "n_events": 1,
+    "enhancement_factor": 1.0,
+    "klein_signal_to_noise": 210192.27037037848,
+    "detection_significance": true,
+    "klein_peak_frequency": 5.74964904785287
+  },
+  "cross_regime": {
+    "comparison_data": {
+      "Weak": {
+        "n_events": 36,
+        "enhancement_factor": 6.0,
+        "signal_to_noise": 210192.27037037848,
+        "detection_significance": true
+      },
+      "Intermediate": {
+        "n_events": 3,
+        "enhancement_factor": 1.732050807568877,
+        "signal_to_noise": 210192.27037037836,
+        "detection_significance": true
+      },
+      "Strong": {
+        "n_events": 1,
+        "enhancement_factor": 1.0,
+        "signal_to_noise": 210192.27037037848,
+        "detection_significance": true
+      }
+    },
+    "scaling_consistent": false,
+    "regimes_analyzed": [
+      "Weak",
+      "Intermediate",
+      "Strong"
+    ]
+  },
+  "overall": {
+    "total_detections": 3,
+    "total_regimes": 3,
+    "detection_rate": 1.0,
+    "overall_verdict": "STRONG Klein Field Detection",
+    "scaling_consistent": false
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "analysis_type": "Cosmological Expansion Effects on Extra-Dimensional Echoes",
+  "timestamp": "20250605_034051",
+  "cosmological_parameters": {
+    "H0_km_s_Mpc": 67.4,
+    "Omega_m": 0.315,
+    "Omega_lambda": 0.685,
+    "universe_age_Gyr": 13.8
+  },
+  "scenario_comparison": {
+    "stabilized": {
+      "description": "Extra dimensions stabilized by moduli fields (R_5D = constant)",
+      "predictions": {
+        "Klein_Bottle": {
+          "z_0.01_M_30": {
+            "tau_observed": 0.4323429823961581,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_62": {
+            "tau_observed": 0.3617133537921624,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_100": {
+            "tau_observed": 0.33366351994963983,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.1_M_30": {
+            "tau_observed": 0.4708685946888851,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_62": {
+            "tau_observed": 0.3939452368033452,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_100": {
+            "tau_observed": 0.36339591281643946,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.5_M_30": {
+            "tau_observed": 0.642093538212116,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_62": {
+            "tau_observed": 0.5371980501863798,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_100": {
+            "tau_observed": 0.4955398811133265,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.6666666666666666
+          }
+        },
+        "Real_Projective_Plane": {
+          "z_0.01_M_30": {
+            "tau_observed": 0.09728405109932647,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_62": {
+            "tau_observed": 0.08139126070371064,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_100": {
+            "tau_observed": 0.07507960172004945,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.1_M_30": {
+            "tau_observed": 0.10595292693986053,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_62": {
+            "tau_observed": 0.088643947301071,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_100": {
+            "tau_observed": 0.0817698632594598,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.5_M_30": {
+            "tau_observed": 0.1444812640089007,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_62": {
+            "tau_observed": 0.1208781099560059,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_100": {
+            "tau_observed": 0.11150435899017244,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.6666666666666666
+          }
+        }
+      }
+    },
+    "coexpanding": {
+      "description": "Extra dimensions expand with 4D space (R_5D \u221d a(t))",
+      "predictions": {
+        "Klein_Bottle": {
+          "z_0.01_M_30": {
+            "tau_observed": 0.4323429823961581,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9802960494069209
+          },
+          "z_0.01_M_62": {
+            "tau_observed": 0.3617133537921624,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9802960494069209
+          },
+          "z_0.01_M_100": {
+            "tau_observed": 0.33366351994963983,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9802960494069209
+          },
+          "z_0.1_M_30": {
+            "tau_observed": 0.4708685946888851,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.8264462809917353
+          },
+          "z_0.1_M_62": {
+            "tau_observed": 0.3939452368033452,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.8264462809917353
+          },
+          "z_0.1_M_100": {
+            "tau_observed": 0.36339591281643946,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.8264462809917353
+          },
+          "z_0.5_M_30": {
+            "tau_observed": 0.642093538212116,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.4444444444444444
+          },
+          "z_0.5_M_62": {
+            "tau_observed": 0.5371980501863798,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.4444444444444444
+          },
+          "z_0.5_M_100": {
+            "tau_observed": 0.4955398811133265,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.4444444444444444
+          }
+        },
+        "Real_Projective_Plane": {
+          "z_0.01_M_30": {
+            "tau_observed": 0.09632084267260045,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9802960494069208
+          },
+          "z_0.01_M_62": {
+            "tau_observed": 0.08058540663733726,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9802960494069208
+          },
+          "z_0.01_M_100": {
+            "tau_observed": 0.07433623932678163,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9802960494069208
+          },
+          "z_0.1_M_30": {
+            "tau_observed": 0.09632084267260045,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.8264462809917353
+          },
+          "z_0.1_M_62": {
+            "tau_observed": 0.08058540663733725,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.8264462809917353
+          },
+          "z_0.1_M_100": {
+            "tau_observed": 0.07433623932678161,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.8264462809917353
+          },
+          "z_0.5_M_30": {
+            "tau_observed": 0.09632084267260047,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.4444444444444445
+          },
+          "z_0.5_M_62": {
+            "tau_observed": 0.08058540663733726,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.4444444444444445
+          },
+          "z_0.5_M_100": {
+            "tau_observed": 0.07433623932678163,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.4444444444444445
+          }
+        }
+      }
+    },
+    "logarithmic": {
+      "description": "Slow extra-dimensional expansion (R_5D \u221d ln(a))",
+      "predictions": {
+        "Klein_Bottle": {
+          "z_0.01_M_30": {
+            "tau_observed": 0.4323429823961581,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_62": {
+            "tau_observed": 0.3617133537921624,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_100": {
+            "tau_observed": 0.33366351994963983,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.1_M_30": {
+            "tau_observed": 0.4708685946888851,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_62": {
+            "tau_observed": 0.3939452368033452,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_100": {
+            "tau_observed": 0.36339591281643946,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.5_M_30": {
+            "tau_observed": 0.642093538212116,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_62": {
+            "tau_observed": 0.5371980501863798,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_100": {
+            "tau_observed": 0.4955398811133265,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.6666666666666666
+          }
+        },
+        "Real_Projective_Plane": {
+          "z_0.01_M_30": {
+            "tau_observed": 0.09728405109932647,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_62": {
+            "tau_observed": 0.08139126070371064,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_100": {
+            "tau_observed": 0.07507960172004945,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.1_M_30": {
+            "tau_observed": 0.10595292693986053,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_62": {
+            "tau_observed": 0.088643947301071,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_100": {
+            "tau_observed": 0.0817698632594598,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.5_M_30": {
+            "tau_observed": 0.1444812640089007,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_62": {
+            "tau_observed": 0.1208781099560059,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_100": {
+            "tau_observed": 0.11150435899017244,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.6666666666666666
+          }
+        }
+      }
+    },
+    "power_law_half": {
+      "description": "Moderate expansion (R_5D \u221d \u221aa(t))",
+      "predictions": {
+        "Klein_Bottle": {
+          "z_0.01_M_30": {
+            "tau_observed": 0.4323429823961581,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_62": {
+            "tau_observed": 0.3617133537921624,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_100": {
+            "tau_observed": 0.33366351994963983,
+            "f_observed": 6.584158415841585,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.1_M_30": {
+            "tau_observed": 0.4708685946888851,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_62": {
+            "tau_observed": 0.3939452368033452,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_100": {
+            "tau_observed": 0.36339591281643946,
+            "f_observed": 6.045454545454546,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.5_M_30": {
+            "tau_observed": 0.642093538212116,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_62": {
+            "tau_observed": 0.5371980501863798,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_100": {
+            "tau_observed": 0.4955398811133265,
+            "f_observed": 4.433333333333334,
+            "amplitude_factor": 0.6666666666666666
+          }
+        },
+        "Real_Projective_Plane": {
+          "z_0.01_M_30": {
+            "tau_observed": 0.09728405109932647,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_62": {
+            "tau_observed": 0.08139126070371064,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.01_M_100": {
+            "tau_observed": 0.07507960172004945,
+            "f_observed": 4.148514851485149,
+            "amplitude_factor": 0.9900990099009901
+          },
+          "z_0.1_M_30": {
+            "tau_observed": 0.10595292693986053,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_62": {
+            "tau_observed": 0.088643947301071,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.1_M_100": {
+            "tau_observed": 0.0817698632594598,
+            "f_observed": 3.8090909090909095,
+            "amplitude_factor": 0.9090909090909091
+          },
+          "z_0.5_M_30": {
+            "tau_observed": 0.1444812640089007,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_62": {
+            "tau_observed": 0.1208781099560059,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.6666666666666666
+          },
+          "z_0.5_M_100": {
+            "tau_observed": 0.11150435899017244,
+            "f_observed": 2.7933333333333334,
+            "amplitude_factor": 0.6666666666666666
+          }
+        }
+      }
+    }
+  },
+  "key_findings": [
+    "Stabilized extra dimensions: Most conservative scenario",
+    "Coexpanding dimensions: Factors scale with cosmic expansion",
+    "Redshift effects: Time dilation increases observed echo times",
+    "Frequency effects: Observed frequencies decreased by (1+z)",
+    "GW150914 corrections: Modest for z=0.09 but important for precision"
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "analysis_type": "Final LIGO 65-Sample Topology Comparison",
+  "timestamp": "20250605_035218",
+  "total_events": 65,
+  "methodology": "Memory-efficient batch processing with symmetry-enhanced factors",
+  "topology_factors": {
+    "Klein_Bottle": {
+      "factor": 3.142,
+      "frequency_hz": 6.65,
+      "description": "Baseline with Z\u2082\u00d7Z symmetries"
+    },
+    "Twisted_Torus": {
+      "factor": 2.801,
+      "frequency_hz": 5.68,
+      "description": "Enhanced by Z\u2084\u00d7Z\u2084 rotational symmetries"
+    },
+    "Mobius_Band": {
+      "factor": 1.14,
+      "frequency_hz": 8.2,
+      "description": "Enhanced by D\u221e dihedral symmetries"
+    },
+    "String_Orientifold": {
+      "factor": 0.687,
+      "frequency_hz": 6.8,
+      "description": "Enhanced by Virasoro+SO(32) symmetries"
+    },
+    "Real_Projective_Plane": {
+      "factor": 0.345,
+      "frequency_hz": 4.19,
+      "description": "Reduced by SO(3)/Z\u2082 interference effects"
+    }
+  },
+  "detailed_results": {
+    "Klein_Bottle": {
+      "topology": "Klein_Bottle",
+      "factor": 3.142,
+      "total_events": 65,
+      "total_detections": 56,
+      "detection_rate": 0.875,
+      "combined_significance": 9.24578917628079,
+      "significant_detections": [
+        {
+          "event": "GW150914",
+          "mass": 62.0,
+          "significance": 1.2125036983247233
+        },
+        {
+          "event": "GW151226",
+          "mass": 21.0,
+          "significance": 1.3988376472480524
+        },
+        {
+          "event": "GW170104",
+          "mass": 49.0,
+          "significance": 0.8842887766769318
+        },
+        {
+          "event": "GW170814",
+          "mass": 55.0,
+          "significance": 0.7035187943432883
+        },
+        {
+          "event": "GW170817",
+          "mass": 2.8,
+          "significance": 1.7602085913854033
+        },
+        {
+          "event": "GW190521",
+          "mass": 142.0,
+          "significance": 0.6234767054743795
+        },
+        {
+          "event": "GW_sim_01",
+          "mass": 51.3,
+          "significance": 0.8663667594485664
+        },
+        {
+          "event": "GW_sim_02",
+          "mass": 22.9,
+          "significance": 1.1043357298057321
+        },
+        {
+          "event": "GW_sim_03",
+          "mass": 88.1,
+          "significance": 1.2070541647975301
+        },
+        {
+          "event": "GW_sim_04",
+          "mass": 29.9,
+          "significance": 1.024162433202688
+        },
+        {
+          "event": "GW_sim_05",
+          "mass": 45.1,
+          "significance": 1.3181950154206072
+        },
+        {
+          "event": "GW_sim_06",
+          "mass": 60.2,
+          "significance": 1.789734753796313
+        },
+        {
+          "event": "GW_sim_07",
+          "mass": 25.4,
+          "significance": 1.1848644772061285
+        },
+        {
+          "event": "GW_sim_08",
+          "mass": 29.2,
+          "significance": 1.264697216945529
+        },
+        {
+          "event": "GW_sim_09",
+          "mass": 30.5,
+          "significance": 0.5902241707028386
+        },
+        {
+          "event": "GW_sim_10",
+          "mass": 29.6,
+          "significance": 1.4761665479252017
+        },
+        {
+          "event": "GW_sim_11",
+          "mass": 29.6,
+          "significance": 1.017010072031559
+        },
+        {
+          "event": "GW_sim_13",
+          "mass": 60.3,
+          "significance": 1.4926842689116886
+        },
+        {
+          "event": "GW_sim_14",
+          "mass": 160.5,
+          "significance": 1.291412496680704
+        },
+        {
+          "event": "GW_sim_15",
+          "mass": 57.9,
+          "significance": 1.795222583402699
+        },
+        {
+          "event": "GW_sim_16",
+          "mass": 24.2,
+          "significance": 1.4324707256723959
+        },
+        {
+          "event": "GW_sim_17",
+          "mass": 31.8,
+          "significance": 2.08291384173399
+        },
+        {
+          "event": "GW_sim_18",
+          "mass": 22.7,
+          "significance": 0.5350960967521763
+        },
+        {
+          "event": "GW_sim_19",
+          "mass": 28.5,
+          "significance": 1.010486412042244
+        },
+        {
+          "event": "GW_sim_20",
+          "mass": 53.5,
+          "significance": 0.6409586213624414
+        },
+        {
+          "event": "GW_sim_22",
+          "mass": 18.8,
+          "significance": 1.725561992440631
+        },
+        {
+          "event": "GW_sim_23",
+          "mass": 23.0,
+          "significance": 0.6639115375318911
+        },
+        {
+          "event": "GW_sim_24",
+          "mass": 60.7,
+          "significance": 0.9944873521051902
+        },
+        {
+          "event": "GW_sim_25",
+          "mass": 47.9,
+          "significance": 0.5545633936425833
+        },
+        {
+          "event": "GW_sim_26",
+          "mass": 84.5,
+          "significance": 1.229173310404069
+        },
+        {
+          "event": "GW_sim_27",
+          "mass": 10.8,
+          "significance": 1.2966693224933081
+        },
+        {
+          "event": "GW_sim_28",
+          "mass": 19.7,
+          "significance": 1.222615566262593
+        },
+        {
+          "event": "GW_sim_29",
+          "mass": 35.8,
+          "significance": 1.427375882252992
+        },
+        {
+          "event": "GW_sim_30",
+          "mass": 27.0,
+          "significance": 1.3297654784150943
+        },
+        {
+          "event": "GW_sim_35",
+          "mass": 28.2,
+          "significance": 1.5077081111789847
+        },
+        {
+          "event": "GW_sim_36",
+          "mass": 75.6,
+          "significance": 0.8923887076777581
+        },
+        {
+          "event": "GW_sim_37",
+          "mass": 40.1,
+          "significance": 1.1715708375141962
+        },
+        {
+          "event": "GW_sim_38",
+          "mass": 32.8,
+          "significance": 0.9536413758080609
+        },
+        {
+          "event": "GW_sim_39",
+          "mass": 36.9,
+          "significance": 1.292835720813359
+        },
+        {
+          "event": "GW_sim_41",
+          "mass": 15.3,
+          "significance": 1.5200916374908786
+        },
+        {
+          "event": "GW_sim_42",
+          "mass": 42.1,
+          "significance": 1.316360762065318
+        },
+        {
+          "event": "GW_sim_43",
+          "mass": 36.3,
+          "significance": 1.116861693749839
+        },
+        {
+          "event": "GW_sim_44",
+          "mass": 47.4,
+          "significance": 1.7158029362538945
+        },
+        {
+          "event": "GW_sim_45",
+          "mass": 70.8,
+          "significance": 1.5814550274773032
+        },
+        {
+          "event": "GW_sim_46",
+          "mass": 26.8,
+          "significance": 0.6322655809922657
+        },
+        {
+          "event": "GW_sim_47",
+          "mass": 53.6,
+          "significance": 1.5237427281579645
+        },
+        {
+          "event": "GW_sim_48",
+          "mass": 31.3,
+          "significance": 1.4404530964328788
+        },
+        {
+          "event": "GW_sim_49",
+          "mass": 42.0,
+          "significance": 0.7467828893672235
+        },
+        {
+          "event": "GW_sim_50",
+          "mass": 40.2,
+          "significance": 1.5802598262424001
+        },
+        {
+          "event": "GW_sim_51",
+          "mass": 23.5,
+          "significance": 1.1509226123828409
+        },
+        {
+          "event": "GW_sim_52",
+          "mass": 54.6,
+          "significance": 1.4114098088973321
+        },
+        {
+          "event": "GW_sim_53",
+          "mass": 27.0,
+          "significance": 0.5561102163149112
+        },
+        {
+          "event": "GW_sim_54",
+          "mass": 33.5,
+          "significance": 1.065060987452513
+        },
+        {
+          "event": "GW_sim_55",
+          "mass": 44.8,
+          "significance": 1.031549334378231
+        },
+        {
+          "event": "GW_sim_57",
+          "mass": 45.6,
+          "significance": 0.8505528317271649
+        },
+        {
+          "event": "GW_sim_59",
+          "mass": 45.3,
+          "significance": 0.8478151206445794
+        }
+      ],
+      "batch_results": []
+    },
+    "Twisted_Torus": {
+      "topology": "Twisted_Torus",
+      "factor": 2.801,
+      "total_events": 65,
+      "total_detections": 41,
+      "detection_rate": 0.640625,
+      "combined_significance": 5.708546398630896,
+      "significant_detections": [
+        {
+          "event": "GW151226",
+          "mass": 21.0,
+          "significance": 0.6449670133900702
+        },
+        {
+          "event": "GW_sim_02",
+          "mass": 22.9,
+          "significance": 0.8698400964290891
+        },
+        {
+          "event": "GW_sim_03",
+          "mass": 88.1,
+          "significance": 0.609968030310899
+        },
+        {
+          "event": "GW_sim_04",
+          "mass": 29.9,
+          "significance": 0.7243678731499057
+        },
+        {
+          "event": "GW_sim_05",
+          "mass": 45.1,
+          "significance": 1.0806963875364386
+        },
+        {
+          "event": "GW_sim_06",
+          "mass": 60.2,
+          "significance": 0.8985219753538325
+        },
+        {
+          "event": "GW_sim_07",
+          "mass": 25.4,
+          "significance": 0.7545354829190267
+        },
+        {
+          "event": "GW_sim_09",
+          "mass": 30.5,
+          "significance": 1.1459554065080058
+        },
+        {
+          "event": "GW_sim_10",
+          "mass": 29.6,
+          "significance": 1.430928239895826
+        },
+        {
+          "event": "GW_sim_11",
+          "mass": 29.6,
+          "significance": 1.2833248570735711
+        },
+        {
+          "event": "GW_sim_13",
+          "mass": 60.3,
+          "significance": 0.7263999371362964
+        },
+        {
+          "event": "GW_sim_14",
+          "mass": 160.5,
+          "significance": 0.9574352524283452
+        },
+        {
+          "event": "GW_sim_15",
+          "mass": 57.9,
+          "significance": 1.1923100355981515
+        },
+        {
+          "event": "GW_sim_16",
+          "mass": 24.2,
+          "significance": 0.5655481234863178
+        },
+        {
+          "event": "GW_sim_17",
+          "mass": 31.8,
+          "significance": 0.6142468262145959
+        },
+        {
+          "event": "GW_sim_19",
+          "mass": 28.5,
+          "significance": 0.6463583890726396
+        },
+        {
+          "event": "GW_sim_20",
+          "mass": 53.5,
+          "significance": 0.7722548469525048
+        },
+        {
+          "event": "GW_sim_22",
+          "mass": 18.8,
+          "significance": 0.7825500404464911
+        },
+        {
+          "event": "GW_sim_25",
+          "mass": 47.9,
+          "significance": 0.5108533852951482
+        },
+        {
+          "event": "GW_sim_26",
+          "mass": 84.5,
+          "significance": 0.9305845563859427
+        },
+        {
+          "event": "GW_sim_27",
+          "mass": 10.8,
+          "significance": 0.9910929920377889
+        },
+        {
+          "event": "GW_sim_28",
+          "mass": 19.7,
+          "significance": 1.0324703028236395
+        },
+        {
+          "event": "GW_sim_30",
+          "mass": 27.0,
+          "significance": 1.43101885172522
+        },
+        {
+          "event": "GW_sim_34",
+          "mass": 79.4,
+          "significance": 0.5269411277314533
+        },
+        {
+          "event": "GW_sim_35",
+          "mass": 28.2,
+          "significance": 0.7848053821357301
+        },
+        {
+          "event": "GW_sim_38",
+          "mass": 32.8,
+          "significance": 0.6651304293162141
+        },
+        {
+          "event": "GW_sim_41",
+          "mass": 15.3,
+          "significance": 1.2072687244811213
+        },
+        {
+          "event": "GW_sim_42",
+          "mass": 42.1,
+          "significance": 0.9394626631033396
+        },
+        {
+          "event": "GW_sim_43",
+          "mass": 36.3,
+          "significance": 0.8178739597147202
+        },
+        {
+          "event": "GW_sim_44",
+          "mass": 47.4,
+          "significance": 0.6375312360532517
+        },
+        {
+          "event": "GW_sim_45",
+          "mass": 70.8,
+          "significance": 0.8014685527536858
+        },
+        {
+          "event": "GW_sim_46",
+          "mass": 26.8,
+          "significance": 1.1047977410271508
+        },
+        {
+          "event": "GW_sim_47",
+          "mass": 53.6,
+          "significance": 0.9993967650308235
+        },
+        {
+          "event": "GW_sim_48",
+          "mass": 31.3,
+          "significance": 1.097734499856271
+        },
+        {
+          "event": "GW_sim_50",
+          "mass": 40.2,
+          "significance": 0.8089070065407427
+        },
+        {
+          "event": "GW_sim_51",
+          "mass": 23.5,
+          "significance": 0.5214814590458938
+        },
+        {
+          "event": "GW_sim_52",
+          "mass": 54.6,
+          "significance": 0.897785123679717
+        },
+        {
+          "event": "GW_sim_54",
+          "mass": 33.5,
+          "significance": 0.7496338836672938
+        },
+        {
+          "event": "GW_sim_56",
+          "mass": 34.0,
+          "significance": 0.5958533735280485
+        },
+        {
+          "event": "GW_sim_57",
+          "mass": 45.6,
+          "significance": 0.9027205345699296
+        },
+        {
+          "event": "GW_sim_59",
+          "mass": 45.3,
+          "significance": 0.5204175955090848
+        }
+      ],
+      "batch_results": []
+    },
+    "Mobius_Band": {
+      "topology": "Mobius_Band",
+      "factor": 1.14,
+      "total_events": 65,
+      "total_detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "significant_detections": [],
+      "batch_results": []
+    },
+    "String_Orientifold": {
+      "topology": "String_Orientifold",
+      "factor": 0.687,
+      "total_events": 65,
+      "total_detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "significant_detections": [],
+      "batch_results": []
+    },
+    "Real_Projective_Plane": {
+      "topology": "Real_Projective_Plane",
+      "factor": 0.345,
+      "total_events": 65,
+      "total_detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "significant_detections": [],
+      "batch_results": []
+    }
+  },
+  "final_ranking": [
+    {
+      "topology": "Klein_Bottle",
+      "factor": 3.142,
+      "detections": 56,
+      "detection_rate": 0.875,
+      "combined_significance": 9.24578917628079,
+      "description": "Baseline with Z\u2082\u00d7Z symmetries"
+    },
+    {
+      "topology": "Twisted_Torus",
+      "factor": 2.801,
+      "detections": 41,
+      "detection_rate": 0.640625,
+      "combined_significance": 5.708546398630896,
+      "description": "Enhanced by Z\u2084\u00d7Z\u2084 rotational symmetries"
+    },
+    {
+      "topology": "Mobius_Band",
+      "factor": 1.14,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "description": "Enhanced by D\u221e dihedral symmetries"
+    },
+    {
+      "topology": "String_Orientifold",
+      "factor": 0.687,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "description": "Enhanced by Virasoro+SO(32) symmetries"
+    },
+    {
+      "topology": "Real_Projective_Plane",
+      "factor": 0.345,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "description": "Reduced by SO(3)/Z\u2082 interference effects"
+    }
+  ],
+  "key_conclusions": [
+    "Best topology: Klein_Bottle (9.25\u03c3)",
+    "Detection rates: 87.5% to 0.0%",
+    "Factor range: 3.142 to 0.345",
+    "Klein Bottle maintains theoretical and observational superiority",
+    "Twisted Torus emerges as viable alternative with symmetry enhancement"
+  ]
+}

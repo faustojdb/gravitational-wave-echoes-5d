@@ -1,0 +1,1884 @@
+{
+  "odd_modes": {
+    "1": {
+      "frequency": 6.65,
+      "detections": 5,
+      "detection_rate": 0.25,
+      "combined_significance": 11.90572065498781,
+      "individual_results": [
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.35813203345758654,
+          "snr": 1.0167289075574146,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.48118786196397645,
+          "snr": 1.826346170912153,
+          "significance": 0.3263461709121529,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.37639667676110566,
+          "snr": 1.9097407192861564,
+          "significance": 0.4097407192861564,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.36698725398333254,
+          "snr": 0.015431388593258762,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 1.372653874323099,
+          "snr": 0.37301569668394424,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.31593568243376224,
+          "snr": 6.6664591061182135,
+          "significance": 5.1664591061182135,
+          "detected": true,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.37255236895461885,
+          "snr": 1.2007686346757802,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.46681368287476555,
+          "snr": 5.293444685130675,
+          "significance": 3.793444685130675,
+          "detected": true,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.33668812190911285,
+          "snr": 1.4594927434986993,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.4284906005779764,
+          "snr": 4.84434139282366,
+          "significance": 3.34434139282366,
+          "detected": true,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.3837283221021903,
+          "snr": 0.17552282915490372,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.3602291902214073,
+          "snr": 1.2355463046064405,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.4509163632366543,
+          "snr": 1.201616463579381,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.43156316547806933,
+          "snr": 1.4258005611035682,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.42595964791529384,
+          "snr": 1.417574158930478,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 9.008881158313196,
+          "significance": 7.508881158313196,
+          "detected": true,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 1.8620051716509074,
+          "significance": 0.3620051716509074,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.3601096848924883,
+          "snr": 2.0284165472168953,
+          "significance": 0.5284165472168953,
+          "detected": false,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.311804863689415,
+          "snr": 7.252890268277396,
+          "significance": 5.752890268277396,
+          "detected": true,
+          "amplitude_factor": 1.0
+        },
+        {
+          "frequency": 6.65,
+          "harmonic_number": 1,
+          "mode_type": "odd",
+          "tau_predicted": 0.3630815911964049,
+          "snr": 2.2852378468453325,
+          "significance": 0.7852378468453325,
+          "detected": false,
+          "amplitude_factor": 1.0
+        }
+      ]
+    },
+    "3": {
+      "frequency": 19.950000000000003,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "individual_results": [
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.35813203345758654,
+          "snr": 0.15037264182158364,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.48118786196397645,
+          "snr": 0.48434388110148374,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.37639667676110566,
+          "snr": 0.01939258809003387,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.36698725398333254,
+          "snr": 0.008887547222145496,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 1.372653874323099,
+          "snr": 0.2283392664952973,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.31593568243376224,
+          "snr": 0.12245499116188938,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.37255236895461885,
+          "snr": 0.04184443985599706,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.46681368287476555,
+          "snr": 0.44017937457313056,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.33668812190911285,
+          "snr": 0.2568514825999043,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.4284906005779764,
+          "snr": 0.26955093002376135,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.3837283221021903,
+          "snr": 0.446523126656882,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.3602291902214073,
+          "snr": 0.19333395986595223,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.4509163632366543,
+          "snr": 0.8898696309071671,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.43156316547806933,
+          "snr": 0.9920781065756746,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.42595964791529384,
+          "snr": 0.3007217456565846,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.759388929907415,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.15807759275713903,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.3601096848924883,
+          "snr": 0.008419714585552594,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.311804863689415,
+          "snr": 0.3765368058453391,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        },
+        {
+          "frequency": 19.950000000000003,
+          "harmonic_number": 3,
+          "mode_type": "odd",
+          "tau_predicted": 0.3630815911964049,
+          "snr": 0.16117043113111884,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.11111111111111106
+        }
+      ]
+    },
+    "5": {
+      "frequency": 33.25,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "individual_results": [
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.35813203345758654,
+          "snr": 0.3996310961062001,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.48118786196397645,
+          "snr": 0.1888687874530384,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.37639667676110566,
+          "snr": 0.014811424932926974,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.36698725398333254,
+          "snr": 0.10273293435397818,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 1.372653874323099,
+          "snr": 0.24078369003901756,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.31593568243376224,
+          "snr": 0.1073279645940291,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.37255236895461885,
+          "snr": 0.1648408476962287,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.46681368287476555,
+          "snr": 0.6279278395980193,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.33668812190911285,
+          "snr": 0.6272175692525611,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.4284906005779764,
+          "snr": 0.496746758516653,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.3837283221021903,
+          "snr": 0.019916544853105792,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.3602291902214073,
+          "snr": 0.2643690637894732,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.4509163632366543,
+          "snr": 0.12831692238145886,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.43156316547806933,
+          "snr": 0.2931615688921686,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.42595964791529384,
+          "snr": 0.021881770270276428,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.7298930789324868,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.6081334312034665,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.3601096848924883,
+          "snr": 0.5741620298550068,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.311804863689415,
+          "snr": 0.3416192786083761,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        },
+        {
+          "frequency": 33.25,
+          "harmonic_number": 5,
+          "mode_type": "odd",
+          "tau_predicted": 0.3630815911964049,
+          "snr": 0.06799694369102759,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.04
+        }
+      ]
+    },
+    "7": {
+      "frequency": 46.550000000000004,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "individual_results": [
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.35813203345758654,
+          "snr": 0.003476592803647414,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.48118786196397645,
+          "snr": 0.2640584274343872,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.37639667676110566,
+          "snr": 0.009352593680865376,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.36698725398333254,
+          "snr": 0.0004490010963540568,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 1.372653874323099,
+          "snr": 0.2590602292590541,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.31593568243376224,
+          "snr": 0.020035108915762687,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.37255236895461885,
+          "snr": 0.5513540283240187,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.46681368287476555,
+          "snr": 0.5788982809205843,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.33668812190911285,
+          "snr": 0.044239125289732145,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.4284906005779764,
+          "snr": 1.297641666000242,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.3837283221021903,
+          "snr": 0.40649105140219527,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.3602291902214073,
+          "snr": 1.8341855616330278,
+          "significance": 0.3341855616330278,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.4509163632366543,
+          "snr": 0.5216208661242082,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.43156316547806933,
+          "snr": 0.16292808875234727,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.42595964791529384,
+          "snr": 0.20142653841515426,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.3066171704967164,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.11587279498233795,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.3601096848924883,
+          "snr": 0.07814763707367385,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.311804863689415,
+          "snr": 0.03805268945965102,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        },
+        {
+          "frequency": 46.550000000000004,
+          "harmonic_number": 7,
+          "mode_type": "odd",
+          "tau_predicted": 0.3630815911964049,
+          "snr": 0.011511646539344556,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.02040816326530612
+        }
+      ]
+    },
+    "9": {
+      "frequency": 59.85,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "individual_results": [
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.35813203345758654,
+          "snr": 0.351475917010468,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.48118786196397645,
+          "snr": 0.40956080137829093,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.37639667676110566,
+          "snr": 0.20714635489718028,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.36698725398333254,
+          "snr": 0.20878850070095153,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 1.372653874323099,
+          "snr": 0.018335461115206012,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.31593568243376224,
+          "snr": 0.003883900328338585,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.37255236895461885,
+          "snr": 0.21571453372241498,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.46681368287476555,
+          "snr": 0.09900301846810507,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.33668812190911285,
+          "snr": 0.17081572735641576,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.4284906005779764,
+          "snr": 0.35956460665233453,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.3837283221021903,
+          "snr": 0.4326725068591605,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.3602291902214073,
+          "snr": 0.30647916805279946,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.4509163632366543,
+          "snr": 0.014187252980023733,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.43156316547806933,
+          "snr": 0.2428426183661794,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.42595964791529384,
+          "snr": 1.3136790255753188,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.13445906545575068,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.33104852820003366,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.3601096848924883,
+          "snr": 0.4181547473220014,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.311804863689415,
+          "snr": 0.03366067602376756,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        },
+        {
+          "frequency": 59.85,
+          "harmonic_number": 9,
+          "mode_type": "odd",
+          "tau_predicted": 0.3630815911964049,
+          "snr": 0.8704592620974471,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.012345679012345678
+        }
+      ]
+    }
+  },
+  "even_modes": {
+    "2": {
+      "frequency": 13.3,
+      "detections": 1,
+      "detection_rate": 0.05,
+      "combined_significance": 0.13241093774566845,
+      "individual_results": [
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.35813203345758654,
+          "snr": 0.0034343801683820335,
+          "significance": 0.13241093774566845,
+          "detected": true,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.48118786196397645,
+          "snr": 0.3776121857271841,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.37639667676110566,
+          "snr": 0.04866063410306577,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.36698725398333254,
+          "snr": 0.4049943101358079,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 1.372653874323099,
+          "snr": 0.16345496703916493,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.31593568243376224,
+          "snr": 0.033123637039357785,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.37255236895461885,
+          "snr": 0.45463815255852236,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.46681368287476555,
+          "snr": 0.39702875751045363,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.33668812190911285,
+          "snr": 0.24597045855872685,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.4284906005779764,
+          "snr": 0.14221329907888744,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.3837283221021903,
+          "snr": 0.3166084035692282,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.3602291902214073,
+          "snr": 0.053561976682493316,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.4509163632366543,
+          "snr": 0.1604437552865983,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.43156316547806933,
+          "snr": 1.2075632851434694,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.42595964791529384,
+          "snr": 0.4479649517923963,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.2210328596249405,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.18728317957565246,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.3601096848924883,
+          "snr": 0.2934374653040921,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.311804863689415,
+          "snr": 0.013709983867654922,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 13.3,
+          "harmonic_number": 2,
+          "mode_type": "even",
+          "tau_predicted": 0.3630815911964049,
+          "snr": 0.03538212832034735,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        }
+      ]
+    },
+    "4": {
+      "frequency": 26.6,
+      "detections": 2,
+      "detection_rate": 0.1,
+      "combined_significance": 0.47732014999511174,
+      "individual_results": [
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.35813203345758654,
+          "snr": 0.17299500661191858,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.48118786196397645,
+          "snr": 0.07711285281524931,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.37639667676110566,
+          "snr": 0.1893592155474118,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.36698725398333254,
+          "snr": 0.7261969345139258,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 1.372653874323099,
+          "snr": 0.2436597689608705,
+          "significance": 0.3156494085706668,
+          "detected": true,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.31593568243376224,
+          "snr": 0.16419554507780212,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.37255236895461885,
+          "snr": 0.09790894123135198,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.46681368287476555,
+          "snr": 0.1848408246363155,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.33668812190911285,
+          "snr": 0.10344305716195978,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.4284906005779764,
+          "snr": 0.33712278658603656,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.3837283221021903,
+          "snr": 0.2400265700015271,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.3602291902214073,
+          "snr": 0.5727023838438521,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.4509163632366543,
+          "snr": 0.05894095786886347,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.43156316547806933,
+          "snr": 0.33451205414863866,
+          "significance": 0.3580502429273638,
+          "detected": true,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.42595964791529384,
+          "snr": 0.2308521110615167,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.035693603141011276,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.5998594106474854,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.3601096848924883,
+          "snr": 0.011934474120165565,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.311804863689415,
+          "snr": 0.2788612620643775,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 26.6,
+          "harmonic_number": 4,
+          "mode_type": "even",
+          "tau_predicted": 0.3630815911964049,
+          "snr": 0.06744015880400202,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        }
+      ]
+    },
+    "6": {
+      "frequency": 39.900000000000006,
+      "detections": 1,
+      "detection_rate": 0.05,
+      "combined_significance": 0.20722923691093975,
+      "individual_results": [
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.35813203345758654,
+          "snr": 0.15769934169856034,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.48118786196397645,
+          "snr": 0.04016051060419362,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.37639667676110566,
+          "snr": 0.317463298862458,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.36698725398333254,
+          "snr": 0.10163343266800846,
+          "significance": 0.20722923691093975,
+          "detected": true,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 1.372653874323099,
+          "snr": 0.2697589178252876,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.31593568243376224,
+          "snr": 0.4449326821479877,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.37255236895461885,
+          "snr": 0.8914902216875112,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.46681368287476555,
+          "snr": 0.6530730525976804,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.33668812190911285,
+          "snr": 0.16946304260244135,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.4284906005779764,
+          "snr": 0.5373409257068585,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.3837283221021903,
+          "snr": 0.3174968846351204,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.3602291902214073,
+          "snr": 0.8371596498287112,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.4509163632366543,
+          "snr": 0.1341844154677101,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.43156316547806933,
+          "snr": 0.23134628406214347,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.42595964791529384,
+          "snr": 0.19856693832445815,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.09515994478355756,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.22462831219174786,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.3601096848924883,
+          "snr": 0.06825179475730343,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.311804863689415,
+          "snr": 0.2739577809195726,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 39.900000000000006,
+          "harmonic_number": 6,
+          "mode_type": "even",
+          "tau_predicted": 0.3630815911964049,
+          "snr": 0.18444895257443308,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        }
+      ]
+    },
+    "8": {
+      "frequency": 53.2,
+      "detections": 0,
+      "detection_rate": 0.0,
+      "combined_significance": 0.0,
+      "individual_results": [
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.35813203345758654,
+          "snr": 0.3550988633764572,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.48118786196397645,
+          "snr": 0.44545961445069954,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.37639667676110566,
+          "snr": 0.25498509800250657,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.36698725398333254,
+          "snr": 1.495347037474448,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 1.372653874323099,
+          "snr": 0.16308825604867513,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.31593568243376224,
+          "snr": 1.47262017864274,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.37255236895461885,
+          "snr": 0.5018758277247506,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.46681368287476555,
+          "snr": 0.6502425275845382,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.33668812190911285,
+          "snr": 0.4059617064825635,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.4284906005779764,
+          "snr": 0.11917178577287066,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.3837283221021903,
+          "snr": 0.44289650530557895,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.3602291902214073,
+          "snr": 0.040235053618295165,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.4509163632366543,
+          "snr": 0.38627860268779507,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.43156316547806933,
+          "snr": 0.734887538243713,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.42595964791529384,
+          "snr": 1.1637224189130382,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.3652758920538487,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.4297911657889597,
+          "snr": 0.16029376147016128,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.3601096848924883,
+          "snr": 0.28060826586816806,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.311804863689415,
+          "snr": 0.415458899161904,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        },
+        {
+          "frequency": 53.2,
+          "harmonic_number": 8,
+          "mode_type": "even",
+          "tau_predicted": 0.3630815911964049,
+          "snr": 0.4575735311077343,
+          "significance": 0,
+          "detected": false,
+          "amplitude_factor": 0.001
+        }
+      ]
+    }
+  },
+  "summary_statistics": {
+    "odd_modes_combined_significance": 11.90572065498781,
+    "even_modes_combined_significance": 0.5369461226759474,
+    "suppression_ratio": 22.173026589062523,
+    "klein_prediction_verified": "True"
+  }
+}

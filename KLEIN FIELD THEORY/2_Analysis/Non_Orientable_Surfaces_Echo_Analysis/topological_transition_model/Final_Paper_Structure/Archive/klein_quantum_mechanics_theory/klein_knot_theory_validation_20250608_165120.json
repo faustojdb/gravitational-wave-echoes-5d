@@ -1,0 +1,18 @@
+{
+  "knot_points_count": 2034,
+  "max_tension": 32.04820772340445,
+  "scale_range": Infinity,
+  "macro_ratio": 40.4,
+  "quantum_ratio": 1.5435,
+  "orbital_inclinations": {
+    "s_orbitals": 89.80219482454953,
+    "p_orbitals": 0.19207998947505506,
+    "d_orbitals": 0.0,
+    "theoretical_s": 0.0,
+    "theoretical_p": 30.0,
+    "theoretical_d": 35.0
+  },
+  "validation_score": 3,
+  "validation_percentage": 60.0,
+  "status": "FAILED"
+}

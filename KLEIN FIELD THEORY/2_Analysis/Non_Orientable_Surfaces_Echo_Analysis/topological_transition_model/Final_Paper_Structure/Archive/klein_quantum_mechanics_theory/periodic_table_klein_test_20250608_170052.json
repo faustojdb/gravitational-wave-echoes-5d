@@ -1,0 +1,1237 @@
+{
+  "ionization_errors": [
+    0.0,
+    59.833326554683374,
+    152.18842729970325,
+    273.3871071543494,
+    729.5959869848157,
+    915.6232682060391,
+    1079.0889982110914,
+    1661.4093112057574,
+    1735.8431670780003,
+    1807.440296777186,
+    8346.821463319717,
+    5882.693172900865,
+    7942.151603742067,
+    6106.839793915604,
+    4965.050777152665,
+    5276.197683397685,
+    4398.675161937076,
+    3773.186675126904,
+    14598.275858097213,
+    10799.75462129887,
+    10493.778649801889,
+    10512.733157586412,
+    11087.711162170179,
+    11506.627456775528,
+    10886.412093085823,
+    10639.701088332067,
+    11081.124159370642,
+    11867.663874345555,
+    12171.376585555274,
+    10358.32978496913,
+    16860.099266544432,
+    13229.48253164557,
+    11027.120185922973,
+    11446.866078753072,
+    9748.30603521245,
+    8482.28057142857,
+    29590.485875029935,
+    22365.949429323966,
+    21121.038362554293,
+    20397.43744347302,
+    20626.438156532036,
+    20241.396221094194,
+    20297.46696428571,
+    20656.3005026491,
+    20967.420230593914,
+    19278.41405781457,
+    21815.915984688498,
+    18865.233711363144,
+    30175.29130660215,
+    24387.139161220042,
+    21339.992506970255,
+    20914.267702552734,
+    18480.31188403024,
+    16312.8868920033,
+    52302.410760143815,
+    40015.66538756715,
+    38302.707459207486,
+    39495.98158512369,
+    40925.68527315916,
+    41493.882352941175,
+    42024.68926907917,
+    42517.82813607374,
+    43284.69479717815,
+    40795.70861788619,
+    43741.607690995916,
+    44137.57501262838,
+    44474.54657920959,
+    44790.319580877556,
+    45180.306516817596,
+    45614.414774544304,
+    53686.15471802432,
+    43541.11238095241,
+    40154.13238410598,
+    39326.24593082402,
+    40267.4352182793,
+    38118.792130836686,
+    36568.120831939355,
+    37312.334189083624,
+    36927.13586603079,
+    33250.143705690745,
+    57965.88662409953,
+    48610.43036268036,
+    50403.05785067254,
+    44417.819650706915,
+    40834.429989270386,
+    36031.03339845569,
+    96953.0958752762,
+    76104.43871945447,
+    79074.15773694399,
+    65928.02441731408,
+    71819.9143463498,
+    69457.48014207296,
+    69821.9533195021,
+    73826.99601725861,
+    75711.58143622363,
+    76731.42323097469,
+    75393.80114553077,
+    75593.80165552374,
+    75159.7407320873,
+    75421.20000000001,
+    75685.60113981768,
+    76067.20330827066,
+    104882.80397959187,
+    86963.46133333341,
+    75672.42678571428,
+    68937.74333333338,
+    64210.94111764704,
+    61550.310222222244,
+    59176.18689473689,
+    57045.595,
+    55123.744333333365,
+    53382.170181818175,
+    85159.94564285717,
+    71123.1244705883,
+    66642.9008152174,
+    58099.44000000004,
+    54812.56691304346,
+    51125.297760000016
+  ],
+  "radius_errors": [
+    6.645152416168864,
+    33.73181623416283,
+    70.37241364105958,
+    62.2293266726648,
+    56.5990417398301,
+    48.21484563451429,
+    42.081772054115724,
+    36.11163956472513,
+    30.404225238338018,
+    26.23648833096521,
+    85.37902525529722,
+    81.00808561869238,
+    76.86026321061121,
+    75.6043073426839,
+    72.59099128075013,
+    69.71668502211936,
+    66.52618441191345,
+    63.03453892772508,
+    89.27881114065967,
+    86.66749770135687,
+    86.04190209530232,
+    85.50808462538669,
+    85.18512894438835,
+    84.83996775492083,
+    84.4706611283121,
+    84.07501195248366,
+    83.75808640504354,
+    83.53272045857791,
+    83.18039019597502,
+    82.92667565099214,
+    82.27708588202822,
+    80.8276577341388,
+    79.09580021376895,
+    76.99114246725077,
+    74.92519028449449,
+    73.3587792897326,
+    91.199667538384,
+    89.40637202076125,
+    89.11241715229058,
+    88.8516090486588
+  ],
+  "predictions": {
+    "1": {
+      "element": "H",
+      "ionization_exp": 13.598,
+      "ionization_pred": 13.598,
+      "ionization_error": 0.0,
+      "radius_exp": 53,
+      "radius_pred": 49.4780692194305,
+      "radius_error": 6.645152416168864
+    },
+    "2": {
+      "element": "He",
+      "ionization_exp": 24.587,
+      "ionization_pred": 39.29822,
+      "ionization_error": 59.833326554683374,
+      "radius_exp": 31,
+      "radius_pred": 41.456863032590476,
+      "radius_error": 33.73181623416283
+    },
+    "3": {
+      "element": "Li",
+      "ionization_exp": 5.392,
+      "ionization_pred": 13.598,
+      "ionization_error": 152.18842729970325,
+      "radius_exp": 167,
+      "radius_pred": 49.4780692194305,
+      "radius_error": 70.37241364105958
+    },
+    "4": {
+      "element": "Be",
+      "ionization_exp": 9.323,
+      "ionization_pred": 34.81088,
+      "ionization_error": 273.3871071543494,
+      "radius_exp": 112,
+      "radius_pred": 42.30315412661542,
+      "radius_error": 62.2293266726648
+    },
+    "5": {
+      "element": "B",
+      "ionization_exp": 8.298,
+      "ionization_pred": 68.839875,
+      "ionization_error": 729.5959869848157,
+      "radius_exp": 87,
+      "radius_pred": 37.758833686347806,
+      "radius_error": 56.5990417398301
+    },
+    "6": {
+      "element": "C",
+      "ionization_exp": 11.26,
+      "ionization_pred": 114.35918000000001,
+      "ionization_error": 915.6232682060391,
+      "radius_exp": 67,
+      "radius_pred": 34.69605342487542,
+      "radius_error": 48.21484563451429
+    },
+    "7": {
+      "element": "N",
+      "ionization_exp": 14.534,
+      "ionization_pred": 171.368795,
+      "ionization_error": 1079.0889982110914,
+      "radius_exp": 56,
+      "radius_pred": 32.434207649695196,
+      "radius_error": 42.081772054115724
+    },
+    "8": {
+      "element": "O",
+      "ionization_exp": 13.618,
+      "ionization_pred": 239.86872000000002,
+      "ionization_error": 1661.4093112057574,
+      "radius_exp": 48,
+      "radius_pred": 30.666413008931936,
+      "radius_error": 36.11163956472513
+    },
+    "9": {
+      "element": "F",
+      "ionization_exp": 17.423,
+      "ionization_pred": 319.858955,
+      "ionization_error": 1735.8431670780003,
+      "radius_exp": 42,
+      "radius_pred": 29.230225399898032,
+      "radius_error": 30.404225238338018
+    },
+    "10": {
+      "element": "Ne",
+      "ionization_exp": 21.565,
+      "ionization_pred": 411.33950000000016,
+      "ionization_error": 1807.440296777186,
+      "radius_exp": 38,
+      "radius_pred": 28.030134434233222,
+      "radius_error": 26.23648833096521
+    },
+    "11": {
+      "element": "Na",
+      "ionization_exp": 5.139,
+      "ionization_pred": 434.0821550000002,
+      "ionization_error": 8346.821463319717,
+      "radius_exp": 190,
+      "radius_pred": 27.779852014935262,
+      "radius_error": 85.37902525529722
+    },
+    "12": {
+      "element": "Mg",
+      "ionization_exp": 7.646,
+      "ionization_pred": 457.43672000000015,
+      "ionization_error": 5882.693172900865,
+      "radius_exp": 145,
+      "radius_pred": 27.53827585289605,
+      "radius_error": 81.00808561869238
+    },
+    "13": {
+      "element": "Al",
+      "ionization_exp": 5.986,
+      "ionization_pred": 481.4031950000001,
+      "ionization_error": 7942.151603742067,
+      "radius_exp": 118,
+      "radius_pred": 27.30488941147876,
+      "radius_error": 76.86026321061121
+    },
+    "14": {
+      "element": "Si",
+      "ionization_exp": 8.152,
+      "ionization_pred": 505.98157999999995,
+      "ionization_error": 6106.839793915604,
+      "radius_exp": 111,
+      "radius_pred": 27.079218849620876,
+      "radius_error": 75.6043073426839
+    },
+    "15": {
+      "element": "P",
+      "ionization_exp": 10.487,
+      "ionization_pred": 531.171875,
+      "ionization_error": 4965.050777152665,
+      "radius_exp": 98,
+      "radius_pred": 26.860828544864873,
+      "radius_error": 72.59099128075013
+    },
+    "16": {
+      "element": "S",
+      "ionization_exp": 10.36,
+      "ionization_pred": 556.9740800000002,
+      "ionization_error": 5276.197683397685,
+      "radius_exp": 88,
+      "radius_pred": 26.64931718053496,
+      "radius_error": 69.71668502211936
+    },
+    "17": {
+      "element": "Cl",
+      "ionization_exp": 12.968,
+      "ionization_pred": 583.388195,
+      "ionization_error": 4398.675161937076,
+      "radius_exp": 79,
+      "radius_pred": 26.444314314588375,
+      "radius_error": 66.52618441191345
+    },
+    "18": {
+      "element": "Ar",
+      "ionization_exp": 15.76,
+      "ionization_pred": 610.41422,
+      "ionization_error": 3773.186675126904,
+      "radius_exp": 71,
+      "radius_pred": 26.2454773613152,
+      "radius_error": 63.03453892772508
+    },
+    "19": {
+      "element": "K",
+      "ionization_exp": 4.341,
+      "ionization_pred": 638.0521550000001,
+      "ionization_error": 14598.275858097213,
+      "radius_exp": 243,
+      "radius_pred": 26.052488928197032,
+      "radius_error": 89.27881114065967
+    },
+    "20": {
+      "element": "Ca",
+      "ionization_exp": 6.113,
+      "ionization_pred": 666.302,
+      "ionization_error": 10799.75462129887,
+      "radius_exp": 194,
+      "radius_pred": 25.8650544593677,
+      "radius_error": 86.66749770135687
+    },
+    "21": {
+      "element": "Sc",
+      "ionization_exp": 6.562,
+      "ionization_pred": 695.163755,
+      "ionization_error": 10493.778649801889,
+      "radius_exp": 184,
+      "radius_pred": 25.68290014464374,
+      "radius_error": 86.04190209530232
+    },
+    "22": {
+      "element": "Ti",
+      "ionization_exp": 6.828,
+      "ionization_pred": 724.6374200000002,
+      "ionization_error": 10512.733157586412,
+      "radius_exp": 176,
+      "radius_pred": 25.505771059319454,
+      "radius_error": 85.50808462538669
+    },
+    "23": {
+      "element": "V",
+      "ionization_exp": 6.746,
+      "ionization_pred": 754.7229950000003,
+      "ionization_error": 11087.711162170179,
+      "radius_exp": 171,
+      "radius_pred": 25.333429505095914,
+      "radius_error": 85.18512894438835
+    },
+    "24": {
+      "element": "Cr",
+      "ionization_exp": 6.767,
+      "ionization_pred": 785.42048,
+      "ionization_error": 11506.627456775528,
+      "radius_exp": 166,
+      "radius_pred": 25.165653526831417,
+      "radius_error": 84.83996775492083
+    },
+    "25": {
+      "element": "Mn",
+      "ionization_exp": 7.434,
+      "ionization_pred": 816.729875,
+      "ionization_error": 10886.412093085823,
+      "radius_exp": 161,
+      "radius_pred": 25.0022355834175,
+      "radius_error": 84.4706611283121
+    },
+    "26": {
+      "element": "Fe",
+      "ionization_exp": 7.902,
+      "ionization_pred": 848.6511800000001,
+      "ionization_error": 10639.701088332067,
+      "radius_exp": 156,
+      "radius_pred": 24.842981354125474,
+      "radius_error": 84.07501195248366
+    },
+    "27": {
+      "element": "Co",
+      "ionization_exp": 7.881,
+      "ionization_pred": 881.1843950000002,
+      "ionization_error": 11081.124159370642,
+      "radius_exp": 152,
+      "radius_pred": 24.687708664333808,
+      "radius_error": 83.75808640504354
+    },
+    "28": {
+      "element": "Ni",
+      "ionization_exp": 7.64,
+      "ionization_pred": 914.3295200000003,
+      "ionization_error": 11867.663874345555,
+      "radius_exp": 149,
+      "radius_pred": 24.536246516718897,
+      "radius_error": 83.53272045857791
+    },
+    "29": {
+      "element": "Cu",
+      "ionization_exp": 7.726,
+      "ionization_pred": 948.0865550000004,
+      "ionization_error": 12171.376585555274,
+      "radius_exp": 145,
+      "radius_pred": 24.388434215836224,
+      "radius_error": 83.18039019597502
+    },
+    "30": {
+      "element": "Zn",
+      "ionization_exp": 9.394,
+      "ionization_pred": 982.4555,
+      "ionization_error": 10358.32978496913,
+      "radius_exp": 142,
+      "radius_pred": 24.24412057559116,
+      "radius_error": 82.92667565099214
+    },
+    "31": {
+      "element": "El31",
+      "ionization_exp": 5.999,
+      "ionization_pred": 1017.4363550000005,
+      "ionization_error": 16860.099266544432,
+      "radius_exp": 136,
+      "radius_pred": 24.103163200441614,
+      "radius_error": 82.27708588202822
+    },
+    "32": {
+      "element": "El32",
+      "ionization_exp": 7.9,
+      "ionization_pred": 1053.0291200000001,
+      "ionization_error": 13229.48253164557,
+      "radius_exp": 125,
+      "radius_pred": 23.965427832326515,
+      "radius_error": 80.8276577341388
+    },
+    "33": {
+      "element": "El33",
+      "ionization_exp": 9.789,
+      "ionization_pred": 1089.2337949999999,
+      "ionization_error": 11027.120185922973,
+      "radius_exp": 114,
+      "radius_pred": 23.83078775630339,
+      "radius_error": 79.09580021376895
+    },
+    "34": {
+      "element": "El34",
+      "ionization_exp": 9.752,
+      "ionization_pred": 1126.0503799999994,
+      "ionization_error": 11446.866078753072,
+      "radius_exp": 103,
+      "radius_pred": 23.6991232587317,
+      "radius_error": 76.99114246725077
+    },
+    "35": {
+      "element": "El35",
+      "ionization_exp": 11.814,
+      "ionization_pred": 1163.478874999999,
+      "ionization_error": 9748.30603521245,
+      "radius_exp": 94,
+      "radius_pred": 23.57032113257517,
+      "radius_error": 74.92519028449449
+    },
+    "36": {
+      "element": "El36",
+      "ionization_exp": 14.0,
+      "ionization_pred": 1201.5192799999998,
+      "ionization_error": 8482.28057142857,
+      "radius_exp": 88,
+      "radius_pred": 23.44427422503531,
+      "radius_error": 73.3587792897326
+    },
+    "37": {
+      "element": "El37",
+      "ionization_exp": 4.177,
+      "ionization_pred": 1240.1715950000003,
+      "ionization_error": 29590.485875029935,
+      "radius_exp": 265,
+      "radius_pred": 23.320881023282357,
+      "radius_error": 91.199667538384
+    },
+    "38": {
+      "element": "El38",
+      "ionization_exp": 5.695,
+      "ionization_pred": 1279.43582,
+      "ionization_error": 22365.949429323966,
+      "radius_exp": 219,
+      "radius_pred": 23.20004527453286,
+      "radius_error": 89.40637202076125
+    },
+    "39": {
+      "element": "El39",
+      "ionization_exp": 6.217,
+      "ionization_pred": 1319.3119550000004,
+      "ionization_error": 21121.038362554293,
+      "radius_exp": 212,
+      "radius_pred": 23.081675637143974,
+      "radius_error": 89.11241715229058
+    },
+    "40": {
+      "element": "El40",
+      "ionization_exp": 6.634,
+      "ionization_pred": 1359.8000000000002,
+      "ionization_error": 20397.43744347302,
+      "radius_exp": 206,
+      "radius_pred": 22.965685359762876,
+      "radius_error": 88.8516090486588
+    },
+    "41": {
+      "element": "El41",
+      "ionization_exp": 6.759,
+      "ionization_pred": 1400.8999550000005,
+      "ionization_error": 20626.438156532036,
+      "radius_exp": null,
+      "radius_pred": 22.85199198589206,
+      "radius_error": null
+    },
+    "42": {
+      "element": "El42",
+      "ionization_exp": 7.092,
+      "ionization_pred": 1442.6118200000003,
+      "ionization_error": 20241.396221094194,
+      "radius_exp": null,
+      "radius_pred": 22.740517081514827,
+      "radius_error": null
+    },
+    "43": {
+      "element": "El43",
+      "ionization_exp": 7.28,
+      "ionization_pred": 1484.935595,
+      "ionization_error": 20297.46696428571,
+      "radius_exp": null,
+      "radius_pred": 22.63118598367423,
+      "radius_error": null
+    },
+    "44": {
+      "element": "El44",
+      "ionization_exp": 7.361,
+      "ionization_pred": 1527.8712800000005,
+      "ionization_error": 20656.3005026491,
+      "radius_exp": null,
+      "radius_pred": 22.523927568118502,
+      "radius_error": null
+    },
+    "45": {
+      "element": "El45",
+      "ionization_exp": 7.459,
+      "ionization_pred": 1571.418875,
+      "ionization_error": 20967.420230593914,
+      "radius_exp": null,
+      "radius_pred": 22.418674034320137,
+      "radius_error": null
+    },
+    "46": {
+      "element": "El46",
+      "ionization_exp": 8.337,
+      "ionization_pred": 1615.5783800000006,
+      "ionization_error": 19278.41405781457,
+      "radius_exp": null,
+      "radius_pred": 22.315360706347047,
+      "radius_error": null
+    },
+    "47": {
+      "element": "El47",
+      "ionization_exp": 7.576,
+      "ionization_pred": 1660.3497950000003,
+      "ionization_error": 21815.915984688498,
+      "radius_exp": null,
+      "radius_pred": 22.213925848216984,
+      "radius_error": null
+    },
+    "48": {
+      "element": "El48",
+      "ionization_exp": 8.994,
+      "ionization_pred": 1705.733120000001,
+      "ionization_error": 18865.233711363144,
+      "radius_exp": null,
+      "radius_pred": 22.1143104925008,
+      "radius_error": null
+    },
+    "49": {
+      "element": "El49",
+      "ionization_exp": 5.786,
+      "ionization_pred": 1751.7283550000004,
+      "ionization_error": 30175.29130660215,
+      "radius_exp": null,
+      "radius_pred": 22.016458281060835,
+      "radius_error": null
+    },
+    "50": {
+      "element": "El50",
+      "ionization_exp": 7.344,
+      "ionization_pred": 1798.3355000000001,
+      "ionization_error": 24387.139161220042,
+      "radius_exp": null,
+      "radius_pred": 21.920315316917467,
+      "radius_error": null
+    },
+    "51": {
+      "element": "El51",
+      "ionization_exp": 8.608,
+      "ionization_pred": 1845.5545549999997,
+      "ionization_error": 21339.992506970255,
+      "radius_exp": null,
+      "radius_pred": 21.825830026332344,
+      "radius_error": null
+    },
+    "52": {
+      "element": "El52",
+      "ionization_exp": 9.01,
+      "ionization_pred": 1893.3855200000014,
+      "ionization_error": 20914.267702552734,
+      "radius_exp": null,
+      "radius_pred": 21.73295303028227,
+      "radius_error": null
+    },
+    "53": {
+      "element": "El53",
+      "ionization_exp": 10.451,
+      "ionization_pred": 1941.828395000001,
+      "ionization_error": 18480.31188403024,
+      "radius_exp": null,
+      "radius_pred": 21.641637024574024,
+      "radius_error": null
+    },
+    "54": {
+      "element": "El54",
+      "ionization_exp": 12.13,
+      "ionization_pred": 1990.8831800000005,
+      "ionization_error": 16312.8868920033,
+      "radius_exp": null,
+      "radius_pred": 21.55183666791875,
+      "radius_error": null
+    },
+    "55": {
+      "element": "El55",
+      "ionization_exp": 3.894,
+      "ionization_pred": 2040.5498750000002,
+      "ionization_error": 52302.410760143815,
+      "radius_exp": null,
+      "radius_pred": 21.46350847734619,
+      "radius_error": null
+    },
+    "56": {
+      "element": "El56",
+      "ionization_exp": 5.212,
+      "ionization_pred": 2090.8284799999997,
+      "ionization_error": 40015.66538756715,
+      "radius_exp": null,
+      "radius_pred": 21.376610730394074,
+      "radius_error": null
+    },
+    "57": {
+      "element": "El57",
+      "ionization_exp": 5.577,
+      "ionization_pred": 2141.7189950000015,
+      "ionization_error": 38302.707459207486,
+      "radius_exp": null,
+      "radius_pred": 21.291103373557643,
+      "radius_error": null
+    },
+    "58": {
+      "element": "El58",
+      "ionization_exp": 5.539,
+      "ionization_pred": 2193.221420000001,
+      "ionization_error": 39495.98158512369,
+      "radius_exp": null,
+      "radius_pred": 21.20694793652933,
+      "radius_error": null
+    },
+    "59": {
+      "element": "El59",
+      "ionization_exp": 5.473,
+      "ionization_pred": 2245.3357550000005,
+      "ionization_error": 40925.68527315916,
+      "radius_exp": null,
+      "radius_pred": 21.124107451798615,
+      "radius_error": null
+    },
+    "60": {
+      "element": "El60",
+      "ionization_exp": 5.525,
+      "ionization_pred": 2298.0620000000004,
+      "ionization_error": 41493.882352941175,
+      "radius_exp": null,
+      "radius_pred": 21.04254637921902,
+      "radius_error": null
+    },
+    "61": {
+      "element": "El61",
+      "ionization_exp": 5.582,
+      "ionization_pred": 2351.4001549999994,
+      "ionization_error": 42024.68926907917,
+      "radius_exp": null,
+      "radius_pred": 20.96223053518185,
+      "radius_error": null
+    },
+    "62": {
+      "element": "El62",
+      "ionization_exp": 5.644,
+      "ionization_pred": 2405.3502200000016,
+      "ionization_error": 42517.82813607374,
+      "radius_exp": null,
+      "radius_pred": 20.883127026066493,
+      "radius_error": null
+    },
+    "63": {
+      "element": "El63",
+      "ionization_exp": 5.67,
+      "ionization_pred": 2459.9121950000012,
+      "ionization_error": 43284.69479717815,
+      "radius_exp": null,
+      "radius_pred": 20.80520418566397,
+      "radius_error": null
+    },
+    "64": {
+      "element": "El64",
+      "ionization_exp": 6.15,
+      "ionization_pred": 2515.0860800000005,
+      "ionization_error": 40795.70861788619,
+      "radius_exp": null,
+      "radius_pred": 20.728431516295238,
+      "radius_error": null
+    },
+    "65": {
+      "element": "El65",
+      "ionization_exp": 5.864,
+      "ionization_pred": 2570.8718750000003,
+      "ionization_error": 43741.607690995916,
+      "radius_exp": null,
+      "radius_pred": 20.652779633367942,
+      "radius_error": null
+    },
+    "66": {
+      "element": "El66",
+      "ionization_exp": 5.939,
+      "ionization_pred": 2627.2695799999997,
+      "ionization_error": 44137.57501262838,
+      "radius_exp": null,
+      "radius_pred": 20.578220213135857,
+      "radius_error": null
+    },
+    "67": {
+      "element": "El67",
+      "ionization_exp": 6.022,
+      "ionization_pred": 2684.279195000002,
+      "ionization_error": 44474.54657920959,
+      "radius_exp": null,
+      "radius_pred": 20.50472594344358,
+      "radius_error": null
+    },
+    "68": {
+      "element": "El68",
+      "ionization_exp": 6.108,
+      "ionization_pred": 2741.900720000001,
+      "ionization_error": 44790.319580877556,
+      "radius_exp": null,
+      "radius_pred": 20.43227047725615,
+      "radius_error": null
+    },
+    "69": {
+      "element": "El69",
+      "ionization_exp": 6.184,
+      "ionization_pred": 2800.1341550000006,
+      "ionization_error": 45180.306516817596,
+      "radius_exp": null,
+      "radius_pred": 20.360828388788413,
+      "radius_error": null
+    },
+    "70": {
+      "element": "El70",
+      "ionization_exp": 6.254,
+      "ionization_pred": 2858.9795000000004,
+      "ionization_error": 45614.414774544304,
+      "radius_exp": null,
+      "radius_pred": 20.290375132063406,
+      "radius_error": null
+    },
+    "71": {
+      "element": "El71",
+      "ionization_exp": 5.426,
+      "ionization_pred": 2918.4367549999993,
+      "ionization_error": 53686.15471802432,
+      "radius_exp": null,
+      "radius_pred": 20.22088700174156,
+      "radius_error": null
+    },
+    "72": {
+      "element": "El72",
+      "ionization_exp": 6.825,
+      "ionization_pred": 2978.505920000002,
+      "ionization_error": 43541.11238095241,
+      "radius_exp": null,
+      "radius_pred": 20.15234109607449,
+      "radius_error": null
+    },
+    "73": {
+      "element": "El73",
+      "ionization_exp": 7.55,
+      "ionization_pred": 3039.1869950000014,
+      "ionization_error": 40154.13238410598,
+      "radius_exp": null,
+      "radius_pred": 20.084715281847934,
+      "radius_error": null
+    },
+    "74": {
+      "element": "El74",
+      "ionization_exp": 7.864,
+      "ionization_pred": 3100.479980000001,
+      "ionization_error": 39326.24593082402,
+      "radius_exp": null,
+      "radius_pred": 20.01798816118824,
+      "radius_error": null
+    },
+    "75": {
+      "element": "El75",
+      "ionization_exp": 7.834,
+      "ionization_pred": 3162.384875,
+      "ionization_error": 40267.4352182793,
+      "radius_exp": null,
+      "radius_pred": 19.952139040115956,
+      "radius_error": null
+    },
+    "76": {
+      "element": "El76",
+      "ionization_exp": 8.438,
+      "ionization_pred": 3224.90168,
+      "ionization_error": 38118.792130836686,
+      "radius_exp": null,
+      "radius_pred": 19.887147898738398,
+      "radius_error": null
+    },
+    "77": {
+      "element": "El77",
+      "ionization_exp": 8.967,
+      "ionization_pred": 3288.030395000002,
+      "ionization_error": 36568.120831939355,
+      "radius_exp": null,
+      "radius_pred": 19.822995362980652,
+      "radius_error": null
+    },
+    "78": {
+      "element": "El78",
+      "ionization_exp": 8.959,
+      "ionization_pred": 3351.7710200000015,
+      "ionization_error": 37312.334189083624,
+      "radius_exp": null,
+      "radius_pred": 19.75966267776175,
+      "radius_error": null
+    },
+    "79": {
+      "element": "El79",
+      "ionization_exp": 9.226,
+      "ionization_pred": 3416.123555000001,
+      "ionization_error": 36927.13586603079,
+      "radius_exp": null,
+      "radius_pred": 19.69713168152904,
+      "radius_error": null
+    },
+    "80": {
+      "element": "El80",
+      "ionization_exp": 10.438,
+      "ionization_pred": 3481.088,
+      "ionization_error": 33250.143705690745,
+      "radius_exp": null,
+      "radius_pred": 19.635384782069842,
+      "radius_error": null
+    },
+    "81": {
+      "element": "El81",
+      "ionization_exp": 6.108,
+      "ionization_pred": 3546.6643549999994,
+      "ionization_error": 57965.88662409953,
+      "radius_exp": null,
+      "radius_pred": 19.5744049335251,
+      "radius_error": null
+    },
+    "82": {
+      "element": "El82",
+      "ionization_exp": 7.417,
+      "ionization_pred": 3612.852620000002,
+      "ionization_error": 48610.43036268036,
+      "radius_exp": null,
+      "radius_pred": 19.514175614534643,
+      "radius_error": null
+    },
+    "83": {
+      "element": "El83",
+      "ionization_exp": 7.286,
+      "ionization_pred": 3679.6527950000013,
+      "ionization_error": 50403.05785067254,
+      "radius_exp": null,
+      "radius_pred": 19.454680807448625,
+      "radius_error": null
+    },
+    "84": {
+      "element": "El84",
+      "ionization_exp": 8.417,
+      "ionization_pred": 3747.064880000001,
+      "ionization_error": 44417.819650706915,
+      "radius_exp": null,
+      "radius_pred": 19.39590497854381,
+      "radius_error": null
+    },
+    "85": {
+      "element": "El85",
+      "ionization_exp": 9.32,
+      "ionization_pred": 3815.0888750000004,
+      "ionization_error": 40834.429989270386,
+      "radius_exp": null,
+      "radius_pred": 19.337833059187677,
+      "radius_error": null
+    },
+    "86": {
+      "element": "El86",
+      "ionization_exp": 10.749,
+      "ionization_pred": 3883.7247800000027,
+      "ionization_error": 36031.03339845569,
+      "radius_exp": null,
+      "radius_pred": 19.280450427896795,
+      "radius_error": null
+    },
+    "87": {
+      "element": "El87",
+      "ionization_exp": 4.073,
+      "ionization_pred": 3952.9725949999993,
+      "ionization_error": 96953.0958752762,
+      "radius_exp": null,
+      "radius_pred": 19.223742893239553,
+      "radius_error": null
+    },
+    "88": {
+      "element": "El88",
+      "ionization_exp": 5.279,
+      "ionization_pred": 4022.8323200000013,
+      "ionization_error": 76104.43871945447,
+      "radius_exp": null,
+      "radius_pred": 19.167696677536426,
+      "radius_error": null
+    },
+    "89": {
+      "element": "El89",
+      "ionization_exp": 5.17,
+      "ionization_pred": 4093.3039550000044,
+      "ionization_error": 79074.15773694399,
+      "radius_exp": null,
+      "radius_pred": 19.112298401314032,
+      "radius_error": null
+    },
+    "90": {
+      "element": "El90",
+      "ionization_exp": 6.307,
+      "ionization_pred": 4164.3875,
+      "ionization_error": 65928.02441731408,
+      "radius_exp": null,
+      "radius_pred": 19.057535068471918,
+      "radius_error": null
+    },
+    "91": {
+      "element": "El91",
+      "ionization_exp": 5.89,
+      "ionization_pred": 4236.0829550000035,
+      "ionization_error": 71819.9143463498,
+      "radius_exp": null,
+      "radius_pred": 19.00339405212356,
+      "radius_error": null
+    },
+    "92": {
+      "element": "El92",
+      "ionization_exp": 6.194,
+      "ionization_pred": 4308.3903199999995,
+      "ionization_error": 69457.48014207296,
+      "radius_exp": null,
+      "radius_pred": 18.949863081075613,
+      "radius_error": null
+    },
+    "93": {
+      "element": "El93",
+      "ionization_exp": 6.266,
+      "ionization_pred": 4381.3095950000015,
+      "ionization_error": 69821.9533195021,
+      "radius_exp": null,
+      "radius_pred": 18.89693022691133,
+      "radius_error": null
+    },
+    "94": {
+      "element": "El94",
+      "ionization_exp": 6.026,
+      "ionization_pred": 4454.840780000004,
+      "ionization_error": 73826.99601725861,
+      "radius_exp": null,
+      "radius_pred": 18.844583891646632,
+      "radius_error": null
+    },
+    "95": {
+      "element": "El95",
+      "ionization_exp": 5.974,
+      "ionization_pred": 4528.983875,
+      "ionization_error": 75711.58143622363,
+      "radius_exp": null,
+      "radius_pred": 18.792812795928647,
+      "radius_error": null
+    },
+    "96": {
+      "element": "El96",
+      "ionization_exp": 5.992,
+      "ionization_pred": 4603.7388800000035,
+      "ionization_error": 76731.42323097469,
+      "radius_exp": null,
+      "radius_pred": 18.741605967748825,
+      "radius_error": null
+    },
+    "97": {
+      "element": "El97",
+      "ionization_exp": 6.198,
+      "ionization_pred": 4679.105794999999,
+      "ionization_error": 75393.80114553077,
+      "radius_exp": null,
+      "radius_pred": 18.69095273164414,
+      "radius_error": null
+    },
+    "98": {
+      "element": "El98",
+      "ionization_exp": 6.282,
+      "ionization_pred": 4755.084620000001,
+      "ionization_error": 75593.80165552374,
+      "radius_exp": null,
+      "radius_pred": 18.64084269836155,
+      "radius_error": null
+    },
+    "99": {
+      "element": "El99",
+      "ionization_exp": 6.42,
+      "ionization_pred": 4831.675355000005,
+      "ionization_error": 75159.7407320873,
+      "radius_exp": null,
+      "radius_pred": 18.591265754962194,
+      "radius_error": null
+    },
+    "100": {
+      "element": "El100",
+      "ionization_exp": 6.5,
+      "ionization_pred": 4908.878000000001,
+      "ionization_error": 75421.20000000001,
+      "radius_exp": null,
+      "radius_pred": 18.542212055343494,
+      "radius_error": null
+    },
+    "101": {
+      "element": "El101",
+      "ionization_exp": 6.58,
+      "ionization_pred": 4986.692555000003,
+      "ionization_error": 75685.60113981768,
+      "radius_exp": null,
+      "radius_pred": 18.493672011158083,
+      "radius_error": null
+    },
+    "102": {
+      "element": "El102",
+      "ionization_exp": 6.65,
+      "ionization_pred": 5065.119019999999,
+      "ionization_error": 76067.20330827066,
+      "radius_exp": null,
+      "radius_pred": 18.445636283110286,
+      "radius_error": null
+    },
+    "103": {
+      "element": "El103",
+      "ionization_exp": 4.9,
+      "ionization_pred": 5144.157395000002,
+      "ionization_error": 104882.80397959187,
+      "radius_exp": null,
+      "radius_pred": 18.398095772611438,
+      "radius_error": null
+    },
+    "104": {
+      "element": "El104",
+      "ionization_exp": 6.0,
+      "ionization_pred": 5223.807680000004,
+      "ionization_error": 86963.46133333341,
+      "radius_exp": null,
+      "radius_pred": 18.35104161377668,
+      "radius_error": null
+    },
+    "105": {
+      "element": "El105",
+      "ionization_exp": 7.0,
+      "ionization_pred": 5304.069875,
+      "ionization_error": 75672.42678571428,
+      "radius_exp": null,
+      "radius_pred": 18.304465165746805,
+      "radius_error": null
+    },
+    "106": {
+      "element": "El106",
+      "ionization_exp": 7.8,
+      "ionization_pred": 5384.943980000004,
+      "ionization_error": 68937.74333333338,
+      "radius_exp": null,
+      "radius_pred": 18.25835800531952,
+      "radius_error": null
+    },
+    "107": {
+      "element": "El107",
+      "ionization_exp": 8.5,
+      "ionization_pred": 5466.429994999999,
+      "ionization_error": 64210.94111764704,
+      "radius_exp": null,
+      "radius_pred": 18.212711919875467,
+      "radius_error": null
+    },
+    "108": {
+      "element": "El108",
+      "ionization_exp": 9.0,
+      "ionization_pred": 5548.527920000002,
+      "ionization_error": 61550.310222222244,
+      "radius_exp": null,
+      "radius_pred": 18.167518900585122,
+      "radius_error": null
+    },
+    "109": {
+      "element": "El109",
+      "ionization_exp": 9.5,
+      "ionization_pred": 5631.237755000005,
+      "ionization_error": 59176.18689473689,
+      "radius_exp": null,
+      "radius_pred": 18.122771135883415,
+      "radius_error": null
+    },
+    "110": {
+      "element": "El110",
+      "ionization_exp": 10.0,
+      "ionization_pred": 5714.5595,
+      "ionization_error": 57045.595,
+      "radius_exp": null,
+      "radius_pred": 18.07846100519958,
+      "radius_error": null
+    },
+    "111": {
+      "element": "El111",
+      "ionization_exp": 10.5,
+      "ionization_pred": 5798.493155000004,
+      "ionization_error": 55123.744333333365,
+      "radius_exp": null,
+      "radius_pred": 18.034581072930536,
+      "radius_error": null
+    },
+    "112": {
+      "element": "El112",
+      "ionization_exp": 11.0,
+      "ionization_pred": 5883.038719999999,
+      "ionization_error": 53382.170181818175,
+      "radius_exp": null,
+      "radius_pred": 17.99112408264667,
+      "radius_error": null
+    },
+    "113": {
+      "element": "El113",
+      "ionization_exp": 7.0,
+      "ionization_pred": 5968.196195000002,
+      "ionization_error": 85159.94564285717,
+      "radius_exp": null,
+      "radius_pred": 17.948082951519325,
+      "radius_error": null
+    },
+    "114": {
+      "element": "El114",
+      "ionization_exp": 8.5,
+      "ionization_pred": 6053.9655800000055,
+      "ionization_error": 71123.1244705883,
+      "radius_exp": null,
+      "radius_pred": 17.905450764960143,
+      "radius_error": null
+    },
+    "115": {
+      "element": "El115",
+      "ionization_exp": 9.2,
+      "ionization_pred": 6140.346875,
+      "ionization_error": 66642.9008152174,
+      "radius_exp": null,
+      "radius_pred": 17.863220771462665,
+      "radius_error": null
+    },
+    "116": {
+      "element": "El116",
+      "ionization_exp": 10.7,
+      "ionization_pred": 6227.340080000004,
+      "ionization_error": 58099.44000000004,
+      "radius_exp": null,
+      "radius_pred": 17.82138637763724,
+      "radius_error": null
+    },
+    "117": {
+      "element": "El117",
+      "ionization_exp": 11.5,
+      "ionization_pred": 6314.945194999998,
+      "ionization_error": 54812.56691304346,
+      "radius_exp": null,
+      "radius_pred": 17.779941143430683,
+      "radius_error": null
+    },
+    "118": {
+      "element": "El118",
+      "ionization_exp": 12.5,
+      "ionization_pred": 6403.162220000002,
+      "ionization_error": 51125.297760000016,
+      "radius_exp": null,
+      "radius_pred": 17.73887877752255,
+      "radius_error": null
+    }
+  },
+  "statistics": {
+    "elements_tested": 118,
+    "avg_ionization_error": 36431.4272610658,
+    "std_ionization_error": 26240.05371936302,
+    "avg_radius_error": 71.22143655703113,
+    "std_radius_error": 20.37118002415857,
+    "ionization_accuracy": -36331.4272610658,
+    "radius_accuracy": 28.778563442968874
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "all_results": {
+    "Klein_Bottle": {
+      "topology": "Klein_Bottle",
+      "fundamental_freq": 6.65,
+      "event_results": {
+        "GW150914": {
+          "mass": 62.0,
+          "distance": 410,
+          "predicted_echoes": {
+            "primary": 0.35813203345758654
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.4220082463767107,
+              "significance": 0,
+              "detected": false
+            }
+          },
+          "best_snr": 1.4220082463767107,
+          "best_significance": 0,
+          "detected": false
+        },
+        "GW151226": {
+          "mass": 21.0,
+          "distance": 440,
+          "predicted_echoes": {
+            "primary": 0.48118786196397645
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.136668078237122,
+              "significance": 0,
+              "detected": false
+            }
+          },
+          "best_snr": 1.136668078237122,
+          "best_significance": 0,
+          "detected": false
+        },
+        "GW170104": {
+          "mass": 49.0,
+          "distance": 880,
+          "predicted_echoes": {
+            "primary": 0.37639667676110566
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.6597754006783687,
+              "significance": 0.1597754006783687,
+              "detected": "False"
+            }
+          },
+          "best_snr": 1.6597754006783687,
+          "best_significance": 0.1597754006783687,
+          "detected": "False"
+        },
+        "GW170814": {
+          "mass": 55.0,
+          "distance": 540,
+          "predicted_echoes": {
+            "primary": 0.36698725398333254
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.2162139335418614,
+              "significance": 0,
+              "detected": false
+            }
+          },
+          "best_snr": 1.2162139335418614,
+          "best_significance": 0,
+          "detected": false
+        }
+      },
+      "population_stats": {
+        "n_events_tested": 4,
+        "n_detections": 0,
+        "detection_rate": 0.0,
+        "mean_significance": 0,
+        "max_significance": 0,
+        "total_significance": 0
+      }
+    },
+    "Real_Projective_Plane": {
+      "topology": "Real_Projective_Plane",
+      "fundamental_freq": 4.189500000000001,
+      "event_results": {
+        "GW150914": {
+          "mass": 62.0,
+          "distance": 410,
+          "predicted_echoes": {
+            "primary": 0.19941825584271164
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.399988283345749,
+              "significance": 0,
+              "detected": false
+            }
+          },
+          "best_snr": 1.399988283345749,
+          "best_significance": 0,
+          "detected": false
+        },
+        "GW151226": {
+          "mass": 21.0,
+          "distance": 440,
+          "predicted_echoes": {
+            "primary": 0.21447753555503207
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.7271443608764723,
+              "significance": 0.22714436087647227,
+              "detected": "False"
+            }
+          },
+          "best_snr": 1.7271443608764723,
+          "best_significance": 0.22714436087647227,
+          "detected": "False"
+        },
+        "GW170104": {
+          "mass": 49.0,
+          "distance": 880,
+          "predicted_echoes": {
+            "primary": 0.20165343946377168
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.9621024877429751,
+              "significance": 0.46210248774297513,
+              "detected": "False"
+            }
+          },
+          "best_snr": 1.9621024877429751,
+          "best_significance": 0.46210248774297513,
+          "detected": "False"
+        },
+        "GW170814": {
+          "mass": 55.0,
+          "distance": 540,
+          "predicted_echoes": {
+            "primary": 0.20050193667628197
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.5803508735907283,
+              "significance": 0.08035087359072834,
+              "detected": "False"
+            }
+          },
+          "best_snr": 1.5803508735907283,
+          "best_significance": 0.08035087359072834,
+          "detected": "False"
+        }
+      },
+      "population_stats": {
+        "n_events_tested": 4,
+        "n_detections": 0,
+        "detection_rate": 0.0,
+        "mean_significance": 0,
+        "max_significance": 0,
+        "total_significance": 0
+      }
+    },
+    "Mobius_Band": {
+      "topology": "Mobius_Band",
+      "fundamental_freq": 8.2,
+      "event_results": {
+        "GW150914": {
+          "mass": 62.0,
+          "distance": 410,
+          "predicted_echoes": {
+            "primary": 0.2608229269374138,
+            "secondary": 0.2638229269374138
+          },
+          "detections": {
+            "primary": {
+              "snr": 0.87537034132231,
+              "significance": 0,
+              "detected": false
+            },
+            "secondary": {
+              "snr": 1.7447785892680663,
+              "significance": 0.24477858926806628,
+              "detected": "False"
+            }
+          },
+          "best_snr": 1.7447785892680663,
+          "best_significance": 0.24477858926806628,
+          "detected": "False"
+        },
+        "GW151226": {
+          "mass": 21.0,
+          "distance": 440,
+          "predicted_echoes": {
+            "primary": 0.2750216763804588,
+            "secondary": 0.2780216763804588
+          },
+          "detections": {
+            "primary": {
+              "snr": 2.961909163384992,
+              "significance": 1.461909163384992,
+              "detected": "True"
+            },
+            "secondary": {
+              "snr": 1.4186200005148997,
+              "significance": 0,
+              "detected": false
+            }
+          },
+          "best_snr": 2.961909163384992,
+          "best_significance": 1.461909163384992,
+          "detected": "True"
+        },
+        "GW170104": {
+          "mass": 49.0,
+          "distance": 880,
+          "predicted_echoes": {
+            "primary": 0.26293038578012756,
+            "secondary": 0.26593038578012757
+          },
+          "detections": {
+            "primary": {
+              "snr": 2.222880632752701,
+              "significance": 0.7228806327527009,
+              "detected": "False"
+            },
+            "secondary": {
+              "snr": 2.4262341888648447,
+              "significance": 0.9262341888648447,
+              "detected": "False"
+            }
+          },
+          "best_snr": 2.4262341888648447,
+          "best_significance": 0.9262341888648447,
+          "detected": "False"
+        },
+        "GW170814": {
+          "mass": 55.0,
+          "distance": 540,
+          "predicted_echoes": {
+            "primary": 0.261844683151923,
+            "secondary": 0.264844683151923
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.2165543570111232,
+              "significance": 0,
+              "detected": false
+            },
+            "secondary": {
+              "snr": 2.5795760019952207,
+              "significance": 1.0795760019952207,
+              "detected": "True"
+            }
+          },
+          "best_snr": 2.5795760019952207,
+          "best_significance": 1.0795760019952207,
+          "detected": "True"
+        }
+      },
+      "population_stats": {
+        "n_events_tested": 4,
+        "n_detections": 2,
+        "detection_rate": 0.5,
+        "mean_significance": 1.2707425826901064,
+        "max_significance": 1.461909163384992,
+        "total_significance": 1.8173229614113702
+      }
+    },
+    "Twisted_Torus": {
+      "topology": "Twisted_Torus",
+      "fundamental_freq": 7.1,
+      "event_results": {
+        "GW150914": {
+          "mass": 62.0,
+          "distance": 410,
+          "predicted_echoes": {
+            "primary": 0.27355833631283705
+          },
+          "detections": {
+            "primary": {
+              "snr": 2.363483079683162,
+              "significance": 0.8634830796831618,
+              "detected": "False"
+            }
+          },
+          "best_snr": 2.363483079683162,
+          "best_significance": 0.8634830796831618,
+          "detected": "False"
+        },
+        "GW151226": {
+          "mass": 21.0,
+          "distance": 440,
+          "predicted_echoes": {
+            "primary": 0.28737462785842627
+          },
+          "detections": {
+            "primary": {
+              "snr": 2.282051472219254,
+              "significance": 0.782051472219254,
+              "detected": "False"
+            }
+          },
+          "best_snr": 2.282051472219254,
+          "best_significance": 0.782051472219254,
+          "detected": "False"
+        },
+        "GW170104": {
+          "mass": 49.0,
+          "distance": 880,
+          "predicted_echoes": {
+            "primary": 0.2756090285873969
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.20220290197835,
+              "significance": 0,
+              "detected": false
+            }
+          },
+          "best_snr": 1.20220290197835,
+          "best_significance": 0,
+          "detected": false
+        },
+        "GW170814": {
+          "mass": 55.0,
+          "distance": 540,
+          "predicted_echoes": {
+            "primary": 0.2745525704744301
+          },
+          "detections": {
+            "primary": {
+              "snr": 2.156322110688347,
+              "significance": 0.6563221106883468,
+              "detected": "False"
+            }
+          },
+          "best_snr": 2.156322110688347,
+          "best_significance": 0.6563221106883468,
+          "detected": "False"
+        }
+      },
+      "population_stats": {
+        "n_events_tested": 4,
+        "n_detections": 0,
+        "detection_rate": 0.0,
+        "mean_significance": 0,
+        "max_significance": 0,
+        "total_significance": 0
+      }
+    },
+    "String_Orientifold": {
+      "topology": "String_Orientifold",
+      "fundamental_freq": 6.8,
+      "event_results": {
+        "GW150914": {
+          "mass": 62.0,
+          "distance": 410,
+          "predicted_echoes": {
+            "primary": 0.28712837654789974,
+            "closed_string": 0.28712837654789974,
+            "open_string": 0.14356418827394987
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.3059388828265661,
+              "significance": 0,
+              "detected": false
+            },
+            "closed_string": {
+              "snr": 1.843286518068124,
+              "significance": 0.34328651806812394,
+              "detected": "False"
+            },
+            "open_string": {
+              "snr": 1.6707818239026007,
+              "significance": 0.17078182390260066,
+              "detected": "False"
+            }
+          },
+          "best_snr": 1.843286518068124,
+          "best_significance": 0.34328651806812394,
+          "detected": "False"
+        },
+        "GW151226": {
+          "mass": 21.0,
+          "distance": 440,
+          "predicted_echoes": {
+            "primary": 0.3003231740101234,
+            "closed_string": 0.3003231740101234,
+            "open_string": 0.1501615870050617
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.7824744131128256,
+              "significance": 0.2824744131128256,
+              "detected": "False"
+            },
+            "closed_string": {
+              "snr": 1.6205295617389959,
+              "significance": 0.12052956173899587,
+              "detected": "False"
+            },
+            "open_string": {
+              "snr": 2.11191528207503,
+              "significance": 0.6119152820750302,
+              "detected": "False"
+            }
+          },
+          "best_snr": 2.11191528207503,
+          "best_significance": 0.6119152820750302,
+          "detected": "False"
+        },
+        "GW170104": {
+          "mass": 49.0,
+          "distance": 880,
+          "predicted_echoes": {
+            "primary": 0.28908682314920947,
+            "closed_string": 0.28908682314920947,
+            "open_string": 0.14454341157460474
+          },
+          "detections": {
+            "primary": {
+              "snr": 1.8813017082085528,
+              "significance": 0.3813017082085528,
+              "detected": "False"
+            },
+            "closed_string": {
+              "snr": 1.9972274985476275,
+              "significance": 0.4972274985476275,
+              "detected": "False"
+            },
+            "open_string": {
+              "snr": 2.3761961492882158,
+              "significance": 0.8761961492882158,
+              "detected": "False"
+            }
+          },
+          "best_snr": 2.3761961492882158,
+          "best_significance": 0.8761961492882158,
+          "detected": "False"
+        },
+        "GW170814": {
+          "mass": 55.0,
+          "distance": 540,
+          "predicted_echoes": {
+            "primary": 0.2880778873735042,
+            "closed_string": 0.2880778873735042,
+            "open_string": 0.1440389436867521
+          },
+          "detections": {
+            "primary": {
+              "snr": 3.1821735306680563,
+              "significance": 1.6821735306680563,
+              "detected": "True"
+            },
+            "closed_string": {
+              "snr": 1.2837301913093258,
+              "significance": 0,
+              "detected": false
+            },
+            "open_string": {
+              "snr": 3.924415911185413,
+              "significance": 2.424415911185413,
+              "detected": "True"
+            }
+          },
+          "best_snr": 3.924415911185413,
+          "best_significance": 2.424415911185413,
+          "detected": "True"
+        }
+      },
+      "population_stats": {
+        "n_events_tested": 4,
+        "n_detections": 1,
+        "detection_rate": 0.25,
+        "mean_significance": 2.424415911185413,
+        "max_significance": 2.424415911185413,
+        "total_significance": 2.424415911185413
+      }
+    }
+  },
+  "ranking": [
+    {
+      "topology": "String_Orientifold",
+      "combined_significance": 2.424415911185413,
+      "detection_rate": 0.25,
+      "mean_significance": 2.424415911185413,
+      "fundamental_freq": 6.8
+    },
+    {
+      "topology": "Mobius_Band",
+      "combined_significance": 1.8173229614113702,
+      "detection_rate": 0.5,
+      "mean_significance": 1.2707425826901064,
+      "fundamental_freq": 8.2
+    },
+    {
+      "topology": "Klein_Bottle",
+      "combined_significance": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "fundamental_freq": 6.65
+    },
+    {
+      "topology": "Real_Projective_Plane",
+      "combined_significance": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "fundamental_freq": 4.189500000000001
+    },
+    {
+      "topology": "Twisted_Torus",
+      "combined_significance": 0,
+      "detection_rate": 0.0,
+      "mean_significance": 0,
+      "fundamental_freq": 7.1
+    }
+  ],
+  "best_topology": "String_Orientifold",
+  "analysis_timestamp": "2025-06-05T02:20:52.615299"
+}

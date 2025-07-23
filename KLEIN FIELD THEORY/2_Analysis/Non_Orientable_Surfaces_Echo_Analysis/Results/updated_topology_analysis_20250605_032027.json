@@ -1,0 +1,189 @@
+{
+  "analysis_type": "Updated with Derived Geometric Factors",
+  "timestamp": "20250605_032027",
+  "geometric_factors": {
+    "Klein_Bottle": {
+      "factor": 3.554,
+      "radius_km": 25502.0,
+      "frequency_hz": 6.65,
+      "boundary": false,
+      "rationale": "\u03c0 path closure from self-intersection"
+    },
+    "Real_Projective_Plane": {
+      "factor": 2.4,
+      "radius_km": 27330.0,
+      "frequency_hz": 4.19,
+      "boundary": false,
+      "rationale": "Antipodal identification enhancement"
+    },
+    "Mobius_Band": {
+      "factor": 0.532,
+      "radius_km": 3094.0,
+      "frequency_hz": 8.2,
+      "boundary": true,
+      "rationale": "Single boundary creates major losses"
+    },
+    "Twisted_Torus": {
+      "factor": 7.997,
+      "radius_km": 67178.0,
+      "frequency_hz": 5.68,
+      "boundary": false,
+      "rationale": "Full 2\u03c0 path with twist"
+    },
+    "String_Orientifold": {
+      "factor": 1.01,
+      "radius_km": 7090.0,
+      "frequency_hz": 6.8,
+      "boundary": true,
+      "rationale": "Dual boundaries partially compensated"
+    }
+  },
+  "echo_predictions": {
+    "Klein_Bottle": {
+      "topology": "Klein_Bottle",
+      "geometric_factor": 3.554,
+      "radius_km": 25502.0,
+      "has_boundary": false,
+      "echo_times": {
+        "M_30": 0.4280623588080773,
+        "M_62": 0.35813203345758654,
+        "M_100": 0.33035992074221765
+      },
+      "rationale": "\u03c0 path closure from self-intersection"
+    },
+    "Real_Projective_Plane": {
+      "topology": "Real_Projective_Plane",
+      "geometric_factor": 2.4,
+      "radius_km": 27330.0,
+      "has_boundary": false,
+      "echo_times": {
+        "M_30": 0.2890685596903167,
+        "M_62": 0.24184492974063246,
+        "M_100": 0.22309054861601643
+      },
+      "rationale": "Antipodal identification enhancement"
+    },
+    "Mobius_Band": {
+      "topology": "Mobius_Band",
+      "geometric_factor": 0.532,
+      "radius_km": 3094.0,
+      "has_boundary": true,
+      "echo_times": {
+        "M_30": 0.06407686406468688,
+        "M_62": 0.053608959425840194,
+        "M_100": 0.04945173827655031
+      },
+      "rationale": "Single boundary creates major losses"
+    },
+    "Twisted_Torus": {
+      "topology": "Twisted_Torus",
+      "geometric_factor": 7.997,
+      "radius_km": 67178.0,
+      "has_boundary": false,
+      "echo_times": {
+        "M_30": 0.9632005299347761,
+        "M_62": 0.8058474596399324,
+        "M_100": 0.7433562988676181
+      },
+      "rationale": "Full 2\u03c0 path with twist"
+    },
+    "String_Orientifold": {
+      "topology": "String_Orientifold",
+      "geometric_factor": 1.01,
+      "radius_km": 7090.0,
+      "has_boundary": true,
+      "echo_times": {
+        "M_30": 0.1216496855363416,
+        "M_62": 0.10177640793251615,
+        "M_100": 0.09388393920924024
+      },
+      "rationale": "Dual boundaries partially compensated"
+    }
+  },
+  "boundary_analysis": {
+    "boundary_topologies": [
+      {
+        "name": "Mobius_Band",
+        "factor": 0.532,
+        "efficiency_loss": "85.0%"
+      },
+      {
+        "name": "String_Orientifold",
+        "factor": 1.01,
+        "efficiency_loss": "71.6%"
+      }
+    ],
+    "closed_topologies": [
+      {
+        "name": "Klein_Bottle",
+        "factor": 3.554,
+        "efficiency_gain": "0.0%"
+      },
+      {
+        "name": "Real_Projective_Plane",
+        "factor": 2.4,
+        "efficiency_gain": "-32.5%"
+      },
+      {
+        "name": "Twisted_Torus",
+        "factor": 7.997,
+        "efficiency_gain": "125.0%"
+      }
+    ],
+    "efficiency_comparison": {},
+    "key_findings": {
+      "mobius_efficiency_loss": "85.0%",
+      "twisted_torus_best": "Factor 8.00",
+      "boundary_vs_closed": "Boundary effects reduce efficiency by ~50-85%"
+    }
+  },
+  "efficiency_ranking": [
+    {
+      "topology": "Twisted_Torus",
+      "geometric_factor": 7.997,
+      "radius_km": 67178.0,
+      "efficiency_score": 7.997,
+      "boundary_type": "Closed",
+      "predicted_detection_rate": 0.10800675295441757
+    },
+    {
+      "topology": "Klein_Bottle",
+      "geometric_factor": 3.554,
+      "radius_km": 25502.0,
+      "efficiency_score": 3.554,
+      "boundary_type": "Closed",
+      "predicted_detection_rate": 0.048
+    },
+    {
+      "topology": "Real_Projective_Plane",
+      "geometric_factor": 2.4,
+      "radius_km": 27330.0,
+      "efficiency_score": 2.4,
+      "boundary_type": "Closed",
+      "predicted_detection_rate": 0.03241418120427687
+    },
+    {
+      "topology": "String_Orientifold",
+      "geometric_factor": 1.01,
+      "radius_km": 7090.0,
+      "efficiency_score": 1.01,
+      "boundary_type": "Boundary",
+      "predicted_detection_rate": 0.013640967923466517
+    },
+    {
+      "topology": "Mobius_Band",
+      "geometric_factor": 0.532,
+      "radius_km": 3094.0,
+      "efficiency_score": 0.532,
+      "boundary_type": "Boundary",
+      "predicted_detection_rate": 0.007185143500281374
+    }
+  ],
+  "key_insights": [
+    "Twisted Torus has highest efficiency (factor 7.997)",
+    "M\u00f6bius Band has lowest efficiency due to boundary (factor 0.532)",
+    "Boundary effects reduce detection efficiency by 50-85%",
+    "Klein Bottle \u03c0 factor (3.554) is theoretically validated",
+    "String Orientifold compensates boundary losses via duality"
+  ]
+}

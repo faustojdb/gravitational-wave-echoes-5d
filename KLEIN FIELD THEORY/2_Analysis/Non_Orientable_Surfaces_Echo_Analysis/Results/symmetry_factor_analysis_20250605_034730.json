@@ -1,0 +1,223 @@
+{
+  "analysis_type": "Systematic Symmetry Factor Analysis",
+  "timestamp": "20250605_034730",
+  "baseline_factors": {
+    "Klein_Bottle": 3.142,
+    "Real_Projective_Plane": 0.707,
+    "Mobius_Band": 0.916,
+    "Twisted_Torus": 1.061,
+    "String_Orientifold": 0.417
+  },
+  "symmetry_analyses": [
+    {
+      "topology": "Klein_Bottle",
+      "symmetries": [
+        {
+          "group": "Z\u2082",
+          "generator": "\u03c7 \u2192 -\u03c7",
+          "order": 2,
+          "geometric_effect": "Reflection symmetry across \u03c6-axis"
+        },
+        {
+          "group": "Z",
+          "generator": "\u03c6 \u2192 \u03c6 + \u03c0",
+          "order": "infinite (discrete)",
+          "geometric_effect": "Fundamental domain identification"
+        }
+      ],
+      "combined_group": {
+        "full_group": "Z\u2082 \u00d7 Z",
+        "presentation": "<r,s | r\u00b2 = 1, rs = sr>",
+        "fundamental_domain_volume": "\u03c0 \u00d7 2w (half of cylinder)",
+        "mode_restrictions": "Only odd harmonics survive"
+      },
+      "symmetry_factor": 3.141592653589793,
+      "already_included": true,
+      "additional_factor": 1.0
+    },
+    {
+      "topology": "Real_Projective_Plane",
+      "symmetries": [
+        {
+          "group": "SO(3)",
+          "dimension": 3,
+          "generators": [
+            "L_x",
+            "L_y",
+            "L_z"
+          ],
+          "geometric_effect": "Full rotational symmetry of sphere"
+        },
+        {
+          "group": "Z\u2082",
+          "generator": "(x,y,z) \u2192 (-x,-y,-z)",
+          "order": 2,
+          "geometric_effect": "Antipodal point identification"
+        }
+      ],
+      "quotient_group": {
+        "quotient_group": "SO(3)/Z\u2082",
+        "effective_symmetry": "Rotations up to antipodal identification",
+        "fundamental_domain": "Hemisphere",
+        "volume_reduction": 0.5
+      },
+      "harmonic_degeneracies": [
+        {
+          "l": 1,
+          "degeneracy": 3,
+          "enhancement": 1.7320508075688772
+        },
+        {
+          "l": 3,
+          "degeneracy": 7,
+          "enhancement": 2.6457513110645907
+        },
+        {
+          "l": 5,
+          "degeneracy": 11,
+          "enhancement": 3.3166247903554
+        }
+      ],
+      "geodesic_focusing": 3.5449077018110318,
+      "baseline_factor": 0.707,
+      "additional_symmetry": 0.48860251190291987,
+      "total_factor": 0.34544197591536435
+    },
+    {
+      "topology": "Mobius_Band",
+      "symmetries": [
+        {
+          "group": "Z\u2082",
+          "generator": "y \u2192 -y (at fixed \u03c6)",
+          "order": 2,
+          "geometric_effect": "Reflection across centerline"
+        },
+        {
+          "group": "Z",
+          "generator": "(\u03c6,y) \u2192 (\u03c6+L/2, -y)",
+          "order": 2,
+          "geometric_effect": "Half-translation with flip"
+        }
+      ],
+      "dihedral_structure": {
+        "effective_group": "D\u221e (infinite dihedral)",
+        "finite_subgroup": "D\u2081 \u2245 Z\u2082",
+        "presentation": "<r,s | r\u00b2 = s\u00b2 = 1>",
+        "fundamental_domain": "Half-strip [0,L/2] \u00d7 [-w,w]"
+      },
+      "reflection_enhancement": 1.4142135623730951,
+      "boundary_preservation": 0.8,
+      "edge_compensation": 1.1,
+      "baseline_factor": 0.916,
+      "symmetry_enhancement": 1.244507934888324,
+      "total_factor": 1.1399692683577047
+    },
+    {
+      "topology": "Twisted_Torus",
+      "symmetries": [
+        {
+          "group": "Z_n \u00d7 Z_m",
+          "n": 4,
+          "m": 4,
+          "generators": [
+            "rotation by \u03c0/2 in each circle"
+          ],
+          "geometric_effect": "Discrete rotational symmetry despite twist"
+        },
+        {
+          "group": "Z \u00d7 Z",
+          "generators": [
+            "fundamental translations"
+          ],
+          "twist_modification": "Second translation coupled to first by twist",
+          "effective_symmetry": "Helical translations"
+        }
+      ],
+      "point_group": {
+        "twist_angle": 3.141592653589793,
+        "residual_symmetries": "C\u2082 (180\u00b0 rotation)",
+        "broken_symmetries": "Continuous U(1) \u00d7 U(1)",
+        "enhancement_factor": "Modest due to partial breaking"
+      },
+      "rotational_enhancement": 2.0,
+      "helical_factor": 1.2,
+      "commensurability": 1.1,
+      "baseline_factor": 1.061,
+      "symmetry_enhancement": 2.64,
+      "total_factor": 2.80104
+    },
+    {
+      "topology": "String_Orientifold",
+      "worldsheet_symmetries": {
+        "conformal_group": "Virasoro algebra",
+        "worldsheet_parity": "\u03a9: \u03c3 \u2192 -\u03c3",
+        "GSO_projection": "Eliminates half the states",
+        "modular_group": "SL(2,Z) invariance"
+      },
+      "target_space_symmetries": {
+        "gauge_group": "SO(32) or E\u2088 \u00d7 E\u2088",
+        "spacetime_symmetry": "Lorentz group SO(1,9)",
+        "T_duality": "R \u2194 \u03b1\u2032/R",
+        "S_duality": "g_s \u2194 1/g_s"
+      },
+      "brane_symmetries": {
+        "D_brane_group": "U(N) gauge theory on branes",
+        "O_plane_symmetry": "Orientifold reflection",
+        "tadpole_constraint": "\u03a3Q_D + Q_O = 0",
+        "K_theory_classification": "Stable brane configurations"
+      },
+      "modular_enhancement": 1.3,
+      "t_duality_factor": 1.2,
+      "gauge_enhancement": 1.1732867951399863,
+      "orientifold_correction": 0.9,
+      "baseline_factor": 0.417,
+      "symmetry_enhancement": 1.6472946603765408,
+      "total_factor": 0.6869218733770175
+    }
+  ],
+  "enhanced_comparison": [
+    {
+      "topology": "Klein_Bottle",
+      "baseline_factor": 3.142,
+      "symmetry_enhanced_factor": 3.141592653589793,
+      "enhancement_ratio": 0.9998703544206853,
+      "primary_symmetry": "Z\u2082 \u00d7 Z (reflection + translation)"
+    },
+    {
+      "topology": "Twisted_Torus",
+      "baseline_factor": 1.061,
+      "symmetry_enhanced_factor": 2.80104,
+      "enhancement_ratio": 2.64,
+      "primary_symmetry": "Z\u2084 \u00d7 Z\u2084 (discrete rotations)"
+    },
+    {
+      "topology": "Mobius_Band",
+      "baseline_factor": 0.916,
+      "symmetry_enhanced_factor": 1.1399692683577047,
+      "enhancement_ratio": 1.244507934888324,
+      "primary_symmetry": "D\u221e (dihedral + reflection)"
+    },
+    {
+      "topology": "String_Orientifold",
+      "baseline_factor": 0.417,
+      "symmetry_enhanced_factor": 0.6869218733770175,
+      "enhancement_ratio": 1.6472946603765408,
+      "primary_symmetry": "Virasoro + SO(32) (conformal + gauge)"
+    },
+    {
+      "topology": "Real_Projective_Plane",
+      "baseline_factor": 0.707,
+      "symmetry_enhanced_factor": 0.34544197591536435,
+      "enhancement_ratio": 0.4886025119029199,
+      "primary_symmetry": "SO(3)/Z\u2082 (spherical + antipodal)"
+    }
+  ],
+  "ranking_changed": false,
+  "key_findings": [
+    "Klein Bottle: Symmetries already incorporated in \u03c0 factor",
+    "Real Projective Plane: SO(3) symmetries provide additional enhancement",
+    "M\u00f6bius Band: Dihedral symmetries partially compensate boundary losses",
+    "Twisted Torus: Discrete rotational symmetries provide modest boost",
+    "String Orientifold: Rich gauge/conformal symmetries significantly enhance"
+  ]
+}
