@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "model": "Systematic Nuclear Klein Model",
+    "version": "1.0",
+    "date": "2025-07-23",
+    "total_nuclei": 8001
+  },
+  "topology_statistics": {
+    "stable_klein_bottle": 298,
+    "knotted_klein_bottle": 39,
+    "twisted_cylinder": 3194,
+    "unstable_topology": 2635,
+    "transition_state": 1835
+  },
+  "validation_results": {
+    "total_tested": 13,
+    "correct_stability": 7,
+    "correct_decay_mode": 5,
+    "binding_energy_agreement": [],
+    "detailed_results": [
+      {
+        "nucleus": "H-1",
+        "N": 0,
+        "Z": 1,
+        "topology": "twisted_cylinder",
+        "stability_correct": false,
+        "decay_correct": false,
+        "klein_stability": 0.3321290994852558,
+        "experimental_stable": true
+      },
+      {
+        "nucleus": "H-2",
+        "N": 1,
+        "Z": 1,
+        "topology": "knotted_klein_bottle",
+        "stability_correct": true,
+        "decay_correct": true,
+        "klein_stability": 0.701455326577506,
+        "experimental_stable": true
+      },
+      {
+        "nucleus": "H-3",
+        "N": 2,
+        "Z": 1,
+        "topology": "stable_klein_bottle",
+        "stability_correct": false,
+        "decay_correct": false,
+        "klein_stability": 0.7369168115398401,
+        "experimental_stable": false
+      },
+      {
+        "nucleus": "He-4",
+        "N": 2,
+        "Z": 2,
+        "topology": "stable_klein_bottle",
+        "stability_correct": true,
+        "decay_correct": true,
+        "klein_stability": 1.0,
+        "experimental_stable": true
+      },
+      {
+        "nucleus": "Li-7",
+        "N": 4,
+        "Z": 3,
+        "topology": "twisted_cylinder",
+        "stability_correct": false,
+        "decay_correct": false,
+        "klein_stability": 0.3749977814755822,
+        "experimental_stable": true
+      },
+      {
+        "nucleus": "Be-8",
+        "N": 4,
+        "Z": 4,
+        "topology": "twisted_cylinder",
+        "stability_correct": true,
+        "decay_correct": false,
+        "klein_stability": 0.39199267800304805,
+        "experimental_stable": false
+      },
+      {
+        "nucleus": "C-12",
+        "N": 6,
+        "Z": 6,
+        "topology": "twisted_cylinder",
+        "stability_correct": false,
+        "decay_correct": false,
+        "klein_stability": 0.39199267800304805,
+        "experimental_stable": true
+      },
+      {
+        "nucleus": "C-14",
+        "N": 8,
+        "Z": 6,
+        "topology": "stable_klein_bottle",
+        "stability_correct": false,
+        "decay_correct": false,
+        "klein_stability": 0.764137507862012,
+        "experimental_stable": false
+      },
+      {
+        "nucleus": "O-16",
+        "N": 8,
+        "Z": 8,
+        "topology": "stable_klein_bottle",
+        "stability_correct": true,
+        "decay_correct": true,
+        "klein_stability": 1.0,
+        "experimental_stable": true
+      },
+      {
+        "nucleus": "Ca-40",
+        "N": 20,
+        "Z": 20,
+        "topology": "stable_klein_bottle",
+        "stability_correct": true,
+        "decay_correct": true,
+        "klein_stability": 1.0,
+        "experimental_stable": true
+      },
+      {
+        "nucleus": "Fe-56",
+        "N": 30,
+        "Z": 26,
+        "topology": "twisted_cylinder",
+        "stability_correct": false,
+        "decay_correct": false,
+        "klein_stability": 0.3575839896546462,
+        "experimental_stable": true
+      },
+      {
+        "nucleus": "U-235",
+        "N": 143,
+        "Z": 92,
+        "topology": "unstable_topology",
+        "stability_correct": true,
+        "decay_correct": true,
+        "klein_stability": 0.10031822176607495,
+        "experimental_stable": false
+      },
+      {
+        "nucleus": "U-238",
+        "N": 146,
+        "Z": 92,
+        "topology": "transition_state",
+        "stability_correct": true,
+        "decay_correct": false,
+        "klein_stability": 0.024653814416188198,
+        "experimental_stable": false
+      }
+    ],
+    "stability_success_rate": 0.5384615384615384,
+    "decay_success_rate": 0.38461538461538464
+  },
+  "magic_numbers": [
+    2,
+    8,
+    20,
+    28,
+    50,
+    82,
+    126
+  ],
+  "klein_parameters": {
+    "f0_Hz": 5.68,
+    "E_klein_eV": 2.35e-14
+  },
+  "summary": {
+    "stability_prediction_accuracy": 0.5384615384615384,
+    "decay_prediction_accuracy": 0.38461538461538464,
+    "total_tested": 13
+  }
+}

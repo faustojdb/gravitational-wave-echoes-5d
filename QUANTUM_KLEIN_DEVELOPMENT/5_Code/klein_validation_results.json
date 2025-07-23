@@ -1,0 +1,183 @@
+{
+  "final_report": {
+    "validation_score": 25.0,
+    "tests_passed": 1,
+    "total_tests": 4,
+    "individual_results": {
+      "hydrogen": {
+        "prediction": {
+          "delta_E_meV": 0.27,
+          "delta_f_GHz": 65,
+          "source": "Klein Field Theory"
+        },
+        "simulation": {
+          "delta_E_meV": 1.9999999999999996,
+          "delta_f_GHz": 3038.5348976190203,
+          "wavelength_nm": 620350.1541584785,
+          "r_inverse_expectation": 37807183364.83932
+        },
+        "agreement": {
+          "energy_ratio": 7.407407407407406,
+          "frequency_ratio": 46.746690732600314,
+          "within_error_bounds": false
+        }
+      },
+      "lyman_alpha": {
+        "prediction": {
+          "classical_wavelength": 121.6,
+          "quartet_separation": 33,
+          "pattern": "Central doublet + symmetric sidebands"
+        },
+        "simulation": {
+          "classical_energy": 10.2,
+          "klein_transitions": {
+            "2p+_to_1s+": 10.199763999999998,
+            "2p+_to_1s-": 10.200304,
+            "2p-_to_1s+": 10.199696,
+            "2p-_to_1s-": 10.200236
+          },
+          "wavelengths": {
+            "2p+_to_1s+": 121.64009954710293,
+            "2p+_to_1s-": 121.63365996905159,
+            "2p-_to_1s+": 121.64091050526964,
+            "2p-_to_1s-": 121.63447084135666
+          },
+          "separation_nm": 0.0072505362180521615,
+          "separation_pm": 7.2505362180521615
+        },
+        "agreement": {
+          "separation_ratio": 0.21971321872885338,
+          "within_bounds": false
+        }
+      },
+      "superconductivity": {
+        "prediction": {
+          "T_c_K": 13,
+          "gap_meV": 2.0,
+          "coupling": "Klein Cooper pairing across positions"
+        },
+        "simulation": {
+          "T_c_K": 11.60451812155008,
+          "gap_meV": 2.0,
+          "critical_field_T": 17.2759854885987,
+          "pairing_energy": 1.0
+        },
+        "agreement": {
+          "T_c_ratio": 0.892655240119237,
+          "gap_ratio": 1.0,
+          "realistic_temperature": true
+        }
+      },
+      "many_body": {
+        "prediction": {
+          "plasmon_frequency_GHz": 240,
+          "magnon_gap_meV": 1.0,
+          "conductivity_reduction": "Small but measurable"
+        },
+        "simulation": {
+          "plasmon_frequency_THz": 45.01281759122567,
+          "plasmon_frequency_GHz": 45012.81759122567,
+          "magnon_gap_meV": 1.0,
+          "conductivity_ratio": 0.9997692359062573,
+          "klein_scattering_time_fs": 658.2119565476075
+        },
+        "agreement": {
+          "plasmon_ratio": 187.55340663010696,
+          "magnon_exact_match": true,
+          "reasonable_values": false
+        }
+      }
+    }
+  },
+  "detailed_results": {
+    "hydrogen": {
+      "prediction": {
+        "delta_E_meV": 0.27,
+        "delta_f_GHz": 65,
+        "source": "Klein Field Theory"
+      },
+      "simulation": {
+        "delta_E_meV": 1.9999999999999996,
+        "delta_f_GHz": 3038.5348976190203,
+        "wavelength_nm": 620350.1541584785,
+        "r_inverse_expectation": 37807183364.83932
+      },
+      "agreement": {
+        "energy_ratio": 7.407407407407406,
+        "frequency_ratio": 46.746690732600314,
+        "within_error_bounds": false
+      }
+    },
+    "lyman_alpha": {
+      "prediction": {
+        "classical_wavelength": 121.6,
+        "quartet_separation": 33,
+        "pattern": "Central doublet + symmetric sidebands"
+      },
+      "simulation": {
+        "classical_energy": 10.2,
+        "klein_transitions": {
+          "2p+_to_1s+": 10.199763999999998,
+          "2p+_to_1s-": 10.200304,
+          "2p-_to_1s+": 10.199696,
+          "2p-_to_1s-": 10.200236
+        },
+        "wavelengths": {
+          "2p+_to_1s+": 121.64009954710293,
+          "2p+_to_1s-": 121.63365996905159,
+          "2p-_to_1s+": 121.64091050526964,
+          "2p-_to_1s-": 121.63447084135666
+        },
+        "separation_nm": 0.0072505362180521615,
+        "separation_pm": 7.2505362180521615
+      },
+      "agreement": {
+        "separation_ratio": 0.21971321872885338,
+        "within_bounds": false
+      }
+    },
+    "superconductivity": {
+      "prediction": {
+        "T_c_K": 13,
+        "gap_meV": 2.0,
+        "coupling": "Klein Cooper pairing across positions"
+      },
+      "simulation": {
+        "T_c_K": 11.60451812155008,
+        "gap_meV": 2.0,
+        "critical_field_T": 17.2759854885987,
+        "pairing_energy": 1.0
+      },
+      "agreement": {
+        "T_c_ratio": 0.892655240119237,
+        "gap_ratio": 1.0,
+        "realistic_temperature": true
+      }
+    },
+    "many_body": {
+      "prediction": {
+        "plasmon_frequency_GHz": 240,
+        "magnon_gap_meV": 1.0,
+        "conductivity_reduction": "Small but measurable"
+      },
+      "simulation": {
+        "plasmon_frequency_THz": 45.01281759122567,
+        "plasmon_frequency_GHz": 45012.81759122567,
+        "magnon_gap_meV": 1.0,
+        "conductivity_ratio": 0.9997692359062573,
+        "klein_scattering_time_fs": 658.2119565476075
+      },
+      "agreement": {
+        "plasmon_ratio": 187.55340663010696,
+        "magnon_exact_match": true,
+        "reasonable_values": false
+      }
+    }
+  },
+  "parameters_used": {
+    "alpha_klein_meV": 1.0,
+    "f0_klein_Hz": 5.68,
+    "epsilon_max": 0.65,
+    "r_klein_km": 8400.0
+  }
+}

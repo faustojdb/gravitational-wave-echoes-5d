@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "version": "Rigorous Scientific Version 1.0",
+    "date": "2025-07-23",
+    "approach": "First principles only, no adjustable parameters"
+  },
+  "validated_parameters": {
+    "f0_Hz": 5.68,
+    "epsilon_max": 0.65,
+    "R_Klein_m": 8400000.0,
+    "derived_energy_eV": 2.3490592518527515e-14,
+    "derived_energy_meV": 2.3490592518527515e-11
+  },
+  "theoretical_results": {
+    "atomic": {
+      "geometry": "atomic",
+      "standard_hydrogen": {
+        "n=1": -13.6,
+        "n=2": -3.4,
+        "n=3": -1.511111111111111
+      },
+      "klein_scale": {
+        "fundamental_frequency_Hz": 5.68,
+        "fundamental_energy_J": 3.7636078452e-33,
+        "fundamental_energy_eV": 2.3490592518527515e-14,
+        "fundamental_energy_meV": 2.3490592518527515e-11
+      },
+      "klein_corrections": {
+        "method": "To be derived from full 5D solution",
+        "geometric_factor": 6.29972870122619e-18,
+        "requires": "Numerical solution of 5D Klein-Schr\u00f6dinger equation"
+      }
+    },
+    "nuclear": {
+      "geometry": "nuclear",
+      "nuclear_scale": 1.2e-15,
+      "klein_factor": 1.4285714285714285e-22,
+      "klein_frequency": 5.68,
+      "analysis": "Requires full 5D nuclear Klein equation"
+    }
+  },
+  "experimental_predictions": {
+    "direct_klein_oscillation": {
+      "frequency": 5.68,
+      "period": 0.17605633802816903,
+      "wavelength": 52780362.32394367,
+      "energy_scale_eV": 2.3490592518527515e-14,
+      "detection_method": "Ultra-precise atomic clocks or gravitational wave detectors"
+    },
+    "atomic_modifications": {
+      "klein_energy_eV": 2.3490592518527515e-14,
+      "klein_energy_meV": 2.3490592518527515e-11,
+      "expected_scale": "Perturbative corrections to standard QM",
+      "measurement": "Ultra-high resolution spectroscopy"
+    },
+    "geometric_signatures": {
+      "klein_radius": 8400000.0,
+      "atomic_coupling": 6.29972870122619e-18,
+      "nuclear_coupling": 1.1904761904761905e-22,
+      "testable_via": "Precision measurements of fundamental constants"
+    }
+  },
+  "next_steps": [
+    "Solve full 5D Klein-Schr\u00f6dinger equation numerically",
+    "No assumptions about mode suppression",
+    "Let mathematics determine physical predictions",
+    "Compare with high-precision experimental data"
+  ]
+}

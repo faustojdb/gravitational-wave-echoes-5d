@@ -1,0 +1,186 @@
+{
+  "klein_parameters": {
+    "alpha_klein_meV": 1.0,
+    "f0_klein_Hz": 5.68,
+    "xi_klein_um": 2.2,
+    "tau_klein_fs": 658.2119569509067,
+    "coupling_strength": 1e-06
+  },
+  "anomaly_test_results": {
+    "double_slit": {
+      "experimental_parameters": {
+        "slit_separation_um": 100.0,
+        "electron_energy_eV": 100,
+        "wavelength_nm": 0.12264259661581493
+      },
+      "classical_predictions": {
+        "fringe_spacing_mm": 0.0012264259661581493,
+        "visibility": 1.0,
+        "erasure_efficiency": 0.8
+      },
+      "klein_predictions": {
+        "fringe_spacing_mm": 0.0012264271658973746,
+        "visibility": 1.000000978240235,
+        "erasure_efficiency": 0.95,
+        "enhancement_factor": 1.000000978240235,
+        "decoherence_suppression": 0.9999545464875876
+      },
+      "klein_signatures": {
+        "visibility_enhancement": 9.782402350388963e-07,
+        "fringe_spacing_shift": 9.782402350083625e-07,
+        "erasure_improvement": 0.1499999999999999,
+        "detectable_effect": "False"
+      },
+      "experimental_comparison": {
+        "scully_druhl_observation": "Interference restored after which-way measurement",
+        "klein_explanation": "Klein dual positions maintain entanglement",
+        "prediction_match": true
+      }
+    },
+    "superconductor": {
+      "experimental_parameters": {
+        "ring_diameter_um": 1.0,
+        "temperature_mK": 10.0,
+        "superconductor_gap_meV": 1.0
+      },
+      "classical_predictions": {
+        "decay_time_s": 7.638232582257738e-10,
+        "current_halflife_s": 5.294419378853062e-10,
+        "flux_quantum_Wb": 2.0678338484619295e-15
+      },
+      "klein_predictions": {
+        "decay_time_s": 1.3186587240596624e-06,
+        "current_halflife_s": 9.140245767027299e-07,
+        "flux_quantum_Wb": 2.0678344310380466e-15,
+        "protection_factor": 1.725392473466536,
+        "flux_correction": 2.8173255684143007e-07
+      },
+      "klein_signatures": {
+        "lifetime_enhancement": 1726.392473466536,
+        "flux_quantization_shift": 2.817325567608806e-07,
+        "protection_strength": 1.725392473466536,
+        "detectable_effect": "True"
+      },
+      "experimental_comparison": {
+        "roth_1988_observation": "Current persistence: 1.0 days",
+        "klein_prediction_days": 1.0578988156281596e-11,
+        "prediction_accuracy": "False"
+      }
+    },
+    "tunneling": {
+      "experimental_parameters": {
+        "barrier_width_nm": 1.0,
+        "barrier_height_eV": 4.0,
+        "electron_energy_eV": 1.0,
+        "bias_voltage_mV": 100.0
+      },
+      "classical_predictions": {
+        "transmission_probability": 1.9611065958787043e-08,
+        "tunneling_time_fs": 3426.617443112558,
+        "current_nA": 474193465141648.2,
+        "fano_factor": 1.0
+      },
+      "klein_predictions": {
+        "transmission_probability": 1.961108556094091e-08,
+        "tunneling_time_fs": 658.2119569509067,
+        "current_nA": 474193939119619.9,
+        "fano_factor": 1.000001,
+        "klein_oscillation_period_fs": 658.2119569509067
+      },
+      "klein_signatures": {
+        "transmission_enhancement": 1.0000009995455579,
+        "time_ratio": 0.1920879607596411,
+        "noise_correlation": 1e-06,
+        "fano_modification": 9.999999999177334e-07,
+        "detectable_effect": "False"
+      },
+      "experimental_comparison": {
+        "steinberg_observation": "Group velocity > c in tunnel barriers",
+        "klein_explanation": "Klein non-local correlation, not actual particle motion",
+        "klein_time_prediction_fs": 658.2119569509067,
+        "universal_time_prediction": "All barriers should show ~0.66 fs tunneling time"
+      }
+    },
+    "quantum_hall": {
+      "experimental_parameters": {
+        "magnetic_field_T": 10.0,
+        "electron_density_cm2": 100000000000.0,
+        "temperature_mK": 10.0,
+        "magnetic_length_nm": 8.11302629695545
+      },
+      "classical_predictions": {
+        "filling_factor": 4.1356676969238596e-05,
+        "energy_gap_meV": 17.7491732424912,
+        "hall_conductivity": 1.602176634e-09,
+        "activation_energy_meV": 17.7491732424912
+      },
+      "klein_predictions": {
+        "filling_factor": 0.0002658163540156846,
+        "energy_gap_meV": 33.08089619817705,
+        "hall_conductivity": 1.0297847471057169e-08,
+        "activation_energy_meV": 33.08089619817705,
+        "klein_coupling_strength": 0.8637992737026183
+      },
+      "klein_signatures": {
+        "filling_factor_shift": 0.000224459677046446,
+        "gap_enhancement": 1.8637992737026186,
+        "conductivity_correction": 8.695670837057169e-09,
+        "klein_magnetic_coupling": 0.8637992737026183,
+        "detectable_effect": "False"
+      },
+      "experimental_comparison": {
+        "pan_observation": "\u03bd = 5/2 state shows non-Abelian character",
+        "klein_explanation": "Klein dual positions create non-local correlations",
+        "fractional_state_prediction": "New states at Klein-modified filling factors",
+        "gap_enhancement_prediction": "1.86\u00d7 larger gaps"
+      }
+    },
+    "coherence": {
+      "environmental_parameters": {
+        "temperature_K": 300,
+        "phonon_frequency_cm1": 1500,
+        "coupling_strength_eV": 0.1,
+        "system_size_nm": 10.0
+      },
+      "classical_predictions": {
+        "decoherence_time_fs": 1.4041470293565189e-14,
+        "coherence_length_nm": 3.747194990064594e-08,
+        "transport_efficiency": 1.4041470293565187e-17
+      },
+      "klein_predictions": {
+        "decoherence_time_fs": 1.4041470293565189e-14,
+        "coherence_length_nm": 3.747194990064594e-08,
+        "transport_efficiency": 1.4041470293565187e-17,
+        "protection_factor": 3.720075976020836e-44,
+        "klein_coherence_length_um": 2.2
+      },
+      "klein_signatures": {
+        "coherence_enhancement": 1.0,
+        "length_enhancement": 1.0,
+        "efficiency_improvement": 1.0,
+        "matches_klein_scale": "False",
+        "detectable_effect": "False"
+      },
+      "experimental_comparison": {
+        "engel_observation": "Quantum coherence in photosystem II at room temperature",
+        "classical_expectation_fs": 1.4041470293565189e-14,
+        "observed_coherence_fs": 400,
+        "klein_prediction_fs": 1.4041470293565189e-14,
+        "klein_explains_observation": "False"
+      }
+    }
+  },
+  "overall_assessment": {
+    "total_anomalies_tested": 5,
+    "anomalies_resolved": "1",
+    "success_rate_percent": 20.0,
+    "theory_status": "PROBLEMATIC",
+    "detectable_effects_summary": {
+      "double_slit_enhancement": "False",
+      "superconductor_protection": "True",
+      "tunneling_time_signature": "False",
+      "quantum_hall_modification": "False",
+      "coherence_protection": "False"
+    }
+  }
+}
