@@ -64,6 +64,9 @@ universal_klein_analysis_*.json
 complete_ligo_analysis_*.json
 monte_carlo_detailed_results.csv
 
+# Large FITS files
+*.fits
+
 # Klein Subthreshold Theory large data directory
 Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc21_extracted/
 
