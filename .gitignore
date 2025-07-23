@@ -46,11 +46,29 @@ desktop.ini
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb
 
 # Data files that shouldn't be versioned
 *.h5
 *.hdf5
+*.fits
+*.uvfits
 large_data/
+*_map.fits
+*calibration_tables.tar.gz
+gwtc21_subthreshold_candidates.tar.xml.gz
+
+# Large analysis results (keep only summaries)
+*analysis_20*.json
+universal_klein_analysis_*.json
+complete_ligo_analysis_*.json
+monte_carlo_detailed_results.csv
+
+# Klein Subthreshold Theory large data directory
+Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc21_extracted/
 
 # But DO track important PDFs
 !DiBacco_2024_*.pdf
+
+# Claude Code configuration (optional)
+.claude/
