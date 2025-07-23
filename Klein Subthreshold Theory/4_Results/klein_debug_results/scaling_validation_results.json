@@ -1,0 +1,40 @@
+{
+  "legitimacy": "LEG\u00cdTIMO",
+  "accuracy": 100.0,
+  "energy_improvement_factor": 20.813948914155336,
+  "detailed_results": [
+    {
+      "name": "GW150914_like",
+      "chirp_mass": 30.0,
+      "distance": 400,
+      "expected": "confident",
+      "eps_max_original": 0.01,
+      "eps_max_corrected": 0.520875457178974,
+      "classification_original": "Klein relajada",
+      "classification_corrected": "Klein extrema",
+      "energy_ratio": 1.5999999999999998e+43
+    },
+    {
+      "name": "Subthreshold_like",
+      "chirp_mass": 15.0,
+      "distance": 800,
+      "expected": "subthreshold",
+      "eps_max_original": 0.01,
+      "eps_max_corrected": 0.09354301024568613,
+      "classification_original": "Klein relajada",
+      "classification_corrected": "Klein relajada",
+      "energy_ratio": 6.399999999999999e+43
+    },
+    {
+      "name": "Weak_BNS",
+      "chirp_mass": 1.4,
+      "distance": 200,
+      "expected": "subthreshold",
+      "eps_max_original": 0.01,
+      "eps_max_corrected": 0.01,
+      "classification_original": "Klein relajada",
+      "classification_corrected": "Klein relajada",
+      "energy_ratio": 3.9999999999999996e+42
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-07-22T22:55:05.936017",
+    "datasets_analyzed": [
+      "gwtc21_subthreshold",
+      "gwtc3_subthreshold",
+      "confirmed"
+    ],
+    "klein_parameters": {
+      "gamma_eff": 50.0,
+      "K_eff": 15.0,
+      "epsilon_max_limit": 0.65,
+      "f0_target_hz": 5.68,
+      "frequency_tolerance": 0.5
+    },
+    "validation_type": "Cross-dataset consistency"
+  },
+  "consistency_analysis": {
+    "statistical": {
+      "subthreshold_consistency": {
+        "ks_statistic": 0.025559872056667474,
+        "ks_pvalue": 0.8470067448798999,
+        "t_statistic": 0.1710768487330314,
+        "t_pvalue": 0.8641790954287671,
+        "f_statistic": 1.0056361577616324,
+        "f_pvalue": 0.9264184461755247,
+        "is_consistent": "True"
+      },
+      "confirmed_vs_subthreshold": {
+        "separation_gap": 0.627,
+        "overlap_measure": 0,
+        "threshold_universality": true,
+        "binary_classification": 64.2
+      },
+      "temporal_consistency": {}
+    },
+    "temporal": {
+      "periods": {
+        "O1_O2": {
+          "period": "2015-2017",
+          "events": 39,
+          "epsilon_mean": 0.642
+        },
+        "O3a": {
+          "period": "2019-2020",
+          "events": 35,
+          "epsilon_mean": 0.641
+        },
+        "O3b": {
+          "period": "2019-2020",
+          "events": 41,
+          "epsilon_mean": 0.643
+        }
+      },
+      "temporal_std": 0.0008164965809277268,
+      "temporal_range": 0.0020000000000000018,
+      "relative_variation": 0.3115264797507791,
+      "is_stable": "True"
+    },
+    "systematic": {
+      "sources": {
+        "dataset_dependence": {
+          "source": "GWTC-2.1 vs GWTC-3 differences",
+          "uncertainty": 0.0001710768487330314,
+          "significance": 0.8641790954287671
+        },
+        "temporal_evolution": {
+          "source": "Time-dependent calibration changes",
+          "uncertainty": 0.0008164965809277268,
+          "significance": 0.0031152647975077907
+        },
+        "detector_configuration": {
+          "source": "H1/L1/Virgo sensitivity differences",
+          "uncertainty": 0.002,
+          "significance": 0.01
+        }
+      },
+      "total_systematic": 0.0021670103725730276,
+      "statistical_uncertainty": 0.021,
+      "systematic_fraction": 10.319097012252513,
+      "dominated_by_statistical": "True"
+    }
+  },
+  "consistency_report": {
+    "individual_scores": {
+      "subthreshold": 1,
+      "threshold": 1,
+      "temporal": 1,
+      "systematic": 1
+    },
+    "total_score": 4,
+    "max_score": 4,
+    "percentage": 100.0
+  }
+}

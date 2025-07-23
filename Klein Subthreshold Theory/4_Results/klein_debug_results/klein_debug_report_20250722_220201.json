@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-07-22T22:02:01.782428",
+  "synthetic_tests": [
+    {
+      "signal_name": "constant_high",
+      "description": "Constant high energy (10.0)",
+      "expected_range": [
+        0.3,
+        0.65
+      ],
+      "actual_epsilon_max": 0.48749999940711447,
+      "in_expected_range": 

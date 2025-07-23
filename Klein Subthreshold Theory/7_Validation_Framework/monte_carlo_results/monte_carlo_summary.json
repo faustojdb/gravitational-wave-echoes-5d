@@ -1,0 +1,45 @@
+{
+  "simulation_info": {
+    "timestamp": "2025-07-22T22:16:04.404480",
+    "n_simulations": 10000,
+    "klein_parameters": {
+      "f0_hz": 5.68,
+      "epsilon_max_limit": 0.65,
+      "threshold_epsilon": 0.35,
+      "threshold_tolerance": 0.1,
+      "gamma_eff": 50.0,
+      "K_eff": 15.0
+    },
+    "detector_parameters": {
+      "h1_sensitivity": 1e-23,
+      "l1_sensitivity": 1e-23,
+      "virgo_sensitivity": 2e-23,
+      "snr_threshold_confident": 8.0,
+      "snr_threshold_subthreshold": 4.0,
+      "network_improvement": 1.4,
+      "frequency_optimal": 150
+    },
+    "astrophysical_parameters": {
+      "mass_range": [
+        5,
+        100
+      ],
+      "mass_distribution": "power_law",
+      "mass_alpha": -2.3,
+      "distance_range": [
+        50,
+        3000
+      ],
+      "rate_density": 23.9,
+      "observation_time": 2.0
+    }
+  },
+  "results_summary": {
+    "klein_activation_rate": 0.0059,
+    "detection_statistics": {
+      "confident": 8,
+      "subthreshold": 41,
+      "non_detection": 9951
+    }
+  }
+}

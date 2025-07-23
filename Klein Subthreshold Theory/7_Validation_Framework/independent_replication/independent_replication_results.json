@@ -1,0 +1,192 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-07-22T22:59:29.549673",
+    "blind_mode": true,
+    "independent_parameters": {
+      "elastic_damping_rate": 50.0,
+      "energy_coupling_strength": 15.0,
+      "max_deformation_limit": 0.65,
+      "klein_characteristic_freq": 5.68,
+      "analysis_time_window": 0.1
+    },
+    "numerical_methods": [
+      "euler_explicit",
+      "runge_kutta_4",
+      "adaptive_scipy"
+    ]
+  },
+  "replication_results": {
+    "method_comparison": {
+      "stats": {
+        "euler_explicit": {
+          "mean": 0.6486261202976393,
+          "std": 0.004121639107082209,
+          "min": 0.6362612029763927,
+          "max": 0.65
+        },
+        "runge_kutta_4": {
+          "mean": 0.6453838462023084,
+          "std": 0.0032857391365472203,
+          "min": 0.6356776105996085,
+          "max": 0.6468506178799521
+        },
+        "adaptive_scipy": {
+          "mean": 0.6476611107913701,
+          "std": 0.003380130947197425,
+          "min": 0.6380410249199084,
+          "max": 0.6497496662173299
+        }
+      },
+      "correlations": {
+        "euler_explicit_vs_runge_kutta_4": {
+          "correlation": 0.9846831209389695,
+          "p_value": 2.3640369346241077e-07
+        },
+        "euler_explicit_vs_adaptive_scipy": {
+          "correlation": 0.9486896633830108,
+          "p_value": 2.849722698777302e-05
+        },
+        "runge_kutta_4_vs_adaptive_scipy": {
+          "correlation": 0.9843040929236038,
+          "p_value": 2.605674360375221e-07
+        }
+      }
+    },
+    "blind_validation": [
+      {
+        "event_id": "SYNTH_LOW_17",
+        "epsilon_max": 0.6468386159124672,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 21.384671797815585,
+        "distance": 1060.7033666708926
+      },
+      {
+        "event_id": "SYNTH_LOW_04",
+        "epsilon_max": 0.6468550269844647,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 24.260308002094114,
+        "distance": 1380.8209769012933
+      },
+      {
+        "event_id": "SYNTH_LOW_15",
+        "epsilon_max": 0.646873689047305,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 16.6457284988745,
+        "distance": 992.0251735070682
+      },
+      {
+        "event_id": "SYNTH_LOW_12",
+        "epsilon_max": 0.6467705782357591,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 22.958067510453063,
+        "distance": 1434.9836718452143
+      },
+      {
+        "event_id": "SYNTH_LOW_06",
+        "epsilon_max": 0.6026416187849486,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 19.195560319866527,
+        "distance": 1265.9430817320422
+      },
+      {
+        "event_id": "SYNTH_LOW_20",
+        "epsilon_max": 0.6469448919158954,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 13.174473416390288,
+        "distance": 1282.841474046033
+      },
+      {
+        "event_id": "SYNTH_LOW_10",
+        "epsilon_max": 0.6469258626392442,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 20.030415000539953,
+        "distance": 928.1577942820559
+      },
+      {
+        "event_id": "SYNTH_LOW_03",
+        "epsilon_max": 0.6468529375452178,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 18.604720062506097,
+        "distance": 1304.7871029784797
+      },
+      {
+        "event_id": "SYNTH_HIGH_09",
+        "epsilon_max": 0.6353969811253107,
+        "predicted_category": "confident",
+        "actual_category": "confident",
+        "mass": 69.16933123137306,
+        "distance": 139.69578627369384
+      },
+      {
+        "event_id": "SYNTH_LOW_07",
+        "epsilon_max": 0.646851097710172,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 19.257472459666335,
+        "distance": 1003.7900721237569
+      },
+      {
+        "event_id": "SYNTH_HIGH_10",
+        "epsilon_max": 0.6469097315086939,
+        "predicted_category": "confident",
+        "actual_category": "confident",
+        "mass": 55.412043833622405,
+        "distance": 210.3818422299006
+      },
+      {
+        "event_id": "SYNTH_BORDER_04",
+        "epsilon_max": 0.6468751503419629,
+        "predicted_category": "confident",
+        "actual_category": "unknown",
+        "mass": 27.81096049459711,
+        "distance": 682.9171932479153
+      },
+      {
+        "event_id": "SYNTH_HIGH_01",
+        "epsilon_max": 0.646754837822314,
+        "predicted_category": "confident",
+        "actual_category": "confident",
+        "mass": 72.53124936626631,
+        "distance": 297.1276651769238
+      },
+      {
+        "event_id": "SYNTH_HIGH_05",
+        "epsilon_max": 0.6468789759176864,
+        "predicted_category": "confident",
+        "actual_category": "confident",
+        "mass": 51.56808953913805,
+        "distance": 165.37526245794263
+      },
+      {
+        "event_id": "SYNTH_LOW_08",
+        "epsilon_max": 0.6469159413661747,
+        "predicted_category": "confident",
+        "actual_category": "subthreshold",
+        "mass": 21.628411892116638,
+        "distance": 1471.8777645663024
+      }
+    ],
+    "test_cases_count": 35,
+    "assessment": {
+      "criteria": {
+        "numerical_consistency": true,
+        "parameter_reproduction": true,
+        "prediction_accuracy": true,
+        "methodology_independence": true
+      },
+      "total_score": 4,
+      "max_score": 4,
+      "grade": "EXCELLENT",
+      "method_variation": 0.0021002170408164138,
+      "avg_correlation": 0.9725589590818613
+    }
+  }
+}

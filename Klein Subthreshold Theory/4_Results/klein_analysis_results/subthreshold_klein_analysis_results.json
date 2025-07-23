@@ -1,0 +1,4444 @@
+{
+  "analysis_info": {
+    "analysis_timestamp": "2025-07-22T20:35:03.487264",
+    "methodology": "IDENTICAL to 115 confirmed events",
+    "total_events_processed": 100,
+    "klein_parameters_used": {
+      "f0_target_hz": 5.68,
+      "epsilon_max_limit": 0.65,
+      "gamma_eff": 50.0,
+      "K_eff": 15.0,
+      "analysis_window": 0.1,
+      "frequency_tolerance": 0.12,
+      "min_snr_threshold": 3.0,
+      "correlation_threshold": 0.3,
+      "p_value_threshold": 0.01,
+      "harmonic_ratio_threshold": 10.0
+    }
+  },
+  "results_summary": {
+    "total_candidates_analyzed": 100,
+    "klein_field_detections": 0,
+    "detection_rate": 0.0,
+    "epsilon_max_statistics": {
+      "mean": 0.009999999999999998,
+      "std": 1.734723475976807e-18,
+      "median": 0.01,
+      "max": 0.01
+    },
+    "topological_state_distribution": {
+      "klein_relajada": 100,
+      "klein_deformada": 0,
+      "klein_extrema": 0
+    },
+    "comparison_with_confirmed_events": {
+      "confirmed_events_epsilon_max_mean": 0.641,
+      "subthreshold_events_epsilon_max_mean": 0.009999999999999998,
+      "difference": -0.631
+    }
+  },
+  "individual_results": [
+    {
+      "event_id": "SUBTHRESHOLD_0001",
+      "analysis_timestamp": "2025-07-22T20:35:03.177911",
+      "event_parameters": {
+        "total_mass_msun": 47.417540729479555,
+        "distance_mpc": 103.66814387181576,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.018925939665343176,
+        "p_value": 0.7027460716115388,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0002",
+      "analysis_timestamp": "2025-07-22T20:35:03.181105",
+      "event_parameters": {
+        "total_mass_msun": 46.33115155571873,
+        "distance_mpc": 284.7593156645288,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.03925276357644496,
+        "p_value": 0.4285276881303231,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0003",
+      "analysis_timestamp": "2025-07-22T20:35:03.184251",
+      "event_parameters": {
+        "total_mass_msun": 56.79045958601586,
+        "distance_mpc": 146.78888581526147,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.016813515146573196,
+        "p_value": 0.7345979907347859,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0004",
+      "analysis_timestamp": "2025-07-22T20:35:03.187306",
+      "event_parameters": {
+        "total_mass_msun": 25.78234932747624,
+        "distance_mpc": 166.01957213580744,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.0773664229585718,
+        "p_value": 0.11824261048838275,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0005",
+      "analysis_timestamp": "2025-07-22T20:35:03.190404",
+      "event_parameters": {
+        "total_mass_msun": 36.235369756764555,
+        "distance_mpc": 323.11586455143686,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.15289514329340176,
+        "p_value": 0.0019293302964624648,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0006",
+      "analysis_timestamp": "2025-07-22T20:35:03.193483",
+      "event_parameters": {
+        "total_mass_msun": 33.16358750947817,
+        "distance_mpc": 369.261111215838,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.0335104667645893,
+        "p_value": 0.4991530759752133,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0007",
+      "analysis_timestamp": "2025-07-22T20:35:03.196552",
+      "event_parameters": {
+        "total_mass_msun": 31.00661274772252,
+        "distance_mpc": 411.0941917760756,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.04454616230959889,
+        "p_value": 0.36887679267238804,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0008",
+      "analysis_timestamp": "2025-07-22T20:35:03.199741",
+      "event_parameters": {
+        "total_mass_msun": 43.571495879220976,
+        "distance_mpc": 332.6922725717508,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.007755112554805211,
+        "p_value": 0.8757494309374787,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0009",
+      "analysis_timestamp": "2025-07-22T20:35:03.202768",
+      "event_parameters": {
+        "total_mass_msun": 51.792222464453054,
+        "distance_mpc": 347.3547402245708,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.014243075819008242,
+        "p_value": 0.7739734531157106,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0010",
+      "analysis_timestamp": "2025-07-22T20:35:03.205892",
+      "event_parameters": {
+        "total_mass_msun": 61.00975774874384,
+        "distance_mpc": 101.36878184393873,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.07379392317054198,
+        "p_value": 0.13626259510659894,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0011",
+      "analysis_timestamp": "2025-07-22T20:35:03.208995",
+      "event_parameters": {
+        "total_mass_msun": 48.3800517439207,
+        "distance_mpc": 367.5111991945914,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.1264925902212354,
+        "p_value": 0.01044861685188122,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0012",
+      "analysis_timestamp": "2025-07-22T20:35:03.212148",
+      "event_parameters": {
+        "total_mass_msun": 45.401541827307994,
+        "distance_mpc": 320.02539980143797,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.0343145742066157,
+        "p_value": 0.4889064162268102,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0013",
+      "analysis_timestamp": "2025-07-22T20:35:03.215209",
+      "event_parameters": {
+        "total_mass_msun": 61.470859364731574,
+        "distance_mpc": 218.37651903472545,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.05845444845951202,
+        "p_value": 0.23817573255440055,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0014",
+      "analysis_timestamp": "2025-07-22T20:35:03.218243",
+      "event_parameters": {
+        "total_mass_msun": 53.55809507781901,
+        "distance_mpc": 138.7752910093996,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.003949389055682842,
+        "p_value": 0.9365336729243535,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0015",
+      "analysis_timestamp": "2025-07-22T20:35:03.221396",
+      "event_parameters": {
+        "total_mass_msun": 24.93006702761702,
+        "distance_mpc": 468.4011242493839,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.08535739878432015,
+        "p_value": 0.0846877937499534,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0016",
+      "analysis_timestamp": "2025-07-22T20:35:03.224452",
+      "event_parameters": {
+        "total_mass_msun": 72.90251333086283,
+        "distance_mpc": 146.86580278429332,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.00451869457226099,
+        "p_value": 0.9274085877383498,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0017",
+      "analysis_timestamp": "2025-07-22T20:35:03.227551",
+      "event_parameters": {
+        "total_mass_msun": 47.99340648603902,
+        "distance_mpc": 284.0887227737652,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.046981259322088006,
+        "p_value": 0.34325538703936653,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0018",
+      "analysis_timestamp": "2025-07-22T20:35:03.230610",
+      "event_parameters": {
+        "total_mass_msun": 36.22530385226315,
+        "distance_mpc": 361.40370811498866,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.006588546472970277,
+        "p_value": 0.8943209110648593,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0019",
+      "analysis_timestamp": "2025-07-22T20:35:03.233692",
+      "event_parameters": {
+        "total_mass_msun": 55.026383214862086,
+        "distance_mpc": 418.39710580089894,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.09261808702615737,
+        "p_value": 0.06129293248872231,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0020",
+      "analysis_timestamp": "2025-07-22T20:35:03.236939",
+      "event_parameters": {
+        "total_mass_msun": 60.642694732301905,
+        "distance_mpc": 389.14738261780934,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.014529485730019578,
+        "p_value": 0.769555158814799,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0021",
+      "analysis_timestamp": "2025-07-22T20:35:03.240030",
+      "event_parameters": {
+        "total_mass_msun": 40.28534337695118,
+        "distance_mpc": 337.3490039589266,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.003209742442640084,
+        "p_value": 0.948401300731699,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0022",
+      "analysis_timestamp": "2025-07-22T20:35:03.243431",
+      "event_parameters": {
+        "total_mass_msun": 52.972653452159825,
+        "distance_mpc": 304.737271433077,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.010399622516447682,
+        "p_value": 0.8339163990078581,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0023",
+      "analysis_timestamp": "2025-07-22T20:35:03.246758",
+      "event_parameters": {
+        "total_mass_msun": 28.950637085728545,
+        "distance_mpc": 324.01693723056326,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.010673700213460754,
+        "p_value": 0.8296053852620835,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0024",
+      "analysis_timestamp": "2025-07-22T20:35:03.249929",
+      "event_parameters": {
+        "total_mass_msun": 27.36600290372742,
+        "distance_mpc": 211.56951848431493,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.05693461015431885,
+        "p_value": 0.2506222484632714,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0025",
+      "analysis_timestamp": "2025-07-22T20:35:03.253239",
+      "event_parameters": {
+        "total_mass_msun": 50.70148951388301,
+        "distance_mpc": 357.08226403121574,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.07899212198197847,
+        "p_value": 0.1106852071716511,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0026",
+      "analysis_timestamp": "2025-07-22T20:35:03.256624",
+      "event_parameters": {
+        "total_mass_msun": 28.171717883908926,
+        "distance_mpc": 388.4079602941321,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.11939012428908984,
+        "p_value": 0.015701866180560103,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0027",
+      "analysis_timestamp": "2025-07-22T20:35:03.259846",
+      "event_parameters": {
+        "total_mass_msun": 40.14529935769567,
+        "distance_mpc": 273.13474914254925,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.02055964259013434,
+        "p_value": 0.6784608793131366,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0028",
+      "analysis_timestamp": "2025-07-22T20:35:03.263163",
+      "event_parameters": {
+        "total_mass_msun": 32.22320982208778,
+        "distance_mpc": 393.72338794059425,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.01939736759542331,
+        "p_value": 0.6957058237081263,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0029",
+      "analysis_timestamp": "2025-07-22T20:35:03.266435",
+      "event_parameters": {
+        "total_mass_msun": 59.09719374091344,
+        "distance_mpc": 270.0234459270488,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.11186158839464914,
+        "p_value": 0.023670119023119607,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0030",
+      "analysis_timestamp": "2025-07-22T20:35:03.269683",
+      "event_parameters": {
+        "total_mass_msun": 33.28268834575495,
+        "distance_mpc": 378.34074123704005,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.04241070573565021,
+        "p_value": 0.3922946802404305,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0031",
+      "analysis_timestamp": "2025-07-22T20:35:03.272873",
+      "event_parameters": {
+        "total_mass_msun": 20.320944871379144,
+        "distance_mpc": 380.3801104805103,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.01285583151998647,
+        "p_value": 0.7954746854742565,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0032",
+      "analysis_timestamp": "2025-07-22T20:35:03.275955",
+      "event_parameters": {
+        "total_mass_msun": 53.11996864148005,
+        "distance_mpc": 152.97999326237147,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.0743417968784374,
+        "p_value": 0.13336953859656958,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0033",
+      "analysis_timestamp": "2025-07-22T20:35:03.279026",
+      "event_parameters": {
+        "total_mass_msun": 57.20292128368555,
+        "distance_mpc": 133.54168903846042,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.08629324329561508,
+        "p_value": 0.081318874974832,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0034",
+      "analysis_timestamp": "2025-07-22T20:35:03.282139",
+      "event_parameters": {
+        "total_mass_msun": 37.621357734076554,
+        "distance_mpc": 448.72607129862024,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.006250445356147491,
+        "p_value": 0.8997146759990783,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0035",
+      "analysis_timestamp": "2025-07-22T20:35:03.285202",
+      "event_parameters": {
+        "total_mass_msun": 39.1410312349312,
+        "distance_mpc": 387.3810563479413,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.014770505918238034,
+        "p_value": 0.7658428284208304,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0036",
+      "analysis_timestamp": "2025-07-22T20:35:03.288307",
+      "event_parameters": {
+        "total_mass_msun": 66.55170029184684,
+        "distance_mpc": 174.61505672886835,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.05011424600263574,
+        "p_value": 0.31200138634730795,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0037",
+      "analysis_timestamp": "2025-07-22T20:35:03.291394",
+      "event_parameters": {
+        "total_mass_msun": 66.37760769187834,
+        "distance_mpc": 312.4049729873094,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.09455158766623567,
+        "p_value": 0.05605375536831521,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0038",
+      "analysis_timestamp": "2025-07-22T20:35:03.294417",
+      "event_parameters": {
+        "total_mass_msun": 72.25998871818379,
+        "distance_mpc": 326.7734973637224,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.027159570809821405,
+        "p_value": 0.5839059401887479,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0039",
+      "analysis_timestamp": "2025-07-22T20:35:03.297392",
+      "event_parameters": {
+        "total_mass_msun": 37.048807354885454,
+        "distance_mpc": 448.22876484486557,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.03423863943419179,
+        "p_value": 0.4898691928377889,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0040",
+      "analysis_timestamp": "2025-07-22T20:35:03.300632",
+      "event_parameters": {
+        "total_mass_msun": 77.56661649183275,
+        "distance_mpc": 146.57801008477787,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.056715385253936046,
+        "p_value": 0.25245422841592396,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0041",
+      "analysis_timestamp": "2025-07-22T20:35:03.303790",
+      "event_parameters": {
+        "total_mass_msun": 47.48727135199512,
+        "distance_mpc": 473.4894618152167,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.060454357028031126,
+        "p_value": 0.2224694440725367,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0042",
+      "analysis_timestamp": "2025-07-22T20:35:03.306850",
+      "event_parameters": {
+        "total_mass_msun": 77.0819635287813,
+        "distance_mpc": 297.0843073423589,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.0916371243070692,
+        "p_value": 0.06410175977808062,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0043",
+      "analysis_timestamp": "2025-07-22T20:35:03.309888",
+      "event_parameters": {
+        "total_mass_msun": 35.208952946084025,
+        "distance_mpc": 395.56150923682554,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.01669530245586456,
+        "p_value": 0.7363945605153313,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0044",
+      "analysis_timestamp": "2025-07-22T20:35:03.312918",
+      "event_parameters": {
+        "total_mass_msun": 44.227599262479586,
+        "distance_mpc": 283.99952364730115,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.09360388209103618,
+        "p_value": 0.05857335587765751,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0045",
+      "analysis_timestamp": "2025-07-22T20:35:03.316057",
+      "event_parameters": {
+        "total_mass_msun": 75.00646111167498,
+        "distance_mpc": 187.82913420054848,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.058370049114432825,
+        "p_value": 0.23885529636050956,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0046",
+      "analysis_timestamp": "2025-07-22T20:35:03.319261",
+      "event_parameters": {
+        "total_mass_msun": 54.95572852691147,
+        "distance_mpc": 487.8203033165865,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.04308717370132505,
+        "p_value": 0.3847809865977939,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0047",
+      "analysis_timestamp": "2025-07-22T20:35:03.322324",
+      "event_parameters": {
+        "total_mass_msun": 54.829404632672734,
+        "distance_mpc": 219.81531613617227,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.05844270179619558,
+        "p_value": 0.23827023238937386,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0048",
+      "analysis_timestamp": "2025-07-22T20:35:03.325367",
+      "event_parameters": {
+        "total_mass_msun": 28.625038922912957,
+        "distance_mpc": 107.44582278409057,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.04518450665158941,
+        "p_value": 0.36204832978590734,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0049",
+      "analysis_timestamp": "2025-07-22T20:35:03.328406",
+      "event_parameters": {
+        "total_mass_msun": 54.30493252422772,
+        "distance_mpc": 298.9227622743165,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.04326493052355335,
+        "p_value": 0.38282124033184645,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0050",
+      "analysis_timestamp": "2025-07-22T20:35:03.331576",
+      "event_parameters": {
+        "total_mass_msun": 69.48822175426706,
+        "distance_mpc": 464.20412800922674,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.06002063978229689,
+        "p_value": 0.2258112823837654,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0051",
+      "analysis_timestamp": "2025-07-22T20:35:03.334725",
+      "event_parameters": {
+        "total_mass_msun": 45.576184405651404,
+        "distance_mpc": 129.48892007310135,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.07865578575479697,
+        "p_value": 0.11221672434364222,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0052",
+      "analysis_timestamp": "2025-07-22T20:35:03.337764",
+      "event_parameters": {
+        "total_mass_msun": 79.0101402984792,
+        "distance_mpc": 186.38051487524953,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.047898727329200176,
+        "p_value": 0.333903187609034,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0053",
+      "analysis_timestamp": "2025-07-22T20:35:03.340825",
+      "event_parameters": {
+        "total_mass_msun": 71.24176904491408,
+        "distance_mpc": 159.39972866142068,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.08282231873420362,
+        "p_value": 0.09438119360291675,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0054",
+      "analysis_timestamp": "2025-07-22T20:35:03.344010",
+      "event_parameters": {
+        "total_mass_msun": 45.84003363862427,
+        "distance_mpc": 438.4018548988077,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.011661838014331335,
+        "p_value": 0.8141060825445079,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0055",
+      "analysis_timestamp": "2025-07-22T20:35:03.347088",
+      "event_parameters": {
+        "total_mass_msun": 34.63575072177687,
+        "distance_mpc": 392.0263808073214,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.03625769666945366,
+        "p_value": 0.4646186374140948,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0056",
+      "analysis_timestamp": "2025-07-22T20:35:03.350219",
+      "event_parameters": {
+        "total_mass_msun": 37.88428572026439,
+        "distance_mpc": 202.35725581622322,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.10637142847795013,
+        "p_value": 0.03149590568741477,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0057",
+      "analysis_timestamp": "2025-07-22T20:35:03.353259",
+      "event_parameters": {
+        "total_mass_msun": 26.50852418431463,
+        "distance_mpc": 272.0374621233967,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.048510184252245875,
+        "p_value": 0.32776211632217817,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0058",
+      "analysis_timestamp": "2025-07-22T20:35:03.356314",
+      "event_parameters": {
+        "total_mass_msun": 48.17833473372162,
+        "distance_mpc": 125.99449158832181,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.17461747409288206,
+        "p_value": 0.0003883053600271862,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0059",
+      "analysis_timestamp": "2025-07-22T20:35:03.359511",
+      "event_parameters": {
+        "total_mass_msun": 21.66746249642229,
+        "distance_mpc": 298.6242773732205,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.02835258114903604,
+        "p_value": 0.5674876140675637,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0060",
+      "analysis_timestamp": "2025-07-22T20:35:03.362563",
+      "event_parameters": {
+        "total_mass_msun": 67.15542012356202,
+        "distance_mpc": 491.673520934489,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.015421385863386872,
+        "p_value": 0.7558445598801597,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0061",
+      "analysis_timestamp": "2025-07-22T20:35:03.365605",
+      "event_parameters": {
+        "total_mass_msun": 63.7644569786843,
+        "distance_mpc": 213.49660573570645,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.007554385506465189,
+        "p_value": 0.8789404017223594,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0062",
+      "analysis_timestamp": "2025-07-22T20:35:03.368700",
+      "event_parameters": {
+        "total_mass_msun": 54.00389757655956,
+        "distance_mpc": 193.8796959090098,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.09705122197210234,
+        "p_value": 0.04983650122433952,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0063",
+      "analysis_timestamp": "2025-07-22T20:35:03.371705",
+      "event_parameters": {
+        "total_mass_msun": 45.97866161134866,
+        "distance_mpc": 485.19090643644944,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.02591475646460742,
+        "p_value": 0.601268456599711,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0064",
+      "analysis_timestamp": "2025-07-22T20:35:03.374823",
+      "event_parameters": {
+        "total_mass_msun": 41.93548964028156,
+        "distance_mpc": 264.97616405092083,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.006458120236249463,
+        "p_value": 0.8964010525568413,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0065",
+      "analysis_timestamp": "2025-07-22T20:35:03.377835",
+      "event_parameters": {
+        "total_mass_msun": 22.542002492817733,
+        "distance_mpc": 230.79231712204978,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.005550033895400576,
+        "p_value": 0.9109028328144168,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0066",
+      "analysis_timestamp": "2025-07-22T20:35:03.380934",
+      "event_parameters": {
+        "total_mass_msun": 35.02518856680507,
+        "distance_mpc": 480.57579259023794,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.02918223336261777,
+        "p_value": 0.5562012697706088,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0067",
+      "analysis_timestamp": "2025-07-22T20:35:03.384042",
+      "event_parameters": {
+        "total_mass_msun": 27.65063481740662,
+        "distance_mpc": 242.72837735310077,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.03493182817334442,
+        "p_value": 0.48111808047368143,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0068",
+      "analysis_timestamp": "2025-07-22T20:35:03.387112",
+      "event_parameters": {
+        "total_mass_msun": 62.24321423412691,
+        "distance_mpc": 126.13327606071208,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.021353834225773593,
+        "p_value": 0.6667723581769723,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0069",
+      "analysis_timestamp": "2025-07-22T20:35:03.390211",
+      "event_parameters": {
+        "total_mass_msun": 44.12466398542087,
+        "distance_mpc": 422.0591999846855,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.11132235853606655,
+        "p_value": 0.024355959468615535,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0070",
+      "analysis_timestamp": "2025-07-22T20:35:03.393220",
+      "event_parameters": {
+        "total_mass_msun": 73.01296635546527,
+        "distance_mpc": 221.05428656070836,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.06165945133828079,
+        "p_value": 0.21336965072399272,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0071",
+      "analysis_timestamp": "2025-07-22T20:35:03.396238",
+      "event_parameters": {
+        "total_mass_msun": 64.51369474569317,
+        "distance_mpc": 420.38100404508543,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.07470367376261725,
+        "p_value": 0.13148476749795937,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0072",
+      "analysis_timestamp": "2025-07-22T20:35:03.399330",
+      "event_parameters": {
+        "total_mass_msun": 45.323529288690466,
+        "distance_mpc": 470.6531306562353,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.021687076625810785,
+        "p_value": 0.6618915598872869,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0073",
+      "analysis_timestamp": "2025-07-22T20:35:03.402448",
+      "event_parameters": {
+        "total_mass_msun": 34.75016385496433,
+        "distance_mpc": 286.5340425072426,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.13302015755424065,
+        "p_value": 0.007061835124487395,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0074",
+      "analysis_timestamp": "2025-07-22T20:35:03.405618",
+      "event_parameters": {
+        "total_mass_msun": 65.44503841502585,
+        "distance_mpc": 466.70744266279337,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.011127634265929404,
+        "p_value": 0.8224766707285626,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0075",
+      "analysis_timestamp": "2025-07-22T20:35:03.408770",
+      "event_parameters": {
+        "total_mass_msun": 53.16009395986867,
+        "distance_mpc": 207.97876146114854,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.0549647892012191,
+        "p_value": 0.2674170117821095,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0076",
+      "analysis_timestamp": "2025-07-22T20:35:03.411757",
+      "event_parameters": {
+        "total_mass_msun": 56.1985858624717,
+        "distance_mpc": 284.45579051765344,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.01983486212857029,
+        "p_value": 0.6891956129938017,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0077",
+      "analysis_timestamp": "2025-07-22T20:35:03.414825",
+      "event_parameters": {
+        "total_mass_msun": 49.48721385017123,
+        "distance_mpc": 240.59419128890696,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.02351100802707565,
+        "p_value": 0.6354350005142207,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0078",
+      "analysis_timestamp": "2025-07-22T20:35:03.417949",
+      "event_parameters": {
+        "total_mass_msun": 38.40845236642039,
+        "distance_mpc": 222.41970599372993,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.04204887668739296,
+        "p_value": 0.396349738738111,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0079",
+      "analysis_timestamp": "2025-07-22T20:35:03.421018",
+      "event_parameters": {
+        "total_mass_msun": 74.45665505590257,
+        "distance_mpc": 265.37891784882277,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.020352853675093686,
+        "p_value": 0.6815171277187652,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0080",
+      "analysis_timestamp": "2025-07-22T20:35:03.424104",
+      "event_parameters": {
+        "total_mass_msun": 66.30973630735949,
+        "distance_mpc": 193.36779044746214,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.006377783758140372,
+        "p_value": 0.8976826768160616,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0081",
+      "analysis_timestamp": "2025-07-22T20:35:03.427140",
+      "event_parameters": {
+        "total_mass_msun": 33.55199982205919,
+        "distance_mpc": 491.8532357534422,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.007746340171686036,
+        "p_value": 0.8758888444172311,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0082",
+      "analysis_timestamp": "2025-07-22T20:35:03.431320",
+      "event_parameters": {
+        "total_mass_msun": 59.724138605228816,
+        "distance_mpc": 267.2359713167585,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.05321874202014205,
+        "p_value": 0.2829349673026033,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0083",
+      "analysis_timestamp": "2025-07-22T20:35:03.434605",
+      "event_parameters": {
+        "total_mass_msun": 44.254016649226,
+        "distance_mpc": 403.8429056404767,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.04867660467020997,
+        "p_value": 0.32610342226517885,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0084",
+      "analysis_timestamp": "2025-07-22T20:35:03.437805",
+      "event_parameters": {
+        "total_mass_msun": 74.10648297479962,
+        "distance_mpc": 403.98848927529787,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.04558768088574833,
+        "p_value": 0.3577764472614598,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0085",
+      "analysis_timestamp": "2025-07-22T20:35:03.440898",
+      "event_parameters": {
+        "total_mass_msun": 35.13522577714646,
+        "distance_mpc": 261.8846461718987,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.07040011413395146,
+        "p_value": 0.1552700960152603,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0086",
+      "analysis_timestamp": "2025-07-22T20:35:03.443945",
+      "event_parameters": {
+        "total_mass_msun": 57.31040709528186,
+        "distance_mpc": 397.16428042229705,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.05467960214493855,
+        "p_value": 0.2699109587534613,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0087",
+      "analysis_timestamp": "2025-07-22T20:35:03.446975",
+      "event_parameters": {
+        "total_mass_msun": 34.48088865944361,
+        "distance_mpc": 409.39243321903825,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.06829677972484179,
+        "p_value": 0.16801819581910096,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0088",
+      "analysis_timestamp": "2025-07-22T20:35:03.450093",
+      "event_parameters": {
+        "total_mass_msun": 75.99245247133292,
+        "distance_mpc": 290.14398317049887,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.08043814405035271,
+        "p_value": 0.10428723692716377,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0089",
+      "analysis_timestamp": "2025-07-22T20:35:03.453160",
+      "event_parameters": {
+        "total_mass_msun": 24.135512972492023,
+        "distance_mpc": 353.3373074430036,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.06700456043600778,
+        "p_value": 0.17622936129698732,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0090",
+      "analysis_timestamp": "2025-07-22T20:35:03.456245",
+      "event_parameters": {
+        "total_mass_msun": 64.53076761829391,
+        "distance_mpc": 272.1533296813221,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.11063402855511496,
+        "p_value": 0.025256318821911962,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0091",
+      "analysis_timestamp": "2025-07-22T20:35:03.459242",
+      "event_parameters": {
+        "total_mass_msun": 72.12985551730283,
+        "distance_mpc": 232.83796919146877,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.049154557638010424,
+        "p_value": 0.321369999052629,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0092",
+      "analysis_timestamp": "2025-07-22T20:35:03.462366",
+      "event_parameters": {
+        "total_mass_msun": 27.83735715206108,
+        "distance_mpc": 259.13360185563744,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.0013308827624231526,
+        "p_value": 0.9785928733067136,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0093",
+      "analysis_timestamp": "2025-07-22T20:35:03.465475",
+      "event_parameters": {
+        "total_mass_msun": 68.51416158947646,
+        "distance_mpc": 320.2372038933441,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.05385663789211074,
+        "p_value": 0.27719665076431704,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0094",
+      "analysis_timestamp": "2025-07-22T20:35:03.468680",
+      "event_parameters": {
+        "total_mass_msun": 37.04049315295059,
+        "distance_mpc": 362.54945024925945,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.02883066459737213,
+        "p_value": 0.5609705704686722,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0095",
+      "analysis_timestamp": "2025-07-22T20:35:03.471736",
+      "event_parameters": {
+        "total_mass_msun": 64.28195569868855,
+        "distance_mpc": 211.3033582541119,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.021824065865804487,
+        "p_value": 0.6598892911423706,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0096",
+      "analysis_timestamp": "2025-07-22T20:35:03.474783",
+      "event_parameters": {
+        "total_mass_msun": 72.21754225765511,
+        "distance_mpc": 496.2367662431134,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.06393282095438955,
+        "p_value": 0.19693801741096958,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0097",
+      "analysis_timestamp": "2025-07-22T20:35:03.477869",
+      "event_parameters": {
+        "total_mass_msun": 52.87205665564985,
+        "distance_mpc": 210.11278718837585,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.026346696632291722,
+        "p_value": 0.5952175188079509,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0098",
+      "analysis_timestamp": "2025-07-22T20:35:03.480925",
+      "event_parameters": {
+        "total_mass_msun": 69.2436370289409,
+        "distance_mpc": 166.60941061219728,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.2537223896903395,
+        "p_value": 1.9836794352299684e-07,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0099",
+      "analysis_timestamp": "2025-07-22T20:35:03.484042",
+      "event_parameters": {
+        "total_mass_msun": 68.41688980391018,
+        "distance_mpc": 482.3319118450362,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": 0.05870809219433465,
+        "p_value": 0.23614164126202358,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    },
+    {
+      "event_id": "SUBTHRESHOLD_0100",
+      "analysis_timestamp": "2025-07-22T20:35:03.487167",
+      "event_parameters": {
+        "total_mass_msun": 70.3323926417359,
+        "distance_mpc": 354.6973011980782,
+        "original_significance": "subthreshold (FAR < 2/day)"
+      },
+      "klein_parameters": {
+        "epsilon_max": 0.01,
+        "f0_detected_hz": 5.68,
+        "topological_state": "klein_relajada"
+      },
+      "harmonic_analysis": {
+        "odd_harmonics_power": [],
+        "even_harmonics_power": [],
+        "suppression_ratio": 0.0,
+        "klein_harmonic_detected": false
+      },
+      "frequency_detection": {
+        "klein_frequency_detected": false,
+        "snr_at_f0": 0.0,
+        "peak_power": 0.0,
+        "background_power": 0.0
+      },
+      "correlation_analysis": {
+        "correlation": -0.02087041073715726,
+        "p_value": 0.6738777702942164,
+        "significant": false
+      },
+      "klein_signatures_detected": {
+        "frequency_signature": false,
+        "harmonic_signature": false,
+        "correlation_signature": false
+      },
+      "klein_field_detected": false,
+      "confidence_score": 0.0
+    }
+  ],
+  "analysis_log": [
+    {
+      "timestamp": "2025-07-22T20:35:03.177947",
+      "event_id": "SUBTHRESHOLD_0001",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.181127",
+      "event_id": "SUBTHRESHOLD_0002",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.184270",
+      "event_id": "SUBTHRESHOLD_0003",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.187326",
+      "event_id": "SUBTHRESHOLD_0004",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.190429",
+      "event_id": "SUBTHRESHOLD_0005",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.193504",
+      "event_id": "SUBTHRESHOLD_0006",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.196571",
+      "event_id": "SUBTHRESHOLD_0007",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.199762",
+      "event_id": "SUBTHRESHOLD_0008",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.202789",
+      "event_id": "SUBTHRESHOLD_0009",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.205915",
+      "event_id": "SUBTHRESHOLD_0010",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.209015",
+      "event_id": "SUBTHRESHOLD_0011",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.212168",
+      "event_id": "SUBTHRESHOLD_0012",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.215227",
+      "event_id": "SUBTHRESHOLD_0013",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.218263",
+      "event_id": "SUBTHRESHOLD_0014",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.221421",
+      "event_id": "SUBTHRESHOLD_0015",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.224472",
+      "event_id": "SUBTHRESHOLD_0016",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.227571",
+      "event_id": "SUBTHRESHOLD_0017",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.230628",
+      "event_id": "SUBTHRESHOLD_0018",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.233711",
+      "event_id": "SUBTHRESHOLD_0019",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.236965",
+      "event_id": "SUBTHRESHOLD_0020",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.240050",
+      "event_id": "SUBTHRESHOLD_0021",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.243460",
+      "event_id": "SUBTHRESHOLD_0022",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.246783",
+      "event_id": "SUBTHRESHOLD_0023",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.249951",
+      "event_id": "SUBTHRESHOLD_0024",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.253267",
+      "event_id": "SUBTHRESHOLD_0025",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.256651",
+      "event_id": "SUBTHRESHOLD_0026",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.259871",
+      "event_id": "SUBTHRESHOLD_0027",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.263192",
+      "event_id": "SUBTHRESHOLD_0028",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.266458",
+      "event_id": "SUBTHRESHOLD_0029",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.269707",
+      "event_id": "SUBTHRESHOLD_0030",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.272894",
+      "event_id": "SUBTHRESHOLD_0031",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.275975",
+      "event_id": "SUBTHRESHOLD_0032",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.279049",
+      "event_id": "SUBTHRESHOLD_0033",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.282160",
+      "event_id": "SUBTHRESHOLD_0034",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.285224",
+      "event_id": "SUBTHRESHOLD_0035",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.288326",
+      "event_id": "SUBTHRESHOLD_0036",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.291414",
+      "event_id": "SUBTHRESHOLD_0037",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.294437",
+      "event_id": "SUBTHRESHOLD_0038",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.297410",
+      "event_id": "SUBTHRESHOLD_0039",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.300659",
+      "event_id": "SUBTHRESHOLD_0040",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.303810",
+      "event_id": "SUBTHRESHOLD_0041",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.306869",
+      "event_id": "SUBTHRESHOLD_0042",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.309906",
+      "event_id": "SUBTHRESHOLD_0043",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.312938",
+      "event_id": "SUBTHRESHOLD_0044",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.316079",
+      "event_id": "SUBTHRESHOLD_0045",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.319284",
+      "event_id": "SUBTHRESHOLD_0046",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.322343",
+      "event_id": "SUBTHRESHOLD_0047",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.325385",
+      "event_id": "SUBTHRESHOLD_0048",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.328452",
+      "event_id": "SUBTHRESHOLD_0049",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.331596",
+      "event_id": "SUBTHRESHOLD_0050",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.334748",
+      "event_id": "SUBTHRESHOLD_0051",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.337783",
+      "event_id": "SUBTHRESHOLD_0052",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.340844",
+      "event_id": "SUBTHRESHOLD_0053",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.344032",
+      "event_id": "SUBTHRESHOLD_0054",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.347107",
+      "event_id": "SUBTHRESHOLD_0055",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.350241",
+      "event_id": "SUBTHRESHOLD_0056",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.353279",
+      "event_id": "SUBTHRESHOLD_0057",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.356333",
+      "event_id": "SUBTHRESHOLD_0058",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.359534",
+      "event_id": "SUBTHRESHOLD_0059",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.362583",
+      "event_id": "SUBTHRESHOLD_0060",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.365625",
+      "event_id": "SUBTHRESHOLD_0061",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.368720",
+      "event_id": "SUBTHRESHOLD_0062",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.371724",
+      "event_id": "SUBTHRESHOLD_0063",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.374843",
+      "event_id": "SUBTHRESHOLD_0064",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.377853",
+      "event_id": "SUBTHRESHOLD_0065",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.380953",
+      "event_id": "SUBTHRESHOLD_0066",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.384066",
+      "event_id": "SUBTHRESHOLD_0067",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.387131",
+      "event_id": "SUBTHRESHOLD_0068",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.390232",
+      "event_id": "SUBTHRESHOLD_0069",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.393240",
+      "event_id": "SUBTHRESHOLD_0070",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.396258",
+      "event_id": "SUBTHRESHOLD_0071",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.399352",
+      "event_id": "SUBTHRESHOLD_0072",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.402472",
+      "event_id": "SUBTHRESHOLD_0073",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.405639",
+      "event_id": "SUBTHRESHOLD_0074",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.408791",
+      "event_id": "SUBTHRESHOLD_0075",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.411776",
+      "event_id": "SUBTHRESHOLD_0076",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.414847",
+      "event_id": "SUBTHRESHOLD_0077",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.417970",
+      "event_id": "SUBTHRESHOLD_0078",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.421040",
+      "event_id": "SUBTHRESHOLD_0079",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.424124",
+      "event_id": "SUBTHRESHOLD_0080",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.427158",
+      "event_id": "SUBTHRESHOLD_0081",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.431351",
+      "event_id": "SUBTHRESHOLD_0082",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.434627",
+      "event_id": "SUBTHRESHOLD_0083",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.437828",
+      "event_id": "SUBTHRESHOLD_0084",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.440917",
+      "event_id": "SUBTHRESHOLD_0085",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.443964",
+      "event_id": "SUBTHRESHOLD_0086",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.446993",
+      "event_id": "SUBTHRESHOLD_0087",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.450115",
+      "event_id": "SUBTHRESHOLD_0088",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.453183",
+      "event_id": "SUBTHRESHOLD_0089",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.456265",
+      "event_id": "SUBTHRESHOLD_0090",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.459260",
+      "event_id": "SUBTHRESHOLD_0091",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.462385",
+      "event_id": "SUBTHRESHOLD_0092",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.465498",
+      "event_id": "SUBTHRESHOLD_0093",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.468703",
+      "event_id": "SUBTHRESHOLD_0094",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.471756",
+      "event_id": "SUBTHRESHOLD_0095",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.474802",
+      "event_id": "SUBTHRESHOLD_0096",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.477887",
+      "event_id": "SUBTHRESHOLD_0097",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.480947",
+      "event_id": "SUBTHRESHOLD_0098",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.484066",
+      "event_id": "SUBTHRESHOLD_0099",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    },
+    {
+      "timestamp": "2025-07-22T20:35:03.487186",
+      "event_id": "SUBTHRESHOLD_0100",
+      "status": "SUCCESS",
+      "details": "\u03b5\u2098\u2090\u2093=0.010, signatures=0/3"
+    }
+  ]
+}

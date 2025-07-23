@@ -1,0 +1,41 @@
+{
+  "analysis_info": {
+    "timestamp": "2025-07-22T22:28:06.617870",
+    "n_samples": 5000,
+    "n_chains": 4,
+    "burn_in": 1000
+  },
+  "parameter_estimates": {
+    "\u03b3_eff": {
+      "mean": 11.15584358866569,
+      "std": 6.40592335598541,
+      "median": 10.039723480320546,
+      "ci_68": [
+        7.2644606537142655,
+        13.191284618911762
+      ],
+      "ci_95": [
+        5.108562354141872,
+        32.88819004133923
+      ]
+    },
+    "K_eff": {
+      "mean": 5.260792039295381,
+      "std": 1.6403178828291924,
+      "median": 4.930684881888382,
+      "ci_68": [
+        4.402795945229034,
+        5.6816618678422826
+      ],
+      "ci_95": [
+        3.988711130111819,
+        10.727128791091257
+      ]
+    }
+  },
+  "model_info": {
+    "prior_assumptions": "Log-normal priors on gamma_eff and K_eff",
+    "likelihood_model": "Gaussian observation uncertainties",
+    "data_sources": "GWTC-2.1, GWTC-3, Confirmed events"
+  }
+}

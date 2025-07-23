@@ -1,0 +1,51 @@
+{
+  "download_timestamp": "2025-07-22T20:29:21.755368",
+  "total_files_downloaded": 7,
+  "total_size_gb": 3.124674938619137,
+  "estimated_subthreshold_candidates": 2242,
+  "klein_analysis_ready": true,
+  "download_log": [
+    {
+      "timestamp": "2025-07-22T20:22:37.070380",
+      "dataset": "gwtc21_subthreshold_analysis.ipynb",
+      "status": "SUCCESS",
+      "details": "Size: 49,717 bytes"
+    },
+    {
+      "timestamp": "2025-07-22T20:24:38.067378",
+      "dataset": "gwtc3_subthreshold_bbh_population.hdf5",
+      "status": "SUCCESS",
+      "details": "Size: 88,842,240 bytes"
+    },
+    {
+      "timestamp": "2025-07-22T20:25:26.375472",
+      "dataset": "gwtc3_subthreshold_bns_population.hdf5",
+      "status": "SUCCESS",
+      "details": "Size: 88,841,928 bytes"
+    },
+    {
+      "timestamp": "2025-07-22T20:25:46.048337",
+      "dataset": "gwtc3_subthreshold_nsbh_population.hdf5",
+      "status": "SUCCESS",
+      "details": "Size: 88,841,928 bytes"
+    },
+    {
+      "timestamp": "2025-07-22T20:28:47.845291",
+      "dataset": "gwtc3_subthreshold_mixture_population.hdf5",
+      "status": "SUCCESS",
+      "details": "Size: 410,957,336 bytes"
+    },
+    {
+      "timestamp": "2025-07-22T20:28:51.542127",
+      "dataset": "gwtc3_subthreshold_documentation.md",
+      "status": "SUCCESS",
+      "details": "Size: 14,957 bytes"
+    },
+    {
+      "timestamp": "2025-07-22T20:28:55.293765",
+      "dataset": "gwtc3_subthreshold_analysis.ipynb",
+      "status": "SUCCESS",
+      "details": "Size: 67,518 bytes"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "timestamp": "2025-06-10T02:43:43.023420",
+  "test_summary": {
+    "total_tests": 5,
+    "tests_passed": "3",
+    "success_rate": 0.6
+  },
+  "assessment": "MODERATE VALIDATION - Klein evolution shows promise with some issues",
+  "confidence": "Medium",
+  "detailed_results": {
+    "cmb_invisibility": {
+      "z_cmb": 1090,
+      "R_klein_km": 0.000508624067260405,
+      "theta_arcmin": 4.047126990019348e-30,
+      "ell_klein": 2.6685597033732733e+33,
+      "cmb_invisible": "True",
+      "ell_unresolvable": "True",
+      "test_passed": "True"
+    },
+    "ligo_frequency_evolution": {
+      "total_events": 144,
+      "chi_squared": 28.31989854838971,
+      "degrees_freedom": 5,
+      "p_value": 3.151494755915252e-05,
+      "correlation": 0.9887566799327505,
+      "correlation_p_value": 0.00018890772253006674,
+      "theory_agreement": "False",
+      "binned_data": {
+        "redshifts": [
+          0.1,
+          0.2,
+          0.325,
+          0.525,
+          0.825,
+          1.175
+        ],
+        "frequencies": [
+          2.8780600160790963,
+          3.1067619152382617,
+          3.243742479543433,
+          3.453141641130874,
+          3.969060285385003,
+          4.194353285787075
+        ],
+        "errors": [
+          0.020895881452014042,
+          0.026270577352478872,
+          0.047688826380766644,
+          0.04674397439831602,
+          0.07109375851656817,
+          0.09580374778699369
+        ],
+        "theory": [
+          2.97870775040567,
+          3.1111587778061334,
+          3.2691849578621017,
+          3.5072479874537716,
+          3.8367454542461594,
+          4.188525689912296
+        ]
+      }
+    },
+    "primordial_black_holes": {
+      "z_activation": 3.0,
+      "t_activation_gyr": 3.0935172936693203,
+      "max_formation_enhancement": 5.088074168710518,
+      "mass_function_enhancement": 1.5490448668780914,
+      "predicted_ligo_rate": 154.90448668780914,
+      "current_ligo_rate": 100,
+      "enhancement_detectable": "True"
+    },
+    "cosmological_observations": {
+      "sn_distance_deviation_mag": 0.005608856295689572,
+      "max_sn_deviation_mag": 0.021181104060950418,
+      "bao_scale_deviation_mpc": 0.6363961030679067,
+      "max_bao_deviation_mpc": 0.6495190528383432,
+      "sn_detectable": "True",
+      "bao_detectable": "False",
+      "overall_detectable": "True"
+    },
+    "parameter_optimization": {
+      "best_fit_parameters": {
+        "R0_km": 6100.621579797478,
+        "alpha": 0.40600662161497225,
+        "z_activation": 1.3711495715266833
+      },
+      "parameter_errors": {
+        "R0_error_km": 32.10853463051308,
+        "alpha_error": 0.019231892602814465,
+        "z_activation_error": 0.07938234361470264
+      },
+      "fit_statistics": {
+        "chi_squared": 0.20491014301270907,
+        "degrees_freedom": 3,
+        "reduced_chi_squared": 0.06830338100423636,
+        "p_value": 0.9767927673757181
+      },
+      "R0_theory_agreement_sigma": 71.61268636711307,
+      "fit_quality_good": "False",
+      "theory_consistent": "False"
+    }
+  }
+}

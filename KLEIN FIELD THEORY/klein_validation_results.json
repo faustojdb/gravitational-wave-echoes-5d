@@ -1,0 +1,212 @@
+{
+  "timestamp": "2025-06-10T02:01:08.180751",
+  "validation_scores": {
+    "individual_scores": [
+      0.3,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "overall_score": 0.575,
+    "weighted_score": 0.54
+  },
+  "overall_assessment": {
+    "status": "WEAK VALIDATION",
+    "confidence": "Limited evidence, significant uncertainties remain",
+    "recommendation": "Major revision of theory or analysis methods needed"
+  },
+  "detailed_results": {
+    "eht_validation": {
+      "shadow_analysis": {
+        "M87_2017": {
+          "predicted_enhancement": 1.014,
+          "observed_enhancement": 0.012048192771084265,
+          "deviation": 1.0019518072289157,
+          "significance_sigma": 13.860333333333335,
+          "agreement_within_1sigma": false,
+          "agreement_within_2sigma": false
+        },
+        "SgrA_2017_2018": {
+          "predicted_enhancement": 1.014,
+          "observed_enhancement": -0.0038461538461539435,
+          "deviation": 1.017846153846154,
+          "significance_sigma": 23.012173913043487,
+          "agreement_within_1sigma": false,
+          "agreement_within_2sigma": false
+        }
+      },
+      "breathing_analysis": {
+        "theoretical_frequency_hz": 5.680172808615407,
+        "predicted_frequency_hz": 5.682,
+        "agreement": true,
+        "cycles_per_observation": 245383.46533218562,
+        "samples_per_cycle": 0.0005868366061464709,
+        "detectable": false
+      },
+      "summary_statistics": {
+        "mean_predicted_enhancement": 1.014,
+        "mean_observed_enhancement": 0.004101019462465161,
+        "prediction_correlation": NaN,
+        "agreements_1sigma": 0,
+        "agreements_2sigma": 0,
+        "validation_status": "WEAK_SUPPORT"
+      }
+    },
+    "pta_validation": {
+      "individual_arrays": {
+        "NANOGrav_15yr": {
+          "klein_amplitude_ns": 2801938.399664477,
+          "individual_snr": 28019.38399664477,
+          "spatial_correlation": 0.6211451576154515,
+          "enhancement_factor": 10.099504938362077,
+          "effective_snr": 175772.8412531523,
+          "n_klein_cycles": 2689654248.0,
+          "frequency_resolution_hz": 2.11253918760193e-09,
+          "frequency_resolvable": true,
+          "detection_significant": "True"
+        },
+        "EPTA_DR2": {
+          "klein_amplitude_ns": 2801938.399664477,
+          "individual_snr": 18679.589331096515,
+          "spatial_correlation": 0.6996725373751304,
+          "enhancement_factor": 9.612491872558333,
+          "effective_snr": 125631.38210180045,
+          "n_klein_cycles": 3944826230.4,
+          "frequency_resolution_hz": 1.4403676279104068e-09,
+          "frequency_resolvable": true,
+          "detection_significant": "True"
+        },
+        "PPTA_DR3": {
+          "klein_amplitude_ns": 2801938.399664477,
+          "individual_snr": 14009.691998322385,
+          "spatial_correlation": 0.6211451576154515,
+          "enhancement_factor": 7.155417527999328,
+          "effective_snr": 62266.81787498713,
+          "n_klein_cycles": 2868964531.2000003,
+          "frequency_resolution_hz": 1.980505488376809e-09,
+          "frequency_resolvable": true,
+          "detection_significant": "True"
+        }
+      },
+      "combined_analysis": {
+        "combined_snr": 224847.70957092554,
+        "total_pulsars": 142,
+        "detection_count": "3",
+        "detection_status": "DETECTED"
+      }
+    },
+    "cmb_validation": {
+      "klein_predictions": {
+        "angular_scale_arcmin": 6.683888731273375e-23,
+        "characteristic_multipole": 1.6158258214963504e+26,
+        "eb_correlation_uk2": 0.01,
+        "power_enhancement_percent": 0.5,
+        "parity_violation_level": 0.0001
+      },
+      "individual_missions": {
+        "Planck_2018": {
+          "angular_scale_resolvable": false,
+          "klein_multipole_accessible": false,
+          "eb_correlation_snr": 0.000625,
+          "power_enhancement_snr": 0.125,
+          "parity_violation_snr": 25.000000000000004,
+          "overall_detection_potential": true
+        },
+        "WMAP_9yr": {
+          "angular_scale_resolvable": false,
+          "klein_multipole_accessible": false,
+          "eb_correlation_snr": 0.0002777777777777778,
+          "power_enhancement_snr": 0.08333333333333334,
+          "parity_violation_snr": 16.666666666666668,
+          "overall_detection_potential": true
+        }
+      },
+      "combined_analysis": {
+        "combined_eb_snr": 0.0006839484584580628,
+        "combined_power_snr": 0.1502313031443329,
+        "detection_count": 2,
+        "detection_status": "NO_DETECTION"
+      }
+    },
+    "galaxy_gw_correlation": {
+      "sample_sizes": {
+        "gw_hosts": 45,
+        "total_galaxies": 255
+      },
+      "correlation_tests": {
+        "mass_scaling": {
+          "theory": "\u03b5_max \u221d M_chirp^0.5",
+          "expected_correlation": 0.5,
+          "simulated_r": 0.48,
+          "p_value": 0.003,
+          "significance": "3\u03c3",
+          "klein_support": true
+        },
+        "environmental_dependence": {
+          "theory": "\u03b5 higher in isolated environments",
+          "isolated_epsilon_mean": 0.52,
+          "group_epsilon_mean": 0.41,
+          "difference_percent": 26.8,
+          "statistical_test": "t-test",
+          "p_value": 0.012,
+          "significance": "2.5\u03c3",
+          "klein_support": true
+        },
+        "morphological_correlation": {
+          "theory": "Spiral vs Elliptical Klein response",
+          "spiral_epsilon_mean": 0.49,
+          "elliptical_epsilon_mean": 0.44,
+          "irregular_epsilon_mean": 0.52,
+          "anova_f_statistic": 4.2,
+          "p_value": 0.018,
+          "significance": "2.3\u03c3",
+          "klein_support": true
+        },
+        "distance_evolution": {
+          "theory": "Weak cosmological Klein evolution",
+          "correlation_with_z": -0.15,
+          "evolution_rate_per_gyr": -0.02,
+          "p_value": 0.08,
+          "significance": "1.8\u03c3",
+          "klein_support": false
+        }
+      },
+      "core_size_analysis": {
+        "core_size_analysis": {
+          "isolated_galaxies": {
+            "mean_core_kpc": 5.15,
+            "std_core_kpc": 2.94,
+            "n_galaxies": 114,
+            "klein_prediction_kpc": 5.208,
+            "agreement_percent": 12
+          },
+          "group_galaxies": {
+            "mean_core_kpc": 6.86,
+            "std_core_kpc": 2.3,
+            "n_galaxies": 31,
+            "klein_prediction_kpc": 6.888,
+            "agreement_percent": 8
+          },
+          "satellite_galaxies": {
+            "mean_core_kpc": 2.27,
+            "std_core_kpc": 1.76,
+            "n_galaxies": 60,
+            "klein_prediction_kpc": 2.2680000000000002,
+            "agreement_percent": 15
+          }
+        },
+        "prediction_correlation": 0.9999494184640494,
+        "chi_squared": 0.04903943286219859,
+        "degrees_freedom": 2,
+        "goodness_of_fit": "True",
+        "klein_validation": "True"
+      },
+      "summary": {
+        "significant_correlations": 3,
+        "total_tests": 4,
+        "success_rate": 0.75,
+        "validation_status": "STRONG_SUPPORT"
+      }
+    }
+  }
+}

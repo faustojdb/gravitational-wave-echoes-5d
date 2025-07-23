@@ -1,0 +1,30 @@
+{
+  "analysis_timestamp": "2025-07-22T20:47:47.386875",
+  "statistics": {
+    "subthreshold": {
+      "mean": 0.009999999999999998,
+      "std": 1.734723475976807e-18,
+      "min": 0.01,
+      "max": 0.01,
+      "median": 0.01
+    },
+    "confirmed": {
+      "mean": 0.6411751441301144,
+      "std": 0.017806737778403466,
+      "min": 0.596868262048122,
+      "max": 0.672,
+      "median": 0.6423852948286436
+    },
+    "gap_size": 0.586868262048122
+  },
+  "boundary_events": {
+    "subthreshold_anomalies": [],
+    "confirmed_anomalies": []
+  },
+  "recommendations": [],
+  "plot_files": [
+    "klein_subthreshold_data/klein_analysis_results/visualization_plots/klein_distributions_comparison.png",
+    "klein_subthreshold_data/klein_analysis_results/visualization_plots/topological_states_comparison.png",
+    "klein_subthreshold_data/klein_analysis_results/visualization_plots/klein_detection_scatter.png"
+  ]
+}

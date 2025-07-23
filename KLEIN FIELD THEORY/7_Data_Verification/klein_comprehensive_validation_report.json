@@ -1,0 +1,118 @@
+{
+  "timestamp": "2025-06-10T02:17:18.846794",
+  "overall_score": 0.75,
+  "weighted_score": 0.85,
+  "assessment": "STRONG VALIDATION - Multiple lines of evidence support Klein Field Theory",
+  "confidence": "High",
+  "validations": {
+    "SPARC Galaxies": "SIGNIFICANT",
+    "GWTC Events": "SIGNIFICANT",
+    "PTA Signatures": "DETECTED",
+    "CMB Signatures": "NO_DETECTION"
+  },
+  "detailed_results": {
+    "sparc_analysis": {
+      "core_correlation": 0.9427228708076338,
+      "core_p_value": 5.11373272761346e-10,
+      "linear_slope": 1.0140946162809696,
+      "r_squared": 0.8887264111437874,
+      "mass_correlation": 0.9041904519867144,
+      "mass_p_value": 4.543152679848624e-08,
+      "environmental_stats": {
+        "group": {
+          "n_galaxies": 9,
+          "mean_epsilon": 0.2278443377929591,
+          "std_epsilon": 0.08784951737454505,
+          "mean_core_predicted": 1.9138924374608568,
+          "mean_core_observed": 1.8477912100368314
+        },
+        "isolated": {
+          "n_galaxies": 8,
+          "mean_epsilon": 0.17439689085023008,
+          "std_epsilon": 0.10323178390304476,
+          "mean_core_predicted": 1.4649338831419332,
+          "mean_core_observed": 1.2244718680845865
+        },
+        "satellite": {
+          "n_galaxies": 3,
+          "mean_epsilon": 0.05000000000000001,
+          "std_epsilon": 8.498374721940739e-18,
+          "mean_core_predicted": 0.42,
+          "mean_core_observed": 0.33870072803628665
+        }
+      },
+      "n_galaxies": 20,
+      "validation_status": "SIGNIFICANT"
+    },
+    "gwtc_analysis": {
+      "frequency_analysis": {
+        "mean_hz": 5.6797802870889775,
+        "std_hz": 0.052253284258036055,
+        "cv": 0.009199877744710634,
+        "theory_test_p": 0.7233650722216274
+      },
+      "mass_correlation": {
+        "correlation": 0.9538166539334652,
+        "p_value": 3.0659403841121036e-37
+      },
+      "epsilon_distribution": {
+        "mean": 0.2572842006344341,
+        "std": 0.09754913311633455,
+        "max_observed": 0.560019978818502,
+        "limit_violations": "0",
+        "limit_test_p": 1.0
+      },
+      "distance_scaling": {
+        "correlation": -0.10310246880681001,
+        "p_value": 0.3956855392203105
+      },
+      "n_events": 70,
+      "validation_status": "SIGNIFICANT"
+    },
+    "pta_analysis": {
+      "array_results": {
+        "NANOGrav": {
+          "n_pulsars": 33,
+          "individual_snr_mean": 9484.647137270495,
+          "combined_snr": 67907.9912321033,
+          "detected": "True",
+          "spatial_correlation": 0.6211451576154515
+        },
+        "EPTA": {
+          "n_pulsars": 23,
+          "individual_snr_mean": 8943.524824336697,
+          "combined_snr": 51713.20208796087,
+          "detected": "True",
+          "spatial_correlation": 0.6996725373751305
+        },
+        "PPTA": {
+          "n_pulsars": 15,
+          "individual_snr_mean": 5981.5640959670945,
+          "combined_snr": 26706.710916443357,
+          "detected": "True",
+          "spatial_correlation": 0.6211451576154515
+        },
+        "IPTA": {
+          "n_pulsars": 9,
+          "individual_snr_mean": 13708.79101159801,
+          "combined_snr": 50393.40552658554,
+          "detected": "True",
+          "spatial_correlation": 0.3858213068291241
+        }
+      },
+      "total_snr": 102657.16863381279,
+      "total_pulsars": 80,
+      "arrays_detected": "4",
+      "detection_status": "DETECTED"
+    },
+    "cmb_analysis": {
+      "klein_multipole": 1.4810502488509167e+23,
+      "max_enhancement": 0.0,
+      "enhancement_snr": 0.0,
+      "max_eb_correlation": 0.0,
+      "eb_snr": 0.0,
+      "parity_snr": 0.0,
+      "detection_status": "NO_DETECTION"
+    }
+  }
+}

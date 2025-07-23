@@ -1,0 +1,14 @@
+KLEIN FIELD THEORY CROSS-DATASET CONSISTENCY SUMMARY
+============================================================
+
+Analysis Date: 2025-07-22 22:55:05
+Datasets: GWTC-2.1, GWTC-3, Confirmed Events
+Total Events: 2,357
+
+CONSISTENCY SCORES:
+  subthreshold: PASS
+  threshold: PASS
+  temporal: PASS
+  systematic: PASS
+
+OVERALL: 4/4 (100.0%)
