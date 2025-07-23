@@ -67,6 +67,15 @@ monte_carlo_detailed_results.csv
 # Klein Subthreshold Theory large data directory
 Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc21_extracted/
 
+# Klein Subthreshold Theory specific large files
+Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc3_subthreshold_analysis.ipynb
+Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc3_subthreshold_bbh_population.hdf5
+Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc3_subthreshold_bns_population.hdf5
+Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc3_subthreshold_mixture_population.hdf5
+Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc3_subthreshold_nsbh_population.hdf5
+Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc21_subthreshold_analysis.ipynb
+Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc21_subthreshold_candidates.tar.xml.gz
+
 # But DO track important PDFs
 !DiBacco_2024_*.pdf
 
