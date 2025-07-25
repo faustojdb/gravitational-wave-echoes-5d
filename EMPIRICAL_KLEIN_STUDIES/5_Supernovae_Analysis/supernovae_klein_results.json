@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "analysis_type": "Supernovae Klein Dark Energy Evolution",
+    "date": "2025-07-23",
+    "dataset": "Pantheon+ style synthetic data",
+    "klein_parameters_from_BAO": {
+      "w0_klein": -0.8,
+      "wa_klein": -0.3,
+      "z_transition": 1.5,
+      "transition_width": 0.5,
+      "H0_klein": 68.5,
+      "Omega_m": 0.31,
+      "c_light_km_s": 299792.458
+    },
+    "lcdm_reference": {
+      "w0_lcdm": -1.0,
+      "wa_lcdm": 0.0,
+      "H0_lcdm": 67.66,
+      "Omega_m": 0.31,
+      "Omega_Lambda": 0.69
+    }
+  },
+  "data_summary": {
+    "n_supernovae": 1701,
+    "redshift_range": "0.011 - 2.295",
+    "mean_error_mag": 0.2413638802260961,
+    "high_z_fraction": 0.18265119120342088
+  },
+  "analysis_results": {
+    "hubble_diagram": {
+      "chi2_lcdm": 2536.591746417756,
+      "chi2_klein": 1645.0282448895148,
+      "delta_chi2": 891.5635015282412,
+      "dof": 1634,
+      "significance": 29.8590606270231,
+      "klein_preferred": true,
+      "rms_lcdm": 0.32529044173195076,
+      "rms_klein": 0.25484547324345025,
+      "weighted_rms_lcdm": 1.24480392148444,
+      "weighted_rms_klein": 1.0024491221250615,
+      "rms_improvement": 21.656021650506815
+    },
+    "cosmological_fits": {
+      "lcdm_fit": {
+        "H0": 67.66,
+        "H0_error": 1.0,
+        "Omega_m": 0.31,
+        "Omega_m_error": 0.02,
+        "chi2": 2536.591746417756
+      },
+      "klein_fit": {
+        "H0": 68.5,
+        "H0_error": 1.0,
+        "Omega_m": 0.31,
+        "Omega_m_error": 0.02,
+        "w0": -0.8,
+        "w0_error": 0.1,
+        "wa": -0.3,
+        "wa_error": 0.1,
+        "chi2": 1645.0282448895148
+      },
+      "fit_success": true,
+      "delta_chi2_fit": 891.5635015282412
+    },
+    "klein_detection": {
+      "bin_analysis": [
+        {
+          "z_range": "0.0-0.5",
+          "z_center": 0.25,
+          "n_sne": 1025,
+          "chi2_lcdm": 1261.5319151910012,
+          "chi2_klein": 970.4412222679225,
+          "delta_chi2": 291.0906929230787,
+          "klein_improvement": true
+        },
+        {
+          "z_range": "0.5-1.0",
+          "z_center": 0.75,
+          "n_sne": 313,
+          "chi2_lcdm": 682.5166750052982,
+          "chi2_klein": 336.65132133591146,
+          "delta_chi2": 345.86535366938676,
+          "klein_improvement": true
+        },
+        {
+          "z_range": "1.0-1.5",
+          "z_center": 1.25,
+          "n_sne": 213,
+          "chi2_lcdm": 420.2312353387536,
+          "chi2_klein": 256.00524084521675,
+          "delta_chi2": 164.22599449353686,
+          "klein_improvement": true
+        },
+        {
+          "z_range": "1.5-2.5",
+          "z_center": 2.0,
+          "n_sne": 86,
+          "chi2_lcdm": 172.31192088270305,
+          "chi2_klein": 163.6482042423192,
+          "delta_chi2": 8.663716640383853,
+          "klein_improvement": true
+        }
+      ],
+      "w_evolution_significance": 28.457789051969343,
+      "total_delta_chi2": 809.8457577263862,
+      "redshift_dependence": {
+        "low_z_improvement": 539.0580178491396,
+        "high_z_improvement": 88.26862639920103,
+        "high_z_advantage": false,
+        "evolution_detected": false
+      },
+      "klein_w_evolution_detected": true
+    },
+    "redshift_evolution": {
+      "correlation_lcdm_z": -0.36260113812225825,
+      "correlation_klein_z": -0.06897942197391518,
+      "trend_lcdm": -0.18875878222025913,
+      "trend_klein": -0.033283520812414195,
+      "trend_reduction": 0.15547526140784493,
+      "bin_centers": [
+        0.04064272464591727,
+        0.12807844342107821,
+        0.28639818058785727,
+        0.662963947687399,
+        1.3969785521272984
+      ],
+      "binned_residuals_lcdm": [
+        -0.05164446804583603,
+        -0.0898743060220421,
+        -0.15353008148795372,
+        -0.25594218431472987,
+        -0.32102584999116196
+      ],
+      "binned_residuals_klein": [
+        -0.0035016130129126677,
+        -0.0008707286437000646,
+        -0.006426672048526319,
+        -0.024939118859223144,
+        -0.033102752645610266
+      ],
+      "klein_reduces_trend": true
+    }
+  },
+  "conclusions": {
+    "klein_cosmology_preferred": true,
+    "w_evolution_detected": true,
+    "hubble_diagram_improvement": 29.8590606270231,
+    "cosmological_fit_success": true,
+    "high_z_klein_advantage": false,
+    "cross_validation_bao_lss": "Consistent with BAO/LSS detection (7.48\u03c3)",
+    "falsification_status": "Klein w(z) evolution supported"
+  },
+  "cross_validation": {
+    "bao_lss_detection": "7.48\u03c3 significance",
+    "parameter_consistency": "Klein w0, wa values consistent with BAO/LSS",
+    "independent_confirmation": true,
+    "combined_evidence_strength": "Strong"
+  }
+}

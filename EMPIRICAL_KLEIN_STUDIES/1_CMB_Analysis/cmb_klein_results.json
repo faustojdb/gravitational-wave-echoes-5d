@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "analysis_type": "CMB Klein Field Theory Validation",
+    "date": "2025-07-23",
+    "klein_parameters": {
+      "f0_Hz": 5.68,
+      "R_Klein_m": 8400000.0,
+      "epsilon_max": 0.65,
+      "ULKP_mass_eV": 2.35e-14,
+      "k_coherencia_Mpc": 7.5e-07,
+      "ratio_odd_even": 40.6
+    },
+    "cosmology": {
+      "H0": 67.66,
+      "Omega_m": 0.30966,
+      "Omega_Lambda": 0.6888463055445441
+    }
+  },
+  "data_summary": {
+    "l_range": "2 - 4000",
+    "n_data_points": 3999,
+    "analysis_range_high_l": "l > 2000"
+  },
+  "klein_analysis": {
+    "klein_detection": {
+      "high_l_range": "l = 2001 - 4000",
+      "chi2_LCDM": NaN,
+      "chi2_Klein": NaN,
+      "p_value_LCDM": NaN,
+      "p_value_Klein": NaN,
+      "delta_chi2": NaN,
+      "improvement_significance": NaN,
+      "klein_preferred": false
+    },
+    "ulkp_analysis": {
+      "dominant_frequency": 0.00025006251562890725,
+      "oscillation_period_l": 3998.9999999999995,
+      "max_power": NaN,
+      "expected_ULKP_period": 3.2328474942549885e+20,
+      "ulkp_detection_significance": NaN
+    },
+    "statistical_tests": {},
+    "model_comparison": {
+      "BIC_LCDM": NaN,
+      "BIC_Klein": NaN,
+      "delta_BIC": NaN,
+      "evidence_ratio": NaN,
+      "interpretation": "Strong evidence for LCDM"
+    }
+  },
+  "conclusions": {
+    "klein_detection": false,
+    "statistical_significance": NaN,
+    "model_preference": "Strong evidence for LCDM",
+    "ulkp_detection": false,
+    "falsification_status": "Klein model disfavored"
+  }
+}

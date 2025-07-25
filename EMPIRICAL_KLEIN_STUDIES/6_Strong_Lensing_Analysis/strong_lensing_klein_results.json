@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "analysis_type": "Strong Lensing Klein H\u2080 Independence",
+    "date": "2025-07-23",
+    "dataset": "H0LiCOW-style synthetic data",
+    "klein_parameters_from_detections": {
+      "H0_klein": 68.5,
+      "w0_klein": -0.8,
+      "wa_klein": -0.3,
+      "z_transition": 1.5,
+      "transition_width": 0.5,
+      "Omega_m": 0.31,
+      "c_light_km_s": 299792.458,
+      "f0_Hz": 5.68,
+      "R_Klein_m": 8400000.0,
+      "epsilon_max": 0.65
+    },
+    "lcdm_reference": {
+      "H0_lcdm": 67.66,
+      "w0_lcdm": -1.0,
+      "wa_lcdm": 0.0,
+      "Omega_m": 0.31,
+      "Omega_Lambda": 0.69
+    }
+  },
+  "data_summary": {
+    "n_lens_systems": 7,
+    "lens_redshift_range": "0.295 - 0.745",
+    "source_redshift_range": "0.658 - 2.375",
+    "time_delay_range": "13.9 - 160.1 days"
+  },
+  "analysis_results": {
+    "time_delays": {
+      "chi2_lcdm": 6.190782535165381,
+      "chi2_klein": 16.535954916412845,
+      "delta_chi2": -10.345172381247464,
+      "dof": 6,
+      "significance": -3.2163912046340792,
+      "klein_preferred": "False",
+      "residuals_lcdm": "[ 1.58681451 -0.20392351  0.06029311 -1.93379606 -0.85785413  5.72104174\n -1.12524076]",
+      "residuals_klein": "[ 2.51962142  2.48506175 -0.12487847 -1.34871874  7.60535317  8.61736458\n  3.22430673]",
+      "rms_lcdm": 2.421191166609127,
+      "rms_klein": 4.733696589210202,
+      "rms_improvement": -95.51106308717183
+    },
+    "h0_measurements": {
+      "H0_lcdm_mean": 68.00096133129139,
+      "H0_lcdm_std": 2.2906403592324156,
+      "H0_klein_mean": 70.68266013704573,
+      "H0_klein_std": 2.8024594154723848,
+      "planck_consistency_lcdm": 0.2623551658247944,
+      "planck_consistency_klein": 1.1713497504806492,
+      "sh0es_consistency_lcdm": 2.269687883457527,
+      "sh0es_consistency_klein": 0.8982609521679543,
+      "h0_tension_lcdm": 0.6009613312913871,
+      "h0_tension_klein": 3.282660137045724,
+      "h0_consistency": "LCDM"
+    },
+    "klein_tests": {
+      "redshift_dependence": "False",
+      "improvement_high_z": -2.2444791744739083,
+      "improvement_low_z": -1.6069725782654913,
+      "z_transition_test": 1.5,
+      "n_high_z_systems": "5",
+      "n_low_z_systems": "2",
+      "dt_modulation_detected": false,
+      "klein_frequency_hz": 5.68
+    }
+  },
+  "conclusions": {
+    "klein_cosmology_preferred": "False",
+    "h0_consistency": "LCDM",
+    "time_delay_significance": -3.2163912046340792,
+    "strong_lensing_detection": "True",
+    "h0_tension_resolution": "False",
+    "falsification_status": "LCDM consistent"
+  },
+  "cross_validation": {
+    "bao_lss_detection": "7.48\u03c3 significance",
+    "supernovae_detection": "29.86\u03c3 significance",
+    "parameter_consistency": "Klein parameters consistent across probes",
+    "independent_confirmation": "False",
+    "combined_evidence_strength": "Moderate"
+  }
+}

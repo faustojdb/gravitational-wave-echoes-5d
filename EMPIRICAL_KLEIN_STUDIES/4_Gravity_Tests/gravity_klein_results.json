@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "analysis_type": "Gravity Tests Klein Field Theory Validation",
+    "date": "2025-07-23",
+    "klein_parameters": {
+      "f0_Hz": 5.68,
+      "R_Klein_m": 8400000.0,
+      "epsilon_max": 0.65,
+      "delta_klein": 1e-15,
+      "alpha_klein": 1e-16,
+      "breathing_amplitude": 1e-18
+    },
+    "experimental_precision": {
+      "MICROSCOPE_acceleration": 1e-15,
+      "GRACE_gravity_anomaly": 1e-08,
+      "LLR_range_precision": 0.001,
+      "GPS_time_precision": 1e-14,
+      "Torsion_balance_precision": 1e-13
+    }
+  },
+  "data_summary": {
+    "microscope_orbits": 1000,
+    "grace_measurements": 20000,
+    "llr_years": 50,
+    "total_data_points": 120600
+  },
+  "analysis_results": {
+    "equivalence_principle": {
+      "eot_parameter": 1.0070202381440907e-16,
+      "expected_eot_klein": 1e-15,
+      "klein_peak_significance": -2.173773711279468e-15,
+      "klein_detection_significance": 7.006492321624084e-30,
+      "snr_klein": 7.0064923216240845e-31,
+      "klein_violation_detected": false,
+      "breathing_frequency_detected": false
+    },
+    "gravity_anomalies": {
+      "correlation_coefficient": 0.017874121775268488,
+      "residuals_rms": 9.973475092807999e-09,
+      "klein_pattern_rms": 4.987359020563889e-17,
+      "chi2_standard": 19894.89032697691,
+      "chi2_klein": 19894.890323420583,
+      "delta_chi2": 3.5563280107453465e-06,
+      "significance": 0.0018858229001540274,
+      "klein_scale_detected": true,
+      "klein_anomalies_detected": false
+    },
+    "lunar_ranging": {
+      "residuals_rms": 0.0010008338023022425,
+      "klein_correction_rms": 2.8473842321984203e-10,
+      "snr_klein": 2.8473842321984205e-07,
+      "trend_coefficient_m_per_year": -4.7681014272019715e-07,
+      "klein_breathing_significance": -0.00032926540256637496,
+      "perturbation_significance": 6.974638470532585e-07,
+      "klein_perturbations_detected": false,
+      "breathing_in_llr_detected": false
+    },
+    "klein_detection": {
+      "klein_scale_test": {
+        "R_Klein_predicted": 8400000.0,
+        "orbital_radius": 7081000.0,
+        "moon_distance": 384377972.4556677,
+        "orbital_scale_match": true,
+        "lunar_scale_appropriate": true,
+        "scale_consistency": true
+      },
+      "breathing_frequency_test": {
+        "f0_klein_Hz": 5.68,
+        "breathing_in_microscope": false,
+        "breathing_in_llr": false,
+        "frequency_consistency": true
+      },
+      "amplitude_scaling_test": {
+        "distances": [
+          7081000.0,
+          384377972.4556677
+        ],
+        "expected_amplitudes": [
+          4.30427580768637e-16,
+          1.3396647882991436e-35
+        ],
+        "amplitude_ratio": 3.112404613818739e-20,
+        "scaling_verified": true
+      }
+    },
+    "statistical_tests": {
+      "individual_significances": [
+        7.006492321624084e-30,
+        0.0018858229001540274,
+        6.974638470532585e-07
+      ],
+      "combined_significance": 0.0018858230291310912,
+      "detection_threshold": 3.0,
+      "klein_gravity_detected": false,
+      "confidence_level": 0.5007523340937505,
+      "interpretation": "No significant evidence for Klein gravity modifications"
+    }
+  },
+  "conclusions": {
+    "equivalence_principle_violated": false,
+    "gravity_anomalies_detected": false,
+    "lunar_perturbations_detected": false,
+    "klein_breathing_detected": false,
+    "combined_significance": 0.0018858230291310912,
+    "klein_gravity_modifications_detected": false,
+    "confidence_level": 0.5007523340937505,
+    "falsification_status": "No significant Klein gravity signatures"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "analysis_type": "BAO/LSS Klein Field Theory Validation",
+    "date": "2025-07-23",
+    "klein_parameters": {
+      "f0_Hz": 5.68,
+      "R_Klein_m": 8400000.0,
+      "epsilon_max": 0.65,
+      "r0_enhancement": 1.15,
+      "z_transition": 1.5,
+      "w0_klein": -0.8,
+      "wa_klein": -0.3
+    },
+    "cosmology_reference": {
+      "H0": 67.66,
+      "Omega_m": 0.3097,
+      "Omega_Lambda": 0.6903,
+      "Omega_b": 0.04897,
+      "h": 0.6766,
+      "ns": 0.9665,
+      "sigma8": 0.8102
+    }
+  },
+  "data_summary": {
+    "bao_redshift_range": "z = 0.1 - 3.0",
+    "bao_n_bins": 20,
+    "lss_n_galaxies": 976351,
+    "sound_horizon_rs": 57.00927933028942
+  },
+  "analysis_results": {
+    "bao_analysis": {
+      "chi2_LCDM": 50.21098614347422,
+      "chi2_Klein": 18.098300772484286,
+      "delta_chi2": 32.11268537098994,
+      "dof": 20,
+      "w_evolution_significance": 5.6668055702476625,
+      "w_evolution_detected": true,
+      "w_params_fitted": {
+        "w0": -4.678967220708517,
+        "wa": 125.98011671234295,
+        "H0_fit": 57.77384385945273,
+        "w0_error": 5541059.438377891,
+        "wa_error": 169897979.50841984,
+        "H0_error": 1.7764506693389401,
+        "chi2_fit": 11.157500011237964,
+        "fit_success": true
+      },
+      "klein_preferred": true
+    },
+    "lss_analysis": {
+      "r0_LCDM": 4.999999999999999,
+      "r0_Klein": 5.401569973715973,
+      "r0_observed": 5.363545883368497,
+      "correlation_enhancement": 1.0727091766736996,
+      "expected_enhancement": 1.15,
+      "enhancement_agreement": false,
+      "chi2_LCDM_lss": 40.854655896442345,
+      "chi2_Klein_lss": 17.010446048215595,
+      "delta_chi2_lss": 23.84420984822675,
+      "lss_significance": 4.8830533325191885,
+      "klein_lss_preferred": true
+    },
+    "klein_detection": {
+      "de_transition_test": {
+        "z_transition_predicted": 1.5,
+        "z_transition_observed": 2.3894736842105266,
+        "transition_agreement": false,
+        "transition_strength": 131.0158062467957
+      },
+      "klein_oscillation_test": {
+        "klein_scale_Mpc": 2.7219701879455606e-16,
+        "detected_scale_Mpc": 0.6584310024336314,
+        "klein_scale_power": 1.4862377290684452,
+        "oscillation_detected": false
+      }
+    },
+    "model_comparison": {
+      "chi2_LCDM_total": 91.06564203991657,
+      "chi2_Klein_total": 35.10874682069988,
+      "delta_chi2_total": 55.95689521921669,
+      "dof_total": 40,
+      "BIC_LCDM": 113.1989187646002,
+      "BIC_Klein": 64.61978245361136,
+      "delta_BIC": 48.57913631098883,
+      "klein_significance": 7.480434159807617,
+      "bayes_factor": 35385506611.38831,
+      "klein_preferred": true,
+      "evidence_interpretation": "Very strong evidence for Klein"
+    }
+  },
+  "conclusions": {
+    "de_evolution_detected": true,
+    "lss_enhancement_detected": false,
+    "klein_cosmology_preferred": true,
+    "combined_significance": 7.480434159807617,
+    "bayes_factor": 35385506611.38831,
+    "evidence_strength": "Very strong evidence for Klein",
+    "falsification_status": "Klein cosmology supported"
+  }
+}

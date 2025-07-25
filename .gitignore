@@ -84,3 +84,11 @@ Klein\ Subthreshold\ Theory/6_Data_Sources/gwtc21_subthreshold_candidates.tar.xm
 
 # Claude Code configuration (optional)
 .claude/
+
+# EMPIRICAL_KLEIN_STUDIES large data files and environments
+EMPIRICAL_KLEIN_STUDIES/*/venv/
+EMPIRICAL_KLEIN_STUDIES/*/klein_env/
+EMPIRICAL_KLEIN_STUDIES/7_Weak_Lensing_Analysis/des_y3_real_data/
+EMPIRICAL_KLEIN_STUDIES/5_Supernovae_Analysis/pantheon_plus_data/
+EMPIRICAL_KLEIN_STUDIES/5_Supernovae_Analysis/des_sn5yr_data/
+EMPIRICAL_KLEIN_STUDIES/5_Supernovae_Analysis/union3_data/

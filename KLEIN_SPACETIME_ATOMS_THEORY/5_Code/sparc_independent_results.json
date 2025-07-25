@@ -1,0 +1,635 @@
+{
+  "analysis_metadata": {
+    "date": "2025-07-23T22:21:24.891430",
+    "target_scale_kpc": 8.4,
+    "n_galaxies": 175,
+    "objective": "Independent search for 8.4 kpc spacetime scale"
+  },
+  "summary_statistics": {
+    "peak_analysis": {
+      "bin_centers": "[ 0.25  0.75  1.25  1.75  2.25  2.75  3.25  3.75  4.25  4.75  5.25  5.75\n  6.25  6.75  7.25  7.75  8.25  8.75  9.25  9.75 10.25 10.75 11.25 11.75\n 12.25 12.75 13.25 13.75 14.25 14.75 15.25 15.75 16.25 16.75 17.25 17.75\n 18.25 18.75 19.25 19.75 20.25 20.75 21.25 21.75 22.25 22.75 23.25 23.75\n 24.25 24.75]",
+      "bin_rms": "[ 0.         11.39246211 10.88338692  9.88996335 10.63249124 10.76029017\n  9.15917777 10.69417487 10.12748468  9.76685654  9.73991629 10.38403629\n  9.0404697  11.10397276 11.32692621 10.86383074  9.38592785  9.24328762\n  9.85697711  8.8245937  10.42860101 10.01844115 11.00444831  8.96016434\n  9.61974547  9.1550086  10.44265334  9.38124771 10.2349082  13.02614319\n  9.44388881 12.26422948  0.          8.90496398  6.19859021  8.09626512\n  8.54211297 16.33338085 10.32645287  9.70857456 10.82418761  9.480845\n  0.         14.43702033  0.          9.00542092  0.         12.7699895\n  0.          0.        ]",
+      "bin_counts": "[  0 264 211 154 193 169 162 200 147 218 144 203 177 136 211 169 129 120\n  79 105  95 105 113 102  64  74  34  74  67   7  67  40   0  40  18  22\n  33   7  15   7  15   7   0   7   0   7   0   7   0   0]",
+      "peak_radius": 18.75,
+      "peak_amplitude": 16.333380848187794,
+      "peak_significance": 1.5719927494455745,
+      "target_8p4_significance": 0.9137649224429881
+    },
+    "fourier_analysis": {
+      "fourier_significance": 1.7012907708687448,
+      "target_wavelength": 8.4,
+      "detected_significance": 1.7012907708687448
+    },
+    "statistical_tests": {
+      "n_galaxies": 120,
+      "mean_significance": 0.7014397039746054,
+      "std_significance": 0.5318457837279748,
+      "combined_significance": 9.642889168591783,
+      "radius_clustering": 2.4692530496115936,
+      "binomial_p_value": 0.08240747932752653,
+      "fraction_positive": 0.4166666666666667
+    },
+    "individual_galaxies": {
+      "SPARC_001": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -6.116383740699291,
+        "feature_significance": 0.5154731445562286
+      },
+      "SPARC_002": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": 3.666184607877085,
+        "feature_significance": 0.3476758545632673
+      },
+      "SPARC_005": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -7.066539425185908,
+        "feature_significance": 0.5293271863793837
+      },
+      "SPARC_006": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 5.460065787587695,
+        "feature_significance": 0.5103184030824931
+      },
+      "SPARC_007": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 6.95769216697272,
+        "feature_significance": 0.5005556821201678
+      },
+      "SPARC_008": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -11.483573752511404,
+        "feature_significance": 1.174779624794678
+      },
+      "SPARC_009": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": 4.632502472987085,
+        "feature_significance": 0.4812835192619492
+      },
+      "SPARC_011": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": 4.558006910856022,
+        "feature_significance": 0.3539306315718568
+      },
+      "SPARC_012": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -7.794924717474203,
+        "feature_significance": 0.6627701904676119
+      },
+      "SPARC_013": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -5.121903057560132,
+        "feature_significance": 0.596803026073544
+      },
+      "SPARC_014": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": -1.6964932501265935,
+        "feature_significance": 0.16249807122510346
+      },
+      "SPARC_016": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -3.2734538160613056,
+        "feature_significance": 0.3449178264197135
+      },
+      "SPARC_018": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 0.11296150222057122,
+        "feature_significance": 0.009389735699511364
+      },
+      "SPARC_019": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 3.188454482664838,
+        "feature_significance": 0.3360084264595981
+      },
+      "SPARC_020": {
+        "feature_radius": 8.625,
+        "feature_amplitude": 16.823744217795934,
+        "feature_significance": 1.7028231927034532
+      },
+      "SPARC_023": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 11.389181152775677,
+        "feature_significance": 0.9046504572801575
+      },
+      "SPARC_024": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -13.654372996949121,
+        "feature_significance": 1.3192612256205263
+      },
+      "SPARC_025": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": 24.01978212073334,
+        "feature_significance": 1.9249797114540035
+      },
+      "SPARC_026": {
+        "feature_radius": 8.625,
+        "feature_amplitude": -4.246101581190317,
+        "feature_significance": 0.5192114652347218
+      },
+      "SPARC_027": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -6.916139489236741,
+        "feature_significance": 0.5424879394143461
+      },
+      "SPARC_029": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 14.363959333116611,
+        "feature_significance": 1.1503784560294579
+      },
+      "SPARC_030": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": 3.28997289513984,
+        "feature_significance": 0.24625427630537122
+      },
+      "SPARC_033": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": -0.006554596510056854,
+        "feature_significance": 0.0006055699210611718
+      },
+      "SPARC_036": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": 15.679074870742511,
+        "feature_significance": 1.5145221818343895
+      },
+      "SPARC_037": {
+        "feature_radius": 8.625,
+        "feature_amplitude": 18.961577667330914,
+        "feature_significance": 1.653787915879189
+      },
+      "SPARC_038": {
+        "feature_radius": 8.625,
+        "feature_amplitude": 13.937031546284459,
+        "feature_significance": 1.1245082925791994
+      },
+      "SPARC_039": {
+        "feature_radius": 8.625,
+        "feature_amplitude": -1.2325750351794795,
+        "feature_significance": 0.12152015464893844
+      },
+      "SPARC_040": {
+        "feature_radius": 8.625,
+        "feature_amplitude": -5.077854540340638,
+        "feature_significance": 0.5443973805539829
+      },
+      "SPARC_042": {
+        "feature_radius": 8.625,
+        "feature_amplitude": 18.526545207722506,
+        "feature_significance": 1.6299789398188587
+      },
+      "SPARC_044": {
+        "feature_radius": 8.625,
+        "feature_amplitude": 4.043530021967115,
+        "feature_significance": 0.34284096644526946
+      },
+      "SPARC_045": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -1.9837491899575923,
+        "feature_significance": 0.17503627055489362
+      },
+      "SPARC_047": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -19.227488611039547,
+        "feature_significance": 2.0045697639941262
+      },
+      "SPARC_049": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": 8.707880173070976,
+        "feature_significance": 0.7003006809206058
+      },
+      "SPARC_050": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 5.57656282121053,
+        "feature_significance": 0.49424866919569316
+      },
+      "SPARC_051": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -9.973818844828088,
+        "feature_significance": 0.7941068238320802
+      },
+      "SPARC_052": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 15.734063608232248,
+        "feature_significance": 1.5417207281745688
+      },
+      "SPARC_053": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -6.464151100025077,
+        "feature_significance": 0.6708878204463762
+      },
+      "SPARC_054": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -9.662737402803458,
+        "feature_significance": 1.0518829822282663
+      },
+      "SPARC_057": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 2.861796507551503,
+        "feature_significance": 0.3597655316185608
+      },
+      "SPARC_059": {
+        "feature_radius": 8.666666666666666,
+        "feature_amplitude": 7.101374930949362,
+        "feature_significance": 0.5578856013722553
+      },
+      "SPARC_060": {
+        "feature_radius": 8.625,
+        "feature_amplitude": 4.45609956641357,
+        "feature_significance": 0.5049119744574351
+      },
+      "SPARC_061": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -9.640291121737306,
+        "feature_significance": 0.849766445608003
+      },
+      "SPARC_063": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 4.3823204480399625,
+        "feature_significance": 0.3646402097296136
+      },
+      "SPARC_064": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -6.856739499094601,
+        "feature_significance": 0.573844001338585
+      },
+      "SPARC_066": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -1.8442135493797878,
+        "feature_significance": 0.20266058981933419
+      },
+      "SPARC_067": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -17.602387699850624,
+        "feature_significance": 1.8948659463552808
+      },
+      "SPARC_068": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": -3.484184747807774,
+        "feature_significance": 0.26519975210322794
+      },
+      "SPARC_069": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -7.366986094564311,
+        "feature_significance": 0.8439764727303385
+      },
+      "SPARC_070": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": -5.1266056656806995,
+        "feature_significance": 0.5997056727985421
+      },
+      "SPARC_071": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -3.290577036279444,
+        "feature_significance": 0.33568404609387126
+      },
+      "SPARC_072": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -18.616196178741177,
+        "feature_significance": 1.686276252658768
+      },
+      "SPARC_073": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -6.472615127144479,
+        "feature_significance": 0.5772424704653494
+      },
+      "SPARC_074": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -1.3833931325488606,
+        "feature_significance": 0.15552558795351903
+      },
+      "SPARC_075": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 9.98823406210397,
+        "feature_significance": 0.9338658381116558
+      },
+      "SPARC_076": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": -5.320250232956482,
+        "feature_significance": 0.4504830161140695
+      },
+      "SPARC_077": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -7.375203693924107,
+        "feature_significance": 0.7553594091589263
+      },
+      "SPARC_078": {
+        "feature_radius": 8.666666666666666,
+        "feature_amplitude": 4.411861690118741,
+        "feature_significance": 0.5127375526027956
+      },
+      "SPARC_080": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -13.004399987116045,
+        "feature_significance": 1.3228586054362286
+      },
+      "SPARC_081": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -18.459601421187585,
+        "feature_significance": 1.5196646793630972
+      },
+      "SPARC_083": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 3.6016202545876297,
+        "feature_significance": 0.3025839185854145
+      },
+      "SPARC_085": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -6.65189418741781,
+        "feature_significance": 0.6094311140278986
+      },
+      "SPARC_086": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 3.961054904665474,
+        "feature_significance": 0.3204877439781946
+      },
+      "SPARC_087": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 4.579124890338505,
+        "feature_significance": 0.487788791606559
+      },
+      "SPARC_088": {
+        "feature_radius": 8.666666666666666,
+        "feature_amplitude": 0.9553684096458142,
+        "feature_significance": 0.07585166768461324
+      },
+      "SPARC_090": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -0.8142814151230482,
+        "feature_significance": 0.08682367207565399
+      },
+      "SPARC_091": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 3.191868764916876,
+        "feature_significance": 0.33311657543283163
+      },
+      "SPARC_092": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -24.283557040904952,
+        "feature_significance": 2.341303642620319
+      },
+      "SPARC_094": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": 1.645649733376331,
+        "feature_significance": 0.1260496255525547
+      },
+      "SPARC_098": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 2.725405737995146,
+        "feature_significance": 0.21837327185738684
+      },
+      "SPARC_099": {
+        "feature_radius": 8.625,
+        "feature_amplitude": -5.568848670969373,
+        "feature_significance": 0.5933590212576573
+      },
+      "SPARC_100": {
+        "feature_radius": 8.625,
+        "feature_amplitude": -5.715732403835148,
+        "feature_significance": 0.488479369463368
+      },
+      "SPARC_101": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -4.276205133130446,
+        "feature_significance": 0.29658424579338205
+      },
+      "SPARC_102": {
+        "feature_radius": 8.625,
+        "feature_amplitude": -12.120113862712572,
+        "feature_significance": 1.1693569069556993
+      },
+      "SPARC_105": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -7.48904698940251,
+        "feature_significance": 0.7148580483641132
+      },
+      "SPARC_107": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": -2.9727473985135475,
+        "feature_significance": 0.23462731893016564
+      },
+      "SPARC_109": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -20.35539160187119,
+        "feature_significance": 1.6382646952027409
+      },
+      "SPARC_113": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 6.021071437956152,
+        "feature_significance": 0.5890725389979183
+      },
+      "SPARC_114": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -1.9928939983751093,
+        "feature_significance": 0.1485774922986567
+      },
+      "SPARC_117": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 2.7474734570438386,
+        "feature_significance": 0.2304365878170759
+      },
+      "SPARC_118": {
+        "feature_radius": 8.625,
+        "feature_amplitude": -3.8825887878053322,
+        "feature_significance": 0.2727285294968226
+      },
+      "SPARC_120": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -8.052262668666856,
+        "feature_significance": 0.708067799355962
+      },
+      "SPARC_122": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -1.3103600915580955,
+        "feature_significance": 0.11972892509691639
+      },
+      "SPARC_123": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -11.247366900433263,
+        "feature_significance": 1.2937131917481361
+      },
+      "SPARC_125": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -21.8258137378551,
+        "feature_significance": 2.028457161589614
+      },
+      "SPARC_127": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 8.244837609962502,
+        "feature_significance": 0.8252436326765981
+      },
+      "SPARC_128": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -11.884178558054316,
+        "feature_significance": 0.912826283781676
+      },
+      "SPARC_129": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -14.491866625892413,
+        "feature_significance": 1.2139396870038328
+      },
+      "SPARC_131": {
+        "feature_radius": 8.625,
+        "feature_amplitude": -11.725508857903947,
+        "feature_significance": 1.101931329796232
+      },
+      "SPARC_132": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": -5.757337236030708,
+        "feature_significance": 0.7967314754650603
+      },
+      "SPARC_134": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -3.7984992623000267,
+        "feature_significance": 0.3358846858520501
+      },
+      "SPARC_135": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 10.536060016511897,
+        "feature_significance": 0.7527729383693986
+      },
+      "SPARC_137": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 16.922106291801526,
+        "feature_significance": 1.6864671014191357
+      },
+      "SPARC_138": {
+        "feature_radius": 8.625,
+        "feature_amplitude": -3.8734055599274484,
+        "feature_significance": 0.39765526065047646
+      },
+      "SPARC_139": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -0.41413639476508024,
+        "feature_significance": 0.06360410512951935
+      },
+      "SPARC_140": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 1.2274230764042215,
+        "feature_significance": 0.09662519028920726
+      },
+      "SPARC_141": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 5.766440792942717,
+        "feature_significance": 0.47938613103153455
+      },
+      "SPARC_143": {
+        "feature_radius": 8.666666666666666,
+        "feature_amplitude": -3.601877619414779,
+        "feature_significance": 0.26882283768938664
+      },
+      "SPARC_144": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 3.721367901622301,
+        "feature_significance": 0.48025581667309225
+      },
+      "SPARC_146": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": -11.859079000166872,
+        "feature_significance": 1.0875122143947162
+      },
+      "SPARC_148": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -16.109786727156234,
+        "feature_significance": 2.1080210723315087
+      },
+      "SPARC_150": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 5.586207609509671,
+        "feature_significance": 0.71051009321342
+      },
+      "SPARC_151": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": 1.4054393229516222,
+        "feature_significance": 0.16926463412681686
+      },
+      "SPARC_152": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -4.799557256797499,
+        "feature_significance": 0.5897241900316148
+      },
+      "SPARC_154": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 3.5546297941280613,
+        "feature_significance": 0.2589301835090715
+      },
+      "SPARC_155": {
+        "feature_radius": 8.520833333333332,
+        "feature_amplitude": -9.743198148134411,
+        "feature_significance": 1.1054292557657492
+      },
+      "SPARC_156": {
+        "feature_radius": 8.666666666666666,
+        "feature_amplitude": 10.37665131286235,
+        "feature_significance": 0.7414439419661234
+      },
+      "SPARC_157": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -4.28034191657099,
+        "feature_significance": 0.5000811228077592
+      },
+      "SPARC_158": {
+        "feature_radius": 8.666666666666666,
+        "feature_amplitude": 9.762794091855937,
+        "feature_significance": 1.2609349558088683
+      },
+      "SPARC_160": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -1.4756371351242024,
+        "feature_significance": 0.11584751509153518
+      },
+      "SPARC_161": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -2.326244573596341,
+        "feature_significance": 0.1977878989943438
+      },
+      "SPARC_162": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -15.48122282919033,
+        "feature_significance": 1.4656133938956843
+      },
+      "SPARC_164": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -9.059446663412814,
+        "feature_significance": 0.7344219718857474
+      },
+      "SPARC_165": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 0.8496503833285658,
+        "feature_significance": 0.07553285997489427
+      },
+      "SPARC_166": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -0.3104486118189129,
+        "feature_significance": 0.03100656427173899
+      },
+      "SPARC_168": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": 6.126465270056315,
+        "feature_significance": 0.6891170179639395
+      },
+      "SPARC_169": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -10.556287617387625,
+        "feature_significance": 0.8660242588157975
+      },
+      "SPARC_170": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": -5.376766946620535,
+        "feature_significance": 0.806574760196257
+      },
+      "SPARC_171": {
+        "feature_radius": 8.354166666666666,
+        "feature_amplitude": 2.2998010552793744,
+        "feature_significance": 0.25744003857442693
+      },
+      "SPARC_172": {
+        "feature_radius": 8.166666666666668,
+        "feature_amplitude": -3.362605628028291,
+        "feature_significance": 0.28646244505576074
+      },
+      "SPARC_174": {
+        "feature_radius": 8.666666666666666,
+        "feature_amplitude": 11.057491672720005,
+        "feature_significance": 0.8072029130259276
+      }
+    }
+  }
+}
