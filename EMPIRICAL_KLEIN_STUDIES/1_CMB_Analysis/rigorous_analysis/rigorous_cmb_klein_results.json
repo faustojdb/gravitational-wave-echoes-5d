@@ -1,0 +1,53 @@
+{
+  "standard_fit": {
+    "parameters": {
+      "A_s": 2.1e-09,
+      "n_s": 0.965
+    },
+    "parameter_errors": [
+      Infinity,
+      Infinity
+    ],
+    "chi2": 1059511.2041283508,
+    "dof": 110,
+    "chi2_reduced": 9631.920037530463
+  },
+  "klein_fit": {
+    "parameters": {
+      "A_s": 2.1e-09,
+      "n_s": 0.965,
+      "R4_scale": 1000.0
+    },
+    "parameter_errors": [
+      Infinity,
+      Infinity,
+      Infinity
+    ],
+    "chi2": 1059511.2041283508,
+    "dof": 109,
+    "chi2_reduced": 9720.286276406889
+  },
+  "significance": {
+    "delta_chi2": 0.0,
+    "delta_dof": 1,
+    "p_value": 1.0,
+    "sigma_level": 0.0,
+    "delta_aic": 2.0,
+    "interpretation": [
+      "NO EVIDENCIA SIGNIFICATIVA (<1\u03c3)",
+      "Modelos estad\u00edsticamente equivalentes"
+    ]
+  },
+  "metadata": {
+    "analysis_type": "CMB_Klein_Rigorous",
+    "timestamp": "2025-07-26T22:44:29.162333",
+    "data_source": "planck_2018_real_data",
+    "data_points": 112,
+    "multipole_range": [
+      2,
+      2499
+    ],
+    "methodology": "Chi-square minimization with likelihood ratio test",
+    "software": "Python scipy.optimize + astropy"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "analysis_type": "Fundamentalist Klein BAO/LSS Analysis",
+    "date": "2025-07-25",
+    "fundamental_constants_only": true,
+    "real_survey_data": false,
+    "falsifiable": true,
+    "ad_hoc_parameters": 0
+  },
+  "klein_fundamentals": {
+    "f0_Hz": 5.68,
+    "R_Klein_m": 8400000.0,
+    "epsilon_max": 0.65,
+    "c_light_ms": 299792458.0,
+    "G_newton": 6.6743e-11,
+    "h_planck": 6.62607015e-34,
+    "k_boltzmann": 1.380649e-23,
+    "M_sun": 1.98847e+30,
+    "gamma_0_grav": 1e-06
+  },
+  "klein_derived": {
+    "T_Klein_s": 0.17605633802816903,
+    "E_Klein_J": 3.763722349400821e-33,
+    "M_Klein_kg": 4.1877058830310803e-50,
+    "R_Klein_kpc": 8400.0,
+    "R_Klein_Mpc": 8.4,
+    "gravitational_modification": 0.0,
+    "bao_modification": 0.0,
+    "correlation_enhancement": 1.0,
+    "dark_energy_modification": 0.0,
+    "Klein_frequency_yr": 179247168.0,
+    "xi_correlation_kpc": 8.4,
+    "sigma_width_kpc": 2.5,
+    "gamma_max": 0.01,
+    "correlation_factor": 0.0,
+    "typical_bao_scale_Mpc": 100.0,
+    "distance_from_klein_peak_kpc": 99991.6
+  },
+  "cosmology_reference": {
+    "H0_km_s_Mpc": 67.66,
+    "Omega_m": 0.3111,
+    "Omega_Lambda": 0.6889,
+    "Omega_b": 0.04897,
+    "h": 0.6766,
+    "ns": 0.9665,
+    "sigma8": 0.8102
+  },
+  "falsification_criteria": {
+    "min_chi2_improvement": 4.0,
+    "min_data_points": 100,
+    "max_klein_bao_effect": 0.1,
+    "min_statistical_power": 0.8,
+    "max_fine_tuning": 3.0
+  },
+  "bao_lss_data_summary": {
+    "n_data_points": 27,
+    "data_type": "minimal_realistic",
+    "redshift_range": [
+      0.2,
+      2.0
+    ]
+  },
+  "klein_predictions": {
+    "bao_modification": 0.0,
+    "correlation_enhancement": 1.0,
+    "dark_energy_modification": 0.0,
+    "D_A_over_r_s_klein": "[1.75501857 2.59954311 3.2468829  3.84569707 4.19277638 4.42274595\n 4.48910949]",
+    "H_times_r_s_klein": "[30586.1489533  32695.26057361 36297.47100663 40374.73998659\n 48332.0738578  64556.07415291 79951.35498058]",
+    "xi_r_klein": "[3.49409164e+01 2.57605443e+01 1.58576019e+01 1.17646352e+01\n 6.70386896e+00 4.09326850e+00 3.53279555e+00 1.94683193e+00\n 1.29626966e+00 7.13749309e-01 5.08762415e-01 3.51675599e-01\n 1.98962980e-01 1.50806967e-01 8.83138345e-02 5.89657981e-02\n 3.69004810e-02 3.00823099e-02 1.63850997e-02 9.48441790e-03]",
+    "w0_klein": -1.0,
+    "wa_klein": 0.0,
+    "R_Klein_kpc": 8400.0,
+    "characteristic_frequency_Hz": 5.68,
+    "predicted_effect_size": 0.0,
+    "spatial_correlation_scale_kpc": 8.4
+  },
+  "baseline_predictions": {
+    "D_A_over_r_s_lcdm": "[1.75501857 2.59954311 3.2468829  3.84569707 4.19277638 4.42274595\n 4.48910949]",
+    "H_times_r_s_lcdm": "[30586.1489533  32695.26057361 36297.47100663 40374.73998659\n 48332.0738578  64556.07415291 79951.35498058]",
+    "xi_r_lcdm": "[3.49409164e+01 2.57605443e+01 1.58576019e+01 1.17646352e+01\n 6.70386896e+00 4.09326850e+00 3.53279555e+00 1.94683193e+00\n 1.29626966e+00 7.13749309e-01 5.08762415e-01 3.51675599e-01\n 1.98962980e-01 1.50806967e-01 8.83138345e-02 5.89657981e-02\n 3.69004810e-02 3.00823099e-02 1.63850997e-02 9.48441790e-03]",
+    "w0_lcdm": -1.0,
+    "wa_lcdm": 0.0,
+    "correlation_length_Mpc_lcdm": 8.0,
+    "no_klein_effects": true
+  },
+  "statistical_analysis": {
+    "n_data_points": 27,
+    "klein_effect_size": 0.0,
+    "statistical_noise_level": 0.015,
+    "signal_to_noise_ratio": 0.0,
+    "statistical_power": 0.0,
+    "chi2_bao_baseline": 0.0,
+    "chi2_bao_klein": 0.0,
+    "chi2_lss_baseline": 0.0,
+    "chi2_lss_klein": 0.0,
+    "chi2_baseline": 0.0,
+    "chi2_klein": 0.0,
+    "delta_chi2": 0.0,
+    "bayes_factor": 1.0,
+    "overall_significance_sigma": 0,
+    "p_value": 1.0
+  },
+  "falsification_assessment": {
+    "sufficient_data_points": false,
+    "sufficient_statistical_power": false,
+    "plausible_klein_bao_effects": "True",
+    "strong_statistical_evidence": false,
+    "reasonable_klein_scale": false,
+    "significant_model_improvement": "False",
+    "tests_passed": "1",
+    "total_tests": 6,
+    "klein_theory_viable": "False",
+    "confidence_level": "LOW",
+    "final_verdict": "INCONCLUSIVE - Insufficient statistical power",
+    "analysis_valid": true
+  },
+  "scientific_conclusion": {
+    "verdict": "INCONCLUSIVE - Insufficient statistical power",
+    "confidence": "LOW",
+    "falsifiable_analysis": true,
+    "meets_scientific_standards": true
+  }
+}

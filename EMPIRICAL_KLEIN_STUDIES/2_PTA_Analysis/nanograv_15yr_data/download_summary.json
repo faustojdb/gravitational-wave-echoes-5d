@@ -1,0 +1,23 @@
+{
+  "download_date": "2025-07-25",
+  "data_source": "NANOGrav 15-year Data Release",
+  "total_pulsars": 46,
+  "components": {
+    "timing_residuals": {
+      "status": "success",
+      "files_downloaded": 46
+    },
+    "pulsar_parameters": {
+      "status": "success",
+      "files_downloaded": 10
+    },
+    "noise_models": {
+      "status": "success",
+      "files_downloaded": 10
+    },
+    "metadata": {
+      "status": "success",
+      "files_downloaded": 10
+    }
+  }
+}

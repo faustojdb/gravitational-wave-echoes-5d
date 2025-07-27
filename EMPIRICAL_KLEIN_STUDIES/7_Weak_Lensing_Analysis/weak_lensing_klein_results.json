@@ -15,9 +15,7 @@
       "c_light_km_s": 299792.458,
       "f0_Hz": 5.68,
       "R_Klein_m": 8400000.0,
-      "epsilon_max": 0.65,
-      "klein_growth_boost": 1.08,
-      "klein_scale_cut_Mpc": 10.0
+      "epsilon_max": 0.65
     },
     "lcdm_reference": {
       "H0_lcdm": 67.66,
@@ -39,18 +37,18 @@
   },
   "analysis_results": {
     "correlations": {
-      "chi2_lcdm_total": 767777.2461998517,
-      "chi2_klein_total": 43.31887516016394,
-      "chi2_lcdm_plus": 767430.9423746257,
-      "chi2_klein_plus": 26.22035628076715,
-      "chi2_lcdm_minus": 346.3038252260681,
-      "chi2_klein_minus": 17.098518879396796,
-      "delta_chi2": 767733.9273246916,
+      "chi2_lcdm_total": 405560.11625029944,
+      "chi2_klein_total": 38.06822406639611,
+      "chi2_lcdm_plus": 405208.75430479576,
+      "chi2_klein_plus": 18.78490045606682,
+      "chi2_lcdm_minus": 351.3619455036873,
+      "chi2_klein_minus": 19.283323610329294,
+      "delta_chi2": 405522.04802623304,
       "dof": 38,
-      "significance": 876.2042726012534,
+      "significance": 636.8061306443532,
       "klein_preferred": "True",
-      "large_scale_improvement": 10.948635697554947,
-      "small_scale_improvement": 767393.7733826475,
+      "large_scale_improvement": 11.013338516439218,
+      "small_scale_improvement": 405178.9560658233,
       "scale_dependence": "False"
     },
     "sigma8_analysis": {
@@ -76,16 +74,16 @@
       "growth_factor_test": {
         "z_test": 1.0113230267402453,
         "D_lcdm": 0.6063350348844182,
-        "D_klein": 0.6548418376751717,
-        "growth_enhancement": 1.08,
-        "expected_boost": 1.08,
+        "D_klein": 0.6063350348844182,
+        "growth_enhancement": 1.0,
+        "expected_boost": 1.0,
         "test_passed": "True"
       },
       "scale_dependence": {
-        "large_scale_ratio": 1.558429970236931,
-        "small_scale_ratio": 1.1665990290554349,
+        "large_scale_ratio": 1.4130811955997227,
+        "small_scale_ratio": 1.2016301959426285,
         "scale_dependence_detected": "True",
-        "klein_scale_cut_Mpc": 10.0
+        "klein_correlation_scale_kpc": 8.4
       },
       "klein_signatures": {
         "frequency_hz": 5.68,
@@ -97,7 +95,7 @@
   "conclusions": {
     "klein_cosmology_preferred": "True",
     "sigma8_tension_resolved": false,
-    "structure_formation_significance": 876.2042726012534,
+    "structure_formation_significance": 636.8061306443532,
     "weak_lensing_detection": "True",
     "scale_dependence_detected": "False",
     "growth_enhancement_confirmed": "True",

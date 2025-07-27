@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "analysis_type": "Fundamentalist Klein Stellar Streams Analysis",
+    "date": "2025-07-25",
+    "fundamental_constants_only": true,
+    "real_gaia_data": true,
+    "falsifiable": true,
+    "ad_hoc_parameters": 0
+  },
+  "klein_fundamentals": {
+    "f0_Hz": 5.68,
+    "R_Klein_m": 8400.0,
+    "epsilon_max": 0.65,
+    "c_light_ms": 299792458.0,
+    "G_newton": 6.6743e-11,
+    "h_planck": 6.62607015e-34,
+    "k_boltzmann": 1.380649e-23,
+    "M_sun": 1.98847e+30
+  },
+  "klein_derived": {
+    "T_Klein_s": 0.17605633802816903,
+    "v_Klein_km_s": 47.712,
+    "R_Klein_kpc": 8.4,
+    "gravitational_modification": 2.5328754680440157e-08,
+    "M_Klein_Msun": 2.1059299259861187e-80,
+    "density_perturbation": 2.5328754680440157e-08,
+    "Klein_frequency_yr": 179247168.0,
+    "tidal_effect_scale_kpc": 8.4
+  },
+  "galaxy_properties": {
+    "R_sun_kpc": 8.122,
+    "v_circ_sun_km_s": 229.0,
+    "M_disk_Msun": 51700000000.0,
+    "M_halo_Msun": 1080000000000.0,
+    "rho_DM_local": 0.3,
+    "scale_length_kpc": 2.5,
+    "scale_height_pc": 300
+  },
+  "falsification_criteria": {
+    "min_chi2_improvement": 4.0,
+    "min_stars_for_analysis": 10000,
+    "max_klein_effect_velocity_km_s": 10.0,
+    "min_statistical_power": 0.8,
+    "max_fine_tuning": 3.0,
+    "max_coherence_scale_kpc": 50.0
+  },
+  "data_summary": {
+    "n_total_stars": 2001360,
+    "n_streams": 10,
+    "data_source": "Gaia EDR3-style stellar streams",
+    "distance_range_kpc": "6.3 - 37.0",
+    "galactocentric_range_kpc": "3.0 - 32.8"
+  },
+  "klein_predictions": {
+    "klein_velocity_scale_km_s": 47.712,
+    "klein_spatial_scale_kpc": 8.4,
+    "gravitational_modification": 2.5328754680440157e-08,
+    "klein_scale_proximity": "[0.83661887 0.91991423 0.84163417 ... 0.59531219 0.50728754 0.61779176]",
+    "klein_phases": "[0.59160646 3.44364234 2.22473058 ... 3.07509253 4.92455147 0.04540803]",
+    "predicted_v_ra_modifications_km_s": "[ 23.19291813 -29.33276513 -17.09923274 ... -19.83852811   3.56767594\n  20.61198828]",
+    "predicted_v_dec_modifications_km_s": "[  9.93982206 -12.57118506  -7.3282426  ...  -8.50222633   1.52900398\n   8.83370926]",
+    "predicted_width_modifications_kpc": "[1.00000002 1.00000002 1.00000002 ... 1.00000002 1.00000001 1.00000002]",
+    "predicted_density_enhancements": "[ 1.75890981e-08 -2.22454492e-08 -1.29677551e-08 ... -1.50451881e-08\n  2.70566221e-09  1.56317666e-08]",
+    "characteristic_frequency_Hz": 5.68,
+    "max_predicted_velocity_effect_km_s": 47.71084051055068,
+    "max_predicted_density_effect": 2.5328139145065064e-08
+  },
+  "cdm_predictions": {
+    "velocity_modifications_km_s": "[0. 0. 0. ... 0. 0. 0.]",
+    "width_modifications_kpc": "[0. 0. 0. ... 0. 0. 0.]",
+    "density_enhancements": "[0. 0. 0. ... 0. 0. 0.]",
+    "spatial_scale_kpc": null,
+    "temporal_modulation": null,
+    "predicted_effect_size": 0.0
+  },
+  "statistical_analysis": {
+    "sample_size": 2001360,
+    "max_klein_velocity_effect_km_s": 47.71084051055068,
+    "statistical_noise_level_km_s": 0.000706866487423821,
+    "signal_to_noise_ratio": 67496.25475163366,
+    "velocity_correlation_ra": 0.0003937378744102071,
+    "velocity_correlation_dec": -0.002642433468027765,
+    "p_value_correlation_ra": 0.5775148539416529,
+    "p_value_correlation_dec": 0.00018531315691389796,
+    "combined_velocity_correlation": 0.0018891114507485136,
+    "velocity_correlation_detected": "True",
+    "n_stars_near_klein_scale": "44123",
+    "expected_near_klein_scale": 268868.1605562872,
+    "clustering_enhancement_factor": 0.16410645242898853,
+    "clustering_p_value": 1.0,
+    "spatial_clustering_detected": "False",
+    "chi2_phase_modulation": 0.002052146309663095,
+    "p_value_phase_modulation": 1.0,
+    "phase_modulation_detected": "False",
+    "log_likelihood_cdm": -30439987366.738594,
+    "log_likelihood_klein": -30608063867.207397,
+    "log_bayes_factor": -168076500.4688034,
+    "bayes_factor": 0.0,
+    "klein_preferred": "False",
+    "sigma_significance_ra": 0.5570183143670305,
+    "sigma_significance_dec": 3.73823279864208,
+    "sigma_significance_combined": 2.672513223483065,
+    "detection_sigma_from_snr": 4.829279675263248,
+    "clustering_sigma": 0,
+    "overall_sigma_significance": 3.2673849215544215,
+    "combined_p_value_fisher": 0.0010854598597628273,
+    "z_score_ra": 0.5570183143670305,
+    "z_score_dec": 3.73823279864208,
+    "statistical_power": 1.9755278608562135e-09,
+    "required_velocity_precision_km_s": 15.903613503516894,
+    "achieved_precision_km_s": 0.000706866487423821,
+    "sufficient_statistical_power": "False"
+  },
+  "falsification_assessment": {
+    "individual_tests": {
+      "sufficient_sample_size": true,
+      "sufficient_statistical_power": "False",
+      "plausible_klein_velocity_effects": "False",
+      "strong_statistical_evidence": "False",
+      "reasonable_klein_scale": true,
+      "no_excessive_fine_tuning": "False"
+    },
+    "all_criteria_met": false,
+    "final_verdict": "INCONCLUSIVE - Insufficient statistical power",
+    "confidence_level": "LOW",
+    "falsifiable": true,
+    "analysis_valid": true
+  },
+  "scientific_conclusion": {
+    "verdict": "INCONCLUSIVE - Insufficient statistical power",
+    "confidence": "LOW",
+    "falsifiable_analysis": true,
+    "meets_scientific_standards": true
+  }
+}

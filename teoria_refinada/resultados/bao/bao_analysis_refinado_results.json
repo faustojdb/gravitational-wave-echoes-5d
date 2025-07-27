@@ -1,0 +1,69 @@
+{
+  "standard_fit": {
+    "parameters": {
+      "H0": 65.2405860716196,
+      "Om": 0.2
+    },
+    "parameter_errors": [
+      2.0,
+      0.02
+    ],
+    "chi2": 105.89338306633775,
+    "dof": 13,
+    "chi2_reduced": 8.14564485125675
+  },
+  "klein_fit": {
+    "parameters": {
+      "H0": 62.02576085171379,
+      "Om": 0.2,
+      "R4_scale_factor": 0.18258784094198197
+    },
+    "parameter_errors": [
+      2.0,
+      0.02,
+      0.1
+    ],
+    "chi2": 34.56224145266803,
+    "dof": 12,
+    "chi2_reduced": 2.880186787722336
+  },
+  "refined_analysis": {
+    "cosmological_scale_km": 4.629e+24,
+    "energy_proxy": 2.0,
+    "max_deformation": 0.2437408506749929,
+    "final_state": "Klein_deformada",
+    "mode_parity": 0,
+    "scale_factor_used": 1000000.0,
+    "topology_conserved": "True"
+  },
+  "significance": {
+    "delta_chi2": 71.33114161366971,
+    "delta_dof": 1,
+    "p_value": 0.0,
+    "sigma_level": 6.0,
+    "delta_aic": -140.66228322733943,
+    "delta_bic": -68.6230914125675,
+    "interpretation": [
+      "DETECCI\u00d3N ALTAMENTE SIGNIFICATIVA (\u22655\u03c3)",
+      "Par\u00e1metros cosmol\u00f3gicos at\u00edpicos (H\u2080=62.0, \u03a9\u2098=0.200)"
+    ]
+  },
+  "metadata": {
+    "analysis_type": "BAO_Klein_Refinado",
+    "timestamp": "2025-07-27T01:30:29.351279",
+    "data_source": "simulated_boss_like",
+    "data_points": 15,
+    "redshift_range": [
+      0.15,
+      1.55
+    ],
+    "methodology": "Differential evolution + likelihood ratio test",
+    "cosmological_scale_km": 4.629e+24,
+    "sound_horizon_mpc": 147.0,
+    "refinements_applied": [
+      "dynamic_scaling",
+      "robust_bounds",
+      "realistic_cosmology"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "standard_fit": {
+    "parameters": {
+      "A_smooth": 11.007827672795168,
+      "gamma": 1.7373377607845035,
+      "r_s": 147.78731922609867,
+      "A_bao": 4.991849658115446,
+      "alpha": 0.9998490499242402
+    },
+    "parameter_errors": [
+      1.0261742662960314,
+      0.05596059728894233,
+      73844595.165603,
+      2494267.6228687004,
+      499592.59002138383
+    ],
+    "chi2": 50.20573904617372,
+    "dof": 45,
+    "chi2_reduced": 1.1156830899149714
+  },
+  "klein_fit": {
+    "parameters": {
+      "A_smooth": 10.966241582440842,
+      "gamma": 1.7392031392694534,
+      "r_s": 147.7772431646686,
+      "A_bao": 4.986713929775371,
+      "alpha": 0.9999193727536412,
+      "R4_scale": 27.343823242527137
+    },
+    "parameter_errors": [
+      1.4464076279121008,
+      0.06953519163893944,
+      64838153.52005938,
+      2187950.627849988,
+      438720.64025347057,
+      620.8684624956289
+    ],
+    "chi2": 50.02477644181397,
+    "dof": 44,
+    "chi2_reduced": 1.1369267373139538
+  },
+  "significance": {
+    "delta_chi2": 0.18096260435974898,
+    "delta_dof": 1,
+    "p_value": 0.6705472954006839,
+    "sigma_level": 0.4253969961809192,
+    "delta_aic": 1.819037395640251,
+    "delta_bic": 3.7310604010684045,
+    "interpretation": [
+      "NO EVIDENCIA SIGNIFICATIVA (<1\u03c3)",
+      "Modelos estad\u00edsticamente equivalentes (AIC)"
+    ]
+  },
+  "bao_scale_analysis": {
+    "theoretical_rs": 147.78,
+    "alpha_standard": 0.9998490499242402,
+    "alpha_klein": 0.9999193727536412,
+    "shift_standard_percent": -0.015095007575982589,
+    "shift_klein_percent": -0.008062724635882201,
+    "alpha_error_standard": 499592.59002138383,
+    "alpha_error_klein": 438720.64025347057,
+    "significant_shift": "False"
+  },
+  "metadata": {
+    "analysis_type": "BAO_LSS_Klein_Rigorous",
+    "timestamp": "2025-07-26T22:44:42.428694",
+    "data_source": "simulated_data",
+    "data_type": "correlation_function",
+    "data_points": 50,
+    "methodology": "Chi-square minimization with model comparison",
+    "software": "Python scipy.optimize + astropy.cosmology"
+  }
+}

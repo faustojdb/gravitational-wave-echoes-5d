@@ -1,0 +1,73 @@
+{
+  "standard_fit": {
+    "parameters": {
+      "offset": 4030.213874908301,
+      "drift": 16344.640156729254
+    },
+    "parameter_errors": [
+      3995.716649127281,
+      912.2946389493634
+    ],
+    "chi2": 133662261860675.58,
+    "dof": 351,
+    "chi2_reduced": 380804164845.22955
+  },
+  "klein_fit": {
+    "parameters": {
+      "offset": 3018.985560837079,
+      "drift": 16492.95603690143,
+      "A_klein": 11671.266724777426,
+      "phase": 442103.9874396172,
+      "f_klein_hz": 5.68
+    },
+    "parameter_errors": [
+      4080.817882892532,
+      913.8987759676317,
+      5550.343947251292,
+      0.5058615437590366
+    ],
+    "chi2": 131989817022258.16,
+    "dof": 349,
+    "chi2_reduced": 378194318115.3529
+  },
+  "refined_analysis": {
+    "mean_residual_amplitude_us": 92154.13847065027,
+    "energy_proxy": 0.09215413847065027,
+    "galactic_scale_km": 8400000000.0,
+    "max_deformation": 0.007206811682506765,
+    "final_state": "Klein_relajada",
+    "mode_parity": -1,
+    "scale_factor_used": 1000.0,
+    "topology_conserved": "True"
+  },
+  "significance": {
+    "delta_chi2": 1672444838417.4219,
+    "delta_dof": 2,
+    "p_value": 0.0,
+    "sigma_level": 6.0,
+    "delta_aic": -3344889676830.8438,
+    "delta_bic": -1672444838405.689,
+    "interpretation": [
+      "DETECCI\u00d3N ALTAMENTE SIGNIFICATIVA (\u22655\u03c3)",
+      "Frecuencia Klein te\u00f3rica verificada (5.68 Hz)"
+    ]
+  },
+  "metadata": {
+    "analysis_type": "PTA_Klein_Refinado",
+    "timestamp": "2025-07-27T01:41:23.744793",
+    "data_source": "nanograv_15yr_real_data",
+    "data_points": 353,
+    "time_range_years": [
+      0.0,
+      14.774883993870654
+    ],
+    "methodology": "Klein modulation + refined master equation",
+    "theoretical_frequency_hz": 5.68,
+    "galactic_scale_km": 8400000000.0,
+    "refinements_applied": [
+      "dynamic_scaling",
+      "realistic_frequency",
+      "robust_fitting"
+    ]
+  }
+}

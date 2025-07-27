@@ -1,0 +1,16 @@
+{
+  "creation_date": "2025-07-25",
+  "data_source": "Gaia EDR3 specification",
+  "total_streams": 0,
+  "total_stars": 0,
+  "gaia_specs": {
+    "astrometric_precision_mas": 0.01,
+    "photometric_precision_mag": 0.001,
+    "proper_motion_precision_mas_yr": 0.02,
+    "parallax_precision_mas": 0.04,
+    "radial_velocity_precision_km_s": 1.0,
+    "limiting_magnitude": 21.0,
+    "completeness_fraction": 0.95
+  },
+  "streams_details": {}
+}

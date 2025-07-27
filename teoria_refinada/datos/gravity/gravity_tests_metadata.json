@@ -1,0 +1,60 @@
+{
+  "n_total_tests": 46000,
+  "experiment_categories": [
+    "lunar_laser_ranging",
+    "planetary_mercury",
+    "planetary_venus",
+    "planetary_mars",
+    "planetary_jupiter",
+    "planetary_saturn",
+    "satellite_grace",
+    "satellite_lageos",
+    "satellite_gp-b",
+    "satellite_microscope",
+    "laboratory_cavendish",
+    "laboratory_eotvos",
+    "laboratory_inverse_square"
+  ],
+  "measurement_types": [
+    "distance_residual",
+    "post_newtonian",
+    "time_delay",
+    "doppler_shift",
+    "satellite_dynamics",
+    "ring_dynamics",
+    "gravitational_field",
+    "orbital_dynamics",
+    "frame_dragging",
+    "equivalence_principle",
+    "gravitational_constant",
+    "inverse_square_law"
+  ],
+  "distance_range_km": [
+    1.0000000000000001e-07,
+    1421200000.0
+  ],
+  "time_span_days": [
+    0.18429775475308038,
+    18261.127150040887
+  ],
+  "precision_levels": {
+    "LLR_mm": 1.0,
+    "planetary_various": "see experiments_summary.json",
+    "satellite_various": "see experiments_summary.json",
+    "laboratory_relative": "1e-13 to 1e-5"
+  },
+  "data_source": "Real precision gravity experiments",
+  "references": [
+    "Williams+2012",
+    "Fienga+2011",
+    "Touboul+2017",
+    "Quinn+2013"
+  ],
+  "scale_coverage": "Laboratory (mm) to Solar System (AU)",
+  "test_types": [
+    "inverse_square_law",
+    "equivalence_principle",
+    "post_newtonian",
+    "gravitational_constant"
+  ]
+}

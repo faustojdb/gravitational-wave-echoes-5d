@@ -1,0 +1,59 @@
+{
+  "standard_fit": {
+    "parameters": {
+      "A_s": 3.6182524720231283e-09,
+      "n_s": 0.9175966257376802
+    },
+    "parameter_errors": [
+      1e-11,
+      0.01
+    ],
+    "chi2": 1059511.2041283508,
+    "dof": 110,
+    "chi2_reduced": 9631.920037530463
+  },
+  "klein_fit": {
+    "parameters": {
+      "A_s": 4.558040250253164e-09,
+      "n_s": 0.9012413887188916,
+      "R4_scale": 9100.904729929356
+    },
+    "parameter_errors": [
+      1e-11,
+      0.01,
+      100.0
+    ],
+    "chi2": 1059511.2041283508,
+    "dof": 109,
+    "chi2_reduced": 9720.286276406889
+  },
+  "significance": {
+    "delta_chi2": 0.0,
+    "delta_dof": 1,
+    "p_value": 1.0,
+    "sigma_level": 0.0,
+    "delta_aic": 2.0,
+    "delta_bic": 4.718498871295094,
+    "interpretation": [
+      "NO EVIDENCIA SIGNIFICATIVA (<1\u03c3)",
+      "Modelos estad\u00edsticamente equivalentes"
+    ]
+  },
+  "metadata": {
+    "analysis_type": "CMB_Klein_Refinado",
+    "timestamp": "2025-07-27T01:22:10.525597",
+    "data_source": "planck_2018_real_data",
+    "data_points": 112,
+    "multipole_range": [
+      2,
+      2499
+    ],
+    "methodology": "Differential evolution + likelihood ratio test",
+    "refinements_applied": [
+      "dynamic_scaling",
+      "robust_bounds",
+      "numerical_stability"
+    ],
+    "cosmological_scale_km": 1e+25
+  }
+}

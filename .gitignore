@@ -92,3 +92,17 @@ EMPIRICAL_KLEIN_STUDIES/7_Weak_Lensing_Analysis/des_y3_real_data/
 EMPIRICAL_KLEIN_STUDIES/5_Supernovae_Analysis/pantheon_plus_data/
 EMPIRICAL_KLEIN_STUDIES/5_Supernovae_Analysis/des_sn5yr_data/
 EMPIRICAL_KLEIN_STUDIES/5_Supernovae_Analysis/union3_data/
+
+# Large CSV and data files that cause push problems
+EMPIRICAL_KLEIN_STUDIES/9_Stellar_Streams_Analysis/stream_data/gaia_stellar_streams_data.csv
+EMPIRICAL_KLEIN_STUDIES/4_Gravity_Tests/gravity_tests_data/massive_gravity_tests_catalog.csv
+*.csv > 10M
+
+# Large numpy arrays and binary data
+*.npy > 1M
+teoria_refinada/resultados/bao_mcmc/bao_mcmc_chain.npy
+
+# Virtual environments (backup patterns)
+*/venv/
+*_env/
+*/env/

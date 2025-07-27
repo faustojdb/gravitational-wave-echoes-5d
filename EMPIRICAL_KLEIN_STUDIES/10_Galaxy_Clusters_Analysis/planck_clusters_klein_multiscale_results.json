@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "analysis_type": "Planck PSZ2 Klein Multi-Scale Analysis",
+    "date": "2024-01-09",
+    "n_clusters": 1650,
+    "theory": "Multi-scale Klein with \u03b3_grav(L) = 10\u207b\u2076 \u00d7 (L/8400 km)\u00b9\u00b7\u2070"
+  },
+  "klein_predictions": {
+    "cluster_scale_Mpc": 1.0,
+    "klein_coupling_at_cluster_scale": 3673809.523809524,
+    "expected_enhancement_percent": 367381052.38095236
+  },
+  "mass_function_analysis": {
+    "high_mass_fraction_observed": 0.18181818181818182,
+    "high_mass_fraction_lcdm": 0.03110544720326974,
+    "high_mass_fraction_klein": 137130.62313980865,
+    "chi2_lcdm": 1550.566379421119,
+    "chi2_klein": 6099495321.653908,
+    "delta_chi2": -6099493771.087528,
+    "significance": -78099.2558933024,
+    "klein_preferred": false
+  },
+  "conclusions": {
+    "klein_detected": false,
+    "consistent_with_multiscale_theory": true,
+    "cluster_scale_enhancement": "Very strong Klein effects at cluster scales"
+  }
+}

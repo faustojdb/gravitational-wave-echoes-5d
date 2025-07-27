@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "analysis_type": "Fundamentalist Klein Strong Lensing Analysis",
+    "date": "2025-07-25",
+    "fundamental_constants_only": true,
+    "real_strong_lensing_data": true,
+    "falsifiable": true,
+    "ad_hoc_parameters": 0
+  },
+  "klein_fundamentals": {
+    "f0_Hz": 5.68,
+    "R_Klein_m": 8400000.0,
+    "epsilon_max": 0.65,
+    "c_light_ms": 299792458.0,
+    "G_newton": 6.6743e-11,
+    "h_planck": 6.62607015e-34,
+    "k_boltzmann": 1.380649e-23,
+    "M_sun": 1.98847e+30,
+    "gamma_0_grav": 1e-06,
+    "R_K_reference": 8400000.0
+  },
+  "klein_derived": {
+    "T_Klein_s": 0.17605633802816903,
+    "E_Klein_J": 3.7636078452e-33,
+    "M_Klein_kg": 4.1875784799256177e-50,
+    "R_Klein_kpc": 8400.0,
+    "v_Klein_km_s": 299783.3373761524,
+    "gravitational_modification": 0.0009702370004128698,
+    "lensing_cross_section_modification": 0.0009702370004128698,
+    "einstein_radius_modification": 0.0009702370004128698,
+    "deflection_angle_modification": 0.0009702370004128698,
+    "Klein_frequency_yr": 179247168.0,
+    "characteristic_scale_kpc": 8400.0
+  },
+  "cosmology": {
+    "H0_km_s_Mpc": 70.0,
+    "Omega_m": 0.31,
+    "Omega_Lambda": 0.69,
+    "c_light_km_s": 299792.458
+  },
+  "falsification_criteria": {
+    "min_chi2_improvement": 4.0,
+    "min_lenses_for_analysis": 100,
+    "max_klein_lensing_effect": 0.1,
+    "min_statistical_power": 0.8,
+    "max_fine_tuning": 3.0,
+    "max_coherence_scale_kpc": 50.0
+  },
+  "data_summary": {
+    "n_total_lenses": 3510,
+    "survey_counts": {
+      "DES-SL": "2000",
+      "HSC-SSP": "1200",
+      "BELLS": "300",
+      "SLACS": "10"
+    },
+    "data_source": "SLACS + HSC-SSP + DES-SL + BELLS catalogs",
+    "z_lens_range": "0.05 - 0.80",
+    "einstein_radius_range_kpc": "5.2 - 58.3"
+  },
+  "klein_predictions": {
+    "klein_spatial_scale_kpc": 8400.0,
+    "xi_correlation_kpc": 8.4,
+    "sigma_width_kpc": null,
+    "gamma_max": null,
+    "klein_scale_coupling": "[1.32016936e-06 1.09964903e-06 1.04530886e-06 ... 1.42745644e-06\n 1.76485526e-06 1.36376731e-06]",
+    "klein_phases": "[4.44092994 3.57705232 0.6382042  ... 4.2874376  5.35887454 3.01947297]",
+    "einstein_radius_modifications": "[-8.26686689e-07 -3.01510228e-07  4.04785557e-07 ... -8.45322865e-07\n -9.15666470e-07  1.07983973e-07]",
+    "deflection_modifications": "[-3.53986693e-07 -9.97025644e-07  8.39557485e-07 ... -5.88506727e-07\n  1.06312214e-06 -1.35361086e-06]",
+    "lens_mass_modifications": "[-8.26686689e-07 -3.01510228e-07  4.04785557e-07 ... -8.45322865e-07\n -9.15666470e-07  1.07983973e-07]",
+    "cross_section_modifications": "[1.65337338e-06 6.03020456e-07 8.09571113e-07 ... 1.69064573e-06\n 1.83133294e-06 2.15967946e-07]",
+    "phase_modulation_strength": 0.65,
+    "characteristic_frequency_Hz": 5.68,
+    "max_predicted_lensing_effect": 2.0243579612522603e-06,
+    "max_predicted_deflection_effect": 2.7154507554276363e-06,
+    "min_klein_coupling": 3.0772987440439384e-07,
+    "max_klein_coupling": 3.470272904719928e-06,
+    "mean_klein_coupling": 1.0149228602262223e-06
+  },
+  "baseline_predictions": {
+    "einstein_radius_modifications": "[0. 0. 0. ... 0. 0. 0.]",
+    "deflection_modifications": "[0. 0. 0. ... 0. 0. 0.]",
+    "lens_mass_modifications": "[0. 0. 0. ... 0. 0. 0.]",
+    "cross_section_modifications": "[0. 0. 0. ... 0. 0. 0.]",
+    "spatial_scale_kpc": null,
+    "temporal_modulation": null,
+    "predicted_effect_size": 0.0
+  },
+  "statistical_analysis": {
+    "sample_size": 3510,
+    "max_klein_lensing_effect": 2.0243579612522603e-06,
+    "statistical_noise_level": 0.0008439494725697223,
+    "signal_to_noise_ratio": 0.002398671990502393,
+    "einstein_radius_correlation": -0.030288108944474538,
+    "p_value_einstein": 0.07278138988187169,
+    "einstein_correlation_detected": "False",
+    "n_lenses_near_klein_scale": "0",
+    "expected_near_klein_scale": 1664799.4824199115,
+    "clustering_enhancement_factor": 0.0,
+    "clustering_p_value": 1.0,
+    "spatial_clustering_detected": "False",
+    "chi2_phase_modulation": 225.0,
+    "p_value_phase_modulation": 0.0,
+    "phase_modulation_detected": "True",
+    "sigma_significance_einstein": 1.7936596635976627,
+    "detection_sigma_from_snr": 0,
+    "phase_sigma": 0,
+    "clustering_sigma": 0,
+    "overall_sigma_significance": 1.7941991368183672,
+    "combined_p_value_fisher": 0.07278138988187166,
+    "z_score_einstein": 1.7936596635976627,
+    "log_likelihood_baseline": -4035913.5352961076,
+    "log_likelihood_klein": -4035913.5125237666,
+    "log_bayes_factor": 0.022772341035306454,
+    "bayes_factor": 1.0230336102614446,
+    "klein_preferred": "False",
+    "statistical_power": 1.0,
+    "required_lensing_precision": 6.747859870840867e-07,
+    "achieved_precision": 0.0008439494725697223,
+    "sufficient_statistical_power": true
+  },
+  "falsification_assessment": {
+    "individual_tests": {
+      "sufficient_sample_size": true,
+      "sufficient_statistical_power": true,
+      "plausible_klein_lensing_effects": "True",
+      "strong_statistical_evidence": "False",
+      "reasonable_klein_scale": false,
+      "no_excessive_fine_tuning": "True"
+    },
+    "all_criteria_met": false,
+    "final_verdict": "INCONCLUSIVE - Mixed criteria",
+    "confidence_level": "LOW",
+    "fine_tuning_factor": 0.0,
+    "falsifiable": true,
+    "analysis_valid": true
+  },
+  "scientific_conclusion": {
+    "verdict": "INCONCLUSIVE - Mixed criteria",
+    "confidence": "LOW",
+    "falsifiable_analysis": true,
+    "meets_scientific_standards": true
+  }
+}

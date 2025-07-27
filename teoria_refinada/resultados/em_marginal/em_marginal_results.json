@@ -1,0 +1,49 @@
+{
+  "em_scaling": [
+    {
+      "scale_name": "Local",
+      "scale_km": 1000000.0,
+      "max_deformation": 7.919357535865652e-05,
+      "final_state": "Klein_relajada",
+      "mode_parity": -1,
+      "scale_factor": 351298.0316160001,
+      "topology_conserved": "True"
+    },
+    {
+      "scale_name": "Galactic",
+      "scale_km": 1000000000.0,
+      "max_deformation": 1.7761501003667983e-11,
+      "final_state": "Klein_relajada",
+      "mode_parity": -1,
+      "scale_factor": 1e-06,
+      "topology_conserved": "True"
+    },
+    {
+      "scale_name": "Cosmological",
+      "scale_km": 1000000000000.0,
+      "max_deformation": 1.7761501003667983e-11,
+      "final_state": "Klein_relajada",
+      "mode_parity": -1,
+      "scale_factor": 1e-06,
+      "topology_conserved": "True"
+    }
+  ],
+  "frb_analysis": {
+    "standard_chi2_reduced": 58.3609605194436,
+    "klein_chi2_reduced": 59.6026829596853,
+    "klein_amplitude": 2058.1292284850842,
+    "klein_amplitude_error": 4658014630.131415,
+    "delta_chi2": 5.828083430969855e-06,
+    "sigma_level": 0.002414142380011935,
+    "p_value": 0.9980737949384227
+  },
+  "kepler_analysis": {
+    "standard_chi2_reduced": 1.0333744911080296,
+    "klein_chi2_reduced": 1.0338763118531438,
+    "klein_amplitude": -0.009745340852976753,
+    "klein_amplitude_error": 0.013479199556862892,
+    "delta_chi2": 0.5335610289741908,
+    "sigma_level": 0.7304526192534261,
+    "p_value": 0.4651135646127379
+  }
+}

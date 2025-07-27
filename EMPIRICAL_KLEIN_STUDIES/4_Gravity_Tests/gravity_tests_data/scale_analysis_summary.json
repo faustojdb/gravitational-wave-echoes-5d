@@ -1,0 +1,152 @@
+{
+  "(1e-06, 1e-05]": {
+    "n_tests": 2689,
+    "distance_range_km": [
+      1e-05,
+      1e-05
+    ],
+    "experiment_types": [
+      "laboratory_cavendish",
+      "laboratory_eotvos",
+      "laboratory_inverse_square"
+    ],
+    "measurement_types": [
+      "gravitational_constant",
+      "equivalence_principle",
+      "inverse_square_law"
+    ],
+    "precision_range": [
+      1e-13,
+      0.0001
+    ]
+  },
+  "(1e-05, 0.0001]": {
+    "n_tests": 1986,
+    "distance_range_km": [
+      0.0001,
+      0.0001
+    ],
+    "experiment_types": [
+      "laboratory_cavendish",
+      "laboratory_eotvos"
+    ],
+    "measurement_types": [
+      "gravitational_constant",
+      "equivalence_principle"
+    ],
+    "precision_range": [
+      1e-13,
+      1e-05
+    ]
+  },
+  "(0.0001, 0.001]": {
+    "n_tests": 332,
+    "distance_range_km": [
+      0.001,
+      0.001
+    ],
+    "experiment_types": [
+      "laboratory_cavendish"
+    ],
+    "measurement_types": [
+      "gravitational_constant"
+    ],
+    "precision_range": [
+      1e-05,
+      1e-05
+    ]
+  },
+  "(100.0, 1000.0]": {
+    "n_tests": 6000,
+    "distance_range_km": [
+      500.0,
+      710.0
+    ],
+    "experiment_types": [
+      "satellite_grace",
+      "satellite_gp-b",
+      "satellite_microscope"
+    ],
+    "measurement_types": [
+      "gravitational_field",
+      "frame_dragging",
+      "equivalence_principle"
+    ],
+    "precision_range": [
+      1e-15,
+      1.0
+    ]
+  },
+  "(1000.0, 10000.0]": {
+    "n_tests": 2000,
+    "distance_range_km": [
+      5900.0,
+      5900.0
+    ],
+    "experiment_types": [
+      "satellite_lageos"
+    ],
+    "measurement_types": [
+      "orbital_dynamics"
+    ],
+    "precision_range": [
+      1.0,
+      1.0
+    ]
+  },
+  "(100000.0, 1000000.0]": {
+    "n_tests": 25000,
+    "distance_range_km": [
+      384400.0,
+      384400.0
+    ],
+    "experiment_types": [
+      "lunar_laser_ranging"
+    ],
+    "measurement_types": [
+      "distance_residual"
+    ],
+    "precision_range": [
+      1.0,
+      1.0
+    ]
+  },
+  "(10000000.0, 100000000.0]": {
+    "n_tests": 1000,
+    "distance_range_km": [
+      58344000.0,
+      58344000.0
+    ],
+    "experiment_types": [
+      "planetary_mercury"
+    ],
+    "measurement_types": [
+      "post_newtonian"
+    ],
+    "precision_range": [
+      0.02,
+      0.02
+    ]
+  },
+  "(100000000.0, 1000000000.0]": {
+    "n_tests": 3000,
+    "distance_range_km": [
+      107712000.0,
+      777920000.0
+    ],
+    "experiment_types": [
+      "planetary_venus",
+      "planetary_mars",
+      "planetary_jupiter"
+    ],
+    "measurement_types": [
+      "time_delay",
+      "doppler_shift",
+      "satellite_dynamics"
+    ],
+    "precision_range": [
+      0.1,
+      1.0
+    ]
+  }
+}

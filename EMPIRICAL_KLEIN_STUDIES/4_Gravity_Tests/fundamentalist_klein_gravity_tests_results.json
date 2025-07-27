@@ -1,0 +1,138 @@
+{
+  "analysis_metadata": {
+    "analysis_type": "FUNDAMENTALIST_KLEIN_GRAVITY_TESTS",
+    "data_source": "REAL_PRECISION_GRAVITY_EXPERIMENTS",
+    "n_tests_analyzed": 46000,
+    "analysis_timestamp": "2025-07-25T15:20:14.375306",
+    "klein_fundamentals_used": {
+      "f0_Hz": 5.68,
+      "R_Klein_m": 8400000.0,
+      "epsilon_max": 0.65,
+      "c_light_ms": 299792458.0,
+      "G_newton": 6.6743e-11,
+      "h_planck": 6.62607015e-34,
+      "k_boltzmann": 1.380649e-23,
+      "M_sun": 1.98847e+30,
+      "M_earth": 5.972e+24,
+      "gamma_elastic": 35.7,
+      "K_elastic": 1e+45,
+      "E_critical_Msun": 1.0
+    },
+    "falsification_criteria": {
+      "min_chi2_improvement": 4.0,
+      "min_tests_for_analysis": 1000,
+      "max_klein_gravity_effect": 1e-10,
+      "min_statistical_power": 0.8,
+      "max_fine_tuning": 3.0,
+      "max_coherence_scale_m": 10000000.0
+    }
+  },
+  "data_summary": {
+    "total_gravity_tests": 46000,
+    "distance_range_km": [
+      1.0000000000000001e-07,
+      1421200000.0
+    ],
+    "experiment_types": 13,
+    "measurement_types": [
+      "distance_residual",
+      "post_newtonian",
+      "time_delay",
+      "doppler_shift",
+      "satellite_dynamics",
+      "ring_dynamics",
+      "gravitational_field",
+      "orbital_dynamics",
+      "frame_dragging",
+      "equivalence_principle",
+      "gravitational_constant",
+      "inverse_square_law"
+    ],
+    "precision_range": [
+      1e-15,
+      1.0
+    ]
+  },
+  "klein_predictions": {
+    "characteristic_scale_km": 8400.0,
+    "reference_coupling": 1e-06,
+    "max_gravity_effect": 0.10997380888377255,
+    "max_equivalence_violation": 0.10997378273614163,
+    "characteristic_frequency_Hz": 5.68,
+    "phase_modulation_strength": 0.65,
+    "coupling_range_min": 1.1904761904761905e-17,
+    "coupling_range_max": 0.16919047619047617
+  },
+  "statistical_analysis": {
+    "chi2_baseline": 0.0,
+    "chi2_klein": 3.02741043269331e+18,
+    "chi2_improvement": -3.02741043269331e+18,
+    "p_value_improvement": 1.0,
+    "signal_to_noise_ratio": 0.005421974601523601,
+    "statistical_power": 0.21269183205268716,
+    "bic_difference": 3.02741043269331e+18,
+    "effect_size_normalized": 0.020913703433913206
+  },
+  "falsification_assessment": {
+    "tests_passed": "1",
+    "total_tests": 6,
+    "klein_theory_viable": "False",
+    "confidence_level": "LOW",
+    "individual_tests": {
+      "statistical_significance": {
+        "criterion": "Chi\u00b2 improvement > 4.0",
+        "value": -3.02741043269331e+18,
+        "threshold": 4.0,
+        "passed": "False",
+        "description": "Klein theory must provide statistically significant improvement"
+      },
+      "statistical_power": {
+        "criterion": "Statistical power > 0.8",
+        "value": 0.21269183205268716,
+        "threshold": 0.8,
+        "passed": "False",
+        "description": "Analysis must have sufficient power to detect Klein effects"
+      },
+      "physical_plausibility": {
+        "criterion": "Max gravity effect < 1e-10",
+        "value": 0.10997380888377255,
+        "threshold": 1e-10,
+        "passed": "False",
+        "description": "Klein gravity effects must be physically plausible"
+      },
+      "model_complexity": {
+        "criterion": "BIC difference < 10 (strong evidence required)",
+        "value": 3.02741043269331e+18,
+        "threshold": 10.0,
+        "passed": "False",
+        "description": "Klein model complexity must be justified by data improvement"
+      },
+      "fine_tuning": {
+        "criterion": "Fine-tuning measure < 3.0",
+        "value": 3.1539371010076405,
+        "threshold": 3.0,
+        "passed": "False",
+        "description": "Klein parameters must not be excessively fine-tuned"
+      },
+      "coherence_scale": {
+        "criterion": "Klein scale < 10000.0 km",
+        "value": 8400000.0,
+        "threshold": 10000000.0,
+        "passed": true,
+        "description": "Klein coherence scale must be physically reasonable"
+      }
+    }
+  },
+  "scientific_conclusion": {
+    "verdict": "KLEIN THEORY NOT SUPPORTED",
+    "details": "Klein theory fails key falsification criteria.",
+    "key_findings": [
+      "Klein theory predicts gravity effects of order 1.10e-01",
+      "Analysis based on 46,000 real precision gravity tests",
+      "Statistical power: 0.213",
+      "Passes 1/6 falsification criteria",
+      "Klein spatial scale: 8400.0 km",
+      "Klein temporal scale: 0.176 s"
+    ]
+  }
+}

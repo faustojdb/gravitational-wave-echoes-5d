@@ -1,0 +1,19 @@
+{
+  "dataset": "Planck 2018 Legacy Release (simulated)",
+  "reference": "Planck Collaboration 2020, A&A 641, A6",
+  "multipole_range": [
+    2,
+    2508
+  ],
+  "total_points_unbinned": 2507,
+  "total_points_binned": 112,
+  "cosmological_parameters": {
+    "H0": 67.4,
+    "omega_b": 0.02237,
+    "omega_c": 0.12,
+    "A_s": 2.1e-09,
+    "n_s": 0.9649,
+    "tau": 0.0544
+  },
+  "notes": "Simplified CMB spectrum for Klein Theory testing"
+}

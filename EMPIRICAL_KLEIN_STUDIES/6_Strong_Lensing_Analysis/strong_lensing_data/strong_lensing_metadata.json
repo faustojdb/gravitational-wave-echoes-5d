@@ -1,0 +1,46 @@
+{
+  "n_total_lenses": 3510,
+  "n_confirmed_lenses": 10,
+  "n_candidate_lenses": 3500,
+  "surveys": [
+    "SLACS",
+    "HSC-SSP",
+    "DES-SL",
+    "BELLS"
+  ],
+  "survey_counts": {
+    "SLACS": 10,
+    "HSC-SSP": 1200,
+    "DES-SL": 2000,
+    "BELLS": 300
+  },
+  "z_lens_range": [
+    0.05,
+    0.8
+  ],
+  "z_source_range": [
+    0.15000000000000002,
+    3.0
+  ],
+  "einstein_radius_range_arcsec": [
+    0.3,
+    3.247454023416451
+  ],
+  "mass_range_Msun": [
+    18198581195.916996,
+    686085547633.2913
+  ],
+  "velocity_dispersion_range_km_s": [
+    100.0,
+    400.0
+  ],
+  "data_source": "SLACS confirmed + HSC/DES/BELLS realistic populations",
+  "references": [
+    "Koopmans+2006 (SLACS)",
+    "HSC-SSP",
+    "DES-SL",
+    "BELLS"
+  ],
+  "spatial_coverage": "All-sky (multiple surveys)",
+  "lens_modeling": "SIS approximation for candidates"
+}

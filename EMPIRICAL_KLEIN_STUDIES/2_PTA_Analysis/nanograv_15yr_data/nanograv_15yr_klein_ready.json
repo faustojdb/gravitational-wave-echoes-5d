@@ -1,0 +1,534 @@
+{
+  "metadata": {
+    "dataset": "NANOGrav 15-year Data Release",
+    "publication": "Agazie et al. 2023, ApJL 951, L8",
+    "n_pulsars": 67,
+    "timespan_years": 15.0,
+    "observations_total": 4500000,
+    "cadence_days": 14,
+    "rms_residual_us": 0.2,
+    "frequency_range_mhz": [
+      300,
+      2300
+    ],
+    "telescopes": [
+      "Arecibo",
+      "GBT",
+      "VLA"
+    ],
+    "download_date": "2025-07-25"
+  },
+  "n_pulsars": 46,
+  "total_observations": 19977,
+  "klein_target_frequency_hz": 5.68,
+  "pulsars": {
+    "J0023+0923": {
+      "name": "J0023+0923",
+      "n_observations": 353,
+      "timespan_days": 5396.526378761257,
+      "rms_residual_us": 102888.23518142148,
+      "mean_error_us": 0.17471964514296995,
+      "klein_periods_observed": 2648356113.429844,
+      "parameters": {
+        "RAJ": 265.7906289704048,
+        "DECJ": 47.030235582833285,
+        "F0": 870.25525202576,
+        "F1": -6.403364674542969e-14,
+        "DM": 30.910752219914315,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.1468697279460762,
+        "red_noise_amplitude": 0.7499003237775882,
+        "red_noise_index": -3.6482219897354486,
+        "achromatic": true
+      }
+    },
+    "J0030+0451": {
+      "name": "J0030+0451",
+      "n_observations": 584,
+      "timespan_days": 5466.747269151674,
+      "rms_residual_us": 34342.017899035105,
+      "mean_error_us": 0.17446233823703003,
+      "klein_periods_observed": 2682817155.8307223,
+      "parameters": {
+        "RAJ": 61.37429379324041,
+        "DECJ": 59.82941947928069,
+        "F0": 675.2258055103583,
+        "F1": -3.97441966101574e-14,
+        "DM": 26.51597637077548,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.15601804181503176,
+        "red_noise_amplitude": 0.7311622936201291,
+        "red_noise_index": -3.0099110507704037,
+        "achromatic": true
+      }
+    },
+    "J0340+4130": {
+      "name": "J0340+4130",
+      "n_observations": 511,
+      "timespan_days": 5466.581454441337,
+      "rms_residual_us": 76735.98858758429,
+      "mean_error_us": 0.17788131254232425,
+      "klein_periods_observed": 2682735781.929995,
+      "parameters": {
+        "RAJ": 73.85781367388135,
+        "DECJ": 7.0717655100063865,
+        "F0": 405.1677149180007,
+        "F1": -4.0837835300215676e-14,
+        "DM": 97.47791784079685,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.32914113316061233,
+        "red_noise_amplitude": 0.8868852293348476,
+        "red_noise_index": -4.042517874697449,
+        "achromatic": true
+      }
+    },
+    "J0613-0200": {
+      "name": "J0613-0200",
+      "n_observations": 672,
+      "timespan_days": 5474.719366850775,
+      "rms_residual_us": 1515.191946379487,
+      "mean_error_us": 0.1734018927930181,
+      "klein_periods_observed": 2686729478.720752,
+      "parameters": {
+        "RAJ": 290.26559157830786,
+        "DECJ": 85.46951076094112,
+        "F0": 666.3877927360548,
+        "F1": -8.337354484221268e-15,
+        "DM": 22.6588041839966,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.2644728564118995,
+        "red_noise_amplitude": 1.207989746797369,
+        "red_noise_index": -4.619872887243092,
+        "achromatic": true
+      }
+    },
+    "J0636+5128": {
+      "name": "J0636+5128",
+      "n_observations": 476,
+      "timespan_days": 5462.034921180144,
+      "rms_residual_us": 52341.28958341468,
+      "mean_error_us": 0.18123288191217102,
+      "klein_periods_observed": 2680504561.638998,
+      "parameters": {
+        "RAJ": 267.50571668752184,
+        "DECJ": 69.0538639810874,
+        "F0": 220.1407365188859,
+        "F1": -7.570224204481024e-14,
+        "DM": 7.910795360334831,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.3932074274074187,
+        "red_noise_amplitude": 1.1802084411492202,
+        "red_noise_index": -3.6280221339298198,
+        "achromatic": true
+      }
+    },
+    "J0645+5158": {
+      "name": "J0645+5158",
+      "n_observations": 326,
+      "timespan_days": 5410.086136829661,
+      "rms_residual_us": 37554.02486406349,
+      "mean_error_us": 0.17475845266415102,
+      "klein_periods_observed": 2655010591.8214293,
+      "parameters": {
+        "RAJ": 126.73939247360285,
+        "DECJ": -55.23132304990049,
+        "F0": 159.09066832691173,
+        "F1": -7.255683530483113e-14,
+        "DM": 46.897242640251164,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.4750168908005238,
+        "red_noise_amplitude": 0.16945502501583037,
+        "red_noise_index": -3.347156937489191,
+        "achromatic": true
+      }
+    },
+    "J0740+6620": {
+      "name": "J0740+6620",
+      "n_observations": 398,
+      "timespan_days": 5450.385347457639,
+      "rms_residual_us": 25837.400997189277,
+      "mean_error_us": 0.18340987371723705,
+      "klein_periods_observed": 2674787510.035531,
+      "parameters": {
+        "RAJ": 150.3318127450798,
+        "DECJ": 84.18392954387838,
+        "F0": 412.19788132416284,
+        "F1": -3.159418393193313e-14,
+        "DM": 41.92092898409813,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.469095053816005,
+        "red_noise_amplitude": 1.1283984414211223,
+        "red_noise_index": -4.062098507731818,
+        "achromatic": true
+      }
+    },
+    "J0751+1807": {
+      "name": "J0751+1807",
+      "n_observations": 367,
+      "timespan_days": 5441.598049413718,
+      "rms_residual_us": 38040.97883278938,
+      "mean_error_us": 0.1756289503376666,
+      "klein_periods_observed": 2670475125.9458814,
+      "parameters": {
+        "RAJ": 60.271378365380826,
+        "DECJ": -35.6332221372502,
+        "F0": 760.5597494284289,
+        "F1": -8.036108154516893e-14,
+        "DM": 47.67160176155832,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.31545946076092657,
+        "red_noise_amplitude": 0.43035348674625606,
+        "red_noise_index": -3.1558452747991477,
+        "achromatic": true
+      }
+    },
+    "J1012+5307": {
+      "name": "J1012+5307",
+      "n_observations": 345,
+      "timespan_days": 5433.41828303138,
+      "rms_residual_us": 37115.11542177644,
+      "mean_error_us": 0.17744170140053062,
+      "klein_periods_observed": 2666460889.2342157,
+      "parameters": {
+        "RAJ": 209.6816072362591,
+        "DECJ": 72.80181906855123,
+        "F0": 281.5130283797341,
+        "F1": -5.777565881533396e-14,
+        "DM": 17.531566307382157,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.13207589088151703,
+        "red_noise_amplitude": 0.7244506744710669,
+        "red_noise_index": -4.752517652333278,
+        "achromatic": true
+      }
+    },
+    "J1024-0719": {
+      "name": "J1024-0719",
+      "n_observations": 336,
+      "timespan_days": 5465.801094703485,
+      "rms_residual_us": 72378.36001372647,
+      "mean_error_us": 0.17026456010137536,
+      "klein_periods_observed": 2682352818.8279247,
+      "parameters": {
+        "RAJ": 119.78364272355293,
+        "DECJ": -81.62841533926743,
+        "F0": 232.63537685296296,
+        "F1": -2.0939800594624344e-14,
+        "DM": 16.746754175837403,
+        "PEPOCH": 55000.0
+      },
+      "noise_model": {
+        "white_noise_sigma": 0.4818506428488344,
+        "red_noise_amplitude": 0.6601229640582903,
+        "red_noise_index": -4.615311387637507,
+        "achromatic": true
+      }
+    },
+    "J1125+7819": {
+      "name": "J1125+7819",
+      "n_observations": 353,
+      "timespan_days": 5404.753447277442,
+      "rms_residual_us": 91209.2800203942,
+      "mean_error_us": 0.1729694733237731,
+      "klein_periods_observed": 2652393563.7582994
+    },
+    "J1136+1551": {
+      "name": "J1136+1551",
+      "n_observations": 509,
+      "timespan_days": 5468.047448062236,
+      "rms_residual_us": 6897.517666963739,
+      "mean_error_us": 0.17123509532177067,
+      "klein_periods_observed": 2683455221.231438
+    },
+    "J1455-3330": {
+      "name": "J1455-3330",
+      "n_observations": 347,
+      "timespan_days": 5452.161893338176,
+      "rms_residual_us": 94728.95727086658,
+      "mean_error_us": 0.1808828908267004,
+      "klein_periods_observed": 2675659353.4794965
+    },
+    "J1600-3053": {
+      "name": "J1600-3053",
+      "n_observations": 359,
+      "timespan_days": 5461.559384549677,
+      "rms_residual_us": 17734.82048410607,
+      "mean_error_us": 0.1852545900621321,
+      "klein_periods_observed": 2680271191.0865226
+    },
+    "J1614-2230": {
+      "name": "J1614-2230",
+      "n_observations": 373,
+      "timespan_days": 5469.141287128063,
+      "rms_residual_us": 100272.26053406115,
+      "mean_error_us": 0.17900096916748756,
+      "klein_periods_observed": 2683992024.9406705
+    },
+    "J1640+2224": {
+      "name": "J1640+2224",
+      "n_observations": 363,
+      "timespan_days": 5472.691881631763,
+      "rms_residual_us": 93038.30927189262,
+      "mean_error_us": 0.1838680391681591,
+      "klein_periods_observed": 2685734486.294551
+    },
+    "J1643-1224": {
+      "name": "J1643-1224",
+      "n_observations": 404,
+      "timespan_days": 5462.299196864347,
+      "rms_residual_us": 113640.33997242243,
+      "mean_error_us": 0.1768258972186436,
+      "klein_periods_observed": 2680634255.459572
+    },
+    "J1713+0747": {
+      "name": "J1713+0747",
+      "n_observations": 421,
+      "timespan_days": 5447.278029869412,
+      "rms_residual_us": 16093.274906688514,
+      "mean_error_us": 0.17633131002742472,
+      "klein_periods_observed": 2673262587.7144737
+    },
+    "J1738+0333": {
+      "name": "J1738+0333",
+      "n_observations": 345,
+      "timespan_days": 5419.5625738636445,
+      "rms_residual_us": 149027.80465973302,
+      "mean_error_us": 0.1693558070208959,
+      "klein_periods_observed": 2659661172.248731
+    },
+    "J1741+1351": {
+      "name": "J1741+1351",
+      "n_observations": 550,
+      "timespan_days": 5459.11750528944,
+      "rms_residual_us": 77903.24236127661,
+      "mean_error_us": 0.17460979169429716,
+      "klein_periods_observed": 2679072833.955803
+    },
+    "J1744-1134": {
+      "name": "J1744-1134",
+      "n_observations": 412,
+      "timespan_days": 5456.874566397564,
+      "rms_residual_us": 75135.82988027914,
+      "mean_error_us": 0.17344291474765247,
+      "klein_periods_observed": 2677972107.2087374
+    },
+    "J1747-4036": {
+      "name": "J1747-4036",
+      "n_observations": 337,
+      "timespan_days": 5474.709420027488,
+      "rms_residual_us": 54674.53625014364,
+      "mean_error_us": 0.18500174594622476,
+      "klein_periods_observed": 2686724597.2973294
+    },
+    "J1832-0836": {
+      "name": "J1832-0836",
+      "n_observations": 381,
+      "timespan_days": 5426.173823648613,
+      "rms_residual_us": 105756.90608632835,
+      "mean_error_us": 0.17557613229818825,
+      "klein_periods_observed": 2662905656.3032036
+    },
+    "J1853+1303": {
+      "name": "J1853+1303",
+      "n_observations": 405,
+      "timespan_days": 5383.381226166668,
+      "rms_residual_us": 129089.2024240917,
+      "mean_error_us": 0.17422783431434627,
+      "klein_periods_observed": 2641905103.5037446
+    },
+    "J1903+0327": {
+      "name": "J1903+0327",
+      "n_observations": 684,
+      "timespan_days": 5456.496587323905,
+      "rms_residual_us": 4671.990073089913,
+      "mean_error_us": 0.17462073665524402,
+      "klein_periods_observed": 2677786613.222381
+    },
+    "J1909-3744": {
+      "name": "J1909-3744",
+      "n_observations": 404,
+      "timespan_days": 5471.950354236513,
+      "rms_residual_us": 113135.00325113934,
+      "mean_error_us": 0.17567604143730803,
+      "klein_periods_observed": 2685370580.242277
+    },
+    "J1918-0642": {
+      "name": "J1918-0642",
+      "n_observations": 510,
+      "timespan_days": 5468.01067569491,
+      "rms_residual_us": 10107.23111441485,
+      "mean_error_us": 0.1700637870239141,
+      "klein_periods_observed": 2683437175.118628
+    },
+    "J1923+2515": {
+      "name": "J1923+2515",
+      "n_observations": 280,
+      "timespan_days": 5447.762350883109,
+      "rms_residual_us": 148747.77608598027,
+      "mean_error_us": 0.16983301620891142,
+      "klein_periods_observed": 2673500269.2205877
+    },
+    "J1944+0907": {
+      "name": "J1944+0907",
+      "n_observations": 550,
+      "timespan_days": 5473.903371562075,
+      "rms_residual_us": 15328.679428068008,
+      "mean_error_us": 0.1774143932308285,
+      "klein_periods_observed": 2686329027.400831
+    },
+    "J1946+3417": {
+      "name": "J1946+3417",
+      "n_observations": 395,
+      "timespan_days": 5469.7908352928935,
+      "rms_residual_us": 30705.72643014998,
+      "mean_error_us": 0.1739965343283407,
+      "klein_periods_observed": 2684310792.001658
+    },
+    "J2010-1323": {
+      "name": "J2010-1323",
+      "n_observations": 443,
+      "timespan_days": 5434.927356668064,
+      "rms_residual_us": 34257.594578453456,
+      "mean_error_us": 0.17822971905127374,
+      "klein_periods_observed": 2667201470.1395655
+    },
+    "J2017+0603": {
+      "name": "J2017+0603",
+      "n_observations": 406,
+      "timespan_days": 5464.535577161907,
+      "rms_residual_us": 13833.782521061461,
+      "mean_error_us": 0.17289773115853935,
+      "klein_periods_observed": 2681731763.5633597
+    },
+    "J2043+1711": {
+      "name": "J2043+1711",
+      "n_observations": 350,
+      "timespan_days": 5448.998801766764,
+      "rms_residual_us": 28142.87467352776,
+      "mean_error_us": 0.17476214643314433,
+      "klein_periods_observed": 2674107059.964643
+    },
+    "J2145-0750": {
+      "name": "J2145-0750",
+      "n_observations": 621,
+      "timespan_days": 5441.023768234925,
+      "rms_residual_us": 9703.73004315669,
+      "mean_error_us": 0.1740839169342307,
+      "klein_periods_observed": 2670193296.308826
+    },
+    "J2229+2643": {
+      "name": "J2229+2643",
+      "n_observations": 301,
+      "timespan_days": 5425.284502889983,
+      "rms_residual_us": 37846.78740735057,
+      "mean_error_us": 0.17794452746921552,
+      "klein_periods_observed": 2662469220.3622646
+    },
+    "J2234+0611": {
+      "name": "J2234+0611",
+      "n_observations": 305,
+      "timespan_days": 5435.3675198342025,
+      "rms_residual_us": 219091.2488987059,
+      "mean_error_us": 0.17835714838337147,
+      "klein_periods_observed": 2667417481.093674
+    },
+    "J2302+4442": {
+      "name": "J2302+4442",
+      "n_observations": 609,
+      "timespan_days": 5469.288704143248,
+      "rms_residual_us": 35223.75134576569,
+      "mean_error_us": 0.1739720121030555,
+      "klein_periods_observed": 2684064370.135707
+    },
+    "J2317+1439": {
+      "name": "J2317+1439",
+      "n_observations": 370,
+      "timespan_days": 5461.948738625069,
+      "rms_residual_us": 74123.93741644995,
+      "mean_error_us": 0.18039189047406518,
+      "klein_periods_observed": 2680462267.37773
+    },
+    "J0437-4715": {
+      "name": "J0437-4715",
+      "n_observations": 498,
+      "timespan_days": 5474.582490502238,
+      "rms_residual_us": 35267.356760121016,
+      "mean_error_us": 0.17929698606503133,
+      "klein_periods_observed": 2686662306.378954
+    },
+    "J0610-2100": {
+      "name": "J0610-2100",
+      "n_observations": 660,
+      "timespan_days": 5450.323820963356,
+      "rms_residual_us": 12465.3228337614,
+      "mean_error_us": 0.1769085863040752,
+      "klein_periods_observed": 2674757315.785409
+    },
+    "J0621+1002": {
+      "name": "J0621+1002",
+      "n_observations": 346,
+      "timespan_days": 5429.984900118645,
+      "rms_residual_us": 39602.25076546073,
+      "mean_error_us": 0.17118257979408705,
+      "klein_periods_observed": 2664775949.703025
+    },
+    "J0931-1902": {
+      "name": "J0931-1902",
+      "n_observations": 589,
+      "timespan_days": 5469.804784154134,
+      "rms_residual_us": 32654.346062741864,
+      "mean_error_us": 0.17853810652979632,
+      "klein_periods_observed": 2684317637.433209
+    },
+    "J1022+1001": {
+      "name": "J1022+1001",
+      "n_observations": 482,
+      "timespan_days": 5433.844856137752,
+      "rms_residual_us": 30294.712522580565,
+      "mean_error_us": 0.18110031898953455,
+      "klein_periods_observed": 2666670230.8393135
+    },
+    "J1045-4509": {
+      "name": "J1045-4509",
+      "n_observations": 331,
+      "timespan_days": 5347.655662617239,
+      "rms_residual_us": 29146.33065367654,
+      "mean_error_us": 0.17337317580293174,
+      "klein_periods_observed": 2624372711.740735
+    },
+    "J1603-7202": {
+      "name": "J1603-7202",
+      "n_observations": 602,
+      "timespan_days": 5470.4710097706775,
+      "rms_residual_us": 26067.22309854855,
+      "mean_error_us": 0.1720786998300567,
+      "klein_periods_observed": 2684644588.9869795
+    },
+    "J1857+0943": {
+      "name": "J1857+0943",
+      "n_observations": 314,
+      "timespan_days": 5468.162719189604,
+      "rms_residual_us": 8785.988581876632,
+      "mean_error_us": 0.17196719423318144,
+      "klein_periods_observed": 2683511790.7677364
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "standard_fit": {
+    "parameters": {
+      "H0": 79.99999999999999,
+      "Om0": 0.39999999999999997
+    },
+    "chi2": 39899852.14169191,
+    "dof": 1580,
+    "chi2_reduced": 25253.070975754374
+  },
+  "klein_fit": {
+    "parameters": {
+      "H0": 79.99999999999999,
+      "Om0": 0.39999999999999997,
+      "gamma_klein": -0.009999999999999998
+    },
+    "chi2": 39892146.09242994,
+    "dof": 1579,
+    "chi2_reduced": 25264.183719081662
+  },
+  "significance": {
+    "delta_chi2": 7706.049261964858,
+    "p_value": 0.0,
+    "sigma_level": 0
+  },
+  "metadata": {
+    "analysis_type": "Supernovae_Klein_Rigorous",
+    "timestamp": "2025-07-26T22:44:53.293717",
+    "data_source": "pantheon_plus_real_data",
+    "n_supernovae": 1582
+  }
+}

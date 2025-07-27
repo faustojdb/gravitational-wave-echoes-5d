@@ -1,0 +1,179 @@
+{
+  "methodology": {
+    "approach": "context_dependent_analysis",
+    "klein_fundamentals": {
+      "f0_Hz": 5.68,
+      "R_Klein_km": 8400,
+      "epsilon_max": 0.65,
+      "period_s": 0.17605633802816903
+    },
+    "activation_criteria": {
+      "dynamic_threshold_accel": 1e-06,
+      "static_field_cutoff": 1e-10,
+      "frequency_window_Hz": [
+        1.0,
+        20.0
+      ],
+      "optimal_frequency_Hz": 5.68,
+      "frequency_tolerance": 2.0,
+      "min_curvature_m2": 1e-10,
+      "strong_field_threshold": 1000000.0,
+      "equilibrium_time_threshold_s": 3600,
+      "min_variability": 0.01
+    }
+  },
+  "classification": {
+    "klein_active": {
+      "gravity_tests": 0,
+      "strong_lensing": 0,
+      "galaxy_clusters": 270,
+      "pulsar_timing": []
+    },
+    "klein_inactive": {
+      "gravity_tests": 46000,
+      "strong_lensing": 3510,
+      "galaxy_clusters": 5130,
+      "pulsar_timing": [
+        "J0023+0923",
+        "J0030+0451",
+        "J0340+4130",
+        "J0613-0200",
+        "J0636+5128",
+        "J0645+5158",
+        "J0740+6620",
+        "J0751+1807",
+        "J1012+5307",
+        "J1024-0719",
+        "J1125+7819",
+        "J1136+1551",
+        "J1455-3330",
+        "J1600-3053",
+        "J1614-2230",
+        "J1640+2224",
+        "J1643-1224",
+        "J1713+0747",
+        "J1738+0333",
+        "J1741+1351",
+        "J1744-1134",
+        "J1747-4036",
+        "J1832-0836",
+        "J1853+1303",
+        "J1903+0327",
+        "J1909-3744",
+        "J1918-0642",
+        "J1923+2515",
+        "J1944+0907",
+        "J1946+3417",
+        "J2010-1323",
+        "J2017+0603",
+        "J2043+1711",
+        "J2145-0750",
+        "J2229+2643",
+        "J2234+0611",
+        "J2302+4442",
+        "J2317+1439",
+        "J0437-4715",
+        "J0610-2100",
+        "J0621+1002",
+        "J0931-1902",
+        "J1022+1001",
+        "J1045-4509",
+        "J1603-7202",
+        "J1857+0943"
+      ]
+    },
+    "classification_summary": {
+      "total_experiments": 54956,
+      "klein_active_total": 270,
+      "klein_inactive_total": 54686,
+      "activation_rate_percent": 0.491302132615183,
+      "by_experiment": {
+        "gravity_tests": {
+          "total": 46000,
+          "klein_active": 0,
+          "klein_inactive": 46000,
+          "activation_rate_percent": 0.0
+        },
+        "strong_lensing": {
+          "total": 3510,
+          "klein_active": 0,
+          "klein_inactive": 3510,
+          "activation_rate_percent": 0.0
+        },
+        "galaxy_clusters": {
+          "total": 5400,
+          "klein_active": 270,
+          "klein_inactive": 5130,
+          "activation_rate_percent": 5.0
+        },
+        "pulsar_timing": {
+          "total": 46,
+          "klein_active": 0,
+          "klein_inactive": 46,
+          "activation_rate_percent": 0.0
+        }
+      }
+    }
+  },
+  "context_analysis": {
+    "klein_active_results": {
+      "gravity_tests": {
+        "n_samples": 0,
+        "estimated_significance": 0.0,
+        "activation_rate": 0.0
+      },
+      "strong_lensing": {
+        "n_samples": 0,
+        "estimated_significance": 0.0,
+        "activation_rate": 0.0
+      },
+      "galaxy_clusters": {
+        "n_samples": 270,
+        "estimated_significance": 0.0,
+        "activation_rate": 0.05
+      },
+      "pulsar_timing": {
+        "n_samples": 0,
+        "estimated_significance": 0.0,
+        "activation_rate": 0.0
+      }
+    },
+    "klein_inactive_results": {
+      "gravity_tests": {
+        "n_samples": 46000,
+        "estimated_significance": 0.0,
+        "suppression_rate": 1.0
+      },
+      "strong_lensing": {
+        "n_samples": 3510,
+        "estimated_significance": 0.0,
+        "suppression_rate": 1.0
+      },
+      "galaxy_clusters": {
+        "n_samples": 5130,
+        "estimated_significance": 0.0,
+        "suppression_rate": 0.95
+      },
+      "pulsar_timing": {
+        "n_samples": 46,
+        "estimated_significance": 0.0,
+        "suppression_rate": 1.0
+      }
+    },
+    "comparison": {
+      "active_significance_mean": 0.0,
+      "inactive_significance_mean": 0.0,
+      "significance_ratio": 1.0,
+      "context_dependence_evidence": "none"
+    }
+  },
+  "scientific_conclusions": {
+    "klein_activation_rate": 0.491302132615183,
+    "context_dependence_strength": "none",
+    "significance_enhancement_ratio": 1.0,
+    "klein_active_mean_significance": 0.0,
+    "klein_inactive_mean_significance": 0.0,
+    "overall_assessment": "weak_or_no_context_dependence",
+    "interpretation": "Klein effects appear universal or absent"
+  }
+}

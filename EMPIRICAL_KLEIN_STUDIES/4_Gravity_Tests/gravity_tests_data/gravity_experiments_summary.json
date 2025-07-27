@@ -1,0 +1,132 @@
+{
+  "llr_data": {
+    "experiment": "Lunar Laser Ranging",
+    "distance_km": 384400,
+    "measurement_precision_mm": 1.0,
+    "time_span_years": 50,
+    "n_measurements": 25000,
+    "test_type": "inverse_square_law",
+    "reference": "Williams+2012, Hofmann+2010"
+  },
+  "planetary_tests": {
+    "Mercury": {
+      "experiment": "Mercury perihelion precession",
+      "distance_AU": 0.39,
+      "observed_precession_arcsec_century": 574.1,
+      "einstein_prediction_arcsec_century": 42.98,
+      "measurement_precision_arcsec_century": 0.02,
+      "test_type": "post_newtonian",
+      "reference": "Fienga+2011"
+    },
+    "Venus": {
+      "experiment": "Venus radar ranging",
+      "distance_AU": 0.72,
+      "time_delay_tests": true,
+      "measurement_precision_km": 0.1,
+      "n_measurements": 5000,
+      "test_type": "time_delay",
+      "reference": "Fienga+2011"
+    },
+    "Mars": {
+      "experiment": "Mars spacecraft tracking",
+      "distance_AU": 1.52,
+      "doppler_precision_mm_s": 0.1,
+      "n_measurements": 10000,
+      "test_type": "doppler_shift",
+      "reference": "Konopliv+2016"
+    },
+    "Jupiter": {
+      "experiment": "Jupiter system dynamics",
+      "distance_AU": 5.2,
+      "satellite_precision_km": 1.0,
+      "n_measurements": 15000,
+      "test_type": "satellite_dynamics",
+      "reference": "Lainey+2017"
+    },
+    "Saturn": {
+      "experiment": "Cassini gravity science",
+      "distance_AU": 9.5,
+      "ring_dynamics_precision_m": 10,
+      "n_measurements": 8000,
+      "test_type": "ring_dynamics",
+      "reference": "Iess+2014"
+    }
+  },
+  "satellite_tests": {
+    "GRACE": {
+      "experiment": "GRACE satellite gravimetry",
+      "altitude_km": 500,
+      "distance_scale_km": [
+        100,
+        1000,
+        10000
+      ],
+      "gravity_precision_mgal": 0.01,
+      "n_measurements": 50000,
+      "test_type": "gravitational_field",
+      "reference": "Tapley+2004"
+    },
+    "LAGEOS": {
+      "experiment": "LAGEOS laser ranging",
+      "altitude_km": 5900,
+      "ranging_precision_mm": 5,
+      "n_measurements": 30000,
+      "test_type": "orbital_dynamics",
+      "reference": "Pavlis+2013"
+    },
+    "GP-B": {
+      "experiment": "Gravity Probe B",
+      "altitude_km": 640,
+      "geodetic_precision_mas": 0.28,
+      "n_measurements": 10000,
+      "test_type": "frame_dragging",
+      "reference": "Everitt+2011"
+    },
+    "MICROSCOPE": {
+      "experiment": "MICROSCOPE equivalence principle",
+      "altitude_km": 710,
+      "equivalence_precision": 1e-15,
+      "n_measurements": 100000,
+      "test_type": "equivalence_principle",
+      "reference": "Touboul+2017"
+    }
+  },
+  "laboratory_tests": {
+    "Cavendish": {
+      "experiment": "Modern Cavendish experiments",
+      "distance_scale_m": [
+        0.01,
+        0.1,
+        1.0
+      ],
+      "G_precision_relative": 1e-05,
+      "n_measurements": 1000,
+      "test_type": "gravitational_constant",
+      "reference": "Quinn+2013"
+    },
+    "Eotvos": {
+      "experiment": "Modern E\u00f6tv\u00f6s experiments",
+      "distance_scale_m": [
+        0.001,
+        0.01,
+        0.1
+      ],
+      "equivalence_precision": 1e-13,
+      "n_measurements": 5000,
+      "test_type": "equivalence_principle",
+      "reference": "Schlamminger+2008"
+    },
+    "Inverse_square": {
+      "experiment": "Sub-mm inverse square tests",
+      "distance_scale_m": [
+        0.0001,
+        0.001,
+        0.01
+      ],
+      "force_precision_relative": 0.0001,
+      "n_measurements": 2000,
+      "test_type": "inverse_square_law",
+      "reference": "Kapner+2007"
+    }
+  }
+}

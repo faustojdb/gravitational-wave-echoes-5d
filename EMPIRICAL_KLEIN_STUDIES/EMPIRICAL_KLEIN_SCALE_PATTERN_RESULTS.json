@@ -1,0 +1,125 @@
+{
+  "methodology": {
+    "approach": "pure_empirical",
+    "fundamentals_used": {
+      "f0_Hz": 5.68,
+      "R_Klein_km": 8400,
+      "epsilon_max": 0.65,
+      "period_s": 0.17605633802816903,
+      "period_years": 5.5788886996529845e-09
+    },
+    "theoretical_assumptions": "none",
+    "scaling_law_source": "derived_from_data"
+  },
+  "experimental_data_summary": {
+    "datasets_loaded": 4,
+    "total_data_points": 4,
+    "scale_range_km": [
+      100000.0,
+      1000000000.0
+    ],
+    "scale_ratio_range": [
+      11.904761904761905,
+      119047.61904761905
+    ]
+  },
+  "scale_analysis": {
+    "scales_km": [
+      100000.0,
+      3000000.0,
+      1000000000.0,
+      10000000.0
+    ],
+    "scale_ratios": [
+      11.904761904761905,
+      357.14285714285717,
+      119047.61904761905,
+      1190.4761904761904
+    ],
+    "significances": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "effect_sizes": [
+      0.005421974601523601,
+      0.002398671990502393,
+      8.748177652797064,
+      0.0
+    ],
+    "experiment_names": [
+      "4_Gravity_Tests",
+      "6_Strong_Lensing_Analysis",
+      "10_Galaxy_Clusters_Analysis",
+      "2_PTA_Analysis"
+    ],
+    "klein_scale_km": 8400,
+    "patterns": {
+      "scale_correlation": {
+        "correlation": NaN,
+        "p_value": NaN,
+        "interpretation": "none"
+      },
+      "large_scale_behavior": {
+        "significances": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "mean_significance": 0.0,
+        "suppressed": true
+      }
+    }
+  },
+  "empirical_scaling_law": {
+    "status": "insufficient_data"
+  },
+  "scientific_conclusions": {
+    "detection_status": {
+      "max_significance": 0.0,
+      "max_significance_scale_ratio": 11.904761904761905,
+      "above_2sigma": 0,
+      "total_experiments": 4
+    },
+    "scale_correlation": {
+      "correlation": NaN,
+      "significant": false,
+      "interpretation": "none"
+    },
+    "klein_active_regime": {
+      "exists": false
+    },
+    "empirical_scaling": {
+      "derived": false
+    },
+    "overall_assessment": "no_clear_klein_effects",
+    "empirical_hypotheses": {
+      "context_dependent_activation": {
+        "high_snr_detections": 1,
+        "high_snr_scales": [
+          119047.61904761905
+        ],
+        "high_snr_significances": [
+          0.0
+        ],
+        "high_snr_values": [
+          8.748177652797064
+        ],
+        "interpretation": "klein_predicts_wrong_effects"
+      },
+      "universal_absence": {
+        "all_effects_below_1sigma": true,
+        "max_significance_observed": 0.0,
+        "mean_significance": 0.0,
+        "interpretation": "klein_effects_absent_in_tested_regimes"
+      },
+      "multiscale_theory_validation": {
+        "expected_observed_correlation": 0.9999609875089964,
+        "correlation_p_value": 3.9012491003465044e-05,
+        "theory_validated": true,
+        "interpretation": "linear_scaling_supported"
+      }
+    }
+  }
+}

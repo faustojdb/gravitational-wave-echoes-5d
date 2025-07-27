@@ -1,0 +1,54 @@
+{
+  "individual_tests": [
+    {
+      "test_type": "lunar_laser_ranging",
+      "n_points": 25000,
+      "gr_fit": {
+        "offset": -0.003226892074576499,
+        "parameter_errors": [
+          0.006312564198413178
+        ],
+        "chi2": 24904.356303986482,
+        "dof": 24999,
+        "chi2_reduced": 0.9962141007234883
+      },
+      "klein_fit": {
+        "offset": -0.0033348129872298104,
+        "klein_amplitude": -0.014269815103609012,
+        "parameter_errors": [
+          0.006312739878405067,
+          0.008948429714166295
+        ],
+        "chi2": 24901.823112576156,
+        "dof": 24998,
+        "chi2_reduced": 0.9961526167123832
+      },
+      "significance": {
+        "delta_chi2": 2.5331914103262534,
+        "p_value": 0.11147455003378319,
+        "sigma_level": 1.5916002671293579
+      }
+    }
+  ],
+  "combined_statistics": {
+    "n_tests": 1,
+    "sigma_levels": [
+      1.5916002671293579
+    ],
+    "combined_sigma": 1.5916002671293579,
+    "significant_detections": 0,
+    "detection_rate": 0.0,
+    "mean_sigma": 1.5916002671293579,
+    "median_sigma": 1.5916002671293579
+  },
+  "metadata": {
+    "analysis_type": "Gravity_Tests_Klein_Rigorous",
+    "timestamp": "2025-07-26T22:44:48.087421",
+    "data_source": "real_gravity_catalog",
+    "tests_available": [
+      "llr"
+    ],
+    "methodology": "Post-Newtonian analysis with Klein corrections",
+    "software": "Python scipy.optimize"
+  }
+}

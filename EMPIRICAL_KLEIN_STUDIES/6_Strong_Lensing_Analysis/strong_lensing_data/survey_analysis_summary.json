@@ -1,0 +1,38 @@
+{
+  "SLACS": {
+    "n_lenses": 10,
+    "z_lens_mean": 0.22979999999999995,
+    "z_lens_std": 0.07015348253017174,
+    "z_source_mean": 0.6603999999999999,
+    "einstein_radius_mean_arcsec": 1.2530000000000001,
+    "mass_mean_Msun": 194000000000.0,
+    "velocity_dispersion_mean_km_s": 212.0
+  },
+  "HSC-SSP": {
+    "n_lenses": 1200,
+    "z_lens_mean": 0.2873710821935366,
+    "z_lens_std": 0.1890384742374018,
+    "z_source_mean": 1.2601517343081583,
+    "einstein_radius_mean_arcsec": 1.0630517215169062,
+    "mass_mean_Msun": 136298090436.81758,
+    "velocity_dispersion_mean_km_s": 220.50853842415458
+  },
+  "DES-SL": {
+    "n_lenses": 2000,
+    "z_lens_mean": 0.21750616462738678,
+    "z_lens_std": 0.14832509254158815,
+    "z_source_mean": 0.9455286320355416,
+    "einstein_radius_mean_arcsec": 0.8371003725181395,
+    "mass_mean_Msun": 97227751977.32812,
+    "velocity_dispersion_mean_km_s": 211.29473084068525
+  },
+  "BELLS": {
+    "n_lenses": 300,
+    "z_lens_mean": 0.5278626979641932,
+    "z_lens_std": 0.13932269485763427,
+    "z_source_mean": 1.1124500588344066,
+    "einstein_radius_mean_arcsec": 1.2078839789646336,
+    "mass_mean_Msun": 156643169908.94464,
+    "velocity_dispersion_mean_km_s": 250.59011924913744
+  }
+}

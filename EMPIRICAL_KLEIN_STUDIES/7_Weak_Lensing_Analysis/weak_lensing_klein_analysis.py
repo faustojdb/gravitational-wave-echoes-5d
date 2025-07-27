@@ -41,12 +41,10 @@ class WeakLensingKleinAnalyzer:
             # Speed of light
             'c_light_km_s': 299792.458,
             
-            # Klein-specific structure formation
+            # Klein fundamental constants ONLY (NO ad hoc parameters)
             'f0_Hz': 5.68,            # Klein breathing frequency
-            'R_Klein_m': 8400e3,      # Klein coherence scale
-            'epsilon_max': 0.65,      # Klein topology deformation limit
-            'klein_growth_boost': 1.08, # Klein enhances structure growth
-            'klein_scale_cut_Mpc': 10.0  # Klein effects below this scale
+            'R_Klein_m': 8400e3,      # Klein coherence scale (8.4 kpc)
+            'epsilon_max': 0.65       # Klein topology deformation limit
         }
         
         # ΛCDM reference parameters
@@ -240,14 +238,14 @@ class WeakLensingKleinAnalyzer:
             sigma8 = self.klein_params['sigma8_klein']
             w0 = self.klein_params['w0_klein']
             wa = self.klein_params['wa_klein']
-            growth_boost = self.klein_params['klein_growth_boost']
+            # No Klein growth boost - use standard growth
         else:  # observed - use Klein parameters with noise
             H0 = self.klein_params['H0_klein']
             Omega_m = self.klein_params['Omega_m']
             sigma8 = self.klein_params['sigma8_klein']
             w0 = self.klein_params['w0_klein']
             wa = self.klein_params['wa_klein']
-            growth_boost = self.klein_params['klein_growth_boost']
+            # No Klein growth boost - use standard growth
         
         # Convert angular scales to comoving distances
         # Use mean redshift for Limber approximation
@@ -261,7 +259,7 @@ class WeakLensingKleinAnalyzer:
         # Matter power spectrum P(k,z) with Klein modifications
         k_h_Mpc = 2 * np.pi / ell_values  # Wavenumber h/Mpc
         P_k_z = self._calculate_matter_power_spectrum(
-            k_h_Mpc, z_mean, sigma8, Omega_m, growth_boost, cosmology)
+            k_h_Mpc, z_mean, sigma8, Omega_m, 1.0, cosmology)
         
         # Lensing efficiency function (simplified)
         def lensing_efficiency(z_source):
@@ -344,18 +342,26 @@ class WeakLensingKleinAnalyzer:
         ns = self.klein_params['ns']
         P_k_primordial = k_h_Mpc**ns * T_k**2
         
-        # Growth factor D(z)
-        growth_factor = self._calculate_growth_factor(z, Omega_m, growth_boost)
+        # Growth factor D(z) - Standard cosmological growth (NO Klein boost)
+        growth_factor = self._calculate_growth_factor(z, Omega_m, 1.0)
         
-        # Klein scale-dependent modifications
+        # Klein Spacetime Atoms scaling - NO ad hoc parameters
         if cosmology == 'klein':
-            # Klein enhances power on scales R > R_Klein
-            R_klein_Mpc = self.klein_params['R_Klein_m'] / 1e6  # Convert to Mpc
-            k_klein = 2 * np.pi / R_klein_Mpc
+            # Apply Klein Spacetime Atoms scaling law: Gaussian correlation
+            R_Klein_kpc = self.klein_params['R_Klein_m'] / 1000.0  # Convert to kpc
+            xi_correlation_kpc = 8.4  # Klein correlation peak (kpc)
+            sigma_width_kpc = 2.5     # Klein correlation width (kpc)
+            gamma_max = 1e-2          # Maximum Klein coupling
             
-            # Klein enhancement factor: boost large scales, suppress small scales
-            klein_factor = 1 + 0.15 * np.exp(-(k_h_Mpc / k_klein)**2)
-            klein_factor *= growth_boost  # Overall growth enhancement
+            # Convert k-space to physical scale
+            L_kpc = 2 * np.pi / (k_h_Mpc * 1000)  # Physical scale in kpc
+            
+            # Klein Spacetime Atoms correlation function
+            distance_from_peak = np.abs(L_kpc - xi_correlation_kpc)
+            klein_correlation = gamma_max * np.exp(-(distance_from_peak**2) / (2 * sigma_width_kpc**2))
+            
+            # Klein effects are TINY at cosmological scales (weak lensing probes Mpc scales)
+            klein_factor = 1.0 + klein_correlation  # Typically ~1 + 10^-6 to 10^-3
         else:
             klein_factor = 1.0
         
@@ -392,8 +398,7 @@ class WeakLensingKleinAnalyzer:
         
         D_z = (growth_z / growth_0) / (1 + z)
         
-        # Apply Klein growth boost
-        D_z *= growth_boost
+        # Standard growth factor (no Klein boost)
         
         return D_z
     
@@ -580,16 +585,15 @@ class WeakLensingKleinAnalyzer:
     def _test_klein_structure_formation(self, lensing_data: Dict[str, Any]) -> Dict[str, Any]:
         """Tests específicos para Klein structure formation."""
         
-        # 1. Growth rate test
+        # 1. Growth rate test - NO Klein growth boost (fundamentalist approach)
         z_mean = lensing_data['redshift_dist']['z_mean']
-        growth_boost = self.klein_params['klein_growth_boost']
         
-        # Klein should enhance growth at intermediate redshifts
+        # Klein uses standard growth (no artificial boost)
         D_lcdm = self._calculate_growth_factor(z_mean, self.lcdm_params['Omega_m'], 1.0)
-        D_klein = self._calculate_growth_factor(z_mean, self.klein_params['Omega_m'], growth_boost)
+        D_klein = self._calculate_growth_factor(z_mean, self.klein_params['Omega_m'], 1.0)
         
         growth_enhancement = D_klein / D_lcdm
-        growth_test_passed = abs(growth_enhancement - growth_boost) < 0.05
+        growth_test_passed = abs(growth_enhancement - 1.0) < 0.05  # Should be ~1 (no boost)
         
         # 2. Scale-dependent effects
         theta = lensing_data['angular_scales']['theta_arcmin']
@@ -620,14 +624,14 @@ class WeakLensingKleinAnalyzer:
                 'D_lcdm': D_lcdm,
                 'D_klein': D_klein,
                 'growth_enhancement': growth_enhancement,
-                'expected_boost': growth_boost,
+                'expected_boost': 1.0,  # No Klein boost
                 'test_passed': growth_test_passed
             },
             'scale_dependence': {
                 'large_scale_ratio': large_scale_ratio,
                 'small_scale_ratio': small_scale_ratio,
                 'scale_dependence_detected': scale_dependence_detected,
-                'klein_scale_cut_Mpc': self.klein_params['klein_scale_cut_Mpc']
+                'klein_correlation_scale_kpc': 8.4  # Klein Spacetime Atoms scale
             },
             'klein_signatures': {
                 'frequency_hz': f0_hz,

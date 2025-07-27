@@ -1,0 +1,112 @@
+{
+  "GD-1": {
+    "n_stars": 200,
+    "mean_distance_kpc": 8.621985397582574,
+    "distance_std_kpc": 0.8566270487030788,
+    "length_observed_deg": 49.23116171013022,
+    "width_rms_deg": 0.47924339902917173,
+    "pm_ra_mean": -2.352145796151865,
+    "pm_dec_mean": 2.2227291339930644,
+    "rv_mean_km_s": -67.42884773907352,
+    "rv_dispersion_km_s": 8.536943560594484
+  },
+  "Pal_5_stream": {
+    "n_stars": 100,
+    "mean_distance_kpc": 17.30253096565907,
+    "distance_std_kpc": 1.5275319962790967,
+    "length_observed_deg": 19.730514908120558,
+    "width_rms_deg": 0.3665726095704765,
+    "pm_ra_mean": -1.1258845711174357,
+    "pm_dec_mean": 0.7834818861900414,
+    "rv_mean_km_s": 72.43066638501992,
+    "rv_dispersion_km_s": 10.554012899485834
+  },
+  "Sagittarius_stream": {
+    "n_stars": 2000000,
+    "mean_distance_kpc": 24.999373608209517,
+    "distance_std_kpc": 2.4988202144445095,
+    "length_observed_deg": 179.99999068673787,
+    "width_rms_deg": 2.4979384248458096,
+    "pm_ra_mean": 0.4498127636191879,
+    "pm_dec_mean": -3.6402720238511668,
+    "rv_mean_km_s": 34.19501052897922,
+    "rv_dispersion_km_s": 10.005601921020332
+  },
+  "Orphan_stream": {
+    "n_stars": 400,
+    "mean_distance_kpc": 19.817855908796464,
+    "distance_std_kpc": 1.951502698748612,
+    "length_observed_deg": 29.715924853315094,
+    "width_rms_deg": 0.7351059333474136,
+    "pm_ra_mean": 0.574104182375762,
+    "pm_dec_mean": 2.2257879243354806,
+    "rv_mean_km_s": -48.50212427512832,
+    "rv_dispersion_km_s": 10.12508501461053
+  },
+  "ATLAS_stream": {
+    "n_stars": 160,
+    "mean_distance_kpc": 19.96184086097791,
+    "distance_std_kpc": 2.0141459515859412,
+    "length_observed_deg": 14.904156603149724,
+    "width_rms_deg": 0.47721646522750644,
+    "pm_ra_mean": 1.6574715053952018,
+    "pm_dec_mean": -2.287100192357942,
+    "rv_mean_km_s": -7.124051405804143,
+    "rv_dispersion_km_s": 10.343130193953199
+  },
+  "Phoenix_stream": {
+    "n_stars": 100,
+    "mean_distance_kpc": 18.48250108982537,
+    "distance_std_kpc": 1.8121161084229327,
+    "length_observed_deg": 11.937212676872694,
+    "width_rms_deg": 0.27543903760814875,
+    "pm_ra_mean": -4.342806373674134,
+    "pm_dec_mean": 0.2609726425199682,
+    "rv_mean_km_s": -45.907656533618244,
+    "rv_dispersion_km_s": 10.921918967350106
+  },
+  "Tucana_III_stream": {
+    "n_stars": 100,
+    "mean_distance_kpc": 25.045314106987938,
+    "distance_std_kpc": 2.2114233135874626,
+    "length_observed_deg": 7.769706419854188,
+    "width_rms_deg": 0.2838446820300573,
+    "pm_ra_mean": -0.18111153071627423,
+    "pm_dec_mean": 2.8414947781939692,
+    "rv_mean_km_s": 9.714329751449187,
+    "rv_dispersion_km_s": 10.016889363159631
+  },
+  "Jhelum_stream": {
+    "n_stars": 100,
+    "mean_distance_kpc": 13.277095207186397,
+    "distance_std_kpc": 1.1185936011687136,
+    "length_observed_deg": 24.854049938041424,
+    "width_rms_deg": 0.6795485589628322,
+    "pm_ra_mean": 0.2932073930241283,
+    "pm_dec_mean": -2.3134851905183087,
+    "rv_mean_km_s": -44.22420026232132,
+    "rv_dispersion_km_s": 10.249482575351234
+  },
+  "Indus_stream": {
+    "n_stars": 100,
+    "mean_distance_kpc": 16.230280698508544,
+    "distance_std_kpc": 1.6617752377074608,
+    "length_observed_deg": 17.579000706331342,
+    "width_rms_deg": 0.49977185305318234,
+    "pm_ra_mean": -0.39362242055641344,
+    "pm_dec_mean": 0.30965850194842537,
+    "rv_mean_km_s": 56.36936817992643,
+    "rv_dispersion_km_s": 10.310748349107977
+  },
+  "Turranburra_stream": {
+    "n_stars": 100,
+    "mean_distance_kpc": 15.03165147269823,
+    "distance_std_kpc": 1.584806994583383,
+    "length_observed_deg": 11.77738283351428,
+    "width_rms_deg": 0.3525572782326203,
+    "pm_ra_mean": -1.3134145346990227,
+    "pm_dec_mean": -0.9400805494872467,
+    "rv_mean_km_s": -33.23816503674605,
+    "rv_dispersion_km_s": 9.220003036479264
+  }
+}

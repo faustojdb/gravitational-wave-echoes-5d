@@ -9,8 +9,7 @@ import requests
 import pandas as pd
 import numpy as np
 from pathlib import Path
-import fits
-from astropy.io import fits as pyfits
+# from astropy.io import fits as pyfits  # Commented out - not needed for basic download
 import json
 
 def download_planck_clusters():

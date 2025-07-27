@@ -1,0 +1,37 @@
+{
+  "n_total_stars": 2001360,
+  "n_streams": 10,
+  "distance_range_kpc": [
+    6.266952384299762,
+    36.99838357069484
+  ],
+  "magnitude_range_G": [
+    -2.8778391237960825,
+    17.089315895993764
+  ],
+  "ra_range_deg": [
+    8.644741132002309e-05,
+    359.99998165204977
+  ],
+  "dec_range_deg": [
+    -60.78689536107533,
+    56.3856284470899
+  ],
+  "data_source": "Simulated from known stellar stream parameters",
+  "references": [
+    "Koposov+2010, Price-Whelan+2018",
+    "Odenkirchen+2001, Kuepper+2015",
+    "Ibata+1994, Law+2010",
+    "Belokurov+2006, Koposov+2012",
+    "Koposov+2014",
+    "Balbinot+2016",
+    "Shipp+2018",
+    "Shipp+2018",
+    "Shipp+2018",
+    "Shipp+2018"
+  ],
+  "gaia_data_release": "EDR3-style",
+  "magnitude_limit": 20.0,
+  "proper_motion_accuracy": "~1 mas/yr typical",
+  "radial_velocity_accuracy": "~10 km/s typical"
+}

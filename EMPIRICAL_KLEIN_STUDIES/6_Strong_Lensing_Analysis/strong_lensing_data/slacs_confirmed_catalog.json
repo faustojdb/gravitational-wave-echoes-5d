@@ -1,0 +1,102 @@
+{
+  "SDSSJ0037-0942": {
+    "ra_deg": 9.25,
+    "dec_deg": -9.71,
+    "z_lens": 0.196,
+    "z_source": 0.632,
+    "einstein_radius_arcsec": 1.18,
+    "lens_mass_Msun": 230000000000.0,
+    "lens_velocity_dispersion_km_s": 218,
+    "reference": "Koopmans+2006"
+  },
+  "SDSSJ0252+0039": {
+    "ra_deg": 43.01,
+    "dec_deg": 0.66,
+    "z_lens": 0.28,
+    "z_source": 0.982,
+    "einstein_radius_arcsec": 1.03,
+    "lens_mass_Msun": 180000000000.0,
+    "lens_velocity_dispersion_km_s": 203,
+    "reference": "Koopmans+2006"
+  },
+  "SDSSJ0330-0020": {
+    "ra_deg": 52.52,
+    "dec_deg": -0.34,
+    "z_lens": 0.351,
+    "z_source": 1.071,
+    "einstein_radius_arcsec": 1.02,
+    "lens_mass_Msun": 210000000000.0,
+    "lens_velocity_dispersion_km_s": 235,
+    "reference": "Koopmans+2006"
+  },
+  "SDSSJ0728+3835": {
+    "ra_deg": 112.02,
+    "dec_deg": 38.59,
+    "z_lens": 0.206,
+    "z_source": 0.688,
+    "einstein_radius_arcsec": 1.08,
+    "lens_mass_Msun": 190000000000.0,
+    "lens_velocity_dispersion_km_s": 211,
+    "reference": "Koopmans+2006"
+  },
+  "SDSSJ0737+3216": {
+    "ra_deg": 114.35,
+    "dec_deg": 32.28,
+    "z_lens": 0.322,
+    "z_source": 0.581,
+    "einstein_radius_arcsec": 1.38,
+    "lens_mass_Msun": 280000000000.0,
+    "lens_velocity_dispersion_km_s": 273,
+    "reference": "Koopmans+2006"
+  },
+  "SDSSJ0822+2652": {
+    "ra_deg": 125.59,
+    "dec_deg": 26.87,
+    "z_lens": 0.241,
+    "z_source": 0.594,
+    "einstein_radius_arcsec": 1.08,
+    "lens_mass_Msun": 200000000000.0,
+    "lens_velocity_dispersion_km_s": 221,
+    "reference": "Koopmans+2006"
+  },
+  "SDSSJ0912+0029": {
+    "ra_deg": 138.02,
+    "dec_deg": 0.49,
+    "z_lens": 0.164,
+    "z_source": 0.324,
+    "einstein_radius_arcsec": 1.86,
+    "lens_mass_Msun": 140000000000.0,
+    "lens_velocity_dispersion_km_s": 168,
+    "reference": "Koopmans+2006"
+  },
+  "SDSSJ0936+0913": {
+    "ra_deg": 144.02,
+    "dec_deg": 9.22,
+    "z_lens": 0.19,
+    "z_source": 0.588,
+    "einstein_radius_arcsec": 1.32,
+    "lens_mass_Msun": 210000000000.0,
+    "lens_velocity_dispersion_km_s": 234,
+    "reference": "Koopmans+2006"
+  },
+  "SDSSJ0946+1006": {
+    "ra_deg": 146.6,
+    "dec_deg": 10.11,
+    "z_lens": 0.222,
+    "z_source": 0.609,
+    "einstein_radius_arcsec": 1.08,
+    "lens_mass_Msun": 180000000000.0,
+    "lens_velocity_dispersion_km_s": 207,
+    "reference": "Koopmans+2006"
+  },
+  "SDSSJ0959+0410": {
+    "ra_deg": 149.76,
+    "dec_deg": 4.17,
+    "z_lens": 0.126,
+    "z_source": 0.535,
+    "einstein_radius_arcsec": 1.5,
+    "lens_mass_Msun": 120000000000.0,
+    "lens_velocity_dispersion_km_s": 150,
+    "reference": "Koopmans+2006"
+  }
+}

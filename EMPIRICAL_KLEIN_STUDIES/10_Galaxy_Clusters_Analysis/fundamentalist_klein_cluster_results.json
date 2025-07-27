@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "analysis_type": "Fundamentalist Klein Cluster Analysis",
+    "date": "2025-07-25",
+    "fundamental_constants_only": true,
+    "real_planck_data": true,
+    "falsifiable": true,
+    "ad_hoc_parameters": 0
+  },
+  "klein_fundamentals": {
+    "f0_Hz": 5.68,
+    "R_Klein_m": 8400000.0,
+    "epsilon_max": 0.65,
+    "c_light_ms": 299792458.0,
+    "G_newton": 6.6743e-11,
+    "h_planck": 6.62607015e-34,
+    "k_boltzmann": 1.380649e-23,
+    "gamma_0_grav": 1e-06,
+    "R_K_reference": 8400000.0
+  },
+  "klein_derived": {
+    "T_Klein_s": 0.17605633802816903,
+    "E_Klein_J": 3.763722349400821e-33,
+    "E_Klein_eV": 2.349130719753601e-14,
+    "M_Klein_kg": 4.1877058830310803e-50,
+    "M_Klein_eV_c2": 2.349130719753601e-14,
+    "T_Klein_thermal_K": 2.7260530007270644e-10,
+    "gravitational_modification": 0.11904761904761904,
+    "H_Klein_Hz": 5.68,
+    "xi_correlation_kpc": 8.4,
+    "sigma_width_kpc": 2.5,
+    "gamma_max": 0.01,
+    "correlation_factor": 0.0,
+    "typical_cluster_scale_Mpc": 1.0,
+    "distance_from_klein_peak_kpc": 991.6
+  },
+  "cosmology_reference": {
+    "H0_planck": 67.66,
+    "Omega_m": 0.3111,
+    "Omega_b": 0.04897,
+    "Omega_Lambda": 0.6889,
+    "sigma8_planck": 0.8102,
+    "ns": 0.9665,
+    "w0": -1.0,
+    "wa": 0.0
+  },
+  "falsification_criteria": {
+    "min_chi2_improvement": 4.0,
+    "min_clusters_for_analysis": 100,
+    "max_klein_effect_size": 0.5,
+    "min_statistical_power": 0.8,
+    "max_fine_tuning": 3.0
+  },
+  "cluster_data_summary": {
+    "n_clusters": 5400,
+    "z_range": "0.000 - 1.397",
+    "catalog": "Planck PSZ2",
+    "survey_area_deg2": 34239.957837017995
+  },
+  "klein_predictions": {
+    "gravitational_modification": 0.11904761904761904,
+    "R_Klein_kpc": 8400.0,
+    "formation_times_Gyr": "[13.29043917 11.64106951 12.7778668  ... 11.47503272 12.26141118\n 13.38959331]",
+    "klein_phases": "[0.14588088 0.94423114 0.28629669 ... 0.01793036 0.40504829 0.69905082]",
+    "abundance_modifications": "[1.07244338 1.1118135  0.97308488 ... 1.11829293 0.90151773 0.96253768]",
+    "mass_effects": "[0.11904762 0.11904762 0.11904762 ... 0.11904762 0.11904762 0.11904762]",
+    "characteristic_frequency_Hz": 5.68,
+    "predicted_effect_size": 0.11904761904761904,
+    "spatial_clustering_scale_kpc": 8400.0
+  },
+  "lcdm_predictions": {
+    "abundance_modifications": "[1. 1. 1. ... 1. 1. 1.]",
+    "mass_effects": "[0. 0. 0. ... 0. 0. 0.]",
+    "spatial_clustering_scale_kpc": null,
+    "temporal_modulation": null,
+    "predicted_effect_size": 0.0
+  },
+  "statistical_analysis": {
+    "sample_size": 5400,
+    "klein_effect_size": 0.11904761904761904,
+    "statistical_noise_level": 0.013608276348795433,
+    "signal_to_noise_ratio": 8.748177652797064,
+    "chi2_phase_test": 14.114814814814814,
+    "dof_phase": 9,
+    "p_value_phase": 0.11829925762217275,
+    "phase_modulation_detected": "False",
+    "n_cluster_pairs_analyzed": 1225,
+    "clustering_enhancement_factor": 0.005442176870748299,
+    "n_klein_scale_pairs": "1",
+    "expected_klein_scale_pairs": 183.75,
+    "ks_statistic": 0.01571238218551063,
+    "ks_p_value": 0.1375204649626448,
+    "distribution_non_uniform": "False",
+    "log_likelihood_lcdm": -7.057407407407407,
+    "log_likelihood_klein": -41.615374447904514,
+    "log_bayes_factor": -34.557967040497104,
+    "bayes_factor": 9.80992322557621e-16,
+    "klein_preferred": "False",
+    "phase_sigma": 1.5619521672490913,
+    "ks_sigma": 1.4850881868490857,
+    "detection_sigma_from_snr": 0.9419175938496026,
+    "clustering_sigma": 13.481670600369629,
+    "overall_sigma_significance": 1.7320143888893216,
+    "combined_p_value_fisher": 0.08327100056240433,
+    "statistical_power": 1.0,
+    "required_n_for_detection": 635.0400000000002,
+    "sufficient_statistical_power": true
+  },
+  "falsification_assessment": {
+    "individual_tests": {
+      "sufficient_sample_size": true,
+      "sufficient_statistical_power": true,
+      "plausible_klein_effect_size": true,
+      "strong_statistical_evidence": false,
+      "no_excessive_fine_tuning": "False"
+    },
+    "all_criteria_met": false,
+    "final_verdict": "KLEIN DISFAVORED - \u039bCDM preferred",
+    "confidence_level": "MODERATE",
+    "falsifiable": true,
+    "analysis_valid": true
+  },
+  "scientific_conclusion": {
+    "verdict": "KLEIN DISFAVORED - \u039bCDM preferred",
+    "confidence": "MODERATE",
+    "falsifiable_analysis": true,
+    "meets_scientific_standards": true
+  }
+}
