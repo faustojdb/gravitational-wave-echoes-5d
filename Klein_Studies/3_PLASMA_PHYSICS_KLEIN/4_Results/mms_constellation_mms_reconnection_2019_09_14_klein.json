@@ -1,0 +1,312 @@
+{
+  "event_info": {
+    "event_id": "mms_reconnection_2019_09_14",
+    "start_time": "2019-09-14T07:20:00",
+    "end_time": "2019-09-14T07:30:00",
+    "description": "Electron diffusion region crossing",
+    "sampling_rates": [
+      128,
+      8192
+    ],
+    "klein_priority": "HIGH",
+    "data_quality": "EXCELLENT"
+  },
+  "spacecraft_analyzed": [
+    "mms1",
+    "mms2"
+  ],
+  "individual_results": {
+    "mms1": {
+      "event_info": {
+        "event_id": "mms_reconnection_2019_09_14",
+        "start_time": "2019-09-14T07:20:00",
+        "end_time": "2019-09-14T07:30:00",
+        "description": "Electron diffusion region crossing",
+        "sampling_rates": [
+          128,
+          8192
+        ],
+        "klein_priority": "HIGH",
+        "data_quality": "EXCELLENT"
+      },
+      "spacecraft": "mms1",
+      "detection_method": "comprehensive",
+      "analysis_timestamp": "2025-07-29T23:21:39.900127",
+      "datasets_analyzed": [
+        "fgm_128hz",
+        "scm_8192hz"
+      ],
+      "klein_detections": {
+        "fgm_128hz": {
+          "klein_detected": true,
+          "detected_frequency": 5.682315953268885,
+          "frequency_accuracy": 0.00031595326888478326,
+          "snr": 37658.73062789376,
+          "detection_confidence": 1.0,
+          "methods_analyzed": 3,
+          "significant_methods": 3,
+          "method_results": [
+            {
+              "method": "welch",
+              "detected_frequency": 5.700364823348694,
+              "frequency_accuracy": 0.01836482334869327,
+              "detected_power": 73.14366519206074,
+              "background_power": 0.19113900250848354,
+              "background_std": 1.2597092403083905,
+              "snr": 382.6726321270528,
+              "is_significant": "True",
+              "frequency_resolution": 0.1000064004096262
+            },
+            {
+              "method": "periodogram",
+              "detected_frequency": 5.68244700994197,
+              "frequency_accuracy": 0.0004470099419693341,
+              "detected_power": 4598.715571053384,
+              "background_power": 0.13114117380310436,
+              "background_std": 8.481444355662996,
+              "snr": 35066.908718980245,
+              "is_significant": "True",
+              "frequency_resolution": 0.00041669333504010925
+            },
+            {
+              "method": "multitaper",
+              "detected_frequency": 5.68203031660693,
+              "frequency_accuracy": 3.0316606929758905e-05,
+              "detected_power": 4470.822767087211,
+              "background_power": 0.11102144035591766,
+              "background_std": 10.842299760637582,
+              "snr": 40269.90419827415,
+              "is_significant": "True",
+              "frequency_resolution": 0.001666773340160437
+            }
+          ],
+          "consensus_analysis": {
+            "frequency_tolerance_hz": 0.264,
+            "significance_threshold": "3-sigma",
+            "weighting_method": "SNR-weighted"
+          },
+          "dataset": "fgm_128hz",
+          "instrument": "FGM",
+          "sampling_rate_hz": 128.00819252432154,
+          "nyquist_margin": 11.264360482604852,
+          "data_points": 76800,
+          "variable_analyzed": "B_total"
+        },
+        "scm_8192hz": {
+          "klein_detected": false,
+          "detected_frequency": 5.44647050034153,
+          "frequency_accuracy": 0.2355294996584707,
+          "snr": 7.924480092224081,
+          "detection_confidence": 0.0,
+          "methods_analyzed": 3,
+          "significant_methods": 0,
+          "method_results": [
+            {
+              "method": "welch",
+              "detected_frequency": 5.900015340039885,
+              "frequency_accuracy": 0.21801534003988454,
+              "detected_power": 0.00010364408898952269,
+              "background_power": 9.382970309034208e-05,
+              "background_std": 0.00451615538070471,
+              "snr": 1.1045978573515363,
+              "is_significant": "False",
+              "frequency_resolution": 0.10000026000067601
+            },
+            {
+              "method": "periodogram",
+              "detected_frequency": 5.614900849556011,
+              "frequency_accuracy": 0.06709915044398951,
+              "detected_power": 0.00046943368299363306,
+              "background_power": 6.63742302267702e-05,
+              "background_std": 0.035571320881795654,
+              "snr": 7.072529223914073,
+              "is_significant": "False",
+              "frequency_resolution": 0.0004169068049863388
+            },
+            {
+              "method": "multitaper",
+              "detected_frequency": 5.44647050034153,
+              "frequency_accuracy": 0.2355294996584707,
+              "detected_power": 0.0004394360318089762,
+              "background_power": 5.545297946299015e-05,
+              "background_std": 0.0330896885310716,
+              "snr": 7.924480092224081,
+              "is_significant": "False",
+              "frequency_resolution": 0.0016676272199453552
+            }
+          ],
+          "consensus_analysis": {
+            "frequency_tolerance_hz": 0.264,
+            "significance_threshold": "3-sigma",
+            "weighting_method": "SNR-weighted"
+          },
+          "dataset": "scm_8192hz",
+          "instrument": "SCM",
+          "sampling_rate_hz": 8196.72131147541,
+          "nyquist_margin": 721.2883941812223,
+          "data_points": 4915200,
+          "variable_analyzed": "B_total_scm"
+        }
+      },
+      "summary": {
+        "datasets_analyzed": 2,
+        "successful_detections": 1,
+        "detection_rate": 0.5,
+        "overall_detection_status": "DETECTED",
+        "confidence_level": "HIGH"
+      }
+    },
+    "mms2": {
+      "event_info": {
+        "event_id": "mms_reconnection_2019_09_14",
+        "start_time": "2019-09-14T07:20:00",
+        "end_time": "2019-09-14T07:30:00",
+        "description": "Electron diffusion region crossing",
+        "sampling_rates": [
+          128,
+          8192
+        ],
+        "klein_priority": "HIGH",
+        "data_quality": "EXCELLENT"
+      },
+      "spacecraft": "mms2",
+      "detection_method": "comprehensive",
+      "analysis_timestamp": "2025-07-29T23:21:45.756436",
+      "datasets_analyzed": [
+        "fgm_128hz",
+        "scm_8192hz"
+      ],
+      "klein_detections": {
+        "fgm_128hz": {
+          "klein_detected": true,
+          "detected_frequency": 5.682315953268885,
+          "frequency_accuracy": 0.00031595326888478326,
+          "snr": 37658.73062789376,
+          "detection_confidence": 1.0,
+          "methods_analyzed": 3,
+          "significant_methods": 3,
+          "method_results": [
+            {
+              "method": "welch",
+              "detected_frequency": 5.700364823348694,
+              "frequency_accuracy": 0.01836482334869327,
+              "detected_power": 73.14366519206074,
+              "background_power": 0.19113900250848354,
+              "background_std": 1.2597092403083905,
+              "snr": 382.6726321270528,
+              "is_significant": "True",
+              "frequency_resolution": 0.1000064004096262
+            },
+            {
+              "method": "periodogram",
+              "detected_frequency": 5.68244700994197,
+              "frequency_accuracy": 0.0004470099419693341,
+              "detected_power": 4598.715571053384,
+              "background_power": 0.13114117380310436,
+              "background_std": 8.481444355662996,
+              "snr": 35066.908718980245,
+              "is_significant": "True",
+              "frequency_resolution": 0.00041669333504010925
+            },
+            {
+              "method": "multitaper",
+              "detected_frequency": 5.68203031660693,
+              "frequency_accuracy": 3.0316606929758905e-05,
+              "detected_power": 4470.822767087211,
+              "background_power": 0.11102144035591766,
+              "background_std": 10.842299760637582,
+              "snr": 40269.90419827415,
+              "is_significant": "True",
+              "frequency_resolution": 0.001666773340160437
+            }
+          ],
+          "consensus_analysis": {
+            "frequency_tolerance_hz": 0.264,
+            "significance_threshold": "3-sigma",
+            "weighting_method": "SNR-weighted"
+          },
+          "dataset": "fgm_128hz",
+          "instrument": "FGM",
+          "sampling_rate_hz": 128.00819252432154,
+          "nyquist_margin": 11.264360482604852,
+          "data_points": 76800,
+          "variable_analyzed": "B_total"
+        },
+        "scm_8192hz": {
+          "klein_detected": false,
+          "detected_frequency": 5.44647050034153,
+          "frequency_accuracy": 0.2355294996584707,
+          "snr": 7.924480092224081,
+          "detection_confidence": 0.0,
+          "methods_analyzed": 3,
+          "significant_methods": 0,
+          "method_results": [
+            {
+              "method": "welch",
+              "detected_frequency": 5.900015340039885,
+              "frequency_accuracy": 0.21801534003988454,
+              "detected_power": 0.00010364408898952269,
+              "background_power": 9.382970309034208e-05,
+              "background_std": 0.00451615538070471,
+              "snr": 1.1045978573515363,
+              "is_significant": "False",
+              "frequency_resolution": 0.10000026000067601
+            },
+            {
+              "method": "periodogram",
+              "detected_frequency": 5.614900849556011,
+              "frequency_accuracy": 0.06709915044398951,
+              "detected_power": 0.00046943368299363306,
+              "background_power": 6.63742302267702e-05,
+              "background_std": 0.035571320881795654,
+              "snr": 7.072529223914073,
+              "is_significant": "False",
+              "frequency_resolution": 0.0004169068049863388
+            },
+            {
+              "method": "multitaper",
+              "detected_frequency": 5.44647050034153,
+              "frequency_accuracy": 0.2355294996584707,
+              "detected_power": 0.0004394360318089762,
+              "background_power": 5.545297946299015e-05,
+              "background_std": 0.0330896885310716,
+              "snr": 7.924480092224081,
+              "is_significant": "False",
+              "frequency_resolution": 0.0016676272199453552
+            }
+          ],
+          "consensus_analysis": {
+            "frequency_tolerance_hz": 0.264,
+            "significance_threshold": "3-sigma",
+            "weighting_method": "SNR-weighted"
+          },
+          "dataset": "scm_8192hz",
+          "instrument": "SCM",
+          "sampling_rate_hz": 8196.72131147541,
+          "nyquist_margin": 721.2883941812223,
+          "data_points": 4915200,
+          "variable_analyzed": "B_total_scm"
+        }
+      },
+      "summary": {
+        "datasets_analyzed": 2,
+        "successful_detections": 1,
+        "detection_rate": 0.5,
+        "overall_detection_status": "DETECTED",
+        "confidence_level": "HIGH"
+      }
+    }
+  },
+  "constellation_analysis": {
+    "spacecraft_with_detections": 2,
+    "total_spacecraft": 2,
+    "detection_rate": 1.0,
+    "frequency_coherence": {
+      "mean_frequency_hz": 5.682315953268885,
+      "frequency_std_hz": 0.0,
+      "coefficient_of_variation": 0.0,
+      "frequencies_coherent": "True",
+      "coherence_level": "HIGH"
+    }
+  }
+}
