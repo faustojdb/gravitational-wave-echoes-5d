@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "analysis_date": "2025-08-26T20:35:47.077856",
+    "model": "Klein Dynamic Corrected",
+    "n_events_processed": 10,
+    "significance_achieved": "16.07\u03c3"
+  },
+  "statistics": {
+    "n_events": 10,
+    "advantages_8187km": {
+      "mean": 1.0169544240955117,
+      "std": 0.0033355558914527094,
+      "median": 1.0177942541905693,
+      "min": 1.0113465307269516,
+      "max": 1.022152303399306
+    },
+    "advantages_419km": {
+      "mean": 0.9949139653391809,
+      "std": 0.0032632643705024214,
+      "median": 0.995735593792027,
+      "min": 0.9894276118740528,
+      "max": 0.9999991909765952
+    },
+    "best_advantages": {
+      "mean": 1.0169544240955117,
+      "std": 0.0033355558914527094,
+      "median": 1.0177942541905693,
+      "min": 1.0113465307269516,
+      "max": 1.022152303399306
+    },
+    "hypothesis_test": {
+      "t_statistic": 15.248814273168453,
+      "p_value": 4.889106253165481e-08,
+      "z_score": 16.073661573365776,
+      "sigma_significance": 16.073661573365776,
+      "significant_at_3sigma": 

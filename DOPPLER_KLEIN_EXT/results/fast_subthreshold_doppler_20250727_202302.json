@@ -1,0 +1,3963 @@
+{
+  "analysis_metadata": {
+    "total_files_found": 405,
+    "events_processed": 405,
+    "events_successful": 405,
+    "success_rate": 1.0,
+    "timestamp": "2025-07-27T20:23:02.554767",
+    "analysis_type": "fast_subthreshold_doppler",
+    "solver_method": "analytical_approximation"
+  },
+  "statistical_summary": {
+    "key_metrics": {
+      "total_events": 405,
+      "max_epsilon_mean": 0.5715632658187835,
+      "max_epsilon_std": 0.11107634077408059,
+      "max_elevation_mean": 480113.1432877781,
+      "max_elevation_std": 93304.12625022767,
+      "doppler_shift_mean": 3.30157945003115e+27,
+      "doppler_shift_std": 6.522066766242146e+27,
+      "frequency_observed_mean": 3.30157945003115e+27,
+      "frequency_observed_std": 6.522066766242146e+27,
+      "topology_conservation_rate": 1.0
+    },
+    "state_distribution": {
+      "Klein_extrema": 394,
+      "Klein_deformada": 11,
+      "Klein_relajada": 0
+    },
+    "parity_distribution": {
+      "parity_-1": 0,
+      "parity_0": 78,
+      "parity_1": 327
+    },
+    "correlations": {
+      "epsilon_distance": 0.03840519365637812,
+      "doppler_distance": 0.8356707385785497
+    },
+    "klein_significance": {
+      "frequency_deviation_sigma": 10.187415604878423,
+      "frequency_consistent_with_klein": false
+    },
+    "ranges": {
+      "epsilon_range": [
+        0.26736442972790253,
+        0.65
+      ],
+      "elevation_range": [
+        224586.12097143813,
+        546000.0
+      ],
+      "doppler_range": [
+        21947608394581.87,
+        4.624981629171753e+28
+      ],
+      "distance_range": [
+        200.0,
+        3000.0
+      ]
+    }
+  },
+  "sample_results": [
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238393111-1.xml",
+      "gps_time": 1238393111.0,
+      "source_parameters": {
+        "mass_1": 45.12716997157799,
+        "mass_2": 19.781191770793818,
+        "mass_total": 64.90836174237181,
+        "distance_mpc": 3000.0,
+        "snr": 8.216374215123569
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 8.14257329079534e+27,
+        "frequency_observed": 4.624981629171753e+28,
+        "doppler_shift_hz": 4.624981629171753e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.333113897659368,
+        "distance_km": 9.258e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.567699"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238515766-1.xml",
+      "gps_time": 1238515766.0,
+      "source_parameters": {
+        "mass_1": 17.464555327389405,
+        "mass_2": 12.219432889303983,
+        "mass_total": 29.683988216693386,
+        "distance_mpc": 561.2229349703683,
+        "snr": 6.025098358903778
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.2682734230351776,
+        "max_elevation": 225349.67534954916,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1320907994608428,
+        "doppler_factor": 23846306992449.066,
+        "frequency_observed": 135447023717110.69,
+        "doppler_shift_hz": 135447023717105.0,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 1.7884894869011838,
+        "distance_km": 1.7319339773185566e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.567782"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238533958-1.xml",
+      "gps_time": 1238533958.0,
+      "source_parameters": {
+        "mass_1": 53.70258911352772,
+        "mass_2": 25.028942118444874,
+        "mass_total": 78.7315312319726,
+        "distance_mpc": 1040.9895587413764,
+        "snr": 8.060611618287899
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.24017878161401152,
+        "doppler_factor": 6.683334561904148e+26,
+        "frequency_observed": 3.7961340311615563e+27,
+        "doppler_shift_hz": 3.7961340311615563e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.346242953740349,
+        "distance_km": 3.2124937782758876e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.567850"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238573777-1.xml",
+      "gps_time": 1238573777.0,
+      "source_parameters": {
+        "mass_1": 39.20665588689147,
+        "mass_2": 28.88169007802461,
+        "mass_total": 68.08834596491607,
+        "distance_mpc": 1481.7970194310863,
+        "snr": 6.830878846105369
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 1.9865367359521358e+27,
+        "frequency_observed": 1.128352866020813e+28,
+        "doppler_shift_hz": 1.128352866020813e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.651032421180491,
+        "distance_km": 4.572825601964332e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.567907"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238662706-1.xml",
+      "gps_time": 1238662706.0,
+      "source_parameters": {
+        "mass_1": 34.47419618590085,
+        "mass_2": 18.456900990333253,
+        "mass_total": 52.931097176234104,
+        "distance_mpc": 912.2938978889338,
+        "snr": 6.410290276198006
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5089555463059579,
+        "max_elevation": 427522.65889700456,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.21721341688721096,
+        "doppler_factor": 4.296410083556357e+26,
+        "frequency_observed": 2.4403609274600107e+27,
+        "doppler_shift_hz": 2.4403609274600107e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.393036975373052,
+        "distance_km": 2.8153389688852497e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.567962"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238674117-1.xml",
+      "gps_time": 1238674117.0,
+      "source_parameters": {
+        "mass_1": 17.65520335740146,
+        "mass_2": 12.58591149090898,
+        "mass_total": 30.241114848310442,
+        "distance_mpc": 1026.6849005789288,
+        "snr": 7.30755363177239
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.3314828529579254,
+        "max_elevation": 278445.5964846573,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.23334647408746065,
+        "doppler_factor": 69392426482969.37,
+        "frequency_observed": 394148982423266.0,
+        "doppler_shift_hz": 394148982423260.3,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.209885686386169,
+        "distance_km": 3.168349603186574e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568016"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238729030-1.xml",
+      "gps_time": 1238729030.0,
+      "source_parameters": {
+        "mass_1": 32.21553951498534,
+        "mass_2": 11.747347798733099,
+        "mass_total": 43.96288731371844,
+        "distance_mpc": 774.422769379263,
+        "snr": 7.1053584284967695
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.46855810787337465,
+        "max_elevation": 393588.81061363476,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1894510268557481,
+        "doppler_factor": 2.420997199900875e+26,
+        "frequency_observed": 1.375126409543697e+27,
+        "doppler_shift_hz": 1.375126409543697e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.1237207191558305,
+        "distance_km": 2.3898686663044056e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568069"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238750282-1.xml",
+      "gps_time": 1238750282.0,
+      "source_parameters": {
+        "mass_1": 28.524133257737645,
+        "mass_2": 17.392302583458566,
+        "mass_total": 45.91643584119621,
+        "distance_mpc": 837.0313783381961,
+        "snr": 6.177152117339967
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.4254492133157249,
+        "max_elevation": 357377.33918520896,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.19386941067791003,
+        "doppler_factor": 48988253094968.016,
+        "frequency_observed": 278253277579418.3,
+        "doppler_shift_hz": 278253277579412.62,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.836328088771499,
+        "distance_km": 2.5830788335516732e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568127"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238754998-1.xml",
+      "gps_time": 1238754998.0,
+      "source_parameters": {
+        "mass_1": 23.25864867949721,
+        "mass_2": 20.920351430195296,
+        "mass_total": 44.17900010969251,
+        "distance_mpc": 314.47904464786996,
+        "snr": 8.749909459542717
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5798433764594059,
+        "max_elevation": 487068.4362259009,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.07552572757445342,
+        "doppler_factor": 7.085662692185749e+24,
+        "frequency_observed": 4.0246564091615055e+25,
+        "doppler_shift_hz": 4.0246564091615055e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.8656225097293726,
+        "distance_km": 9.704823317833267e+21,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568185"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238782700-1.xml",
+      "gps_time": 1238782700.0,
+      "source_parameters": {
+        "mass_1": 53.71661693092742,
+        "mass_2": 31.429707633401975,
+        "mass_total": 85.1463245643294,
+        "distance_mpc": 468.4592763853504,
+        "snr": 7.301082600328829
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.10463960591045326,
+        "doppler_factor": 2.9351079573283606e+25,
+        "frequency_observed": 1.6671413197625086e+26,
+        "doppler_shift_hz": 1.6671413197625086e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.216603487585766,
+        "distance_km": 1.4456653269251914e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568238"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238839513-1.xml",
+      "gps_time": 1238839513.0,
+      "source_parameters": {
+        "mass_1": 31.266532671174755,
+        "mass_2": 19.636707433555504,
+        "mass_total": 50.90324010473026,
+        "distance_mpc": 1250.3478241480918,
+        "snr": 9.202317714997516
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2963475478433466,
+        "doppler_factor": 1.3854916267692932e+27,
+        "frequency_observed": 7.869592440049585e+27,
+        "doppler_shift_hz": 7.869592440049585e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.684277881665313,
+        "distance_km": 3.858573385321012e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568289"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238845539-1.xml",
+      "gps_time": 1238845539.0,
+      "source_parameters": {
+        "mass_1": 16.746658575856543,
+        "mass_2": 11.028629083693906,
+        "mass_total": 27.77528765955045,
+        "distance_mpc": 2227.8992013982597,
+        "snr": 6.417321589490243
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.26736442972790253,
+        "max_elevation": 224586.12097143813,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 180181738136527.66,
+        "frequency_observed": 1023432272615477.0,
+        "doppler_shift_hz": 1023432272615471.4,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 1.7824295315193501,
+        "distance_km": 6.87529693551503e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568348"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238899272-1.xml",
+      "gps_time": 1238899272.0,
+      "source_parameters": {
+        "mass_1": 29.82875343158942,
+        "mass_2": 12.99060823571603,
+        "mass_total": 42.81936166730545,
+        "distance_mpc": 545.5149257827806,
+        "snr": 9.028010483036606
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5798604690140542,
+        "max_elevation": 487082.7939718056,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.12456473734957732,
+        "doppler_factor": 5.53290314547194e+25,
+        "frequency_observed": 3.142688986628062e+26,
+        "doppler_shift_hz": 3.142688986628062e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.8657364600936943,
+        "distance_km": 1.6834590609656607e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568401"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238919052-1.xml",
+      "gps_time": 1238919052.0,
+      "source_parameters": {
+        "mass_1": 20.518931805694063,
+        "mass_2": 16.74027302341492,
+        "mass_total": 37.25920482910898,
+        "distance_mpc": 456.3310114317822,
+        "snr": 7.383033922315125
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.4126289597576987,
+        "max_elevation": 346608.3261964669,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.09796739839798771,
+        "doppler_factor": 14886568122516.506,
+        "frequency_observed": 84555706935893.75,
+        "doppler_shift_hz": 84555706935888.06,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.7508597317179913,
+        "distance_km": 1.40823750127848e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568489"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239082262-1.xml",
+      "gps_time": 1239082262.0,
+      "source_parameters": {
+        "mass_1": 27.51038826579267,
+        "mass_2": 27.128395439891833,
+        "mass_total": 54.6387837056845,
+        "distance_mpc": 348.3665142437242,
+        "snr": 8.738116378073059
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.07824553635339966,
+        "doppler_factor": 9.308287240502041e+24,
+        "frequency_observed": 5.2871071526051595e+25,
+        "doppler_shift_hz": 5.2871071526051595e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.774400507766331,
+        "distance_km": 1.075059062956133e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568541"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239092652-1.xml",
+      "gps_time": 1239092652.0,
+      "source_parameters": {
+        "mass_1": 42.92748325716573,
+        "mass_2": 14.969674056253938,
+        "mass_total": 57.89715731341967,
+        "distance_mpc": 746.4694779254264,
+        "snr": 7.243862975001722
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.6290986113307964,
+        "max_elevation": 528442.8335178689,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1670509150686403,
+        "doppler_factor": 1.787853066663799e+26,
+        "frequency_observed": 1.0155005418650378e+27,
+        "doppler_shift_hz": 1.0155005418650378e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.193990742205309,
+        "distance_km": 2.3036048088778657e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568659"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239174401-1.xml",
+      "gps_time": 1239174401.0,
+      "source_parameters": {
+        "mass_1": 26.805021578073266,
+        "mass_2": 19.812145008263997,
+        "mass_total": 46.61716658633726,
+        "distance_mpc": 847.6220654934185,
+        "snr": 7.352983036245918
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5141628526607819,
+        "max_elevation": 431896.7962350568,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2027926611186936,
+        "doppler_factor": 3.279547441887326e+26,
+        "frequency_observed": 1.862782946992001e+27,
+        "doppler_shift_hz": 1.862782946992001e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.4277523510718795,
+        "distance_km": 2.6157616941126895e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568723"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239179057-1.xml",
+      "gps_time": 1239179057.0,
+      "source_parameters": {
+        "mass_1": 58.98689390587527,
+        "mass_2": 49.78431429937317,
+        "mass_total": 108.77120820524844,
+        "distance_mpc": 590.3117646494976,
+        "snr": 6.437937106438755
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1337674405089823,
+        "doppler_factor": 7.405379117016083e+25,
+        "frequency_observed": 4.2062553384651354e+26,
+        "doppler_shift_hz": 4.2062553384651354e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 7.002621974167446,
+        "distance_km": 1.8217021057083495e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568776"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239198206-1.xml",
+      "gps_time": 1239198206.0,
+      "source_parameters": {
+        "mass_1": 20.0443322497549,
+        "mass_2": 19.22303300595749,
+        "mass_total": 39.26736525571239,
+        "distance_mpc": 660.9519954810592,
+        "snr": 7.599889550372049
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.44764145831629665,
+        "max_elevation": 376018.82498568925,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.15725919950948392,
+        "doppler_factor": 32586243894196.76,
+        "frequency_observed": 185089865319037.6,
+        "doppler_shift_hz": 185089865319031.9,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.984276388775311,
+        "distance_km": 2.0396978580545486e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568826"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239227262-1.xml",
+      "gps_time": 1239227262.0,
+      "source_parameters": {
+        "mass_1": 38.49344400402671,
+        "mass_2": 29.87957356542337,
+        "mass_total": 68.37301756945008,
+        "distance_mpc": 1344.4276770883796,
+        "snr": 6.492894562094012
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 1.6352872696596927e+27,
+        "frequency_observed": 9.288431691667053e+27,
+        "doppler_shift_hz": 9.288431691667053e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.439387939706408,
+        "distance_km": 4.148903811494739e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568877"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239283789-1.xml",
+      "gps_time": 1239283789.0,
+      "source_parameters": {
+        "mass_1": 47.25819092186255,
+        "mass_2": 16.425508409896054,
+        "mass_total": 63.6836993317586,
+        "distance_mpc": 580.1216903847284,
+        "snr": 8.027443427672818
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1290508672316026,
+        "doppler_factor": 6.686922294571047e+25,
+        "frequency_observed": 3.7981718633163545e+26,
+        "doppler_shift_hz": 3.7981718633163545e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.112172936506174,
+        "distance_km": 1.7902555365272717e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568928"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239393890-1.xml",
+      "gps_time": 1239393890.0,
+      "source_parameters": {
+        "mass_1": 16.211798260693957,
+        "mass_2": 14.362716743310271,
+        "mass_total": 30.574515004004226,
+        "distance_mpc": 1126.4131313237435,
+        "snr": 6.099993175601761
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.2797564993076392,
+        "max_elevation": 234995.45941841693,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2698634783770347,
+        "doppler_factor": 84680219284459.56,
+        "frequency_observed": 480983645535730.3,
+        "doppler_shift_hz": 480983645535724.6,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 1.8650433287175943,
+        "distance_km": 3.4761109232650723e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.568978"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239491655-1.xml",
+      "gps_time": 1239491655.0,
+      "source_parameters": {
+        "mass_1": 49.39104971447706,
+        "mass_2": 42.75290633166547,
+        "mass_total": 92.14395604614253,
+        "distance_mpc": 1468.7456000993323,
+        "snr": 9.175038577017036
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 1.9516966833090125e+27,
+        "frequency_observed": 1.108563716119519e+28,
+        "doppler_shift_hz": 1.108563716119519e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 8.454243513623199,
+        "distance_km": 4.532548921906539e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569037"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239534693-1.xml",
+      "gps_time": 1239534693.0,
+      "source_parameters": {
+        "mass_1": 19.788953535224735,
+        "mass_2": 10.919740956174145,
+        "mass_total": 30.70869449139888,
+        "distance_mpc": 413.0315407446571,
+        "snr": 7.030123838676233
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.32382888779791325,
+        "max_elevation": 272016.26575024717,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.08674393265562069,
+        "doppler_factor": 12066230897673.232,
+        "frequency_observed": 68536191498783.95,
+        "doppler_shift_hz": 68536191498778.27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.158859251986088,
+        "distance_km": 1.2746153347380119e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569087"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239543370-1.xml",
+      "gps_time": 1239543370.0,
+      "source_parameters": {
+        "mass_1": 32.39005923557976,
+        "mass_2": 28.058710877780285,
+        "mass_total": 60.44877011336005,
+        "distance_mpc": 790.2531878963515,
+        "snr": 8.903691997419813
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.18020420030837736,
+        "doppler_factor": 2.3017885778927257e+26,
+        "frequency_observed": 1.3074159122430682e+27,
+        "doppler_shift_hz": 1.3074159122430682e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.382172307121937,
+        "distance_km": 2.438721337848141e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569137"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239550519-1.xml",
+      "gps_time": 1239550519.0,
+      "source_parameters": {
+        "mass_1": 18.222626142045257,
+        "mass_2": 16.531664498094994,
+        "mass_total": 34.754290640140255,
+        "distance_mpc": 743.8538772927835,
+        "snr": 8.941603382059917
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.46613862409345713,
+        "max_elevation": 391556.444238504,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.17164131173155683,
+        "doppler_factor": 1.8658438795240205e+26,
+        "frequency_observed": 1.0597993235696436e+27,
+        "doppler_shift_hz": 1.0597993235696436e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.107590827289714,
+        "distance_km": 2.29553306532553e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569279"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239788217-1.xml",
+      "gps_time": 1239788217.0,
+      "source_parameters": {
+        "mass_1": 32.46391901226624,
+        "mass_2": 28.328395204662076,
+        "mass_total": 60.79231421692832,
+        "distance_mpc": 382.4959153639503,
+        "snr": 7.25555274953581
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.08236689323773058,
+        "doppler_factor": 1.2385810578506585e+25,
+        "frequency_observed": 7.03514040859174e+25,
+        "doppler_shift_hz": 7.03514040859174e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.410818425672792,
+        "distance_km": 1.1803823948131507e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569335"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239855472-1.xml",
+      "gps_time": 1239855472.0,
+      "source_parameters": {
+        "mass_1": 19.544158721975812,
+        "mass_2": 16.83530275779549,
+        "mass_total": 36.3794614797713,
+        "distance_mpc": 771.6386204965825,
+        "snr": 6.46527479198533
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.35280482287675013,
+        "max_elevation": 296356.05121647014,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1864786067886115,
+        "doppler_factor": 43773789035057.47,
+        "frequency_observed": 248635121719126.4,
+        "doppler_shift_hz": 248635121719120.72,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.352032152511667,
+        "distance_km": 2.3812767828524533e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569386"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239883947-1.xml",
+      "gps_time": 1239883947.0,
+      "source_parameters": {
+        "mass_1": 53.83145717075728,
+        "mass_2": 32.08720639355438,
+        "mass_total": 85.91866356431166,
+        "distance_mpc": 1386.872134045904,
+        "snr": 9.373143603954196
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 1.7401713375741597e+27,
+        "frequency_observed": 9.884173197421227e+27,
+        "doppler_shift_hz": 9.884173197421227e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 8.053279718481201,
+        "distance_km": 4.27988740566566e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569437"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239883999-1.xml",
+      "gps_time": 1239883999.0,
+      "source_parameters": {
+        "mass_1": 49.39233768441587,
+        "mass_2": 41.65400501462425,
+        "mass_total": 91.04634269904012,
+        "distance_mpc": 1000.0608702683079,
+        "snr": 8.35708172861673
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2304940072452244,
+        "doppler_factor": 5.736515372107734e+26,
+        "frequency_observed": 3.258340731357193e+27,
+        "doppler_shift_hz": 3.258340731357193e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 7.608817270275255,
+        "distance_km": 3.086187845647998e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569487"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239886944-1.xml",
+      "gps_time": 1239886944.0,
+      "source_parameters": {
+        "mass_1": 46.8481382826424,
+        "mass_2": 21.881219925017476,
+        "mass_total": 68.72935820765989,
+        "distance_mpc": 1154.0864914521521,
+        "snr": 7.635787573406261
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2599620652398036,
+        "doppler_factor": 9.43163167420021e+26,
+        "frequency_observed": 5.357166790945719e+27,
+        "doppler_shift_hz": 5.357166790945719e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.248027793302369,
+        "distance_km": 3.5615109126213417e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569538"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239891926-1.xml",
+      "gps_time": 1239891926.0,
+      "source_parameters": {
+        "mass_1": 15.848204939042846,
+        "mass_2": 15.662292880390865,
+        "mass_total": 31.51049781943371,
+        "distance_mpc": 548.3851162343512,
+        "snr": 6.163416031663529
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.2913184611389946,
+        "max_elevation": 244707.5073567555,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1264879520427236,
+        "doppler_factor": 22439988488529.816,
+        "frequency_observed": 127459134614849.34,
+        "doppler_shift_hz": 127459134614843.66,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 1.9421230742599642,
+        "distance_km": 1.692316468699208e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569588"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239917954-1.xml",
+      "gps_time": 1239917954.0,
+      "source_parameters": {
+        "mass_1": 17.47709567468295,
+        "mass_2": 15.225408419413927,
+        "mass_total": 32.70250409409688,
+        "distance_mpc": 898.8423584331615,
+        "snr": 8.738481190999
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.4286553253872501,
+        "max_elevation": 360070.4733252901,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2168053123647218,
+        "doppler_factor": 57437351208685.84,
+        "frequency_observed": 326244154865335.56,
+        "doppler_shift_hz": 326244154865329.9,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.8577021692483338,
+        "distance_km": 2.7738275181247366e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569639"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239937367-1.xml",
+      "gps_time": 1239937367.0,
+      "source_parameters": {
+        "mass_1": 42.23217402450581,
+        "mass_2": 16.361209306973564,
+        "mass_total": 58.59338333147937,
+        "distance_mpc": 748.6541376351639,
+        "snr": 9.423467582017224
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.18408372774005607,
+        "doppler_factor": 2.1475197400254955e+26,
+        "frequency_observed": 1.2197912123344814e+27,
+        "doppler_shift_hz": 1.2197912123344814e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.521528483449043,
+        "distance_km": 2.310346668742116e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569690"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239976056-1.xml",
+      "gps_time": 1239976056.0,
+      "source_parameters": {
+        "mass_1": 28.161747542518178,
+        "mass_2": 21.813013228408888,
+        "mass_total": 49.97476077092706,
+        "distance_mpc": 412.78294485026214,
+        "snr": 7.574890068876666
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5678299785872739,
+        "max_elevation": 476977.18201331014,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.08788774121838817,
+        "doppler_factor": 1.6336903703526062e+25,
+        "frequency_observed": 9.279361303602802e+25,
+        "doppler_shift_hz": 9.279361303602802e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.785533190581826,
+        "distance_km": 1.273848167807909e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569741"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239990500-1.xml",
+      "gps_time": 1239990500.0,
+      "source_parameters": {
+        "mass_1": 26.89072438495748,
+        "mass_2": 24.98107130177956,
+        "mass_total": 51.871795686737045,
+        "distance_mpc": 350.33352014214256,
+        "snr": 7.453137957180369
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5799114740098873,
+        "max_elevation": 487125.6381683054,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.09046628493796617,
+        "doppler_factor": 1.2437510774671111e+25,
+        "frequency_observed": 7.064506120013191e+25,
+        "doppler_shift_hz": 7.064506120013191e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.866076493399248,
+        "distance_km": 1.081129243158652e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569800"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240055015-1.xml",
+      "gps_time": 1240055015.0,
+      "source_parameters": {
+        "mass_1": 18.280256145397523,
+        "mass_2": 11.277827302966942,
+        "mass_total": 29.558083448364464,
+        "distance_mpc": 549.8086530983156,
+        "snr": 6.3824617716840955
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.2829800064801519,
+        "max_elevation": 237703.2054433276,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.13573100900151788,
+        "doppler_factor": 23916300842769.83,
+        "frequency_observed": 135844588786932.61,
+        "doppler_shift_hz": 135844588786926.92,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 1.886533376534346,
+        "distance_km": 1.696709503461402e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569851"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240155151-1.xml",
+      "gps_time": 1240155151.0,
+      "source_parameters": {
+        "mass_1": 45.227903550354704,
+        "mass_2": 15.508204057634241,
+        "mass_total": 60.73610760798894,
+        "distance_mpc": 1797.8952407010488,
+        "snr": 7.963484354214737
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 2.9244751299120214e+27,
+        "frequency_observed": 1.661101873790028e+28,
+        "doppler_shift_hz": 1.661101873790028e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.836710426721226,
+        "distance_km": 5.548304712803437e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569901"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240164426-1.xml",
+      "gps_time": 1240164426.0,
+      "source_parameters": {
+        "mass_1": 46.106007603769704,
+        "mass_2": 42.10299913714632,
+        "mass_total": 88.20900674091602,
+        "distance_mpc": 789.5279180317883,
+        "snr": 6.076009298225922
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.17956485464971073,
+        "doppler_factor": 2.2827268556256104e+26,
+        "frequency_observed": 1.2965888539953465e+27,
+        "doppler_shift_hz": 1.2965888539953465e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.359587451450789,
+        "distance_km": 2.436483155046099e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.569952"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240215503-1.xml",
+      "gps_time": 1240215503.0,
+      "source_parameters": {
+        "mass_1": 47.92495918515055,
+        "mass_2": 15.01276091305369,
+        "mass_total": 62.93772009820424,
+        "distance_mpc": 1147.0102364088204,
+        "snr": 9.070145381799447
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2771148803049971,
+        "doppler_factor": 1.040119835103527e+27,
+        "frequency_observed": 5.907880663388034e+27,
+        "doppler_shift_hz": 5.907880663388034e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.708542712897135,
+        "distance_km": 3.53967358955762e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570001"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240233548-1.xml",
+      "gps_time": 1240233548.0,
+      "source_parameters": {
+        "mass_1": 24.875484413143006,
+        "mass_2": 23.014939556521654,
+        "mass_total": 47.89042396966466,
+        "distance_mpc": 474.0316151122264,
+        "snr": 7.812190526393579
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5611936746611793,
+        "max_elevation": 471402.68671539065,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1141414211989935,
+        "doppler_factor": 3.5433820340084153e+25,
+        "frequency_observed": 2.0126409953167798e+26,
+        "doppler_shift_hz": 2.0126409953167798e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.7412911644078624,
+        "distance_km": 1.4628615642363306e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570051"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240290694-1.xml",
+      "gps_time": 1240290694.0,
+      "source_parameters": {
+        "mass_1": 37.087124103800605,
+        "mass_2": 37.023821206688595,
+        "mass_total": 74.1109453104892,
+        "distance_mpc": 1719.5779084842832,
+        "snr": 7.785254654797387
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 2.675240811109907e+27,
+        "frequency_observed": 1.5195367807104272e+28,
+        "doppler_shift_hz": 1.5195367807104272e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.769725819499206,
+        "distance_km": 5.306617425582498e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570102"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240325074-1.xml",
+      "gps_time": 1240325074.0,
+      "source_parameters": {
+        "mass_1": 31.156324632094446,
+        "mass_2": 20.81682851418245,
+        "mass_total": 51.9731531462769,
+        "distance_mpc": 1158.6881426669152,
+        "snr": 6.833895615608617
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5327686551235454,
+        "max_elevation": 447525.6703037782,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2714566588410517,
+        "doppler_factor": 1.024470065866349e+27,
+        "frequency_observed": 5.818989974120862e+27,
+        "doppler_shift_hz": 5.818989974120862e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.551791034156969,
+        "distance_km": 3.5757116082701e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570153"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240327333-1.xml",
+      "gps_time": 1240327333.0,
+      "source_parameters": {
+        "mass_1": 37.91864321476715,
+        "mass_2": 16.86608563860094,
+        "mass_total": 54.784728853368094,
+        "distance_mpc": 520.3482926067854,
+        "snr": 6.426497467450533
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5281108818467013,
+        "max_elevation": 443613.14075122913,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.12196445637379043,
+        "doppler_factor": 4.838324457175331e+25,
+        "frequency_observed": 2.7481682916755876e+26,
+        "doppler_shift_hz": 2.7481682916755876e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.520739212311342,
+        "distance_km": 1.6057948309845399e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570326"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240352617-1.xml",
+      "gps_time": 1240352617.0,
+      "source_parameters": {
+        "mass_1": 51.25327443838423,
+        "mass_2": 33.11376240142224,
+        "mass_total": 84.36703683980647,
+        "distance_mpc": 573.7554722348436,
+        "snr": 7.418304789740136
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.12591284542349757,
+        "doppler_factor": 6.245649429136845e+25,
+        "frequency_observed": 3.547528875749728e+26,
+        "doppler_shift_hz": 3.547528875749728e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.258603934849188,
+        "distance_km": 1.7706093873167275e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570381"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240399040-1.xml",
+      "gps_time": 1240399040.0,
+      "source_parameters": {
+        "mass_1": 45.77514115152289,
+        "mass_2": 18.56062751741551,
+        "mass_total": 64.3357686689384,
+        "distance_mpc": 767.4877050257204,
+        "snr": 7.39110260924906
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.18801374829374173,
+        "doppler_factor": 2.3452143421896104e+26,
+        "frequency_observed": 1.3320817463636986e+27,
+        "doppler_shift_hz": 1.3320817463636986e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.755122676770345,
+        "distance_km": 2.3684670577093732e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570431"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240620590-1.xml",
+      "gps_time": 1240620590.0,
+      "source_parameters": {
+        "mass_1": 55.70502120119982,
+        "mass_2": 31.682003338323238,
+        "mass_total": 87.38702453952305,
+        "distance_mpc": 865.3042018607489,
+        "snr": 8.854051730342345
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.20356845918803884,
+        "doppler_factor": 3.441349567232899e+26,
+        "frequency_observed": 1.9546865541882867e+27,
+        "doppler_shift_hz": 1.9546865541882867e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 7.7372923583363304,
+        "distance_km": 2.670328766942271e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570481"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240630609-1.xml",
+      "gps_time": 1240630609.0,
+      "source_parameters": {
+        "mass_1": 16.66538729729173,
+        "mass_2": 10.209596469560772,
+        "mass_total": 26.874983766852502,
+        "distance_mpc": 892.0877206964212,
+        "snr": 8.841908848720529
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.35643923516603054,
+        "max_elevation": 299408.9575394657,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2044813346075351,
+        "doppler_factor": 54463182846399.914,
+        "frequency_observed": 309350878567551.5,
+        "doppler_shift_hz": 309350878567545.8,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.376261567773537,
+        "distance_km": 2.7529827060691558e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570531"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240630634-1.xml",
+      "gps_time": 1240630634.0,
+      "source_parameters": {
+        "mass_1": 15.218375792120266,
+        "mass_2": 11.99959423349332,
+        "mass_total": 27.21797002561359,
+        "distance_mpc": 1138.03733754703,
+        "snr": 9.198950104016047
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.37556512229733574,
+        "max_elevation": 315474.70272976207,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.27138353168739593,
+        "doppler_factor": 85894990736637.7,
+        "frequency_observed": 487883547384102.1,
+        "doppler_shift_hz": 487883547384096.44,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.503767481982238,
+        "distance_km": 3.5119832236701344e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570581"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240651041-1.xml",
+      "gps_time": 1240651041.0,
+      "source_parameters": {
+        "mass_1": 42.46730410790107,
+        "mass_2": 16.849306043832062,
+        "mass_total": 59.31661015173313,
+        "distance_mpc": 1943.9123506008036,
+        "snr": 9.193277140940108
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 3.418790787252944e+27,
+        "frequency_observed": 1.941873167159672e+28,
+        "doppler_shift_hz": 1.941873167159672e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.453140361859841,
+        "distance_km": 5.99891351395408e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570632"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240837251-1.xml",
+      "gps_time": 1240837251.0,
+      "source_parameters": {
+        "mass_1": 33.732299823747404,
+        "mass_2": 23.653324259717095,
+        "mass_total": 57.3856240834645,
+        "distance_mpc": 667.0442457765105,
+        "snr": 7.498499984319792
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.6454591519350601,
+        "max_elevation": 542185.6876254504,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.15650335867021015,
+        "doppler_factor": 1.2660279953639942e+26,
+        "frequency_observed": 7.191039013667486e+26,
+        "doppler_shift_hz": 7.191039013667486e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.3030610129004,
+        "distance_km": 2.0584985424663115e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570748"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240842666-1.xml",
+      "gps_time": 1240842666.0,
+      "source_parameters": {
+        "mass_1": 16.922546965862633,
+        "mass_2": 12.997544284842935,
+        "mass_total": 29.920091250705568,
+        "distance_mpc": 1182.1884584300285,
+        "snr": 8.97847030437138
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.40295497619781273,
+        "max_elevation": 338482.18000616273,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2801056964313793,
+        "doppler_factor": 91229804712859.4,
+        "frequency_observed": 518185290769041.4,
+        "doppler_shift_hz": 518185290769035.7,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.686366507985418,
+        "distance_km": 3.648233582715068e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570800"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240935112-1.xml",
+      "gps_time": 1240935112.0,
+      "source_parameters": {
+        "mass_1": 55.98695583676686,
+        "mass_2": 53.485543800631966,
+        "mass_total": 109.47249963739883,
+        "distance_mpc": 1196.1294175060598,
+        "snr": 8.972980188790784
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.28687241073716385,
+        "doppler_factor": 1.1999638336819761e+27,
+        "frequency_observed": 6.815794575313623e+27,
+        "doppler_shift_hz": 6.815794575313623e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 9.82294570463786,
+        "distance_km": 3.6912553824237006e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570853"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240935340-1.xml",
+      "gps_time": 1240935340.0,
+      "source_parameters": {
+        "mass_1": 39.919732704563806,
+        "mass_2": 10.824934453347757,
+        "mass_total": 50.744667157911564,
+        "distance_mpc": 686.1311505168115,
+        "snr": 8.73118548862587
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.15624895664269176,
+        "doppler_factor": 1.3354972550681076e+26,
+        "frequency_observed": 7.585624408786851e+26,
+        "doppler_shift_hz": 7.585624408786851e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.430611015143072,
+        "distance_km": 2.1174007304948806e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570926"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240944862-1.xml",
+      "gps_time": 1240944862.0,
+      "source_parameters": {
+        "mass_1": 20.148138533647696,
+        "mass_2": 17.3321764693737,
+        "mass_total": 37.480315003021396,
+        "distance_mpc": 932.1938926591539,
+        "snr": 7.762285454079797
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.43639935594342266,
+        "max_elevation": 366575.45899247506,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.21589664771927441,
+        "doppler_factor": 59375477149806.56,
+        "frequency_observed": 337252710210901.25,
+        "doppler_shift_hz": 337252710210895.56,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.909329039622818,
+        "distance_km": 2.8767503527461488e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.570980"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240978573-1.xml",
+      "gps_time": 1240978573.0,
+      "source_parameters": {
+        "mass_1": 29.34924861991513,
+        "mass_2": 28.675521770227018,
+        "mass_total": 58.02477039014215,
+        "distance_mpc": 1032.9086386796027,
+        "snr": 8.286475497501339
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.24209073561043865,
+        "doppler_factor": 6.672226011708983e+26,
+        "frequency_observed": 3.7898243746507026e+27,
+        "doppler_shift_hz": 3.7898243746507026e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.808208380860542,
+        "distance_km": 3.187556058965254e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571031"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241108686-1.xml",
+      "gps_time": 1241108686.0,
+      "source_parameters": {
+        "mass_1": 50.15894289653989,
+        "mass_2": 17.275699818386382,
+        "mass_total": 67.43464271492627,
+        "distance_mpc": 357.9620225668328,
+        "snr": 8.364652661144333
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.0796722170940316,
+        "doppler_factor": 1.0175901867951068e+25,
+        "frequency_observed": 5.779912260996206e+25,
+        "doppler_shift_hz": 5.779912260996206e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.640673636387254,
+        "distance_km": 1.104670801641246e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571093"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241208674-1.xml",
+      "gps_time": 1241208674.0,
+      "source_parameters": {
+        "mass_1": 43.23844608617759,
+        "mass_2": 23.98597601618974,
+        "mass_total": 67.22442210236733,
+        "distance_mpc": 1616.3472382237962,
+        "snr": 9.038287837648106
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 2.3636790061418648e+27,
+        "frequency_observed": 1.3425696754885792e+28,
+        "doppler_shift_hz": 1.3425696754885792e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.075936766807491,
+        "distance_km": 4.988047577158635e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571147"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241228096-1.xml",
+      "gps_time": 1241228096.0,
+      "source_parameters": {
+        "mass_1": 56.56341651253292,
+        "mass_2": 47.4177713461406,
+        "mass_total": 103.98118785867351,
+        "distance_mpc": 522.761510311558,
+        "snr": 6.873229772596909
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.11986147977952703,
+        "doppler_factor": 4.725938888832654e+25,
+        "frequency_observed": 2.6843332888569472e+26,
+        "doppler_shift_hz": 2.6843332888569472e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 7.146865961802271,
+        "distance_km": 1.613242020821468e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571198"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241263448-1.xml",
+      "gps_time": 1241263448.0,
+      "source_parameters": {
+        "mass_1": 19.380189910246262,
+        "mass_2": 16.920231263501922,
+        "mass_total": 36.300421173748184,
+        "distance_mpc": 274.46868864171523,
+        "snr": 8.26377144242933
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.4499675757656658,
+        "max_elevation": 377972.7636431593,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.06289315127283476,
+        "doppler_factor": 5954736524374.496,
+        "frequency_observed": 33822903458447.137,
+        "doppler_shift_hz": 33822903458441.457,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.9997838384377724,
+        "distance_km": 8.470103731483332e+21,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571248"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241264117-1.xml",
+      "gps_time": 1241264117.0,
+      "source_parameters": {
+        "mass_1": 45.29281530693871,
+        "mass_2": 29.355315175556314,
+        "mass_total": 74.64813048249502,
+        "distance_mpc": 491.07017722372393,
+        "snr": 9.413948681329734
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.12220333971418815,
+        "doppler_factor": 4.325071216255157e+25,
+        "frequency_observed": 2.456640450832929e+26,
+        "doppler_shift_hz": 2.456640450832929e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 7.027336695194139,
+        "distance_km": 1.5154425669124121e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571298"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241318316-1.xml",
+      "gps_time": 1241318316.0,
+      "source_parameters": {
+        "mass_1": 28.631008195366352,
+        "mass_2": 18.19185568766192,
+        "mass_total": 46.822863883028276,
+        "distance_mpc": 475.58622938247674,
+        "snr": 7.582408664389177
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.532545133197283,
+        "max_elevation": 447337.9118857177,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.12092644555739615,
+        "doppler_factor": 3.977190712111351e+25,
+        "frequency_observed": 2.2590443244792472e+26,
+        "doppler_shift_hz": 2.2590443244792472e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.5503008879818867,
+        "distance_km": 1.4676591038743232e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571383"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241418140-1.xml",
+      "gps_time": 1241418140.0,
+      "source_parameters": {
+        "mass_1": 22.984960656028683,
+        "mass_2": 20.291527467039437,
+        "mass_total": 43.27648812306812,
+        "distance_mpc": 799.4781418864073,
+        "snr": 9.081675312113742
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.589534520673377,
+        "max_elevation": 495208.9973656367,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.19138304489230554,
+        "doppler_factor": 2.6280593343385914e+26,
+        "frequency_observed": 1.49273770190432e+27,
+        "doppler_shift_hz": 1.49273770190432e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.9302301378225133,
+        "distance_km": 2.467189545861453e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571440"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241419760-1.xml",
+      "gps_time": 1241419760.0,
+      "source_parameters": {
+        "mass_1": 23.842495545924592,
+        "mass_2": 17.434874559172606,
+        "mass_total": 41.2773701050972,
+        "distance_mpc": 540.2531526814229,
+        "snr": 9.272345070034456
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5741070287969785,
+        "max_elevation": 482249.90418946196,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.13028083312153194,
+        "doppler_factor": 5.9034395769495244e+25,
+        "frequency_observed": 3.35315367970733e+26,
+        "doppler_shift_hz": 3.35315367970733e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.8273801919798562,
+        "distance_km": 1.667221229174871e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571490"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241577622-1.xml",
+      "gps_time": 1241577622.0,
+      "source_parameters": {
+        "mass_1": 54.74839469718722,
+        "mass_2": 39.15490616702806,
+        "mass_total": 93.90330086421528,
+        "distance_mpc": 368.49256894535506,
+        "snr": 6.9793482332895085
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.0929456605729258,
+        "doppler_factor": 1.4490386124061748e+25,
+        "frequency_observed": 8.230539318467073e+25,
+        "doppler_shift_hz": 8.230539318467073e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.55383836986714,
+        "distance_km": 1.1371680677653658e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571549"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241587773-1.xml",
+      "gps_time": 1241587773.0,
+      "source_parameters": {
+        "mass_1": 55.708178719563236,
+        "mass_2": 29.85028969927769,
+        "mass_total": 85.55846841884093,
+        "distance_mpc": 331.7239370448303,
+        "snr": 6.260025517162402
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.08417310713036219,
+        "doppler_factor": 9.712140410485163e+24,
+        "frequency_observed": 5.516495753155572e+25,
+        "doppler_shift_hz": 5.516495753155572e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.355981955112778,
+        "distance_km": 1.0237000697203462e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571601"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241634009-1.xml",
+      "gps_time": 1241634009.0,
+      "source_parameters": {
+        "mass_1": 40.033723996280294,
+        "mass_2": 35.61193451119772,
+        "mass_total": 75.645658507478,
+        "distance_mpc": 433.9172068981157,
+        "snr": 6.1045293796847595
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.10361907369620882,
+        "doppler_factor": 2.471766162532036e+25,
+        "frequency_observed": 1.4039631803181965e+26,
+        "doppler_shift_hz": 1.4039631803181965e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.617811448044998,
+        "distance_km": 1.339068500487585e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571664"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241676985-1.xml",
+      "gps_time": 1241676985.0,
+      "source_parameters": {
+        "mass_1": 32.06780851784923,
+        "mass_2": 19.39149112409057,
+        "mass_total": 51.4592996419398,
+        "distance_mpc": 645.5456668675928,
+        "snr": 6.695152706077044
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5167918038758441,
+        "max_elevation": 434105.1152557091,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.14671766765987918,
+        "doppler_factor": 1.0520695971541744e+26,
+        "frequency_observed": 5.9757553118357104e+26,
+        "doppler_shift_hz": 5.9757553118357104e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.445278692505627,
+        "distance_km": 1.9921539279533914e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571715"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241710671-1.xml",
+      "gps_time": 1241710671.0,
+      "source_parameters": {
+        "mass_1": 37.62559828621247,
+        "mass_2": 23.6768997508839,
+        "mass_total": 61.30249803709637,
+        "distance_mpc": 795.4354874968399,
+        "snr": 9.025243395119121
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.18950575116516585,
+        "doppler_factor": 2.5554969864131957e+26,
+        "frequency_observed": 1.451522288282695e+27,
+        "doppler_shift_hz": 1.451522288282695e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.532699655136068,
+        "distance_km": 2.454713914415248e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571765"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241719652-1.xml",
+      "gps_time": 1241719652.0,
+      "source_parameters": {
+        "mass_1": 20.615110118914313,
+        "mass_2": 18.067886853673553,
+        "mass_total": 38.682996972587866,
+        "distance_mpc": 333.1274780304812,
+        "snr": 8.201992162535896
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.47591645698884827,
+        "max_elevation": 399769.82387063256,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.07966731515741302,
+        "doppler_factor": 8.81187872148854e+24,
+        "frequency_observed": 5.0051471138054904e+25,
+        "doppler_shift_hz": 5.0051471138054904e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.1727763799256548,
+        "distance_km": 1.028031397202065e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571814"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241816086-1.xml",
+      "gps_time": 1241816086.0,
+      "source_parameters": {
+        "mass_1": 45.03177673694606,
+        "mass_2": 22.878742896205594,
+        "mass_total": 67.91051963315165,
+        "distance_mpc": 814.7408635453812,
+        "snr": 8.323336903600891
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1973093860985841,
+        "doppler_factor": 2.8840459884265014e+26,
+        "frequency_observed": 1.6381381214262526e+27,
+        "doppler_shift_hz": 1.6381381214262526e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.652421342053239,
+        "distance_km": 2.5142903049010463e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571864"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241850801-1.xml",
+      "gps_time": 1241850801.0,
+      "source_parameters": {
+        "mass_1": 44.98741785752023,
+        "mass_2": 42.110385373641634,
+        "mass_total": 87.09780323116186,
+        "distance_mpc": 2448.480239384881,
+        "snr": 7.335839190382993
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 5.423908738881061e+27,
+        "frequency_observed": 3.0807801636844426e+28,
+        "doppler_shift_hz": 3.0807801636844426e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.389354783394237,
+        "distance_km": 7.556010018741742e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571914"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241852074-1.xml",
+      "gps_time": 1241852074.0,
+      "source_parameters": {
+        "mass_1": 44.38305488074286,
+        "mass_2": 19.292171134817345,
+        "mass_total": 63.675226015560206,
+        "distance_mpc": 333.0628403653431,
+        "snr": 6.4484946743032
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.6159140337695889,
+        "max_elevation": 517367.78836645465,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.08701597834688361,
+        "doppler_factor": 1.0434765722527007e+25,
+        "frequency_observed": 5.92694693039534e+25,
+        "doppler_shift_hz": 5.92694693039534e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.106093558463926,
+        "distance_km": 1.027831925367449e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.571975"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241912955-1.xml",
+      "gps_time": 1241912955.0,
+      "source_parameters": {
+        "mass_1": 43.622390931745464,
+        "mass_2": 22.420195681977283,
+        "mass_total": 66.04258661372275,
+        "distance_mpc": 559.5753022676731,
+        "snr": 6.623886694893966
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1390446269939432,
+        "doppler_factor": 7.152989526082687e+25,
+        "frequency_observed": 4.062898050814966e+26,
+        "doppler_shift_hz": 4.062898050814966e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.374586107670204,
+        "distance_km": 1.7268493827980392e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572027"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241940902-1.xml",
+      "gps_time": 1241940902.0,
+      "source_parameters": {
+        "mass_1": 42.700124664822255,
+        "mass_2": 32.9202313567235,
+        "mass_total": 75.62035602154575,
+        "distance_mpc": 700.8478688697389,
+        "snr": 7.225414927285112
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.17256543000793328,
+        "doppler_factor": 1.6726990351253105e+26,
+        "frequency_observed": 9.500930519511762e+26,
+        "doppler_shift_hz": 9.500930519511762e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.463884492046913,
+        "distance_km": 2.1628165233320145e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572078"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241956664-1.xml",
+      "gps_time": 1241956664.0,
+      "source_parameters": {
+        "mass_1": 22.297738884457694,
+        "mass_2": 12.579830988414423,
+        "mass_total": 34.877569872872115,
+        "distance_mpc": 689.4385302100163,
+        "snr": 9.40548777004729
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.4920608353324028,
+        "max_elevation": 413331.1016792184,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.16291532397175063,
+        "doppler_factor": 1.4564052159203815e+26,
+        "frequency_observed": 8.272381626427766e+26,
+        "doppler_shift_hz": 8.272381626427766e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.280405568882685,
+        "distance_km": 2.1276073042281104e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572192"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1241959580-1.xml",
+      "gps_time": 1241959580.0,
+      "source_parameters": {
+        "mass_1": 55.80065985919983,
+        "mass_2": 13.090897334469352,
+        "mass_total": 68.89155719366919,
+        "distance_mpc": 1994.0455155899313,
+        "snr": 7.474220687740475
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 3.5974047291610254e+27,
+        "frequency_observed": 2.0433258861634622e+28,
+        "doppler_shift_hz": 2.0433258861634622e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.149107019875784,
+        "distance_km": 6.1536244611105274e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572254"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242107479-1.xml",
+      "gps_time": 1242107479.0,
+      "source_parameters": {
+        "mass_1": 46.50530148709856,
+        "mass_2": 23.853429895697854,
+        "mass_total": 70.35873138279642,
+        "distance_mpc": 792.9813720234234,
+        "snr": 6.830988169029763
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.19272338637522496,
+        "doppler_factor": 2.6183897792494338e+26,
+        "frequency_observed": 1.4872453946136782e+27,
+        "doppler_shift_hz": 1.4872453946136782e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.806196616638255,
+        "distance_km": 2.4471405140642848e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572313"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242139414-1.xml",
+      "gps_time": 1242139414.0,
+      "source_parameters": {
+        "mass_1": 37.901751852161496,
+        "mass_2": 23.980111280171286,
+        "mass_total": 61.88186313233278,
+        "distance_mpc": 662.3239656865893,
+        "snr": 7.672784130322942
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.14852320647338924,
+        "doppler_factor": 1.1329026414189483e+26,
+        "frequency_observed": 6.434887003259626e+26,
+        "doppler_shift_hz": 6.434887003259626e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.748061773965793,
+        "distance_km": 2.0439317581088145e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572365"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242279434-1.xml",
+      "gps_time": 1242279434.0,
+      "source_parameters": {
+        "mass_1": 42.83052384056887,
+        "mass_2": 13.43042817489916,
+        "mass_total": 56.260952015468035,
+        "distance_mpc": 1139.105698453027,
+        "snr": 6.5053139160426
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5489927311140438,
+        "max_elevation": 461153.89413579676,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.266119154198226,
+        "doppler_factor": 9.568187388353942e+26,
+        "frequency_observed": 5.434730436585039e+27,
+        "doppler_shift_hz": 5.434730436585039e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.6599515407602916,
+        "distance_km": 3.515280185426041e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572422"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242290807-1.xml",
+      "gps_time": 1242290807.0,
+      "source_parameters": {
+        "mass_1": 42.63597440467811,
+        "mass_2": 12.58776341986993,
+        "mass_total": 55.22373782454804,
+        "distance_mpc": 244.14745971803706,
+        "snr": 7.5286352209679315
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.623639066429087,
+        "max_elevation": 523856.81580043305,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.051418190119301044,
+        "doppler_factor": 2.0255175699050654e+24,
+        "frequency_observed": 1.150493979706077e+25,
+        "doppler_shift_hz": 1.150493979706077e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.157593776193913,
+        "distance_km": 7.534390606898624e+21,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572520"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242315362-1.xml",
+      "gps_time": 1242315362.0,
+      "source_parameters": {
+        "mass_1": 35.8371743444446,
+        "mass_2": 30.870313653810452,
+        "mass_total": 66.70748799825505,
+        "distance_mpc": 1648.2337293406977,
+        "snr": 7.1383321654852505
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 2.4578578472557987e+27,
+        "frequency_observed": 1.3960632572412935e+28,
+        "doppler_shift_hz": 1.3960632572412935e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.761802072566653,
+        "distance_km": 5.086449288745393e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572577"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242369559-1.xml",
+      "gps_time": 1242369559.0,
+      "source_parameters": {
+        "mass_1": 38.09444919366536,
+        "mass_2": 35.463206719373275,
+        "mass_total": 73.55765591303864,
+        "distance_mpc": 819.8016388871308,
+        "snr": 8.863444422898969
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1893274572364773,
+        "doppler_factor": 2.7098291215273608e+26,
+        "frequency_observed": 1.5391829410275407e+27,
+        "doppler_shift_hz": 1.5391829410275407e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.519741950639437,
+        "distance_km": 2.5299078576056857e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572627"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242420354-1.xml",
+      "gps_time": 1242420354.0,
+      "source_parameters": {
+        "mass_1": 43.501485260133435,
+        "mass_2": 32.72121225210162,
+        "mass_total": 76.22269751223506,
+        "distance_mpc": 422.5729107396324,
+        "snr": 8.04030111444817
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.0966428024926413,
+        "doppler_factor": 2.0528928584333193e+25,
+        "frequency_observed": 1.1660431435901253e+26,
+        "doppler_shift_hz": 1.1660431435901253e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.128534397538692,
+        "distance_km": 1.3040600025425055e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572677"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242442967-1.xml",
+      "gps_time": 1242442967.0,
+      "source_parameters": {
+        "mass_1": 55.34285144525471,
+        "mass_2": 27.775308662719432,
+        "mass_total": 83.11816010797415,
+        "distance_mpc": 1210.9739976973392,
+        "snr": 9.214293106817156
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2875059368422299,
+        "doppler_factor": 1.2345571825261616e+27,
+        "frequency_observed": 7.012284796748597e+27,
+        "doppler_shift_hz": 7.012284796748597e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 7.658750897342308,
+        "distance_km": 3.7370657568939888e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572727"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242456568-1.xml",
+      "gps_time": 1242456568.0,
+      "source_parameters": {
+        "mass_1": 59.7902645439286,
+        "mass_2": 15.12947761275381,
+        "mass_total": 74.91974215668242,
+        "distance_mpc": 845.1254654157555,
+        "snr": 8.801533211042312
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1908201776615707,
+        "doppler_factor": 2.9211081366237228e+26,
+        "frequency_observed": 1.6591894216022746e+27,
+        "doppler_shift_hz": 1.6591894216022746e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.59408598754767,
+        "distance_km": 2.6080571862730215e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572784"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242459857-1.xml",
+      "gps_time": 1242459857.0,
+      "source_parameters": {
+        "mass_1": 32.78339028538751,
+        "mass_2": 30.376967443226665,
+        "mass_total": 63.16035772861417,
+        "distance_mpc": 657.1119712778398,
+        "snr": 8.520026148858943
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.15675283336010193,
+        "doppler_factor": 1.2322265530705118e+26,
+        "frequency_observed": 6.999046821440507e+26,
+        "doppler_shift_hz": 6.999046821440507e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 5.381278994190777,
+        "distance_km": 2.0278475433634135e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572834"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242510975-1.xml",
+      "gps_time": 1242510975.0,
+      "source_parameters": {
+        "mass_1": 50.46609979211935,
+        "mass_2": 31.355463042549662,
+        "mass_total": 81.82156283466901,
+        "distance_mpc": 1496.9355317932725,
+        "snr": 7.357780565738532
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 2.0273342666669227e+27,
+        "frequency_observed": 1.151525863466812e+28,
+        "doppler_shift_hz": 1.151525863466812e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.020251048832818,
+        "distance_km": 4.619543051114039e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572895"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242565015-1.xml",
+      "gps_time": 1242565015.0,
+      "source_parameters": {
+        "mass_1": 28.308546816527937,
+        "mass_2": 27.941453689817408,
+        "mass_total": 56.250000506345344,
+        "distance_mpc": 575.6277022251056,
+        "snr": 7.27398225351395
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.6137422581649601,
+        "max_elevation": 515543.4968585665,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1385967707564306,
+        "doppler_factor": 7.523853860292873e+25,
+        "frequency_observed": 4.273548992646352e+26,
+        "doppler_shift_hz": 4.273548992646352e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.091615054433067,
+        "distance_km": 1.776387089066676e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.572952"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242566558-1.xml",
+      "gps_time": 1242566558.0,
+      "source_parameters": {
+        "mass_1": 55.13773625290136,
+        "mass_2": 45.85491523475256,
+        "mass_total": 100.99265148765392,
+        "distance_mpc": 535.5919669390856,
+        "snr": 8.78010073436906
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.12948789829049925,
+        "doppler_factor": 5.735999312852445e+25,
+        "frequency_observed": 3.258047609700188e+26,
+        "doppler_shift_hz": 3.258047609700188e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 8.867256534926288,
+        "distance_km": 1.6528368099740183e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573003"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242571165-1.xml",
+      "gps_time": 1242571165.0,
+      "source_parameters": {
+        "mass_1": 45.44670759828967,
+        "mass_2": 40.345556053498946,
+        "mass_total": 85.79226365178862,
+        "distance_mpc": 1073.0984606921072,
+        "snr": 7.639815861194598
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.24427216247736608,
+        "doppler_factor": 7.315728143285707e+26,
+        "frequency_observed": 4.155333585386282e+27,
+        "doppler_shift_hz": 4.155333585386282e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.554370966147235,
+        "distance_km": 3.311581849695843e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573061"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242588150-1.xml",
+      "gps_time": 1242588150.0,
+      "source_parameters": {
+        "mass_1": 33.46047084973924,
+        "mass_2": 29.167322899142825,
+        "mass_total": 62.62779374888206,
+        "distance_mpc": 1694.7979641459672,
+        "snr": 6.273164065089154
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5893116378319531,
+        "max_elevation": 495021.7757788406,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 2.5986933444585397e+27,
+        "frequency_observed": 1.4760578196524505e+28,
+        "doppler_shift_hz": 1.4760578196524505e+28,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.9287442522130207,
+        "distance_km": 5.230146517354454e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573114"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242632879-1.xml",
+      "gps_time": 1242632879.0,
+      "source_parameters": {
+        "mass_1": 27.007593614931817,
+        "mass_2": 15.479461739818298,
+        "mass_total": 42.48705535475011,
+        "distance_mpc": 1631.8143994518477,
+        "snr": 6.752657160063848
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.43035077782692366,
+        "max_elevation": 361494.6533746159,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.3,
+        "doppler_factor": 131973275373013.06,
+        "frequency_observed": 749608204118714.1,
+        "doppler_shift_hz": 749608204118708.5,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.8690051855128242,
+        "distance_km": 5.035779236708402e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573163"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242717927-1.xml",
+      "gps_time": 1242717927.0,
+      "source_parameters": {
+        "mass_1": 50.49459424927314,
+        "mass_2": 20.85739653526258,
+        "mass_total": 71.35199078453573,
+        "distance_mpc": 984.0984231017011,
+        "snr": 9.068760923066154
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.22448697430068937,
+        "doppler_factor": 5.300997724185947e+26,
+        "frequency_observed": 3.010966707337618e+27,
+        "doppler_shift_hz": 3.010966707337618e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 6.47074145809774,
+        "distance_km": 3.0369277336918497e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573214"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242729611-1.xml",
+      "gps_time": 1242729611.0,
+      "source_parameters": {
+        "mass_1": 59.44832317559893,
+        "mass_2": 34.038084326431786,
+        "mass_total": 93.48640750203072,
+        "distance_mpc": 1012.3200678671768,
+        "snr": 7.668390053991811
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.22721505021948646,
+        "doppler_factor": 5.730839434931715e+26,
+        "frequency_observed": 3.2551167990412143e+27,
+        "doppler_shift_hz": 3.2551167990412143e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 7.168902374719977,
+        "distance_km": 3.124019729438108e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573264"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242753325-1.xml",
+      "gps_time": 1242753325.0,
+      "source_parameters": {
+        "mass_1": 30.41725632124855,
+        "mass_2": 22.999951130417887,
+        "mass_total": 53.41720745166644,
+        "distance_mpc": 1042.975551679043,
+        "snr": 9.042134719718574
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.65,
+        "max_elevation": 546000.0,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.2480990525329885,
+        "doppler_factor": 7.101364253738358e+26,
+        "frequency_observed": 4.033574896123387e+27,
+        "doppler_shift_hz": 4.033574896123387e+27,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 4.830055861291228,
+        "distance_km": 3.218622552481527e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573384"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242755794-1.xml",
+      "gps_time": 1242755794.0,
+      "source_parameters": {
+        "mass_1": 18.328822962629214,
+        "mass_2": 10.513947745273299,
+        "mass_total": 28.842770707902513,
+        "distance_mpc": 760.193886593395,
+        "snr": 9.201850009563186
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.3981102748715123,
+        "max_elevation": 334412.63089207036,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1826626487404557,
+        "doppler_factor": 42409289037445.45,
+        "frequency_observed": 240884761732690.16,
+        "doppler_shift_hz": 240884761732684.47,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 2.654068499143415,
+        "distance_km": 2.345958334027217e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573447"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242794162-1.xml",
+      "gps_time": 1242794162.0,
+      "source_parameters": {
+        "mass_1": 15.57104752584925,
+        "mass_2": 11.666360727267053,
+        "mass_total": 27.237408253116303,
+        "distance_mpc": 730.0315329723354,
+        "snr": 7.138998970414529
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.2916717442136363,
+        "max_elevation": 245004.26513945448,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.1756162437778698,
+        "doppler_factor": 39441630734909.73,
+        "frequency_observed": 224028462574287.25,
+        "doppler_shift_hz": 224028462574281.56,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 1.944478294757575,
+        "distance_km": 2.252877310752627e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573520"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242808754-1.xml",
+      "gps_time": 1242808754.0,
+      "source_parameters": {
+        "mass_1": 24.404713366998976,
+        "mass_2": 18.878856424724493,
+        "mass_total": 43.283569791723465,
+        "distance_mpc": 610.7308108478702,
+        "snr": 7.179593009947574
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.4661376226833537,
+        "max_elevation": 391555.6030540171,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.14934909291954512,
+        "doppler_factor": 9.732375169401103e+25,
+        "frequency_observed": 5.527989096219826e+26,
+        "doppler_shift_hz": 5.527989096219826e+26,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.1075841512223574,
+        "distance_km": 1.8847152822765274e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573596"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1242837242-1.xml",
+      "gps_time": 1242837242.0,
+      "source_parameters": {
+        "mass_1": 31.461894641755904,
+        "mass_2": 10.390525365642283,
+        "mass_total": 41.85242000739819,
+        "distance_mpc": 319.63076029966965,
+        "snr": 8.229383875793003
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.5166294455576986,
+        "max_elevation": 433968.7342684669,
+        "final_epsilon": 0.0,
+        "final_elevation": 0.0,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1
+      },
+      "doppler_analysis": {
+        "peculiar_velocity": 0.07992121165851036,
+        "doppler_factor": 8.162120613393415e+24,
+        "frequency_observed": 4.63608450840746e+25,
+        "doppler_shift_hz": 4.63608450840746e+25,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 1000000.0,
+        "energy_initial": 3.444196303717991,
+        "distance_km": 9.863805262847805e+21,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "integration_successful": true,
+        "solver_used": "analytical"
+      },
+      "timestamp": "2025-07-27T20:23:02.573647"
+    }
+  ]
+}

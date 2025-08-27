@@ -1,0 +1,177 @@
+{
+  "analysis_type": "Klein_419km_Comprehensive",
+  "klein_radius_km": 419.3,
+  "klein_frequency_hz": 113.79311135790466,
+  "total_events": 219,
+  "statistical_validation": {
+    "sample_size": 219,
+    "mean_improvement": 1.3030879906840118,
+    "median_improvement": 1.2574361908532956,
+    "std_improvement": 0.3214135032379343,
+    "min_improvement": 1.0,
+    "max_improvement": 2.9979383411011966,
+    "q25_improvement": 1.2123956560897167,
+    "q75_improvement": 1.3143814503397888,
+    "t_statistic": 13.923001084426577,
+    "p_value": 3.0049113034602383e-32,
+    "significance_level": 0.001,
+    "is_significant": "True",
+    "cohens_d": 0.9429846214632851,
+    "confidence_level": 0.999,
+    "ci_lower": 1.230639254446985,
+    "ci_upper": 1.3755367269210386,
+    "sigma_significance": 13.923001084426577,
+    "events_improved": 174,
+    "improvement_percentage": 79.45205479452055
+  },
+  "category_analysis": {
+    "mass_category": [
+      {
+        "category": "Heavy_BBH",
+        "n_events": 89,
+        "mean_improvement": 1.271808678673758,
+        "median_improvement": 1.269683785143608,
+        "std_improvement": 0.027194164221250264,
+        "events_improved": "89",
+        "improvement_pct": 100.0
+      },
+      {
+        "category": "Light_BBH",
+        "n_events": 38,
+        "mean_improvement": 1.2270020207204724,
+        "median_improvement": 1.2183221847480437,
+        "std_improvement": 0.03128998443573452,
+        "events_improved": "38",
+        "improvement_pct": 100.0
+      },
+      {
+        "category": "Medium_BBH",
+        "n_events": 47,
+        "mean_improvement": 1.714025973839493,
+        "median_improvement": 1.4856113440249454,
+        "std_improvement": 0.4696227150269507,
+        "events_improved": "47",
+        "improvement_pct": 100.0
+      },
+      {
+        "category": "Unknown",
+        "n_events": 45,
+        "mean_improvement": 1.0,
+        "median_improvement": 1.0,
+        "std_improvement": 0.0,
+        "events_improved": "0",
+        "improvement_pct": 0.0
+      }
+    ],
+    "snr_category": [
+      {
+        "category": "High_SNR",
+        "n_events": 14,
+        "mean_improvement": 1.3699124845757598,
+        "median_improvement": 1.272187334859207,
+        "std_improvement": 0.4753151177668724,
+        "events_improved": "13",
+        "improvement_pct": 92.85714285714286
+      },
+      {
+        "category": "Low_SNR",
+        "n_events": 152,
+        "mean_improvement": 1.26348258158359,
+        "median_improvement": 1.2532203436540525,
+        "std_improvement": 0.2730362395448197,
+        "events_improved": "110",
+        "improvement_pct": 72.36842105263158
+      },
+      {
+        "category": "Medium_SNR",
+        "n_events": 53,
+        "mean_improvement": 1.3990215617930617,
+        "median_improvement": 1.274231507325413,
+        "std_improvement": 0.38334444990500066,
+        "events_improved": "51",
+        "improvement_pct": 96.22641509433963
+      }
+    ],
+    "distance_category": [
+      {
+        "category": "Distant",
+        "n_events": 92,
+        "mean_improvement": 1.323934912477506,
+        "median_improvement": 1.273422775586622,
+        "std_improvement": 0.19543540741318638,
+        "events_improved": "92",
+        "improvement_pct": 100.0
+      },
+      {
+        "category": "Intermediate",
+        "n_events": 71,
+        "mean_improvement": 1.4789366802158068,
+        "median_improvement": 1.2985199535748269,
+        "std_improvement": 0.42608066302546216,
+        "events_improved": "71",
+        "improvement_pct": 100.0
+      },
+      {
+        "category": "Nearby",
+        "n_events": 11,
+        "mean_improvement": 1.233613974231432,
+        "median_improvement": 1.2153883345547385,
+        "std_improvement": 0.04228651784721692,
+        "events_improved": "11",
+        "improvement_pct": 100.0
+      },
+      {
+        "category": "Unknown",
+        "n_events": 45,
+        "mean_improvement": 1.0,
+        "median_improvement": 1.0,
+        "std_improvement": 0.0,
+        "events_improved": "0",
+        "improvement_pct": 0.0
+      }
+    ]
+  },
+  "frequency_analysis": {
+    "n_events_with_freq": 174,
+    "klein_frequency_hz": 113.79311135790466,
+    "gw_freq_mean": 120.44537731731681,
+    "gw_freq_median": 71.2466178834942,
+    "gw_freq_std": 165.56163275707044,
+    "gw_freq_min": 18.31612555981766,
+    "gw_freq_max": 1610.2088404235303,
+    "frequency_improvement_correlation": -0.21051822240064466,
+    "resonance_bands": {
+      "Moderate_Resonance": {
+        "n_events": 67,
+        "mean_improvement": 1.3066287817592925,
+        "events_improved": 67,
+        "improvement_pct": 100.0
+      },
+      "Off_Resonance": {
+        "n_events": 75,
+        "mean_improvement": 1.23376053097968,
+        "events_improved": 75,
+        "improvement_pct": 100.0
+      },
+      "Perfect_Resonance": {
+        "n_events": 8,
+        "mean_improvement": 2.589795804827328,
+        "events_improved": 8,
+        "improvement_pct": 100.0
+      },
+      "Strong_Resonance": {
+        "n_events": 24,
+        "mean_improvement": 1.6492389716596403,
+        "events_improved": 24,
+        "improvement_pct": 100.0
+      }
+    }
+  },
+  "conclusions": {
+    "sigma_significance": 13.923001084426577,
+    "is_discovery": true,
+    "mean_improvement": 1.3030879906840118,
+    "events_improved_pct": 79.45205479452055,
+    "scientific_validity": "High - based on real LIGO data"
+  }
+}

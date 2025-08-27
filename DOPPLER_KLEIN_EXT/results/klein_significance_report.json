@@ -1,0 +1,60 @@
+{
+  "summary": {
+    "combined_sigma": 10.0,
+    "fisher_p": 0.0,
+    "n_significant_correlations": 6,
+    "assessment": "\ud83c\udf89 DESCOBRIMIENTO (\u22655\u03c3)"
+  },
+  "significant_correlations": [
+    [
+      "energy_deformation",
+      0.7307125854471714,
+      6.232524860122624e-07,
+      4.983869109224775
+    ],
+    [
+      "energy_elevation",
+      -0.7854636135441878,
+      2.2936011393766507e-08,
+      5.588256941690296
+    ],
+    [
+      "velocity_doppler_factor",
+      -0.9917012227185313,
+      5.542890092234978e-31,
+      11.574600428865422
+    ],
+    [
+      "velocity_doppler_shift",
+      -0.9917012227185311,
+      5.542890092237418e-31,
+      11.574600428865384
+    ],
+    [
+      "mass_deformation",
+      0.7302863394352003,
+      6.374727253599024e-07,
+      4.979504494840299
+    ],
+    [
+      "redshift_doppler",
+      -0.8872681188381256,
+      1.2533422444855171e-12,
+      7.099361888999154
+    ]
+  ],
+  "chi2_tests": {
+    "energy_mass": {
+      "chi2": 1.0217638973484149,
+      "dof": 34,
+      "p_value": 1.0
+    },
+    "states": {
+      "chi2": 4.5,
+      "dof": 1,
+      "p_value": 0.03389485352468924
+    }
+  },
+  "bonferroni_correction": 0.0071428571428571435,
+  "n_events": 35
+}

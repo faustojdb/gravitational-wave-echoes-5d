@@ -1,0 +1,337 @@
+{
+  "metadata": {
+    "validation_type": "intensive_klein_corrected_419km",
+    "R_Klein_km": 419.3,
+    "f_Klein_Hz": 113.79311135790466,
+    "events_analyzed": 5,
+    "successful_analyses": 10,
+    "total_analyses": 10,
+    "success_rate": 1.0,
+    "timestamp": "2025-08-26T19:20:20.476825"
+  },
+  "detailed_results": {
+    "GW200115_042309": {
+      "H1": {
+        "event_name": "GW200115_042309",
+        "detector": "H1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 1.0144465459468421,
+          "snr_klein": 1.014446545946842,
+          "snr_enhancement": 0.9999999999999998,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 1000.3000000000001,
+          "peak_frequency_klein": 1000.3000000000001,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0000000000000007,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.000244140625,
+          "confidence": 0.2908109414457072,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:18:48.628862"
+      },
+      "L1": {
+        "event_name": "GW200115_042309",
+        "detector": "L1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 1.0542590265678566,
+          "snr_klein": 1.0542590265678566,
+          "snr_enhancement": 1.0,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 9.65,
+          "peak_frequency_klein": 9.65,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0000000000000004,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.018798828125,
+          "confidence": 0.32173542061237376,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:18:59.350824"
+      }
+    },
+    "GW200128_022011": {
+      "H1": {
+        "event_name": "GW200128_022011",
+        "detector": "H1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 1.0726927051448936,
+          "snr_klein": 1.0726927051448933,
+          "snr_enhancement": 0.9999999999999998,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 9.8,
+          "peak_frequency_klein": 9.8,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.013427734375,
+          "confidence": 0.31278359769570707,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:19:09.493877"
+      },
+      "L1": {
+        "event_name": "GW200128_022011",
+        "detector": "L1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 1.015503520123123,
+          "snr_klein": 1.015503520123123,
+          "snr_enhancement": 1.0,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 9.600000000000001,
+          "peak_frequency_klein": 9.600000000000001,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0000000000000004,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.0185546875,
+          "confidence": 0.3213285195707071,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:19:19.555761"
+      }
+    },
+    "GW200216_220804": {
+      "H1": {
+        "event_name": "GW200216_220804",
+        "detector": "H1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 1.130274791273173,
+          "snr_klein": 1.1302747912731732,
+          "snr_enhancement": 1.0000000000000002,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 9.8,
+          "peak_frequency_klein": 9.8,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0000000000000002,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.014404296875,
+          "confidence": 0.31441120186237376,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:19:29.428042"
+      },
+      "L1": {
+        "event_name": "GW200216_220804",
+        "detector": "L1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 0.851895067232853,
+          "snr_klein": 0.851895067232853,
+          "snr_enhancement": 1.0,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 13.700000000000001,
+          "peak_frequency_klein": 13.700000000000001,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0000000000000002,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.019287109375,
+          "confidence": 0.3225492226957071,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:19:39.793772"
+      }
+    },
+    "GW200219_094415": {
+      "H1": {
+        "event_name": "GW200219_094415",
+        "detector": "H1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 1.0394756703312376,
+          "snr_klein": 1.0394756703312376,
+          "snr_enhancement": 1.0,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 1000.3000000000001,
+          "peak_frequency_klein": 1000.3000000000001,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0000000000000002,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.00048828125,
+          "confidence": 0.29121784248737376,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:19:50.035500"
+      },
+      "L1": {
+        "event_name": "GW200219_094415",
+        "detector": "L1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 1.0211568539322171,
+          "snr_klein": 1.0211568539322173,
+          "snr_enhancement": 1.0000000000000002,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 9.700000000000001,
+          "peak_frequency_klein": 9.700000000000001,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0000000000000007,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.01904296875,
+          "confidence": 0.3221423216540405,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:20:00.014660"
+      }
+    },
+    "GW200308_173609": {
+      "H1": {
+        "event_name": "GW200308_173609",
+        "detector": "H1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 1.0685958296640832,
+          "snr_klein": 1.0685958296640834,
+          "snr_enhancement": 1.0000000000000002,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 13.9,
+          "peak_frequency_klein": 13.9,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0000000000000002,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.014404296875,
+          "confidence": 0.31441120186237376,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:20:10.878185"
+      },
+      "L1": {
+        "event_name": "GW200308_173609",
+        "detector": "L1",
+        "R_Klein_km": 419.3,
+        "f_Klein_Hz": 113.79311135790466,
+        "strain_original": "Array of size 81920",
+        "strain_klein": "Array of size 81920",
+        "metrics": {
+          "snr_original": 1.223363181019234,
+          "snr_klein": 1.223363181019234,
+          "snr_enhancement": 1.0,
+          "total_power_enhancement": 1.0,
+          "klein_band_enhancement": 1.0,
+          "peak_frequency_original": 13.700000000000001,
+          "peak_frequency_klein": 13.700000000000001,
+          "peak_frequency_shift": 0.0
+        },
+        "klein_features": {
+          "activated": false,
+          "energy_enhancement": 1.0000000000000004,
+          "resonance_detected": false,
+          "resonance_strength": 1.0,
+          "coherence_length": 0.01904296875,
+          "confidence": 0.32214232165404044,
+          "activation_threshold_passed": false
+        },
+        "amplification_function": "Array of size 81920",
+        "timestamp": "2025-08-26T19:20:20.474692"
+      }
+    }
+  },
+  "global_statistics": {
+    "n_analyses": 10,
+    "snr_enhancement": {
+      "mean": 1.0,
+      "std": 1.5700924586837752e-16,
+      "median": 1.0,
+      "min": 0.9999999999999998,
+      "max": 1.0000000000000002
+    },
+    "activation_rate": 0.0,
+    "high_confidence_rate": 0.0,
+    "significant_enhancement_rate": 0.0,
+    "mean_resonance_strength": 1.0,
+    "mean_confidence": 0.3133532591540405,
+    "power_enhancement": {
+      "mean": 1.0,
+      "median": 1.0
+    },
+    "klein_band_enhancement": {
+      "mean": 1.0,
+      "median": 1.0
+    }
+  }
+}

@@ -106,3 +106,18 @@ teoria_refinada/resultados/bao_mcmc/bao_mcmc_chain.npy
 */venv/
 *_env/
 */env/
+
+# Exclude Cryptocurrency Klein Theory from repository
+Klein_Studies/5_CRYPTOCURRENCY_KLEIN_THEORY/
+
+# Large data files that exceed GitHub limits
+Klein_Studies/3_PLASMA_PHYSICS_KLEIN/3_Data/synthetic_solar_wind_2020-01-01_2023-01-01.csv
+Klein_Studies/3_PLASMA_PHYSICS_KLEIN/3_Data/synthetic_magnetosphere_2020-01-01_2022-01-01.csv
+Klein_Studies/3_PLASMA_PHYSICS_KLEIN/pydata/mms1/edp/brst/l2/dce/2017/07/11/mms1_edp_brst_l2_dce_20170711223323_v3.0.0.cdf
+
+# Large synthetic data files (keep only summaries)
+Klein_Studies/*/3_Data/*.csv > 50M
+Klein_Studies/*/pydata/*.cdf > 50M
+
+# S2_SPHERICAL_SPACETIME_THEORY - Problematic theory directory
+S2_SPHERICAL_SPACETIME_THEORY/

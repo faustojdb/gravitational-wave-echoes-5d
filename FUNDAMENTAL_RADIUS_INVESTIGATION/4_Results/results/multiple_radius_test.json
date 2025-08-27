@@ -1,0 +1,588 @@
+{
+  "metadata": {
+    "events_analyzed": [
+      "GW200115",
+      "GW200128"
+    ],
+    "radii_tested": [
+      "Klein_Emp\u00edrico_Original",
+      "Klein_Fundamental_B\u00e1sico",
+      "Klein_Fundamental_m_e_c2",
+      "Klein_Predicci\u00f3n_Inicial",
+      "Klein_Modelo_Corregido",
+      "Klein_Auto_Intersecci\u00f3n",
+      "Klein_Medio_Geom\u00e9trico",
+      "Klein_Test_1000km",
+      "Klein_Test_2000km",
+      "Klein_Test_5000km"
+    ],
+    "radii_values_km": {
+      "Klein_Emp\u00edrico_Original": 8400.0,
+      "Klein_Fundamental_B\u00e1sico": 8187.0,
+      "Klein_Fundamental_m_e_c2": 8187.105649650028,
+      "Klein_Predicci\u00f3n_Inicial": 38323.0,
+      "Klein_Modelo_Corregido": 419.3,
+      "Klein_Auto_Intersecci\u00f3n": 2606.0030381866945,
+      "Klein_Medio_Geom\u00e9trico": 1852.7841482482518,
+      "Klein_Test_1000km": 1000.0,
+      "Klein_Test_2000km": 2000.0,
+      "Klein_Test_5000km": 5000.0
+    }
+  },
+  "event_results": {
+    "GW200115": {
+      "H1": {
+        "Klein_Emp\u00edrico_Original": {
+          "R_Klein_km": 8400.0,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Fundamental_B\u00e1sico": {
+          "R_Klein_km": 8187.0,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Fundamental_m_e_c2": {
+          "R_Klein_km": 8187.105649650028,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Predicci\u00f3n_Inicial": {
+          "R_Klein_km": 38323.0,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Modelo_Corregido": {
+          "R_Klein_km": 419.3,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Auto_Intersecci\u00f3n": {
+          "R_Klein_km": 2606.0030381866945,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Medio_Geom\u00e9trico": {
+          "R_Klein_km": 1852.7841482482518,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_1000km": {
+          "R_Klein_km": 1000.0,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_2000km": {
+          "R_Klein_km": 2000.0,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_5000km": {
+          "R_Klein_km": 5000.0,
+          "snr_original": 0.568487188230657,
+          "snr_klein": 0.5684871882306569,
+          "snr_enhancement": 0.9999999999999998,
+          "klein_activated": true,
+          "activation_strength": 80.26639385784942,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        }
+      },
+      "L1": {
+        "Klein_Emp\u00edrico_Original": {
+          "R_Klein_km": 8400.0,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        },
+        "Klein_Fundamental_B\u00e1sico": {
+          "R_Klein_km": 8187.0,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        },
+        "Klein_Fundamental_m_e_c2": {
+          "R_Klein_km": 8187.105649650028,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        },
+        "Klein_Predicci\u00f3n_Inicial": {
+          "R_Klein_km": 38323.0,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        },
+        "Klein_Modelo_Corregido": {
+          "R_Klein_km": 419.3,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        },
+        "Klein_Auto_Intersecci\u00f3n": {
+          "R_Klein_km": 2606.0030381866945,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        },
+        "Klein_Medio_Geom\u00e9trico": {
+          "R_Klein_km": 1852.7841482482518,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_1000km": {
+          "R_Klein_km": 1000.0,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_2000km": {
+          "R_Klein_km": 2000.0,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_5000km": {
+          "R_Klein_km": 5000.0,
+          "snr_original": 2.8301772307238857,
+          "snr_klein": 2.8301772307238857,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 159.64429089312878,
+          "peak_freq_original": 29.700000000000003,
+          "peak_freq_klein": 29.700000000000003,
+          "power_enhancement": 1.0
+        }
+      }
+    },
+    "GW200128": {
+      "H1": {
+        "Klein_Emp\u00edrico_Original": {
+          "R_Klein_km": 8400.0,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Fundamental_B\u00e1sico": {
+          "R_Klein_km": 8187.0,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Fundamental_m_e_c2": {
+          "R_Klein_km": 8187.105649650028,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Predicci\u00f3n_Inicial": {
+          "R_Klein_km": 38323.0,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Modelo_Corregido": {
+          "R_Klein_km": 419.3,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Auto_Intersecci\u00f3n": {
+          "R_Klein_km": 2606.0030381866945,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Medio_Geom\u00e9trico": {
+          "R_Klein_km": 1852.7841482482518,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_1000km": {
+          "R_Klein_km": 1000.0,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_2000km": {
+          "R_Klein_km": 2000.0,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_5000km": {
+          "R_Klein_km": 5000.0,
+          "snr_original": 0.7007335541886234,
+          "snr_klein": 0.7007335541886234,
+          "snr_enhancement": 1.0,
+          "klein_activated": true,
+          "activation_strength": 42.36315698300493,
+          "peak_freq_original": 21.900000000000002,
+          "peak_freq_klein": 21.900000000000002,
+          "power_enhancement": 1.0
+        }
+      },
+      "L1": {
+        "Klein_Emp\u00edrico_Original": {
+          "R_Klein_km": 8400.0,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        },
+        "Klein_Fundamental_B\u00e1sico": {
+          "R_Klein_km": 8187.0,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        },
+        "Klein_Fundamental_m_e_c2": {
+          "R_Klein_km": 8187.105649650028,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        },
+        "Klein_Predicci\u00f3n_Inicial": {
+          "R_Klein_km": 38323.0,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        },
+        "Klein_Modelo_Corregido": {
+          "R_Klein_km": 419.3,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        },
+        "Klein_Auto_Intersecci\u00f3n": {
+          "R_Klein_km": 2606.0030381866945,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        },
+        "Klein_Medio_Geom\u00e9trico": {
+          "R_Klein_km": 1852.7841482482518,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_1000km": {
+          "R_Klein_km": 1000.0,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_2000km": {
+          "R_Klein_km": 2000.0,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        },
+        "Klein_Test_5000km": {
+          "R_Klein_km": 5000.0,
+          "snr_original": 1.287048399743211,
+          "snr_klein": 1.2870483997432112,
+          "snr_enhancement": 1.0000000000000002,
+          "klein_activated": true,
+          "activation_strength": 65.98971719229561,
+          "peak_freq_original": 34.6,
+          "peak_freq_klein": 34.6,
+          "power_enhancement": 1.0
+        }
+      }
+    }
+  },
+  "summary_statistics": {
+    "Klein_Emp\u00edrico_Original": {
+      "R_Klein_km": 8400.0,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    },
+    "Klein_Fundamental_B\u00e1sico": {
+      "R_Klein_km": 8187.0,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    },
+    "Klein_Fundamental_m_e_c2": {
+      "R_Klein_km": 8187.105649650028,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    },
+    "Klein_Predicci\u00f3n_Inicial": {
+      "R_Klein_km": 38323.0,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    },
+    "Klein_Modelo_Corregido": {
+      "R_Klein_km": 419.3,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    },
+    "Klein_Auto_Intersecci\u00f3n": {
+      "R_Klein_km": 2606.0030381866945,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    },
+    "Klein_Medio_Geom\u00e9trico": {
+      "R_Klein_km": 1852.7841482482518,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    },
+    "Klein_Test_1000km": {
+      "R_Klein_km": 1000.0,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    },
+    "Klein_Test_2000km": {
+      "R_Klein_km": 2000.0,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    },
+    "Klein_Test_5000km": {
+      "R_Klein_km": 5000.0,
+      "n_tests": 4,
+      "mean_snr_enhancement": 1.0,
+      "std_snr_enhancement": 1.5700924586837752e-16,
+      "mean_activation_strength": 87.06588973156968,
+      "activation_rate": 1.0,
+      "mean_power_enhancement": 1.0,
+      "success_rate": 0.25
+    }
+  }
+}

@@ -1,0 +1,1085 @@
+{
+  "report_metadata": {
+    "generation_timestamp": "2025-07-29T22:03:37.166431",
+    "analyzer_version": "1.0",
+    "theoretical_framework": "Klein Bottle 5D Topology Applied to Economics",
+    "data_sources": [
+      "FRED Economic Data",
+      "Yahoo Finance",
+      "Synthetic Demo Data"
+    ],
+    "analysis_type": "Historical Economic & Financial Validation"
+  },
+  "klein_theoretical_parameters": {
+    "universal_frequency_hz": 5.682,
+    "frequency_uncertainty_hz": 0.088,
+    "economic_cycle_years": 0.1759943681802182,
+    "klein_mega_cycle_years": 5.68,
+    "maximum_deformation": 0.65,
+    "predicted_ratio": 40.0,
+    "economic_velocity_parameter": 0.05,
+    "par_mode_enhancement": 0.18,
+    "impar_mode_suppression": 0.08
+  },
+  "economic_data_summary": {
+    "GDP": {
+      "observations": 288,
+      "time_span": {
+        "start": "2000-01-31T00:00:00",
+        "end": "2023-12-31T00:00:00",
+        "duration_years": 23.915126625598905
+      },
+      "klein_states_distribution": {
+        "klein_deformada": "117",
+        "expansion_relajada": "115",
+        "recession_deformada": "56"
+      },
+      "average_klein_deformation": 0.21596081482009527,
+      "max_klein_deformation": 0.65
+    },
+    "UNEMPLOYMENT": {
+      "observations": 288,
+      "time_span": {
+        "start": "2000-01-31T00:00:00",
+        "end": "2023-12-31T00:00:00",
+        "duration_years": 23.915126625598905
+      },
+      "klein_states_distribution": {
+        "employment_declining": "122",
+        "klein_deformada": "71",
+        "employment_improving": "47",
+        "employment_boom": "45",
+        "employment_crisis": "3"
+      },
+      "average_klein_deformation": 0.2642493024090471,
+      "max_klein_deformation": 0.6473177365899477
+    },
+    "INFLATION": {
+      "observations": 288,
+      "time_span": {
+        "start": "2000-01-31T00:00:00",
+        "end": "2023-12-31T00:00:00",
+        "duration_years": 23.915126625598905
+      },
+      "klein_states_distribution": {
+        "klein_deformada": "180",
+        "klein_extrema": "62",
+        "klein_relajada": "46"
+      },
+      "average_klein_deformation": 0.25990787989100145,
+      "max_klein_deformation": 0.6473503410672575
+    }
+  },
+  "financial_data_summary": {
+    "^GSPC": {
+      "observations": 2514,
+      "return_observations": 2513,
+      "time_span": {
+        "start": "2015-07-30T00:00:00-04:00",
+        "end": "2025-07-29T00:00:00-04:00",
+        "duration_years": 9.998631074606434
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.00043999047151882184,
+        "daily_volatility": 0.01162781234675622,
+        "annualized_volatility": 0.18458579856745982
+      },
+      "klein_states_distribution": {
+        "market_normal": "1181",
+        "market_elevated": "930",
+        "market_volatile": "277",
+        "market_extreme": "126"
+      },
+      "average_klein_deformation": 0.1586423968854534
+    },
+    "^DJI": {
+      "observations": 2514,
+      "return_observations": 2513,
+      "time_span": {
+        "start": "2015-07-30T00:00:00-04:00",
+        "end": "2025-07-29T00:00:00-04:00",
+        "duration_years": 9.998631074606434
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.00036701718876674174,
+        "daily_volatility": 0.011329187833231091,
+        "annualized_volatility": 0.17984528137840902
+      },
+      "klein_states_distribution": {
+        "market_normal": "1162",
+        "market_elevated": "955",
+        "market_volatile": "271",
+        "market_extreme": "126"
+      },
+      "average_klein_deformation": 0.1597573924282589
+    },
+    "^IXIC": {
+      "observations": 2514,
+      "return_observations": 2513,
+      "time_span": {
+        "start": "2015-07-30T00:00:00-04:00",
+        "end": "2025-07-29T00:00:00-04:00",
+        "duration_years": 9.998631074606434
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.0005628031318885111,
+        "daily_volatility": 0.01401608087292184,
+        "annualized_volatility": 0.22249838607312172
+      },
+      "klein_states_distribution": {
+        "market_normal": "1128",
+        "market_elevated": "981",
+        "market_volatile": "279",
+        "market_extreme": "126"
+      },
+      "average_klein_deformation": 0.16386240332863208
+    },
+    "^RUT": {
+      "observations": 2514,
+      "return_observations": 2513,
+      "time_span": {
+        "start": "2015-07-30T00:00:00-04:00",
+        "end": "2025-07-29T00:00:00-04:00",
+        "duration_years": 9.998631074606434
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.0002384010132298523,
+        "daily_volatility": 0.014859868169012587,
+        "annualized_volatility": 0.2358930941424722
+      },
+      "klein_states_distribution": {
+        "market_elevated": "1090",
+        "market_normal": "987",
+        "market_volatile": "311",
+        "market_extreme": "126"
+      },
+      "average_klein_deformation": 0.17623248631277474
+    },
+    "^FTSE": {
+      "observations": 2526,
+      "return_observations": 2525,
+      "time_span": {
+        "start": "2015-07-29T00:00:00+01:00",
+        "end": "2025-07-29T00:00:00+01:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.0001269315209454895,
+        "daily_volatility": 0.009941547542081278,
+        "annualized_volatility": 0.157817174660835
+      },
+      "klein_states_distribution": {
+        "market_normal": "1126",
+        "market_elevated": "1024",
+        "market_volatile": "249",
+        "market_extreme": "127"
+      },
+      "average_klein_deformation": 0.16144965587422205
+    },
+    "^N225": {
+      "observations": 2444,
+      "return_observations": 2443,
+      "time_span": {
+        "start": "2015-07-29T00:00:00+09:00",
+        "end": "2025-07-29T00:00:00+09:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.00028442012923485867,
+        "daily_volatility": 0.01337371090451121,
+        "annualized_volatility": 0.21230107895645609
+      },
+      "klein_states_distribution": {
+        "market_normal": "1014",
+        "market_elevated": "997",
+        "market_volatile": "310",
+        "market_extreme": "123"
+      },
+      "average_klein_deformation": 0.17185975403644643
+    },
+    "^GDAXI": {
+      "observations": 2539,
+      "return_observations": 2538,
+      "time_span": {
+        "start": "2015-07-29T00:00:00+02:00",
+        "end": "2025-07-29T00:00:00+02:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.0003034274582149093,
+        "daily_volatility": 0.012100760240398039,
+        "annualized_volatility": 0.19209361362546828
+      },
+      "klein_states_distribution": {
+        "market_normal": "1136",
+        "market_elevated": "1004",
+        "market_volatile": "272",
+        "market_extreme": "127"
+      },
+      "average_klein_deformation": 0.16207181512541807
+    },
+    "^VIX": {
+      "observations": 2515,
+      "return_observations": 2514,
+      "time_span": {
+        "start": "2015-07-29T00:00:00-05:00",
+        "end": "2025-07-29T00:00:00-05:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": 9.769660596015736e-05,
+        "daily_volatility": 0.08117943973929478,
+        "annualized_volatility": 1.2886836547303686
+      },
+      "klein_states_distribution": {
+        "market_elevated": "1086",
+        "market_normal": "1029",
+        "market_volatile": "274",
+        "market_extreme": "126"
+      },
+      "average_klein_deformation": 0.16892824879666077
+    },
+    "GC=F": {
+      "observations": 2514,
+      "return_observations": 2513,
+      "time_span": {
+        "start": "2015-07-29T00:00:00-04:00",
+        "end": "2025-07-29T00:00:00-04:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.0004428604287213151,
+        "daily_volatility": 0.009464803982168047,
+        "annualized_volatility": 0.15024910526874283
+      },
+      "klein_states_distribution": {
+        "market_normal": "1034",
+        "market_elevated": "1024",
+        "market_volatile": "330",
+        "market_extreme": "126"
+      },
+      "average_klein_deformation": 0.17306941113511698
+    },
+    "CL=F": {
+      "observations": 2515,
+      "return_observations": 2512,
+      "time_span": {
+        "start": "2015-07-29T00:00:00-04:00",
+        "end": "2025-07-29T00:00:00-04:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.0003789305460700641,
+        "daily_volatility": 0.028864237385586883,
+        "annualized_volatility": 0.4582055634347764
+      },
+      "klein_states_distribution": {
+        "market_elevated": "1115",
+        "market_normal": "985",
+        "market_volatile": "289",
+        "market_extreme": "126"
+      },
+      "average_klein_deformation": 0.17456511029996333
+    },
+    "EURUSD=X": {
+      "observations": 2604,
+      "return_observations": 2603,
+      "time_span": {
+        "start": "2015-07-29T00:00:00+01:00",
+        "end": "2025-07-29T00:00:00+01:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": 1.653531097422435e-05,
+        "daily_volatility": 0.004760039439010318,
+        "annualized_volatility": 0.07556328351888425
+      },
+      "klein_states_distribution": {
+        "market_elevated": "1139",
+        "market_normal": "920",
+        "market_volatile": "414",
+        "market_extreme": "131"
+      },
+      "average_klein_deformation": 0.18865311913847388
+    },
+    "GBPUSD=X": {
+      "observations": 2604,
+      "return_observations": 2603,
+      "time_span": {
+        "start": "2015-07-29T00:00:00+01:00",
+        "end": "2025-07-29T00:00:00+01:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": -6.0051428548346615e-05,
+        "daily_volatility": 0.005865335736954992,
+        "annualized_volatility": 0.093109318295296
+      },
+      "klein_states_distribution": {
+        "market_elevated": "1184",
+        "market_normal": "947",
+        "market_volatile": "342",
+        "market_extreme": "131"
+      },
+      "average_klein_deformation": 0.18101588069617672
+    },
+    "^TNX": {
+      "observations": 2514,
+      "return_observations": 2513,
+      "time_span": {
+        "start": "2015-07-29T00:00:00-05:00",
+        "end": "2025-07-29T00:00:00-05:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.00025540420011212244,
+        "daily_volatility": 0.03040369661824724,
+        "annualized_volatility": 0.4826437211336262
+      },
+      "klein_states_distribution": {
+        "market_elevated": "1096",
+        "market_normal": "1045",
+        "market_volatile": "247",
+        "market_extreme": "126"
+      },
+      "average_klein_deformation": 0.16639982163287875
+    },
+    "^TYX": {
+      "observations": 2514,
+      "return_observations": 2513,
+      "time_span": {
+        "start": "2015-07-29T00:00:00-05:00",
+        "end": "2025-07-29T00:00:00-05:00",
+        "duration_years": 10.001368925393566
+      },
+      "return_statistics": {
+        "mean_daily_return": 0.00019446676373519397,
+        "daily_volatility": 0.021580609449555636,
+        "annualized_volatility": 0.3425815544684083
+      },
+      "klein_states_distribution": {
+        "market_elevated": "1138",
+        "market_normal": "931",
+        "market_volatile": "319",
+        "market_extreme": "126"
+      },
+      "average_klein_deformation": 0.17864136541835618
+    }
+  },
+  "analysis_results": {
+    "business_cycle_frequency": {
+      "GDP": {
+        "series_name": "GDP",
+        "data_points": 288,
+        "time_span_years": 23.915126625598905,
+        "klein_target_freq_per_year": 5.682,
+        "klein_detected_freq_per_year": 0.0,
+        "klein_power": 0.0,
+        "background_power": 40934815157.34575,
+        "klein_enhancement_factor": 0.0,
+        "klein_frequency_significant": false,
+        "phase_coherence": 0.0035190855931584303,
+        "klein_cycle_period_years": 0
+      },
+      "UNEMPLOYMENT": {
+        "series_name": "UNEMPLOYMENT",
+        "data_points": 288,
+        "time_span_years": 23.915126625598905,
+        "klein_target_freq_per_year": 5.682,
+        "klein_detected_freq_per_year": 0.0,
+        "klein_power": 0.0,
+        "background_power": 428590.81273084576,
+        "klein_enhancement_factor": 0.0,
+        "klein_frequency_significant": false,
+        "phase_coherence": 0.0035190855931584303,
+        "klein_cycle_period_years": 0
+      },
+      "INFLATION": {
+        "series_name": "INFLATION",
+        "data_points": 288,
+        "time_span_years": 23.915126625598905,
+        "klein_target_freq_per_year": 5.682,
+        "klein_detected_freq_per_year": 0.0,
+        "klein_power": 0.0,
+        "background_power": 198585.80907899694,
+        "klein_enhancement_factor": 0.0,
+        "klein_frequency_significant": false,
+        "phase_coherence": 0.0035190855931584303,
+        "klein_cycle_period_years": 0
+      }
+    },
+    "doppler_enhanced_cycles": {
+      "GDP": {
+        "series_name": "GDP",
+        "data_points": 288,
+        "time_span_years": 23.915126625598905,
+        "klein_power_standard": 0.0,
+        "klein_power_doppler_enhanced": 0.0,
+        "doppler_enhancement_factor": 1.0,
+        "klein_detected_freq_per_year": 0,
+        "klein_enhancement_factor": 0.0,
+        "klein_frequency_significant": "False",
+        "beta_economic_statistics": {
+          "mean_beta": 0.049999999999999996,
+          "std_beta": 6.950972057354195e-18,
+          "max_beta": 0.05,
+          "min_beta": 0.05,
+          "high_velocity_periods": 0,
+          "expansion_periods": 0,
+          "recession_periods": 0
+        },
+        "doppler_context_distribution": {},
+        "phase_coherence_standard": 0.0035190855931584303,
+        "phase_coherence_doppler_enhanced": 0.002653624209941618,
+        "klein_cycle_period_years": 0
+      },
+      "UNEMPLOYMENT": {
+        "series_name": "UNEMPLOYMENT",
+        "data_points": 288,
+        "time_span_years": 23.915126625598905,
+        "klein_power_standard": 0.0,
+        "klein_power_doppler_enhanced": 0.0,
+        "doppler_enhancement_factor": 1.0,
+        "klein_detected_freq_per_year": 0,
+        "klein_enhancement_factor": 0.0,
+        "klein_frequency_significant": "False",
+        "beta_economic_statistics": {
+          "mean_beta": 0.049999999999999996,
+          "std_beta": 6.950972057354195e-18,
+          "max_beta": 0.05,
+          "min_beta": 0.05,
+          "high_velocity_periods": 0,
+          "expansion_periods": 0,
+          "recession_periods": 0
+        },
+        "doppler_context_distribution": {},
+        "phase_coherence_standard": 0.0035190855931584303,
+        "phase_coherence_doppler_enhanced": 0.0035190855931584303,
+        "klein_cycle_period_years": 0
+      },
+      "INFLATION": {
+        "series_name": "INFLATION",
+        "data_points": 288,
+        "time_span_years": 23.915126625598905,
+        "klein_power_standard": 0.0,
+        "klein_power_doppler_enhanced": 0.0,
+        "doppler_enhancement_factor": 1.0,
+        "klein_detected_freq_per_year": 0,
+        "klein_enhancement_factor": 0.0,
+        "klein_frequency_significant": "False",
+        "beta_economic_statistics": {
+          "mean_beta": 0.049999999999999996,
+          "std_beta": 6.950972057354195e-18,
+          "max_beta": 0.05,
+          "min_beta": 0.05,
+          "high_velocity_periods": 0,
+          "expansion_periods": 0,
+          "recession_periods": 0
+        },
+        "doppler_context_distribution": {},
+        "phase_coherence_standard": 0.0035190855931584303,
+        "phase_coherence_doppler_enhanced": 0.0035190855931584303,
+        "klein_cycle_period_years": 0
+      }
+    },
+    "market_40_1_ratio": {
+      "^GSPC": {
+        "symbol": "^GSPC",
+        "total_observations": 2513,
+        "small_moves_1pct": 1880,
+        "large_moves_3pct": 59,
+        "observed_ratio": 31.864406779661017,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 20.338983050847457,
+        "ratio_confidence_interval": [
+          25.241216216216216,
+          41.502717391304344
+        ],
+        "chi2_statistic": 2.9706034038164026,
+        "p_value": 0.08479022252469559,
+        "significance_sigma": 1.7235438502737346,
+        "klein_ratio_confirmed": "True",
+        "volatility_clustering": 0.9930583486527649,
+        "return_statistics": {
+          "mean_return": 0.00043999047151882184,
+          "return_volatility": 0.01162781234675622,
+          "skewness": -0.6559027617758258,
+          "kurtosis": 15.596031726847041
+        }
+      },
+      "^DJI": {
+        "symbol": "^DJI",
+        "total_observations": 2513,
+        "small_moves_1pct": 1937,
+        "large_moves_3pct": 47,
+        "observed_ratio": 41.212765957446805,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 3.0319148936170137,
+        "ratio_confidence_interval": [
+          32.11817796610169,
+          57.64779411764706
+        ],
+        "chi2_statistic": 0.04094002016129049,
+        "p_value": 0.8396537426414465,
+        "significance_sigma": 0.20233640345051712,
+        "klein_ratio_confirmed": "True",
+        "volatility_clustering": 0.9933872657512128,
+        "return_statistics": {
+          "mean_return": 0.00036701718876674174,
+          "return_volatility": 0.011329187833231091,
+          "skewness": -0.8455796431289293,
+          "kurtosis": 21.796713890342705
+        }
+      },
+      "^IXIC": {
+        "symbol": "^IXIC",
+        "total_observations": 2513,
+        "small_moves_1pct": 1635,
+        "large_moves_3pct": 106,
+        "observed_ratio": 15.424528301886792,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 61.438679245283026,
+        "ratio_confidence_interval": [
+          12.735258730158732,
+          19.114975942261427
+        ],
+        "chi2_statistic": 97.44435669155658,
+        "p_value": 0.0,
+        "significance_sigma": 10.0,
+        "klein_ratio_confirmed": "False",
+        "volatility_clustering": 0.9917375568656318,
+        "return_statistics": {
+          "mean_return": 0.0005628031318885111,
+          "return_volatility": 0.01401608087292184,
+          "skewness": -0.44100800568824333,
+          "kurtosis": 8.700928535015281
+        }
+      },
+      "^RUT": {
+        "symbol": "^RUT",
+        "total_observations": 2513,
+        "small_moves_1pct": 1510,
+        "large_moves_3pct": 103,
+        "observed_ratio": 14.660194174757281,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 63.3495145631068,
+        "ratio_confidence_interval": [
+          12.172029549524728,
+          18.119279053084647
+        ],
+        "chi2_statistic": 105.58121512709236,
+        "p_value": 0.0,
+        "significance_sigma": 10.0,
+        "klein_ratio_confirmed": "False",
+        "volatility_clustering": 0.9923261777055007,
+        "return_statistics": {
+          "mean_return": 0.0002384010132298523,
+          "return_volatility": 0.014859868169012587,
+          "skewness": -0.8021067357250844,
+          "kurtosis": 10.653658088312469
+        }
+      },
+      "^FTSE": {
+        "symbol": "^FTSE",
+        "total_observations": 2525,
+        "small_moves_1pct": 2013,
+        "large_moves_3pct": 42,
+        "observed_ratio": 47.92857142857143,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 19.821428571428577,
+        "ratio_confidence_interval": [
+          35.589285714285715,
+          67.50916666666666
+        ],
+        "chi2_statistic": 1.349014598540146,
+        "p_value": 0.24545045989850156,
+        "significance_sigma": 1.1614708771812343,
+        "klein_ratio_confirmed": "True",
+        "volatility_clustering": 0.9905866694435659,
+        "return_statistics": {
+          "mean_return": 0.0001269315209454895,
+          "return_volatility": 0.009941547542081278,
+          "skewness": -0.9569299069620986,
+          "kurtosis": 13.629106334798957
+        }
+      },
+      "^N225": {
+        "symbol": "^N225",
+        "total_observations": 2443,
+        "small_moves_1pct": 1635,
+        "large_moves_3pct": 75,
+        "observed_ratio": 21.8,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 45.49999999999999,
+        "ratio_confidence_interval": [
+          17.69997311827957,
+          27.864879943502824
+        ],
+        "chi2_statistic": 27.24013157894736,
+        "p_value": 1.7968992394035155e-07,
+        "significance_sigma": 5.219207945705872,
+        "klein_ratio_confirmed": "True",
+        "volatility_clustering": 0.9857167078959098,
+        "return_statistics": {
+          "mean_return": 0.00028442012923485867,
+          "return_volatility": 0.01337371090451121,
+          "skewness": -0.3720492802280324,
+          "kurtosis": 9.506479913947837
+        }
+      },
+      "^GDAXI": {
+        "symbol": "^GDAXI",
+        "total_observations": 2538,
+        "small_moves_1pct": 1807,
+        "large_moves_3pct": 74,
+        "observed_ratio": 24.41891891891892,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 38.9527027027027,
+        "ratio_confidence_interval": [
+          19.694293478260867,
+          31.431896551724137
+        ],
+        "chi2_statistic": 17.668912812333865,
+        "p_value": 2.6288817182695823e-05,
+        "significance_sigma": 4.203440592221612,
+        "klein_ratio_confirmed": "True",
+        "volatility_clustering": 0.98915963722949,
+        "return_statistics": {
+          "mean_return": 0.0003034274582149093,
+          "return_volatility": 0.012100760240398039,
+          "skewness": -0.6410222806170716,
+          "kurtosis": 11.02373720440183
+        }
+      },
+      "^VIX": {
+        "symbol": "^VIX",
+        "total_observations": 2514,
+        "small_moves_1pct": 356,
+        "large_moves_3pct": 1538,
+        "observed_ratio": 0.23146944083224968,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 99.42132639791937,
+        "ratio_confidence_interval": [
+          0.2069576711949266,
+          0.2591849523450541
+        ],
+        "chi2_statistic": 49380.08046462513,
+        "p_value": 0.0,
+        "significance_sigma": 10.0,
+        "klein_ratio_confirmed": "False",
+        "volatility_clustering": 0.9779825776112309,
+        "return_statistics": {
+          "mean_return": 9.769660596015736e-05,
+          "return_volatility": 0.08117943973929478,
+          "skewness": 1.3182290823901273,
+          "kurtosis": 8.152758134688042
+        }
+      },
+      "GC=F": {
+        "symbol": "GC=F",
+        "total_observations": 2513,
+        "small_moves_1pct": 1954,
+        "large_moves_3pct": 25,
+        "observed_ratio": 78.16,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 95.39999999999999,
+        "ratio_confidence_interval": [
+          55.254285714285714,
+          130.00166666666667
+        ],
+        "chi2_statistic": 11.497170288024252,
+        "p_value": 0.0006970222367240764,
+        "significance_sigma": 3.3907477476249914,
+        "klein_ratio_confirmed": "False",
+        "volatility_clustering": 0.9810955445864862,
+        "return_statistics": {
+          "mean_return": 0.0004428604287213151,
+          "return_volatility": 0.009464803982168047,
+          "skewness": -0.1530454108037363,
+          "kurtosis": 3.5706771536680977
+        }
+      },
+      "CL=F": {
+        "symbol": "CL=F",
+        "total_observations": 2512,
+        "small_moves_1pct": 971,
+        "large_moves_3pct": 428,
+        "observed_ratio": 2.2686915887850465,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 94.32827102803738,
+        "ratio_confidence_interval": [
+          2.025887955929818,
+          2.5407530564991156
+        ],
+        "chi2_statistic": 4660.2966583273765,
+        "p_value": 0.0,
+        "significance_sigma": 10.0,
+        "klein_ratio_confirmed": "False",
+        "volatility_clustering": 0.9878240912633126,
+        "return_statistics": {
+          "mean_return": 0.0003789305460700641,
+          "return_volatility": 0.028864237385586883,
+          "skewness": 0.08126292744581336,
+          "kurtosis": 23.147673946149062
+        }
+      },
+      "GBPUSD=X": {
+        "symbol": "GBPUSD=X",
+        "total_observations": 2603,
+        "small_moves_1pct": 2401,
+        "large_moves_3pct": 4,
+        "observed_ratio": 600.25,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 1400.625,
+        "ratio_confidence_interval": [
+          267.14444444444445,
+          2401.425
+        ],
+        "chi2_statistic": 52.20458419958419,
+        "p_value": 5.000444502911705e-13,
+        "significance_sigma": 7.225287055724773,
+        "klein_ratio_confirmed": "False",
+        "volatility_clustering": 0.9800107090747948,
+        "return_statistics": {
+          "mean_return": -6.0051428548346615e-05,
+          "return_volatility": 0.005865335736954992,
+          "skewness": -1.061822011799753,
+          "kurtosis": 15.945881701436223
+        }
+      },
+      "^TNX": {
+        "symbol": "^TNX",
+        "total_observations": 2513,
+        "small_moves_1pct": 993,
+        "large_moves_3pct": 418,
+        "observed_ratio": 2.375598086124402,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 94.061004784689,
+        "ratio_confidence_interval": [
+          2.119704782313229,
+          2.649868105676142
+        ],
+        "chi2_statistic": 4382.326878100638,
+        "p_value": 0.0,
+        "significance_sigma": 10.0,
+        "klein_ratio_confirmed": "False",
+        "volatility_clustering": 0.9942481481370296,
+        "return_statistics": {
+          "mean_return": 0.00025540420011212244,
+          "return_volatility": 0.03040369661824724,
+          "skewness": 0.26945424809134066,
+          "kurtosis": 32.86547858241474
+        }
+      },
+      "^TYX": {
+        "symbol": "^TYX",
+        "total_observations": 2513,
+        "small_moves_1pct": 1218,
+        "large_moves_3pct": 235,
+        "observed_ratio": 5.182978723404255,
+        "klein_prediction": 40.0,
+        "ratio_deviation_percent": 87.04255319148938,
+        "ratio_confidence_interval": [
+          4.512948402948402,
+          6.005022130211308
+        ],
+        "chi2_statistic": 1151.8431520991053,
+        "p_value": 0.0,
+        "significance_sigma": 10.0,
+        "klein_ratio_confirmed": "False",
+        "volatility_clustering": 0.9928906853183282,
+        "return_statistics": {
+          "mean_return": 0.00019446676373519397,
+          "return_volatility": 0.021580609449555636,
+          "skewness": -0.4249211003970343,
+          "kurtosis": 31.00909512393192
+        }
+      }
+    },
+    "financial_crisis_topology": {
+      "2020-03-16": {
+        "crisis_date": "2020-03-16",
+        "description": "COVID-19 Market Crash",
+        "data_points": 249,
+        "analysis_window_days": 360,
+        "mean_deformation": 0.18769275549874642,
+        "max_deformation": 0.65,
+        "deformation_exceeded_threshold": true,
+        "pre_crisis_mean_deformation": 0.12668999385700538,
+        "post_crisis_mean_deformation": 0.24675892153281317,
+        "state_distribution": {
+          "pre_post_normal": "105",
+          "pre_post_elevated": "102",
+          "crisis_extreme": "27",
+          "crisis_moderate": "10",
+          "crisis_severe": "5"
+        },
+        "dominant_klein_state": "pre_post_normal",
+        "phase_transitions_detected": {
+          "total_transitions": 18,
+          "escalations": 2,
+          "recoveries": 0,
+          "transitions": [
+            {
+              "transition_date": "2019-09-19",
+              "days_from_crisis": -179,
+              "from_state": "crisis_moderate",
+              "to_state": "pre_post_normal",
+              "deformation_change": NaN,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2019-10-02",
+              "days_from_crisis": -166,
+              "from_state": "pre_post_normal",
+              "to_state": "pre_post_elevated",
+              "deformation_change": 0.018033179155848872,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2019-10-17",
+              "days_from_crisis": -151,
+              "from_state": "pre_post_elevated",
+              "to_state": "pre_post_normal",
+              "deformation_change": -0.0003809301379045782,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-01-28",
+              "days_from_crisis": -48,
+              "from_state": "pre_post_normal",
+              "to_state": "pre_post_elevated",
+              "deformation_change": 0.03959555153620392,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-02-12",
+              "days_from_crisis": -33,
+              "from_state": "pre_post_elevated",
+              "to_state": "pre_post_normal",
+              "deformation_change": -0.016714793179881796,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-02-18",
+              "days_from_crisis": -27,
+              "from_state": "pre_post_normal",
+              "to_state": "crisis_moderate",
+              "deformation_change": -0.0008054836134979634,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-03-02",
+              "days_from_crisis": -14,
+              "from_state": "crisis_moderate",
+              "to_state": "crisis_severe",
+              "deformation_change": 0.23435131583408159,
+              "is_escalation": "True",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-03-04",
+              "days_from_crisis": -12,
+              "from_state": "crisis_severe",
+              "to_state": "crisis_extreme",
+              "deformation_change": 0.09490673709317499,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-04-13",
+              "days_from_crisis": 28,
+              "from_state": "crisis_extreme",
+              "to_state": "crisis_severe",
+              "deformation_change": -0.018554233599053782,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-04-16",
+              "days_from_crisis": 31,
+              "from_state": "crisis_severe",
+              "to_state": "pre_post_elevated",
+              "deformation_change": -0.05733581223074469,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-06-02",
+              "days_from_crisis": 78,
+              "from_state": "pre_post_elevated",
+              "to_state": "pre_post_normal",
+              "deformation_change": -0.008574302972169254,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-06-05",
+              "days_from_crisis": 81,
+              "from_state": "pre_post_normal",
+              "to_state": "pre_post_elevated",
+              "deformation_change": 0.06742526542022881,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-07-21",
+              "days_from_crisis": 127,
+              "from_state": "pre_post_elevated",
+              "to_state": "pre_post_normal",
+              "deformation_change": -0.018517504197481133,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-07-27",
+              "days_from_crisis": 133,
+              "from_state": "pre_post_normal",
+              "to_state": "pre_post_elevated",
+              "deformation_change": -0.0035466516374575013,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-08-05",
+              "days_from_crisis": 142,
+              "from_state": "pre_post_elevated",
+              "to_state": "pre_post_normal",
+              "deformation_change": -0.01782512721099777,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-08-13",
+              "days_from_crisis": 150,
+              "from_state": "pre_post_normal",
+              "to_state": "pre_post_elevated",
+              "deformation_change": 0.00040964175655100465,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-08-19",
+              "days_from_crisis": 156,
+              "from_state": "pre_post_elevated",
+              "to_state": "pre_post_normal",
+              "deformation_change": -0.04522387584846347,
+              "is_escalation": "False",
+              "is_recovery": "False"
+            },
+            {
+              "transition_date": "2020-09-03",
+              "days_from_crisis": 171,
+              "from_state": "pre_post_normal",
+              "to_state": "pre_post_elevated",
+              "deformation_change": 0.1884776656628817,
+              "is_escalation": "True",
+              "is_recovery": "False"
+            }
+          ],
+          "transition_rate": 0.07228915662650602
+        },
+        "deformation_evolution": {
+          "pre_crisis": {
+            "mean_deformation": 0.12668999385700538,
+            "trend_slope": NaN,
+            "building_pressure": "False",
+            "max_deformation": 0.65
+          },
+          "crisis_peak": {
+            "peak_date": "2020-03-10",
+            "peak_deformation": 0.65,
+            "days_from_trigger": -6,
+            "peak_exceeded_threshold": "True"
+          },
+          "post_crisis": {
+            "mean_deformation": 0.2435329929050757,
+            "recovery_trend_slope": -0.003561446960122712,
+            "is_recovering": "True",
+            "recovery_days": 43,
+            "full_recovery_achieved": true
+          }
+        },
+        "max_daily_loss": -0.12765219747281742,
+        "volatility_spike": 0.9755517434471838,
+        "crisis_klein_phase_coherence": 0.05244345914370745
+      }
+    },
+    "cross_scale_correlations": {
+      "analysis_metadata": {
+        "economic_series_available": 3,
+        "financial_series_available": 14,
+        "astrophysical_data_provided": false,
+        "klein_target_frequency": 5.682
+      },
+      "economic_klein_summary": {
+        "detected_frequencies": [],
+        "frequency_powers": [],
+        "mean_frequency": 0,
+        "frequency_std": 0,
+        "significant_detections": 0
+      },
+      "theoretical_validation": {
+        "klein_frequency_consistency": {
+          "target_frequency": 5.682,
+          "economic_mean_frequency": 0,
+          "frequency_deviation": Infinity,
+          "theoretical_alignment": false
+        },
+        "multi_scale_prediction": {
+          "economic_scale_validated": false,
+          "expected_gravitational_frequency": 5.682,
+          "expected_electromagnetic_frequency": 5.682,
+          "expected_thermodynamic_frequency": 5.682,
+          "scale_invariance_hypothesis": "Klein frequency should appear across all scales",
+          "economic_contribution": "0 significant detections support multi-scale Klein theory"
+        }
+      },
+      "multi_scale_assessment": {
+        "economic_scale_evidence": 0,
+        "total_economic_series": 17,
+        "economic_detection_rate": 0.0,
+        "multi_scale_hypothesis_status": "INSUFFICIENT_EVIDENCE",
+        "confidence_level": "LOW"
+      }
+    }
+  },
+  "klein_theory_assessment": {
+    "tests_performed": 16,
+    "confirmations": 5,
+    "confirmation_rate": 0.3125,
+    "overall_status": "PROMISING",
+    "confidence_level": "LOW"
+  },
+  "economic_implications": {
+    "business_cycle_insights": [
+      "Klein frequency provides unified framework for economic cycles",
+      "Cross-indicator synchronization suggests underlying topological coupling",
+      "Enhanced forecasting potential through Klein phase analysis"
+    ],
+    "financial_market_insights": [
+      "Klein 40:1 ratio explains extreme event clustering",
+      "Volatility patterns consistent with Klein topology predictions",
+      "Risk management applications in portfolio optimization"
+    ],
+    "policy_implications": [
+      "Central bank policy timing optimization via Klein phase analysis",
+      "Fiscal stimulus effectiveness dependent on Klein economic state",
+      "Financial stability monitoring through Klein deformation metrics"
+    ]
+  },
+  "future_research_directions": [
+    "Real-time Klein economic monitoring system development",
+    "International economic Klein synchronization analysis",
+    "Klein-based crisis prediction model validation",
+    "Integration with high-frequency trading data",
+    "Cross-asset Klein correlation structure optimization",
+    "Klein economics pedagogical framework development"
+  ]
+}

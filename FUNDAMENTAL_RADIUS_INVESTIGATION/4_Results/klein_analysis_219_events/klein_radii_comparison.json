@@ -1,0 +1,50 @@
+{
+  "Klein_Fundamental_419km": {
+    "radius_km": 419.3,
+    "f_klein_hz": 113.79311135790466,
+    "mean_improvement": 1.3030879906840118,
+    "median_improvement": 1.2574361908532956,
+    "events_improved": 174,
+    "improvement_percentage": 79.45205479452055,
+    "ligo_optimal_events": 219,
+    "ligo_optimal_percentage": 100.0,
+    "max_improvement": 2.9979383411011966,
+    "total_events": 219
+  },
+  "Klein_Base_8187km": {
+    "radius_km": 8187.1,
+    "f_klein_hz": 5.827881861998684,
+    "mean_improvement": 1.159076524699006,
+    "median_improvement": 1.2000938578302722,
+    "events_improved": 174,
+    "improvement_percentage": 79.45205479452055,
+    "ligo_optimal_events": 0,
+    "ligo_optimal_percentage": 0.0,
+    "max_improvement": 1.203911528278324,
+    "total_events": 219
+  },
+  "Klein_Theoretical_38323km": {
+    "radius_km": 38323.4,
+    "f_klein_hz": 1.245021360118607,
+    "mean_improvement": 1.1589102135951883,
+    "median_improvement": 1.2000038357544491,
+    "events_improved": 174,
+    "improvement_percentage": 79.45205479452055,
+    "ligo_optimal_events": 0,
+    "ligo_optimal_percentage": 0.0,
+    "max_improvement": 1.2000957369933039,
+    "total_events": 219
+  },
+  "Klein_Empirical_8400km": {
+    "radius_km": 8400.0,
+    "f_klein_hz": 5.680172808615407,
+    "mean_improvement": 1.159066383272697,
+    "median_improvement": 1.2000888351974237,
+    "events_improved": 174,
+    "improvement_percentage": 79.45205479452055,
+    "ligo_optimal_events": 0,
+    "ligo_optimal_percentage": 0.0,
+    "max_improvement": 1.2036299689608823,
+    "total_events": 219
+  }
+}

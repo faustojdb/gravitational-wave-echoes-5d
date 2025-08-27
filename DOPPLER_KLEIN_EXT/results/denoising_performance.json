@@ -1,0 +1,352 @@
+[
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.251824917748827,
+    "snr_after": 4.251824917748827,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.046693576961011,
+    "snr_after": 4.046693576961011,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 3.7754820839281704,
+    "snr_after": 3.7754820839281704,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 3.9623587163837857,
+    "snr_after": 3.9623587163837857,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.1664104052539646,
+    "snr_after": 4.1664104052539646,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.222277623534,
+    "snr_after": 4.222277623534,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.1767227667069085,
+    "snr_after": 4.1767227667069085,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.24850376353292,
+    "snr_after": 4.24850376353292,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 3.9569010815095185,
+    "snr_after": 3.9569010815095185,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.229104127605811,
+    "snr_after": 4.229104127605811,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 3.917223762143524,
+    "snr_after": 3.917223762143524,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.282891587661605,
+    "snr_after": 4.282891587661605,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.1522012400875,
+    "snr_after": 4.1522012400875,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.021997538967215,
+    "snr_after": 4.021997538967215,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.082009914553514,
+    "snr_after": 4.082009914553514,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.453208594828009,
+    "snr_after": 4.453208594828009,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.198022284361153,
+    "snr_after": 4.198022284361153,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.196818863501702,
+    "snr_after": 4.196818863501702,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.215949479143935,
+    "snr_after": 4.215949479143935,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.035859721160695,
+    "snr_after": 4.035859721160695,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.0277716235857834,
+    "snr_after": 4.0277716235857834,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.159901602449788,
+    "snr_after": 4.159901602449788,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.168026705566646,
+    "snr_after": 4.168026705566646,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.223771629251244,
+    "snr_after": 4.223771629251244,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.207167173094651,
+    "snr_after": 4.207167173094651,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.089669941180422,
+    "snr_after": 4.089669941180422,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 3.9289007935778266,
+    "snr_after": 3.9289007935778266,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.395281928795665,
+    "snr_after": 4.395281928795665,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.5139300202801484,
+    "snr_after": 4.5139300202801484,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.140574359964878,
+    "snr_after": 4.140574359964878,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 3.981895939580195,
+    "snr_after": 3.981895939580195,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.170593756373823,
+    "snr_after": 4.170593756373823,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.2723835133145664,
+    "snr_after": 4.2723835133145664,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.246129998971717,
+    "snr_after": 4.246129998971717,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.155756755807665,
+    "snr_after": 4.155756755807665,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.245696481611404,
+    "snr_after": 4.245696481611404,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.096757418585315,
+    "snr_after": 4.096757418585315,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.0932141822799375,
+    "snr_after": 4.0932141822799375,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.287036704574904,
+    "snr_after": 4.287036704574904,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.191076402602135,
+    "snr_after": 4.191076402602135,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.247460280884652,
+    "snr_after": 4.247460280884652,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.307891232149617,
+    "snr_after": 4.307891232149617,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.072409857706645,
+    "snr_after": 4.072409857706645,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.183911462576875,
+    "snr_after": 4.183911462576875,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.264112733486396,
+    "snr_after": 4.264112733486396,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.008146491736932,
+    "snr_after": 4.008146491736932,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.135175896836646,
+    "snr_after": 4.135175896836646,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.38034956842112,
+    "snr_after": 4.38034956842112,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.309892716003428,
+    "snr_after": 4.309892716003428,
+    "improvement_factor": 1.0
+  },
+  {
+    "event_name": "Unknown",
+    "energy": 1.0,
+    "snr_before": 4.425762252681846,
+    "snr_after": 4.425762252681846,
+    "improvement_factor": 1.0
+  }
+]
