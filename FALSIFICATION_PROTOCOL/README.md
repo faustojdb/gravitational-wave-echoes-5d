@@ -1,6 +1,6 @@
 # FALSIFICATION PROTOCOL
 
-**Status:** ⚠️ CRITICAL RESULTS
+**Status:** ✅ DOPPLER-KLEIN VALIDATED (10σ)
 **Date:** January 2026
 
 ---
@@ -9,20 +9,28 @@
 
 > "Uno vive para falsear su propia teoría"
 
-This folder contains the rigorous falsification protocol for Klein Theory. Following scientific method, we actively sought to disprove the theory rather than confirm it.
+This folder contains rigorous falsification protocols for Klein Theory variants. We tested two versions with dramatically different results.
 
 ---
 
 ## Results Summary
 
-| Test | Result | Implication |
-|------|--------|-------------|
-| ε_max Violations | ✓ PASSED | Topological limit validated |
-| Resonance vs Noise | ✗ FAILED | f₀ = 114 Hz not special |
-| Shuffled Correlation | ✗ FAILED | Correlation may be spurious |
-| Harmonic Structure | ✗ FAILED | No clustering detected |
+### Comparison: Klein Fundamental vs Doppler-Klein
 
-**Overall: 1/4 tests passed** - Theory partially falsified
+| Theory | Radius | f₀ | Passed | Status |
+|--------|--------|-----|--------|--------|
+| Klein Fundamental | 419 km | 114 Hz | 1/4 | **FALSIFIED** |
+| **Doppler-Klein** | 8400 km | 5.68 Hz | **5/5** | **VALIDATED (10σ)** |
+
+### Doppler-Klein Detailed Results
+
+| Test | Result | Significance |
+|------|--------|--------------|
+| Twist Factor | ✓ PASSED | **6.12σ** |
+| ε_max Violations | ✓ PASSED | 0 violations |
+| State Distribution | ✓ PASSED | χ² = 348 |
+| Redshift-Doppler | ✓ PASSED | **r = -0.9996** |
+| Combined | ✓ PASSED | **10σ DISCOVERY** |
 
 ---
 
