@@ -1,0 +1,258 @@
+% ============================================================================
+% LIBRO DE FÍSICA KLEIN - DOCUMENTO PRINCIPAL
+% Teoría de la Botella de Klein y las Constantes Fundamentales
+%
+% Autor: Fausto José Di Bacco
+% Email: faustojdb@gmail.com
+% Año: 2026
+% ============================================================================
+
+\documentclass[12pt, a4paper, twoside]{book}
+
+% ============================================================================
+% PAQUETES
+% ============================================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+
+% Geometría de página
+\geometry{
+    left=2.5cm,
+    right=2.5cm,
+    top=2.5cm,
+    bottom=2.5cm
+}
+
+% ============================================================================
+% COLORES
+% ============================================================================
+\definecolor{kleinblue}{RGB}{0, 47, 108}
+\definecolor{kleingray}{RGB}{240, 240, 245}
+\definecolor{kleingreen}{RGB}{0, 100, 0}
+\definecolor{kleinorange}{RGB}{200, 100, 0}
+
+% ============================================================================
+% ENTORNOS PERSONALIZADOS (tcolorbox)
+% ============================================================================
+\tcbuselibrary{skins, breakable}
+
+% Nivel Narrativo (Analogía)
+\newtcolorbox{analogiabox}{
+    colback=blue!5,
+    colframe=kleinblue,
+    title=\textbf{ANALOGÍA},
+    fonttitle=\bfseries,
+    breakable
+}
+
+% Nivel Conceptual
+\newtcolorbox{nivelconceptual}{
+    colback=green!5,
+    colframe=kleingreen,
+    title=\textbf{CONCEPTO},
+    fonttitle=\bfseries,
+    breakable
+}
+
+% Nivel Matemático
+\newtcolorbox{nivelmatematico}{
+    colback=orange!5,
+    colframe=kleinorange,
+    title=\textbf{MATEMÁTICAS},
+    fonttitle=\bfseries,
+    breakable
+}
+
+% Nivel Código
+\newtcolorbox{nivelcodigo}{
+    colback=gray!10,
+    colframe=gray!60,
+    title=\textbf{CÓDIGO},
+    fonttitle=\bfseries,
+    breakable
+}
+
+% Caja Narrativo simple
+\newtcolorbox{nivelnarrativo}{
+    colback=blue!5,
+    colframe=kleinblue,
+    breakable
+}
+
+% ============================================================================
+% CONFIGURACIÓN DE LISTINGS (código Python)
+% ============================================================================
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{gray}\itshape,
+    stringstyle=\color{red},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    numbersep=5pt,
+    backgroundcolor=\color{gray!10},
+    frame=single,
+    rulecolor=\color{gray},
+    breaklines=true,
+    breakatwhitespace=true,
+    showstringspaces=false,
+    tabsize=4,
+    captionpos=b
+}
+
+% ============================================================================
+% CONFIGURACIÓN DE HYPERREF
+% ============================================================================
+\hypersetup{
+    colorlinks=true,
+    linkcolor=kleinblue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Teoría Klein: 7π y las Constantes Fundamentales},
+    pdfauthor={Fausto José Di Bacco},
+}
+
+% ============================================================================
+% ENCABEZADOS Y PIES DE PÁGINA
+% ============================================================================
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\textit{Teoría Klein}}
+\fancyhead[LO]{\textit{\leftmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ============================================================================
+% DOCUMENTO
+% ============================================================================
+\begin{document}
+
+% ============================================================================
+% PORTADA
+% ============================================================================
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+
+    {\Huge\bfseries TEORÍA KLEIN}\\[0.5cm]
+    {\huge $7\pi \approx 22$}\\[1cm]
+
+    {\Large\itshape La Botella de Klein y las\\Constantes Fundamentales del Universo}\\[2cm]
+
+    \begin{tcolorbox}[colback=kleingray, colframe=kleinblue, width=0.8\textwidth]
+    \centering
+    \textbf{15 predicciones cuantitativas}\\
+    \textbf{5 con errores $<$ 0.1\%}\\[0.3cm]
+    \begin{tabular}{lc}
+    $m_p/m_e = 6\pi^5$ & 0.002\% error \\
+    $c = (3 - 1/(7\pi)^2) \times 10^8$ & 0.0003\% error \\
+    $1/\alpha = 7^2\pi - 7 - \pi^2$ & 0.024\% error \\
+    \end{tabular}
+    \end{tcolorbox}
+
+    \vfill
+
+    {\Large Fausto José Di Bacco}\\[0.3cm]
+    {\large faustojdb@gmail.com}\\[1cm]
+
+    {\large Tucumán, Argentina}\\
+    {\large 2026}
+
+\end{titlepage}
+
+% ============================================================================
+% PÁGINA DE COPYRIGHT
+% ============================================================================
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+Copyright \copyright\ 2026 Fausto José Di Bacco\\
+Todos los derechos reservados.\\[1cm]
+Primera edición: Enero 2026\\[1cm]
+\textit{``El universo no solo es más extraño de lo que suponemos,\\
+es más extraño de lo que podemos suponer.''}\\
+--- J.B.S. Haldane\\[0.5cm]
+\textit{``...a menos que supongamos una botella de Klein.''}\\
+--- Teoría Klein, 2026
+\end{center}
+\vspace*{\fill}
+\newpage
+
+% ============================================================================
+% ÍNDICE
+% ============================================================================
+\tableofcontents
+\newpage
+
+% ============================================================================
+% CONTENIDO - INCLUIR CAPÍTULOS
+% ============================================================================
+
+\include{capitulos/prefacio}
+\include{capitulos/capitulo_01}
+\include{capitulos/capitulo_02}
+\include{capitulos/capitulo_03}
+\include{capitulos/capitulo_04}
+\include{capitulos/capitulo_05}
+\include{capitulos/capitulo_06}
+\include{capitulos/capitulo_07}
+\include{capitulos/capitulo_08}
+\include{capitulos/capitulo_09}
+\include{capitulos/capitulo_10}
+
+% ============================================================================
+% APÉNDICES
+% ============================================================================
+\appendix
+\include{capitulos/apendice_A}
+\include{capitulos/apendice_B}
+
+% ============================================================================
+% CONTRAPORTADA
+% ============================================================================
+\newpage
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{center}
+\begin{tcolorbox}[colback=white, colframe=kleinblue, width=0.9\textwidth, boxrule=3pt]
+\centering
+{\Large\bfseries El Universo es una Botella de Klein}\\[1cm]
+
+Todo comenzó con el número 22.\\
+Observado en las ondas gravitacionales de LIGO.\\[0.5cm]
+
+22 $\approx$ 7$\pi$\\[0.5cm]
+
+De este simple número emergen:\\[0.3cm]
+La velocidad de la luz\\
+La fuerza electromagnética\\
+La masa del protón\\
+La temperatura del cosmos\\
+La asimetría materia-antimateria\\
+La constante cosmológica\\[0.5cm]
+
+\textbf{15 predicciones. Errores $<$ 10\%.}\\
+\textbf{5 predicciones. Errores $<$ 0.1\%.}\\[1cm]
+
+{\Large $\boldsymbol{7\pi \approx 22}$}\\[0.5cm]
+
+El código del universo.
+\end{tcolorbox}
+\end{center}
+\vspace*{\fill}
+
+\end{document}
