@@ -76,12 +76,52 @@ donde:
 ```
 
 **Archivos clave:**
-- `DERIVACIONES_MATEMATICAS_KLEIN_MAESTRO.md`
+- `core_theory/DERIVACIONES_KLEIN_v2_LIMPIO.md`
 - `Klein_Elastic_Paradigm_COMPLETE_UNIFIED_Paper.md`
 - `doppler_klein_falsification.py`
 - `ml_klein_pattern_discovery.py`
 
 **Veredicto**: ✅ SÓLIDO - Base empírica fuerte
+
+---
+
+## NIVEL 0: Fundamento Topológico (Más Fundamental)
+
+### ¿Por qué Klein Bottle y no otra topología?
+
+**Respuesta**: Se testaron **5 superficies no orientables** contra 65 eventos LIGO:
+
+| Topología | Factor Geométrico | Detección | Significancia |
+|-----------|-------------------|-----------|---------------|
+| **Klein Bottle** | **π = 3.14** | **87.5%** | **9.25σ** |
+| Twisted Torus | 2.80 | 64.1% | 5.71σ |
+| Möbius Band | 1.14 | 0% | 0σ |
+| String Orientifold | 0.69 | 0% | 0σ |
+| ℝP² | 0.35 | 0% | 0σ |
+
+**Test definitivo - Supresión armónica**:
+```
+Modos impares (predichos presentes): 11.91σ
+Modos pares (predichos ausentes):    0.54σ
+Ratio de supresión: 22:1 (¡excede predicción de 10:1!)
+```
+
+**Por qué Klein gana**:
+1. Factor geométrico máximo (π) por auto-intersección
+2. Superficie cerrada → sin pérdidas por frontera
+3. Supresión armónica 22:1 confirma firma topológica
+
+**Por qué otros fallan**:
+- Möbius: Frontera causa 50% pérdidas
+- ℝP²: Enfoque antipodal reduce factor
+- Orientifolds: Dualidad open/closed debilita señal
+
+**Archivos clave:**
+- `core_theory/WHY_KLEIN_BOTTLE.md`
+- `KLEIN FIELD THEORY/2_Analysis/Non_Orientable_Surfaces_Echo_Analysis/`
+- `Complete_Multi_Topology_Paper.md`
+
+**Veredicto**: ✅ DEMOSTRADO - Klein es la topología correcta (ΔBIC > 16)
 
 ---
 
