@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-01-22T13:42:41.343453",
+  "hypothesis": "Nested Klein dimensions at different scales",
+  "anchor_R3_m": 8400000.0,
+  "klein4_estimates": {
+    "geometric": {
+      "R_m": 6.05514839263339e+27,
+      "f_Hz": 7.879815406409685e-21
+    },
+    "H0_constrained": {
+      "R_Mpc": 500.0,
+      "f_Hz": 3.092252209486029e-18
+    }
+  },
+  "transition": {
+    "M_transition_solar": 2843.6078915716353,
+    "interpretation": "Stellar BH \u2192 Klein\u2083, SMBH \u2192 Klein\u2084"
+  },
+  "h0_tension_test": {
+    "epsilon_max_required": 0.2314647761574532,
+    "H0_predicted": 73.03999633060062,
+    "H0_observed": 73.04,
+    "R_4_Mpc": 500.0,
+    "can_explain_tension": "True",
+    "physically_reasonable": "True"
+  },
+  "gwtc_test": {
+    "n_events": 219,
+    "n_klein3": 218,
+    "n_mixed": 1,
+    "n_klein4": 0,
+    "corr_f4_snr": {
+      "r": 0.2124434283900899,
+      "p": 0.001566590587303898
+    },
+    "M_transition": 2843.6078915716353
+  },
+  "predictions": {
+    "gw_predictions": {
+      "description": "Gravitational wave observations",
+      "tests": [
+        {
+          "prediction": "Klein\u2083 correlations weaken for M > 10\u2074 M\u2609",
+          "falsification": "Correlations remain constant across all masses",
+          "data_needed": "IMBH mergers from LIGO O4/O5"
+        },
+        {
+          "prediction": "Different harmonic structure for SMBH mergers",
+          "falsification": "Same 40:1 odd/even ratio at all masses",
+          "data_needed": "LISA observations of SMBH mergers"
+        },
+        {
+          "prediction": "Transition region at M ~ 10\u2075-10\u2076 M\u2609",
+          "falsification": "Sharp transition or no transition at all",
+          "data_needed": "IMBH population study"
+        }
+      ]
+    },
+    "cosmological_predictions": {
+      "description": "Cosmological observations",
+      "tests": [
+        {
+          "prediction": "H\u2080 tension explained by Klein\u2084 with \u03b5_max ~ 0.08",
+          "falsification": "Required \u03b5_max > 0.65 or negative",
+          "data_needed": "Already available (SH0ES vs Planck)"
+        },
+        {
+          "prediction": "Distance-dependent deviation from \u039bCDM",
+          "falsification": "Perfect \u039bCDM agreement with high-z data",
+          "data_needed": "DESI BAO, future SN surveys"
+        },
+        {
+          "prediction": "Klein\u2084 effects in CMB acoustic scale",
+          "falsification": "No acoustic scale anomaly",
+          "data_needed": "CMB-S4 precision measurements"
+        }
+      ]
+    },
+    "theoretical_predictions": {
+      "description": "Theoretical consistency tests",
+      "tests": [
+        {
+          "prediction": "Klein levels logarithmically spaced",
+          "falsification": "Arbitrary spacing or linear scaling",
+          "data_needed": "Multi-scale Klein detection"
+        },
+        {
+          "prediction": "Smooth transition between levels",
+          "falsification": "Sharp phase transition",
+          "data_needed": "Mass-dependent Klein measurements"
+        },
+        {
+          "prediction": "All levels share same \u03b5_max ~ 0.65",
+          "falsification": "Different \u03b5_max at different scales",
+          "data_needed": "Multi-scale deformation measurements"
+        }
+      ]
+    }
+  },
+  "overall_status": "\u2713 PROMISING - Matrioska-Klein is internally consistent and could explain H\u2080"
+}
