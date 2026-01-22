@@ -89,12 +89,19 @@ CAPÍTULO 9: LA UNIFICACIÓN
     9.5 El significado filosófico
     9.6 Epílogo: El universo es una botella de Klein
 
+CAPÍTULO 10: MODOS PARES E IMPARES
+    10.1 La analogía del eco: lo que Klein permite
+    10.2 Funciones en espacios no orientables
+    10.3 Clasificación de modos: pares vs impares
+    10.4 La regla de supresión (7π)⁻ⁿ
+    10.5 Tabla de supresiones por número de inversiones
+    10.6 Predicciones basadas en análisis de paridad
+    10.7 Resumen del capítulo
+
 APÉNDICES
-    A. Derivaciones matemáticas completas
-    B. Tabla de constantes físicas
-    C. Código Python para verificación
-    D. Glosario de términos
-    E. Bibliografía
+    A. Derivaciones matemáticas completas (12 derivaciones)
+    B. Bibliografía y fuentes (47 referencias)
+    C. Detalles del repositorio y código
 
 ═══════════════════════════════════════════════════════════════════════════════
                          TABLA MAESTRA DE PREDICCIONES
