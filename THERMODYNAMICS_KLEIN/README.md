@@ -15,13 +15,25 @@ Este módulo explora la conexión entre termodinámica y la topología Klein, in
 N_A = exp[(5/2 - 1/99) × 7π]   →  0.08% error
 ```
 
-### 2. Temperatura del CMB (NUEVO)
+### 2. Temperatura del CMB
 ```
 T_CMB = π × T_Planck / (7π)^24   →  0.22% error
 
 Predicción: 2.7196 K
 Observado:  2.7255 K
 ```
+
+### 3. Constante de Estructura Fina (NUEVO)
+```
+1/α = 7²π - 7 - π² = 7(7π - 1) - π²   →  0.024% error
+
+Predicción: 137.0684
+Observado:  137.0360
+```
+
+**Conexión Ondas GW ↔ EM:**
+- Ondas GW: 22 = 7π (lineal)
+- Ondas EM: 1/α = 7²π - 7 - π² (cuadrático)
 
 El exponente **24 = dim(SU(5))** conecta física de partículas con cosmología:
 - En partículas: τ(n→n̄) ~ (7π)^24
@@ -45,9 +57,10 @@ Esta corrección reduce el error en η_B de 33% a **1.5%**.
 
 | Cantidad | Fórmula Klein | Predicción | Observado | Error |
 |----------|---------------|------------|-----------|-------|
+| 1/α | 7²π - 7 - π² | 137.068 | 137.036 | **0.024%** |
 | N_A | e^[(5/2-1/99)×7π] | 6.02×10²³ | 6.02×10²³ | **0.08%** |
-| η_B | (3/2)×(7π)⁻⁷ | 6.03×10⁻¹⁰ | 6.12×10⁻¹⁰ | **1.5%** |
 | T_CMB | π×T_P/(7π)²⁴ | 2.72 K | 2.73 K | **0.22%** |
+| η_B | (3/2)×(7π)⁻⁷ | 6.03×10⁻¹⁰ | 6.12×10⁻¹⁰ | **1.5%** |
 
 ## Archivos del Módulo
 
@@ -58,7 +71,8 @@ Esta corrección reduce el error en η_B de 33% a **1.5%**.
 | `avogadro_refined.py` | Refinamiento: coef = 2.49 ≈ 5/2 - 1/99 |
 | `black_hole_entropy.py` | Entropía BH y corrección dimensional |
 | `boltzmann_exploration.py` | Conexión k_B, R ≈ 8π/3 |
-| `cmb_24_connection.py` | **T_CMB = π×T_P/(7π)^24** (0.22% error) |
+| `cmb_24_connection.py` | T_CMB = π×T_P/(7π)^24 (0.22% error) |
+| `fine_structure_alpha.py` | **1/α = 7²π - 7 - π²** (0.024% error) |
 
 ## Conexiones Clave
 
