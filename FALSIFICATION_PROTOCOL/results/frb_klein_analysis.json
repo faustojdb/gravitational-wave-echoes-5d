@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-01-22T06:25:45.480348",
+  "klein_parameters": {
+    "R_km": 8400,
+    "f0_Hz": 5.68,
+    "epsilon_max": 0.65
+  },
+  "n_frbs": 500,
+  "dm_z_relation": {
+    "dm0_standard": 577.3322107697662,
+    "dm0_klein": 577.3322109266418,
+    "epsilon_klein": 0.3,
+    "chi2_standard": 402.8944136363627,
+    "chi2_klein": 402.8944136363624,
+    "F_stat": 3.513082042660458e-13,
+    "p_value": 0.9999995273211302,
+    "verdict": "\u26a0 Klein model slightly better but not significant"
+  },
+  "dm_excess": {
+    "bins": [
+      {
+        "z_min": 0,
+        "z_max": 0.3,
+        "n": "328",
+        "mean_excess": -4.455496732041028,
+        "std_excess": 0.328445940498667,
+        "mean_frac": -0.030385846962831094
+      },
+      {
+        "z_min": 0.3,
+        "z_max": 0.6,
+        "n": "89",
+        "mean_excess": -54.71325482670603,
+        "std_excess": 2.223768902212881,
+        "mean_frac": -0.11658453473637058
+      },
+      {
+        "z_min": 0.6,
+        "z_max": 1.0,
+        "n": "35",
+        "mean_excess": -158.95271739206098,
+        "std_excess": 7.5454699421636855,
+        "mean_frac": -0.18504332923773442
+      },
+      {
+        "z_min": 1.0,
+        "z_max": 1.5,
+        "n": "26",
+        "mean_excess": -396.0739120163769,
+        "std_excess": 16.60388016928113,
+        "mean_frac": -0.26484390938325847
+      },
+      {
+        "z_min": 1.5,
+        "z_max": 3.0,
+        "n": "22",
+        "mean_excess": -1350.7409532403797,
+        "std_excess": 108.81975459924993,
+        "mean_frac": -0.39332867413155365
+      }
+    ],
+    "trend_slope": -655.1612315414377,
+    "trend_r": -0.9655999321702254,
+    "trend_p": 0.007619370195223288,
+    "verdict": "\u2717 No excess trend detected"
+  },
+  "scattering": {
+    "dm_power_law": 2.0993117702988626,
+    "expected_power": 2.0,
+    "residual_z_correlation": -0.007923712468284596,
+    "residual_z_pvalue": 0.8598530761349917,
+    "verdict": "\u2717 No anomalous scattering pattern"
+  },
+  "repeaters": {
+    "n_repeaters": 9,
+    "n_one_offs": 491,
+    "p_dm": 0.5294513969245337,
+    "p_z": 0.9468333517752145,
+    "p_excess": 0.20211429155512006,
+    "verdict": "\u2717 No significant difference between repeaters and one-offs"
+  },
+  "findings": [
+    "DM-z relation improved by Klein model"
+  ],
+  "overall": "\u26a0 Weak evidence for Klein effects in FRBs"
+}
