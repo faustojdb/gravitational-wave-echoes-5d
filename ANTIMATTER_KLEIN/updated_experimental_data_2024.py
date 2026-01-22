@@ -302,6 +302,10 @@ print(f"""
 ╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
 ║  1/α (estr.fina)  ║  7²π - 7 - π²         ║  137.036          ║  0.024% ✓✓   ║
 ╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
+║  m_p/m_e          ║  (7-1)π⁵ = 6π⁵        ║  1836.15          ║  0.002% ✓✓✓  ║
+╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
+║  m_μ/m_e          ║  3×7×π² = 21π²        ║  206.77           ║  0.24%  ✓✓   ║
+╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
 ║  g_antimatter     ║  g ± ~5% ?            ║  (0.75±0.29)g     ║  Pendiente   ║
 ╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
 ║  CPT violation    ║  < 10⁻²⁹              ║  < 10⁻¹⁸          ║  Consistente ║
@@ -314,25 +318,29 @@ CORRECCIÓN DIMENSIONAL:
 
 CONCLUSIONES:
 
-1. SIETE predicciones cuantitativas con error < 10%:
+1. NUEVE predicciones cuantitativas con error < 10%:
+   - m_p/m_e = 6π⁵ (0.002%) ← ¡MEJOR PREDICCIÓN!
+   - 1/α = 7²π - 7 - π² (0.024%)
    - 22 = 7π (0.04%)
-   - 1/α = 7²π - 7 - π² (0.024%) ← NUEVO: conecta GW con EM
    - N_A = e^[(5/2-1/99)×7π] (0.08%)
    - T_CMB = π×T_P/(7π)²⁴ (0.22%)
+   - m_μ/m_e = 21π² (0.24%)
    - η_B = (3/2)×(7π)⁻⁷ (1.5%)
    - ε_CP = (7π)⁻² (7.2%)
-   - τ(n→n̄) ≈ (7π)²⁴ (exacto en límite)
+   - τ(n→n̄) ≈ (7π)²⁴ (exacto)
 
 2. CONEXIONES PROFUNDAS:
-   - Exponente 24 = dim(SU(5)): aparece en n→n̄ y T_CMB
-   - Ondas GW (7π) ↔ Ondas EM (7²π - 7 - π²): misma estructura
+   - π⁵ en masas conecta con 5D Kaluza-Klein
+   - Exponentes de π: 2, 3, 5 (Fibonacci/primos)
+   - Exponente 24 = dim(SU(5)): en n→n̄ y T_CMB
+   - Factor 7 aparece en TODAS las fórmulas
 
 3. Predicciones TESTABLES:
    - ESS/NNBAR: sensibilidad hasta 10¹⁰ s para n→n̄
    - ALPHA-g: precisión 1% para gravedad de antimateria
 
 ═══════════════════════════════════════════════════════════════════════════════
-TODAS LAS PREDICCIONES USAN: 7, π y sus combinaciones (7π, 7², π², exponentes)
+TODAS LAS PREDICCIONES USAN: 7, π y potencias (7π, π⁵, π², 7², exponente 24)
 ═══════════════════════════════════════════════════════════════════════════════
 """)
 

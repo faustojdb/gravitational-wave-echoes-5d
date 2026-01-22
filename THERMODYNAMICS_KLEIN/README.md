@@ -57,9 +57,11 @@ Esta corrección reduce el error en η_B de 33% a **1.5%**.
 
 | Cantidad | Fórmula Klein | Predicción | Observado | Error |
 |----------|---------------|------------|-----------|-------|
+| m_p/m_e | (7-1)π⁵ = 6π⁵ | 1836.12 | 1836.15 | **0.002%** |
 | 1/α | 7²π - 7 - π² | 137.068 | 137.036 | **0.024%** |
 | N_A | e^[(5/2-1/99)×7π] | 6.02×10²³ | 6.02×10²³ | **0.08%** |
 | T_CMB | π×T_P/(7π)²⁴ | 2.72 K | 2.73 K | **0.22%** |
+| m_μ/m_e | 3×7×π² = 21π² | 207.26 | 206.77 | **0.24%** |
 | η_B | (3/2)×(7π)⁻⁷ | 6.03×10⁻¹⁰ | 6.12×10⁻¹⁰ | **1.5%** |
 
 ## Archivos del Módulo
@@ -72,7 +74,8 @@ Esta corrección reduce el error en η_B de 33% a **1.5%**.
 | `black_hole_entropy.py` | Entropía BH y corrección dimensional |
 | `boltzmann_exploration.py` | Conexión k_B, R ≈ 8π/3 |
 | `cmb_24_connection.py` | T_CMB = π×T_P/(7π)^24 (0.22% error) |
-| `fine_structure_alpha.py` | **1/α = 7²π - 7 - π²** (0.024% error) |
+| `fine_structure_alpha.py` | 1/α = 7²π - 7 - π² (0.024% error) |
+| `particle_masses.py` | **m_p/m_e = 6π⁵** (0.002% error) ← MEJOR |
 
 ## Conexiones Clave
 
