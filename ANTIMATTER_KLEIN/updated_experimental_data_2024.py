@@ -306,6 +306,8 @@ print(f"""
 ╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
 ║  m_μ/m_e          ║  3×7×π² = 21π²        ║  206.77           ║  0.24%  ✓✓   ║
 ╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
+║  ρ_Λ/ρ_P          ║  (7/2)×(7π)⁻⁹²        ║  1.13×10⁻¹²³      ║  0.64%  ✓✓   ║
+╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
 ║  g_antimatter     ║  g ± ~5% ?            ║  (0.75±0.29)g     ║  Pendiente   ║
 ╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
 ║  CPT violation    ║  < 10⁻²⁹              ║  < 10⁻¹⁸          ║  Consistente ║
@@ -318,20 +320,21 @@ CORRECCIÓN DIMENSIONAL:
 
 CONCLUSIONES:
 
-1. NUEVE predicciones cuantitativas con error < 10%:
+1. DIEZ predicciones cuantitativas con error < 10%:
    - m_p/m_e = 6π⁵ (0.002%) ← ¡MEJOR PREDICCIÓN!
    - 1/α = 7²π - 7 - π² (0.024%)
    - 22 = 7π (0.04%)
    - N_A = e^[(5/2-1/99)×7π] (0.08%)
    - T_CMB = π×T_P/(7π)²⁴ (0.22%)
    - m_μ/m_e = 21π² (0.24%)
+   - ρ_Λ/ρ_P = (7/2)×(7π)⁻⁹² (0.64%) ← ¡123 órdenes de magnitud!
    - η_B = (3/2)×(7π)⁻⁷ (1.5%)
    - ε_CP = (7π)⁻² (7.2%)
    - τ(n→n̄) ≈ (7π)²⁴ (exacto)
 
 2. CONEXIONES PROFUNDAS:
    - π⁵ en masas conecta con 5D Kaluza-Klein
-   - Exponentes de π: 2, 3, 5 (Fibonacci/primos)
+   - Exponente 92 = 4×23 = 4×(dim(SU(5))-1): const. cosmológica
    - Exponente 24 = dim(SU(5)): en n→n̄ y T_CMB
    - Factor 7 aparece en TODAS las fórmulas
 
@@ -340,7 +343,7 @@ CONCLUSIONES:
    - ALPHA-g: precisión 1% para gravedad de antimateria
 
 ═══════════════════════════════════════════════════════════════════════════════
-TODAS LAS PREDICCIONES USAN: 7, π y potencias (7π, π⁵, π², 7², exponente 24)
+TODAS LAS PREDICCIONES USAN: 7, π, potencias (7π, π⁵, 7²) y exponentes (24, 92)
 ═══════════════════════════════════════════════════════════════════════════════
 """)
 
