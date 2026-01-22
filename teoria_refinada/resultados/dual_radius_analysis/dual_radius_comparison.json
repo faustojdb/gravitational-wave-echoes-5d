@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-01-22T05:15:45.711001",
+  "models_compared": {
+    "empirical": {
+      "name": "Empirical (Original)",
+      "R_km": 8400,
+      "f_hz": 5.680172808615407,
+      "origin": "Fitted to GW150914 observations",
+      "derivation": "Empirical fitting"
+    },
+    "fundamental": {
+      "name": "Fundamental (New)",
+      "R_km": 419.3,
+      "f_hz": 113.79311135790466,
+      "origin": "Derived from first principles",
+      "derivation": "R = m_e*c\u00b2 \u00d7 exp(\u03b1\u207b\u00b9 \u00d7 \u03b3_holonomy)"
+    }
+  },
+  "platypus_predictions": {
+    "z": 2.0,
+    "empirical": {
+      "R_km": 7665.600480355037,
+      "f_hz": 6.224359293788756,
+      "period_s": 0.16065910607022524
+    },
+    "fundamental": {
+      "R_km": 382.64122397772223,
+      "f_hz": 124.69501089393167,
+      "period_s": 0.008019567044672077
+    },
+    "line_width_prediction": {
+      "klein_kms": 9.092502010688326,
+      "merger_kms": 150,
+      "ratio": 16.497109357102534
+    },
+    "peak_formation_z": 2.428571428571429
+  },
+  "critical_analysis": {
+    "empirical_f_hz": 5.68,
+    "fundamental_f_hz": 113.79,
+    "ligo_range": [
+      20,
+      2000
+    ],
+    "empirical_in_ligo": false,
+    "fundamental_in_ligo": true
+  },
+  "conclusion": {
+    "key_difference": "f\u2080 = 5.68 Hz vs 113.79 Hz (factor 20x)",
+    "ligo_sensitivity": "Only fundamental (113.79 Hz) is in LIGO range",
+    "recommendation": "Both models need independent validation; platypus galaxies may help discriminate"
+  }
+}
