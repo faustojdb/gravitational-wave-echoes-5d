@@ -10,6 +10,12 @@ El exponente ~24 aparece también en:
   - 24 = dim(SU(5))
 
 ¿Es coincidencia o hay una conexión profunda?
+
+AUTOR: Fausto Jose Di Bacco
+EMAIL: faustojdb@gmail.com
+FECHA: Enero 2026
+
+Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.
 """
 
 import numpy as np

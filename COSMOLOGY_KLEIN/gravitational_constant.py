@@ -9,6 +9,12 @@ Exploraremos:
 - Ratio G × m_p² / (ℏc) - acoplamiento gravitacional
 - Relación con masa de Planck
 - Conexiones con otras constantes
+
+AUTOR: Fausto Jose Di Bacco
+EMAIL: faustojdb@gmail.com
+FECHA: Enero 2026
+
+Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.
 """
 
 import numpy as np

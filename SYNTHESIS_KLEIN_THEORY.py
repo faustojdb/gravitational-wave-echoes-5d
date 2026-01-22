@@ -8,8 +8,11 @@
 
 ═══════════════════════════════════════════════════════════════════════════════
 
-AUTOR: Proyecto Ondas Gravitacionales-Klein
+AUTOR: Fausto Jose Di Bacco
+EMAIL: faustojdb@gmail.com
 FECHA: Enero 2026
+
+Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.
 
 RESUMEN:
     Este documento presenta una síntesis de las conexiones descubiertas

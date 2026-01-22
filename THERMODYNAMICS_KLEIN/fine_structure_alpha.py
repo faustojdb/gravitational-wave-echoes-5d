@@ -9,6 +9,12 @@ Controla la fuerza del electromagnetismo.
 
 Conexión con ondas: α determina cómo los fotones interactúan con la materia.
 Nuestra teoría empezó con ondas gravitacionales (22 = 7π).
+
+AUTOR: Fausto Jose Di Bacco
+EMAIL: faustojdb@gmail.com
+FECHA: Enero 2026
+
+Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.
 """
 
 import numpy as np

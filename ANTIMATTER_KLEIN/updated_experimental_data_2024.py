@@ -8,6 +8,12 @@ Fuentes:
 - Planck 2018/DESI 2024: Cosmología CMB
 - ALPHA-g 2023: Gravedad antimateria
 - ILL: Oscilación n-n̄ (mejor límite actual)
+
+AUTOR: Fausto Jose Di Bacco
+EMAIL: faustojdb@gmail.com
+FECHA: Enero 2026
+
+Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.
 """
 
 import numpy as np

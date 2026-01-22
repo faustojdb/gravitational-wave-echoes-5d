@@ -1,5 +1,11 @@
 # KLEIN-ANTIMATERIA: Conexión Topológica
 
+**Autor:** Fausto Jose Di Bacco
+**Email:** faustojdb@gmail.com
+**Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.**
+
+---
+
 ## Resumen
 
 Este módulo deriva predicciones cuantitativas sobre antimateria desde la topología Klein.

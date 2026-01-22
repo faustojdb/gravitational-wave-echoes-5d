@@ -17,10 +17,12 @@ This represents the culmination of rigorous theoretical refinement proving that 
 
 ## Author
 
-Fausto José Di Bacco  
-Independent Physics Researcher  
-Tucumán, Argentina  
-Contact: faustojdb@gmail.com
+**Fausto Jose Di Bacco**
+Independent Physics Researcher
+Tucuman, Argentina
+Email: faustojdb@gmail.com
+
+**Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.**
 
 ## 🎯 KLEIN THEORY REFINEMENT - BREAKTHROUGH RESULTS
 

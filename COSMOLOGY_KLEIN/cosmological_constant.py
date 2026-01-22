@@ -7,6 +7,12 @@ El "problema de la constante cosmológica":
 - Observación: ρ_Λ ~ 10⁻¹²³ × ρ_Planck
 
 ¿Puede Klein explicar estos 120 órdenes de magnitud?
+
+AUTOR: Fausto Jose Di Bacco
+EMAIL: faustojdb@gmail.com
+FECHA: Enero 2026
+
+Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.
 """
 
 import numpy as np

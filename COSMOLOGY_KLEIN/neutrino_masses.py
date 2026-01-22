@@ -7,6 +7,12 @@ Las masas de neutrinos son extremadamente pequeñas:
 - Solo conocemos diferencias de masas cuadráticas
 
 ¿Tiene forma Klein?
+
+AUTOR: Fausto Jose Di Bacco
+EMAIL: faustojdb@gmail.com
+FECHA: Enero 2026
+
+Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.
 """
 
 import numpy as np

@@ -4,6 +4,12 @@ REFINAMIENTO: ¿Cuál es la fórmula exacta para N_A?
 
 El coeficiente exacto es 2.4899, no exactamente 5/2 = 2.5.
 ¿Hay una corrección que tenga sentido físico?
+
+AUTOR: Fausto Jose Di Bacco
+EMAIL: faustojdb@gmail.com
+FECHA: Enero 2026
+
+Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.
 """
 
 import numpy as np

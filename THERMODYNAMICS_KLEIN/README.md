@@ -1,5 +1,11 @@
 # TERMODINÁMICA Y TEORÍA KLEIN
 
+**Autor:** Fausto Jose Di Bacco
+**Email:** faustojdb@gmail.com
+**Copyright (c) 2026 Fausto Jose Di Bacco. Todos los derechos reservados.**
+
+---
+
 ## Resumen
 
 Este módulo explora la conexión entre termodinámica y la topología Klein, incluyendo:
