@@ -5,17 +5,27 @@
 Este módulo explora la conexión entre termodinámica y la topología Klein, incluyendo:
 - Número de Avogadro
 - Entropía de agujeros negros
+- Temperatura del CMB
 - Correcciones dimensionales
 
-## HALLAZGO PRINCIPAL
+## HALLAZGOS PRINCIPALES
 
+### 1. Número de Avogadro
 ```
 N_A = exp[(5/2 - 1/99) × 7π]   →  0.08% error
-
-El factor 5/2 conecta:
-- Las 5 dimensiones de Kaluza-Klein
-- La fórmula de Sackur-Tetrode: S = Nk_B × [5/2 + ln(...)]
 ```
+
+### 2. Temperatura del CMB (NUEVO)
+```
+T_CMB = π × T_Planck / (7π)^24   →  0.22% error
+
+Predicción: 2.7196 K
+Observado:  2.7255 K
+```
+
+El exponente **24 = dim(SU(5))** conecta física de partículas con cosmología:
+- En partículas: τ(n→n̄) ~ (7π)^24
+- En cosmología: T_CMB ~ T_P / (7π)^24
 
 ## Corrección Dimensional Descubierta
 
@@ -37,6 +47,7 @@ Esta corrección reduce el error en η_B de 33% a **1.5%**.
 |----------|---------------|------------|-----------|-------|
 | N_A | e^[(5/2-1/99)×7π] | 6.02×10²³ | 6.02×10²³ | **0.08%** |
 | η_B | (3/2)×(7π)⁻⁷ | 6.03×10⁻¹⁰ | 6.12×10⁻¹⁰ | **1.5%** |
+| T_CMB | π×T_P/(7π)²⁴ | 2.72 K | 2.73 K | **0.22%** |
 
 ## Archivos del Módulo
 
@@ -46,6 +57,8 @@ Esta corrección reduce el error en η_B de 33% a **1.5%**.
 | `avogadro_klein_connection.py` | Derivación ln(N_A) ≈ (5/2)×7π |
 | `avogadro_refined.py` | Refinamiento: coef = 2.49 ≈ 5/2 - 1/99 |
 | `black_hole_entropy.py` | Entropía BH y corrección dimensional |
+| `boltzmann_exploration.py` | Conexión k_B, R ≈ 8π/3 |
+| `cmb_24_connection.py` | **T_CMB = π×T_P/(7π)^24** (0.22% error) |
 
 ## Conexiones Clave
 
@@ -119,11 +132,33 @@ ANTIMATERIA          TERMODINÁMICA
        Factores: 3/2 (3D) vs 5/2 (5D)
 ```
 
+## Conexión Partículas-Cosmología
+
+```
+El exponente 24 = dim(SU(5)) unifica:
+
+FÍSICA DE PARTÍCULAS          COSMOLOGÍA
+        │                          │
+        ▼                          ▼
+τ(n→n̄) ~ (7π)^24 × τ_nat    T_CMB ~ π×T_P / (7π)^24
+        │                          │
+        └──────────┬───────────────┘
+                   │
+        MISMA ESTRUCTURA TOPOLÓGICA
+```
+
+Otros exponentes Klein:
+- n = 2: violación CP (C×P = 2 operaciones)
+- n = 7: bariogénesis (7 capas Klein)
+- n = 24: procesos que atraviesan SU(5) completo
+- n = 45: edad del universo ≈ 2×24
+
 ## Referencias
 
 - PDG 2024: Constantes fundamentales
 - Planck 2018 + BBN 2024: η_B = (6.12 ± 0.04)×10⁻¹⁰
 - Bekenstein-Hawking: S = A/(4l_P²)
+- T_CMB: Planck Collaboration 2018, arXiv:1807.06209
 
 ---
 *Última actualización: Enero 2026*

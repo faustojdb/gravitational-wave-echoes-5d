@@ -298,6 +298,8 @@ print(f"""
 ╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
 ║  N_A              ║  e^[(5/2-1/99)×7π]    ║  6.02×10²³        ║  0.08% ✓✓    ║
 ╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
+║  T_CMB            ║  π×T_P/(7π)²⁴         ║  2.7255 K         ║  0.22% ✓✓    ║
+╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
 ║  g_antimatter     ║  g ± ~5% ?            ║  (0.75±0.29)g     ║  Pendiente   ║
 ╠═══════════════════╬═══════════════════════╬═══════════════════╬══════════════╣
 ║  CPT violation    ║  < 10⁻²⁹              ║  < 10⁻¹⁸          ║  Consistente ║
@@ -310,19 +312,25 @@ CORRECCIÓN DIMENSIONAL:
 
 CONCLUSIONES:
 
-1. CINCO predicciones cuantitativas con error < 10%:
+1. SEIS predicciones cuantitativas con error < 10%:
    - 22 = 7π (0.04%)
    - η_B = (3/2)×(7π)⁻⁷ (1.5%)  ← MEJORADO con corrección dimensional
    - ε_CP = (7π)⁻² (7.2%)
    - N_A = e^[(5/2-1/99)×7π] (0.08%)
    - τ(n→n̄) ≈ (7π)²⁴ (exacto en límite)
+   - T_CMB = π×T_P/(7π)²⁴ (0.22%) ← NUEVO: conecta partículas y cosmología
 
-2. Predicciones TESTABLES:
+2. El exponente 24 = dim(SU(5)) aparece en:
+   - Oscilación n→n̄
+   - Temperatura del CMB
+   ¡Conexión profunda partículas ↔ cosmología!
+
+3. Predicciones TESTABLES:
    - ESS/NNBAR: sensibilidad hasta 10¹⁰ s para n→n̄
    - ALPHA-g: precisión 1% para gravedad de antimateria
 
 ═══════════════════════════════════════════════════════════════════════════════
-TODAS LAS PREDICCIONES USAN: 7π ≈ 22 + factores dimensionales (3/2, 5/2)
+TODAS LAS PREDICCIONES USAN: 7π ≈ 22 + factores (3/2, 5/2, π) + exponente 24
 ═══════════════════════════════════════════════════════════════════════════════
 """)
 
@@ -339,6 +347,7 @@ DATOS COSMOLÓGICOS:
   - Planck Collaboration (2018): arXiv:1807.06209
   - BBN 2024 Update: arXiv:2401.15054
   - DESI 2024: arXiv:2404.03002
+  - T_CMB = 2.7255 K: Planck 2018 (arXiv:1807.06209)
 
 FÍSICA DE PARTÍCULAS:
   - PDG 2024: pdg.lbl.gov
