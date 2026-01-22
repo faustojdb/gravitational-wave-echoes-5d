@@ -1,0 +1,164 @@
+{
+  "frequency_analysis": {
+    "Klein_Emp\u00edrico_Original": {
+      "R_Klein_km": 8400.0,
+      "f_Klein_Hz": 5.680172808615407,
+      "ligo_category": "OUT_OF_RANGE",
+      "sensitivity_factor": 0.28400864043077034,
+      "in_optimal_range": false
+    },
+    "Klein_Fundamental_B\u00e1sico": {
+      "R_Klein_km": 8187.0,
+      "f_Klein_Hz": 5.827953046582317,
+      "ligo_category": "OUT_OF_RANGE",
+      "sensitivity_factor": 0.29139765232911585,
+      "in_optimal_range": false
+    },
+    "Klein_Fundamental_m_e_c2": {
+      "R_Klein_km": 8187.105649650028,
+      "f_Klein_Hz": 5.827877840370732,
+      "ligo_category": "OUT_OF_RANGE",
+      "sensitivity_factor": 0.2913938920185366,
+      "in_optimal_range": false
+    },
+    "Klein_Predicci\u00f3n_Inicial": {
+      "R_Klein_km": 38323.0,
+      "f_Klein_Hz": 1.2450343551488512,
+      "ligo_category": "OUT_OF_RANGE",
+      "sensitivity_factor": 0.06225171775744256,
+      "in_optimal_range": false
+    },
+    "Klein_Modelo_Corregido": {
+      "R_Klein_km": 419.3,
+      "f_Klein_Hz": 113.79311135790466,
+      "ligo_category": "OPTIMAL",
+      "sensitivity_factor": 1.0,
+      "in_optimal_range": true
+    },
+    "Klein_Auto_Intersecci\u00f3n": {
+      "R_Klein_km": 2606.0030381866945,
+      "f_Klein_Hz": 18.309054476609255,
+      "ligo_category": "MARGINAL",
+      "sensitivity_factor": 0.9154527238304627,
+      "in_optimal_range": false
+    },
+    "Klein_Medio_Geom\u00e9trico": {
+      "R_Klein_km": 1852.7841482482518,
+      "f_Klein_Hz": 25.752299121017938,
+      "ligo_category": "OPTIMAL",
+      "sensitivity_factor": 1.0,
+      "in_optimal_range": true
+    },
+    "Klein_Test_1000km": {
+      "R_Klein_km": 1000.0,
+      "f_Klein_Hz": 47.713451592369424,
+      "ligo_category": "OPTIMAL",
+      "sensitivity_factor": 1.0,
+      "in_optimal_range": true
+    },
+    "Klein_Test_2000km": {
+      "R_Klein_km": 2000.0,
+      "f_Klein_Hz": 23.856725796184712,
+      "ligo_category": "OPTIMAL",
+      "sensitivity_factor": 1.0,
+      "in_optimal_range": true
+    },
+    "Klein_Test_5000km": {
+      "R_Klein_km": 5000.0,
+      "f_Klein_Hz": 9.542690318473884,
+      "ligo_category": "OUT_OF_RANGE",
+      "sensitivity_factor": 0.4771345159236942,
+      "in_optimal_range": false
+    }
+  },
+  "correlations": [
+    {
+      "name": "Klein_Emp\u00edrico_Original",
+      "f_Klein": 5.680172808615407,
+      "sensitivity_factor": 0.28400864043077034,
+      "observed_resonance": 0.005,
+      "correlation_match": true
+    },
+    {
+      "name": "Klein_Fundamental_B\u00e1sico",
+      "f_Klein": 5.827953046582317,
+      "sensitivity_factor": 0.29139765232911585,
+      "observed_resonance": 0.005,
+      "correlation_match": true
+    },
+    {
+      "name": "Klein_Fundamental_m_e_c2",
+      "f_Klein": 5.827877840370732,
+      "sensitivity_factor": 0.2913938920185366,
+      "observed_resonance": 0.005,
+      "correlation_match": true
+    },
+    {
+      "name": "Klein_Predicci\u00f3n_Inicial",
+      "f_Klein": 1.2450343551488512,
+      "sensitivity_factor": 0.06225171775744256,
+      "observed_resonance": 0.001,
+      "correlation_match": true
+    },
+    {
+      "name": "Klein_Modelo_Corregido",
+      "f_Klein": 113.79311135790466,
+      "sensitivity_factor": 1.0,
+      "observed_resonance": 0.538,
+      "correlation_match": true
+    },
+    {
+      "name": "Klein_Auto_Intersecci\u00f3n",
+      "f_Klein": 18.309054476609255,
+      "sensitivity_factor": 0.9154527238304627,
+      "observed_resonance": 0.017,
+      "correlation_match": false
+    },
+    {
+      "name": "Klein_Medio_Geom\u00e9trico",
+      "f_Klein": 25.752299121017938,
+      "sensitivity_factor": 1.0,
+      "observed_resonance": 0.026,
+      "correlation_match": false
+    },
+    {
+      "name": "Klein_Test_1000km",
+      "f_Klein": 47.713451592369424,
+      "sensitivity_factor": 1.0,
+      "observed_resonance": 0.059,
+      "correlation_match": false
+    },
+    {
+      "name": "Klein_Test_2000km",
+      "f_Klein": 23.856725796184712,
+      "sensitivity_factor": 1.0,
+      "observed_resonance": 0.023,
+      "correlation_match": false
+    },
+    {
+      "name": "Klein_Test_5000km",
+      "f_Klein": 9.542690318473884,
+      "sensitivity_factor": 0.4771345159236942,
+      "observed_resonance": 0.008,
+      "correlation_match": false
+    }
+  ],
+  "success_analysis": {
+    "R_Klein_km": 419.3,
+    "f_Klein_Hz": 113.79311135790466,
+    "resonance_strength": 0.538,
+    "success_reason": "Frecuencia en rango \u00f3ptimo LIGO"
+  },
+  "optimal_range": {
+    "optimal_R_range_km": [
+      23.856725796184712,
+      2385.672579618471
+    ],
+    "optimal_f_range_Hz": [
+      20,
+      2000
+    ],
+    "corrected_model_in_range": true
+  },
+  "main_conclusion": "Klein_Modelo_Corregido funciona porque su frecuencia est\u00e1 en rango LIGO"
+}

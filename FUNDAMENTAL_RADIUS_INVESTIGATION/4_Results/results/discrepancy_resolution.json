@@ -1,0 +1,21 @@
+{
+  "problem": {
+    "R_Klein_empirical_km": 8187.0,
+    "R_Klein_predicted_km": 37862.56685844947,
+    "discrepancy_factor": 0.2162293969821799,
+    "discrepancy_percent": 362.471807236466
+  },
+  "corrected_model": {
+    "model_components": {
+      "F_topological": 0.3183098861837907,
+      "N_active": 132.44221603636947,
+      "g_real": 0.32482178531547556,
+      "F_geometric": 0.7071067811865475
+    },
+    "R_Klein_predicted": 419277.00408926094,
+    "accuracy_percent": 5.1212532562508954,
+    "success": "False"
+  },
+  "key_insight": "Discrepancia resuelta por combinaci\u00f3n de auto-intersecci\u00f3n Klein + modos parciales + holonom\u00eda",
+  "final_equation": "R_Klein = \u03bb_Compton \u00d7 (1/\u03c0) \u00d7 exp(N_activo \u00d7 g_real) \u00d7 (1/\u221a2)"
+}

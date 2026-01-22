@@ -1,0 +1,37 @@
+{
+  "alpha_only": {
+    "model": "alpha_only",
+    "best_candidate": "\u03bb_C \u00d7 \u03b1\u207b\u00b3",
+    "R_km": 6.2438195354505505e-09,
+    "f_Hz": 7641708944575.773,
+    "ratio_vs_empirical": 7.433118494583989e-13
+  },
+  "integer_powers": {
+    "model": "integer_powers",
+    "best_candidate": "\u03bb_C \u00d7 10\u00b9\u2079",
+    "R_km": 24263.102386699997,
+    "f_Hz": 1.9665025037574713,
+    "error_percent": 188.84645698452377
+  },
+  "physical_scales": {
+    "model": "physical_scales",
+    "hierarchy": {
+      "Planck_to_Compton": 1.5011926971601853e+23,
+      "Compton_to_Bohr": 21.809956635762806,
+      "Compton_to_Klein": 3.462046965850716e+18
+    },
+    "mysterious_factor": 3.462046965850716e+18
+  },
+  "no_amplification": {
+    "model": "no_amplification",
+    "closest_match": "Radio Terrestre",
+    "ratio_earth": 1.3184743368388008,
+    "implication": "Scale might be coincidental, not fundamental"
+  },
+  "significance_46": {
+    "model": "significance_46",
+    "R_exp46_km": 230405.31777840748,
+    "f_exp46_Hz": 0.20708485399741458,
+    "mystery": "Why specifically 46?"
+  }
+}

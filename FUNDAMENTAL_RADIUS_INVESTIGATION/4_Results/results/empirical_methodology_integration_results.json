@@ -1,0 +1,128 @@
+{
+  "GW200115_042309_H1": {
+    "event_name": "GW200115_042309_H1",
+    "klein_methodology": "adapted_empirical",
+    "spectral_analysis": {
+      "freqs": "Array of size 2561",
+      "psd": "Array of size 2561",
+      "f_Klein_Hz": 113.78964941569282,
+      "power_klein_band": NaN,
+      "power_reference": NaN,
+      "power_ratio": 1.0,
+      "spectral_snr": 0,
+      "peak_frequency": 0.0
+    },
+    "correlation_analysis": {
+      "mean_correlation": 0.0,
+      "std_correlation": 0.0,
+      "max_correlation": 0.0,
+      "klein_coherence": NaN,
+      "correlation_significance": 0,
+      "n_correlations": 0
+    },
+    "statistical_analysis": {
+      "spectral_chi2": 0,
+      "spectral_pvalue": 1.0,
+      "spectral_sigma": 0.0,
+      "correlation_sigma": 0,
+      "combined_sigma": 0.0,
+      "total_significance_sigma": 0.0
+    },
+    "falsification_result": {
+      "klein_detected": false,
+      "detection_category": "NO_DETECTION",
+      "confidence_sigma": 0.0,
+      "confidence_probability": 1.0,
+      "spectral_criteria_met": false,
+      "correlation_criteria_met": false,
+      "falsification_passed": false
+    },
+    "klein_detected": false,
+    "confidence_sigma": 0.0,
+    "methodology_source": "EMPIRICAL_KLEIN_STUDIES_adapted"
+  },
+  "GW200115_042309_L1": {
+    "event_name": "GW200115_042309_L1",
+    "klein_methodology": "adapted_empirical",
+    "spectral_analysis": {
+      "freqs": "Array of size 2561",
+      "psd": "Array of size 2561",
+      "f_Klein_Hz": 113.78964941569282,
+      "power_klein_band": NaN,
+      "power_reference": NaN,
+      "power_ratio": 1.0,
+      "spectral_snr": 0,
+      "peak_frequency": 0.0
+    },
+    "correlation_analysis": {
+      "mean_correlation": 0.0,
+      "std_correlation": 0.0,
+      "max_correlation": 0.0,
+      "klein_coherence": NaN,
+      "correlation_significance": 0,
+      "n_correlations": 0
+    },
+    "statistical_analysis": {
+      "spectral_chi2": 0,
+      "spectral_pvalue": 1.0,
+      "spectral_sigma": 0.0,
+      "correlation_sigma": 0,
+      "combined_sigma": 0.0,
+      "total_significance_sigma": 0.0
+    },
+    "falsification_result": {
+      "klein_detected": false,
+      "detection_category": "NO_DETECTION",
+      "confidence_sigma": 0.0,
+      "confidence_probability": 1.0,
+      "spectral_criteria_met": false,
+      "correlation_criteria_met": false,
+      "falsification_passed": false
+    },
+    "klein_detected": false,
+    "confidence_sigma": 0.0,
+    "methodology_source": "EMPIRICAL_KLEIN_STUDIES_adapted"
+  },
+  "GW200128_022011_H1": {
+    "event_name": "GW200128_022011_H1",
+    "klein_methodology": "adapted_empirical",
+    "spectral_analysis": {
+      "freqs": "Array of size 2561",
+      "psd": "Array of size 2561",
+      "f_Klein_Hz": 113.78964941569282,
+      "power_klein_band": NaN,
+      "power_reference": NaN,
+      "power_ratio": 1.0,
+      "spectral_snr": 0,
+      "peak_frequency": 0.0
+    },
+    "correlation_analysis": {
+      "mean_correlation": 0.0,
+      "std_correlation": 0.0,
+      "max_correlation": 0.0,
+      "klein_coherence": NaN,
+      "correlation_significance": 0,
+      "n_correlations": 0
+    },
+    "statistical_analysis": {
+      "spectral_chi2": 0,
+      "spectral_pvalue": 1.0,
+      "spectral_sigma": 0.0,
+      "correlation_sigma": 0,
+      "combined_sigma": 0.0,
+      "total_significance_sigma": 0.0
+    },
+    "falsification_result": {
+      "klein_detected": false,
+      "detection_category": "NO_DETECTION",
+      "confidence_sigma": 0.0,
+      "confidence_probability": 1.0,
+      "spectral_criteria_met": false,
+      "correlation_criteria_met": false,
+      "falsification_passed": false
+    },
+    "klein_detected": false,
+    "confidence_sigma": 0.0,
+    "methodology_source": "EMPIRICAL_KLEIN_STUDIES_adapted"
+  }
+}

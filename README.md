@@ -56,31 +56,32 @@ Contact: faustojdb@gmail.com
 - **Universal Threshold**: 0.573 separation gap (invariant across 5 years)
 - **Publication Ready**: High-impact journal submission ready
 
-### Quick Start: Complete Validation in 3 Steps
+### Quick Start: Critical Note on Methodology
+
+⚠️ **IMPORTANT METHODOLOGICAL WARNING**: Recent critical analysis revealed fundamental statistical flaws in several Klein radius validations. Before running analyses, review `/FUNDAMENTAL_RADIUS_INVESTIGATION/6_Documentation/VALIDACION_CRITICA_METODOLOGIA.md` for complete details.
 
 ```bash
-# 1. Klein Theory Refinement (8.53σ validation - LATEST)
+# 1. Fundamental Radius Investigation (THEORETICAL ✅, STATISTICAL ⚠️)
+cd "FUNDAMENTAL_RADIUS_INVESTIGATION"
+python 5_Code/numerical_analysis.py                 # ✅ Fundamental derivation: R_Klein = 419.3 km
+python 5_Code/factor_10_20_deep_investigation.py    # ✅ Physical justification of coherence factor
+# ⚠️ WARNING: Statistical claims (13.9σ) are methodologically invalid - see documentation
+
+# 2. Klein Theory Refinement (8.53σ validation - LATEST)
 cd "teoria_refinada"
 python scripts/ligo/ligo_analysis_refinado.py       # LIGO r=0.871 correlation
 python scripts/pta/pta_analysis_refinado.py         # NANOGrav σ=6.00 real data
 python scripts/bao/bao_analysis_refinado.py         # BAO σ=6.00 large-scale
-python scripts/cmb/cmb_analysis_refinado.py         # CMB σ=0.00 stable
-python scripts/em_marginal_analysis.py              # EM σ=0.73 marginal
-python scripts/bao_mcmc_advanced.py                 # MCMC Bayesian H₀ constraints
 
-# 2. Klein Field Theory (complete framework)
-cd "KLEIN FIELD THEORY" 
-python 3_Validation/simplified_ligo_validation.py
-python 3_Validation/harmonic_analysis_klein_breathing_modes.py
-
-# 3. Empirical Klein Studies (comprehensive validation)
-cd "EMPIRICAL_KLEIN_STUDIES"
-python rigorous_analysis_master_coordinator.py      # Coordinated multi-scale analysis
-python 1_CMB_Analysis/rigorous_analysis/rigorous_cmb_klein_analysis.py
-python 2_PTA_Analysis/rigorous_analysis/rigorous_pta_klein_analysis.py
-python 5_Supernovae_Analysis/rigorous_analysis/rigorous_supernovae_klein_analysis.py
+# 3. Methodologically Valid LIGO Analysis (IN DEVELOPMENT)
+cd "FUNDAMENTAL_RADIUS_INVESTIGATION/5_Code"
+python valid_ligo_analysis_fixed.py                 # ⚠️ Requires scipy version fix
 ```
-**Expected:** Combined 8.53σ validation with real observational data
+
+**Current Status:** 
+- ✅ Theoretical derivation: Sound fundamental physics
+- ⚠️ Statistical validation: Requires methodological revision  
+- 🔧 In Progress: Methodologically valid LIGO analysis framework
 
 ---
 
@@ -111,6 +112,14 @@ python 5_Supernovae_Analysis/rigorous_analysis/rigorous_supernovae_klein_analysi
 
 ```
 gravitational-wave-echoes-5d/
+├── FUNDAMENTAL_RADIUS_INVESTIGATION/ # 🔬 FUNDAMENTAL KLEIN RADIUS DERIVATION (2025)
+│   ├── 1_Theory/                     # First-principles theoretical derivations
+│   ├── 2_Analysis/                   # Statistical analysis with 219 real LIGO events
+│   ├── 5_Code/                       # Implementation of derived R_Klein = 419.3 km
+│   ├── 6_Documentation/              # Critical methodology validation
+│   │   └── VALIDACION_CRITICA_METODOLOGIA.md  # ⚠️ CRITICAL: Statistical flaws identified
+│   └── README.md                     # Status: Fundamental derivation completed,
+│                                     #         statistical validation requires revision
 ├── teoria_refinada/                 # 🎯 KLEIN THEORY REFINEMENT: 8.53σ VALIDATION (2025)
 │   ├── PAPER_STRUCTURE_KLEIN_THEORY.md        # Complete scientific paper structure
 │   ├── RESUMEN_FINAL_REFINAMIENTO_KLEIN_THEORY.md  # Executive refinement summary

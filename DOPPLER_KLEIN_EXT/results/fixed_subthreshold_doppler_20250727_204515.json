@@ -1,0 +1,2835 @@
+{
+  "analysis_metadata": {
+    "total_files_found": 405,
+    "events_processed": 405,
+    "events_successful": 405,
+    "success_rate": 1.0,
+    "timestamp": "2025-07-27T20:45:13.149006",
+    "analysis_type": "fixed_subthreshold_doppler",
+    "solver_method": "analytical_fixed",
+    "fixes_applied": [
+      "doppler_overflow_corrected",
+      "redshift_variable_realistic",
+      "balance_states_with_snr",
+      "bootstrap_correlation_errors",
+      "logging_improved",
+      "diagnostic_plots_added"
+    ],
+    "multiprocessing_enabled": true,
+    "n_workers": 6
+  },
+  "statistical_summary": {
+    "key_metrics": {
+      "total_events": 405,
+      "max_epsilon_mean": 0.13657045074433813,
+      "max_epsilon_std": 0.07280363457128239,
+      "max_epsilon_median": 0.11689954721150633,
+      "doppler_shift_mean": 0.040171580540186644,
+      "doppler_shift_std": 0.19533306676264348,
+      "doppler_shift_median": -0.0320562391121193,
+      "frequency_observed_mean": 5.720171580540187,
+      "frequency_observed_std": 0.19533306676264345,
+      "v_total_mean": 111600.26874525446,
+      "v_total_std": 78061.31942590512,
+      "redshift_mean": 0.5912440717753966,
+      "redshift_std": 0.4004081948310557,
+      "beta_mean": 0.05,
+      "beta_std": 0.0,
+      "topology_conservation_rate": 1.0,
+      "doppler_realistic_rate": 1.0,
+      "beta_physical_rate": 0.0
+    },
+    "state_distribution": {
+      "Klein_extrema": 61,
+      "Klein_deformada": 182,
+      "Klein_relajada": 162
+    },
+    "parity_distribution": {
+      "parity_-1": 84,
+      "parity_0": 183,
+      "parity_1": 138
+    },
+    "correlations_bootstrap": {
+      "epsilon_distance": {
+        "r": -0.040789081949523104,
+        "error": 0.04850830540869289
+      },
+      "doppler_distance": {
+        "r": -0.02035846084286015,
+        "error": 0.047183141682293754
+      },
+      "doppler_velocity": {
+        "r": -0.02127896289965862,
+        "error": 0.047271578649740416
+      }
+    },
+    "correlations_standard": {
+      "epsilon_distance_spearman": {
+        "r": -0.04312040510665435,
+        "p": 0.38676338068465743
+      },
+      "doppler_distance_spearman": {
+        "r": -0.02276066556666911,
+        "p": 0.6478917360937864
+      },
+      "doppler_velocity_spearman": {
+        "r": -0.022256504619866297,
+        "p": 0.6551823454407295
+      }
+    },
+    "normality_tests": {
+      "doppler_shifts_ks_normalized": {
+        "statistic": 0.16901178499905622,
+        "p_value": 1.3929906827712358e-10
+      },
+      "epsilon_ks_normalized": {
+        "statistic": 0.15390192444684586,
+        "p_value": 7.659630870480469e-09
+      }
+    },
+    "klein_hypothesis_tests": {
+      "frequency_deviation_sigma": 4.13876399455482,
+      "frequency_consistent_with_klein": true,
+      "klein_detections_weak": {
+        "count": 388,
+        "rate": 0.9580246913580247
+      },
+      "klein_detections_moderate": {
+        "count": 193,
+        "rate": 0.4765432098765432
+      },
+      "klein_detections_strong": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "ranges": {
+      "epsilon_range": [
+        0.05131514941704977,
+        0.3687277146376468
+      ],
+      "doppler_range": [
+        -0.1897675369532168,
+        0.5680000000000005
+      ],
+      "distance_range": [
+        500.0,
+        5000.0
+      ],
+      "velocity_range": [
+        34347.12365288002,
+        350824.56607705273
+      ],
+      "redshift_range": [
+        0.09274331931033196,
+        2.0
+      ],
+      "beta_range": [
+        0.05,
+        0.05
+      ]
+    }
+  },
+  "sample_results": [
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238533958-1.xml",
+      "gps_time": 1238533958.0,
+      "source_parameters": {
+        "mass_1": 64.828939397772,
+        "mass_2": 29.395712299429423,
+        "mass_total": 94.22465169720142,
+        "mass_ratio": 2.205387599981047,
+        "distance_mpc": 1037.9319859021232,
+        "redshift": 1.2215616561110265,
+        "snr": 8.22109626313478,
+        "efficiency": 0.02813740133495978,
+        "radiated_energy": 2.651236840450963,
+        "chi_eff": 0.26375147427710666
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.16347054961287508,
+        "max_elevation": 137315.26167481506,
+        "final_epsilon": 1.3329114390663382e-20,
+        "final_elevation": 1.1196456088157241e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.22398452075916597
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 72655.23901314862,
+        "v_peculiar_cosmo_kms": -183.64490313740782,
+        "v_spin_kick_kms": 131.87573713855332,
+        "v_total_kms": 72603.46984714977,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 1.0753908475235072,
+        "klein_scale_correction": 1.0000019065822074,
+        "cosmological_factor": 1.1221561656111025,
+        "frequency_observed": 6.10822001393352,
+        "doppler_shift_hz": 0.4282200139335206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.79064276572797,
+        "energy_initial": 1.0898036640858337,
+        "distance_km": 3.203058108493952e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.218145"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238515766-1.xml",
+      "gps_time": 1238515766.0,
+      "source_parameters": {
+        "mass_1": 64.828939397772,
+        "mass_2": 29.395712299429423,
+        "mass_total": 94.22465169720142,
+        "mass_ratio": 2.205387599981047,
+        "distance_mpc": 1037.9319859021232,
+        "redshift": 1.2215616561110265,
+        "snr": 8.22109626313478,
+        "efficiency": 0.02813740133495978,
+        "radiated_energy": 2.651236840450963,
+        "chi_eff": 0.26375147427710666
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.16347054961287508,
+        "max_elevation": 137315.26167481506,
+        "final_epsilon": 1.3329114390663382e-20,
+        "final_elevation": 1.1196456088157241e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.22398452075916597
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 72655.23901314862,
+        "v_peculiar_cosmo_kms": -183.64490313740782,
+        "v_spin_kick_kms": 131.87573713855332,
+        "v_total_kms": 72603.46984714977,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 1.0753908475235072,
+        "klein_scale_correction": 1.0000019065822074,
+        "cosmological_factor": 1.1221561656111025,
+        "frequency_observed": 6.10822001393352,
+        "doppler_shift_hz": 0.4282200139335206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.79064276572797,
+        "energy_initial": 1.0898036640858337,
+        "distance_km": 3.203058108493952e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.218211"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238393111-1.xml",
+      "gps_time": 1238393111.0,
+      "source_parameters": {
+        "mass_1": 64.828939397772,
+        "mass_2": 29.395712299429423,
+        "mass_total": 94.22465169720142,
+        "mass_ratio": 2.205387599981047,
+        "distance_mpc": 1037.9319859021232,
+        "redshift": 1.2215616561110265,
+        "snr": 8.22109626313478,
+        "efficiency": 0.02813740133495978,
+        "radiated_energy": 2.651236840450963,
+        "chi_eff": 0.26375147427710666
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.16347054961287508,
+        "max_elevation": 137315.26167481506,
+        "final_epsilon": 1.3329114390663382e-20,
+        "final_elevation": 1.1196456088157241e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.22398452075916597
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 72655.23901314862,
+        "v_peculiar_cosmo_kms": -183.64490313740782,
+        "v_spin_kick_kms": 131.87573713855332,
+        "v_total_kms": 72603.46984714977,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 1.0753908475235072,
+        "klein_scale_correction": 1.0000019065822074,
+        "cosmological_factor": 1.1221561656111025,
+        "frequency_observed": 6.10822001393352,
+        "doppler_shift_hz": 0.4282200139335206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.79064276572797,
+        "energy_initial": 1.0898036640858337,
+        "distance_km": 3.203058108493952e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.218042"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238674117-1.xml",
+      "gps_time": 1238674117.0,
+      "source_parameters": {
+        "mass_1": 64.828939397772,
+        "mass_2": 29.395712299429423,
+        "mass_total": 94.22465169720142,
+        "mass_ratio": 2.205387599981047,
+        "distance_mpc": 1037.9319859021232,
+        "redshift": 1.2215616561110265,
+        "snr": 8.22109626313478,
+        "efficiency": 0.02813740133495978,
+        "radiated_energy": 2.651236840450963,
+        "chi_eff": 0.26375147427710666
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.16347054961287508,
+        "max_elevation": 137315.26167481506,
+        "final_epsilon": 1.3329114390663382e-20,
+        "final_elevation": 1.1196456088157241e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.22398452075916597
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 72655.23901314862,
+        "v_peculiar_cosmo_kms": -183.64490313740782,
+        "v_spin_kick_kms": 131.87573713855332,
+        "v_total_kms": 72603.46984714977,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 1.0753908475235072,
+        "klein_scale_correction": 1.0000019065822074,
+        "cosmological_factor": 1.1221561656111025,
+        "frequency_observed": 6.10822001393352,
+        "doppler_shift_hz": 0.4282200139335206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.79064276572797,
+        "energy_initial": 1.0898036640858337,
+        "distance_km": 3.203058108493952e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.218801"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238573777-1.xml",
+      "gps_time": 1238573777.0,
+      "source_parameters": {
+        "mass_1": 64.828939397772,
+        "mass_2": 29.395712299429423,
+        "mass_total": 94.22465169720142,
+        "mass_ratio": 2.205387599981047,
+        "distance_mpc": 1037.9319859021232,
+        "redshift": 1.2215616561110265,
+        "snr": 8.22109626313478,
+        "efficiency": 0.02813740133495978,
+        "radiated_energy": 2.651236840450963,
+        "chi_eff": 0.26375147427710666
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.16347054961287508,
+        "max_elevation": 137315.26167481506,
+        "final_epsilon": 1.3329114390663382e-20,
+        "final_elevation": 1.1196456088157241e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.22398452075916597
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 72655.23901314862,
+        "v_peculiar_cosmo_kms": -183.64490313740782,
+        "v_spin_kick_kms": 131.87573713855332,
+        "v_total_kms": 72603.46984714977,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 1.0753908475235072,
+        "klein_scale_correction": 1.0000019065822074,
+        "cosmological_factor": 1.1221561656111025,
+        "frequency_observed": 6.10822001393352,
+        "doppler_shift_hz": 0.4282200139335206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.79064276572797,
+        "energy_initial": 1.0898036640858337,
+        "distance_km": 3.203058108493952e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.218701"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238729030-1.xml",
+      "gps_time": 1238729030.0,
+      "source_parameters": {
+        "mass_1": 25.83451672943489,
+        "mass_2": 22.141827259927496,
+        "mass_total": 47.976343989362384,
+        "mass_ratio": 1.1667743780203028,
+        "distance_mpc": 2184.3686623332746,
+        "redshift": 0.23865682026550528,
+        "snr": 6.024046669413924,
+        "efficiency": 0.044282549183046915,
+        "radiated_energy": 2.124514812331718,
+        "chi_eff": -0.06045448441104756
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.09598632284510576,
+        "max_elevation": 80628.51118988884,
+        "final_epsilon": 3.489055091868793e-21,
+        "final_elevation": 2.930806277169786e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.0963710147407248
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 152905.80636332923,
+        "v_peculiar_cosmo_kms": -420.1044321737692,
+        "v_spin_kick_kms": -30.22724220552378,
+        "v_total_kms": 152455.47468894994,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9665902223673913,
+        "klein_scale_correction": 1.0000040124771976,
+        "cosmological_factor": 1.0238656820265506,
+        "frequency_observed": 5.490232463046783,
+        "doppler_shift_hz": -0.1897675369532168,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.952221286521436,
+        "energy_initial": 0.6399088189673716,
+        "distance_km": 6.7409616919604855e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219170"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238754998-1.xml",
+      "gps_time": 1238754998.0,
+      "source_parameters": {
+        "mass_1": 25.83451672943489,
+        "mass_2": 22.141827259927496,
+        "mass_total": 47.976343989362384,
+        "mass_ratio": 1.1667743780203028,
+        "distance_mpc": 2184.3686623332746,
+        "redshift": 0.23865682026550528,
+        "snr": 6.024046669413924,
+        "efficiency": 0.044282549183046915,
+        "radiated_energy": 2.124514812331718,
+        "chi_eff": -0.06045448441104756
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.09598632284510576,
+        "max_elevation": 80628.51118988884,
+        "final_epsilon": 3.489055091868793e-21,
+        "final_elevation": 2.930806277169786e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.0963710147407248
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 152905.80636332923,
+        "v_peculiar_cosmo_kms": -420.1044321737692,
+        "v_spin_kick_kms": -30.22724220552378,
+        "v_total_kms": 152455.47468894994,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9665902223673913,
+        "klein_scale_correction": 1.0000040124771976,
+        "cosmological_factor": 1.0238656820265506,
+        "frequency_observed": 5.490232463046783,
+        "doppler_shift_hz": -0.1897675369532168,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.952221286521436,
+        "energy_initial": 0.6399088189673716,
+        "distance_km": 6.7409616919604855e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219309"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238662706-1.xml",
+      "gps_time": 1238662706.0,
+      "source_parameters": {
+        "mass_1": 64.828939397772,
+        "mass_2": 29.395712299429423,
+        "mass_total": 94.22465169720142,
+        "mass_ratio": 2.205387599981047,
+        "distance_mpc": 1037.9319859021232,
+        "redshift": 1.2215616561110265,
+        "snr": 8.22109626313478,
+        "efficiency": 0.02813740133495978,
+        "radiated_energy": 2.651236840450963,
+        "chi_eff": 0.26375147427710666
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.16347054961287508,
+        "max_elevation": 137315.26167481506,
+        "final_epsilon": 1.3329114390663382e-20,
+        "final_elevation": 1.1196456088157241e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.22398452075916597
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 72655.23901314862,
+        "v_peculiar_cosmo_kms": -183.64490313740782,
+        "v_spin_kick_kms": 131.87573713855332,
+        "v_total_kms": 72603.46984714977,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 1.0753908475235072,
+        "klein_scale_correction": 1.0000019065822074,
+        "cosmological_factor": 1.1221561656111025,
+        "frequency_observed": 6.10822001393352,
+        "doppler_shift_hz": 0.4282200139335206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.79064276572797,
+        "energy_initial": 1.0898036640858337,
+        "distance_km": 3.203058108493952e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.218884"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238750282-1.xml",
+      "gps_time": 1238750282.0,
+      "source_parameters": {
+        "mass_1": 25.83451672943489,
+        "mass_2": 22.141827259927496,
+        "mass_total": 47.976343989362384,
+        "mass_ratio": 1.1667743780203028,
+        "distance_mpc": 2184.3686623332746,
+        "redshift": 0.23865682026550528,
+        "snr": 6.024046669413924,
+        "efficiency": 0.044282549183046915,
+        "radiated_energy": 2.124514812331718,
+        "chi_eff": -0.06045448441104756
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.09598632284510576,
+        "max_elevation": 80628.51118988884,
+        "final_epsilon": 3.489055091868793e-21,
+        "final_elevation": 2.930806277169786e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.0963710147407248
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 152905.80636332923,
+        "v_peculiar_cosmo_kms": -420.1044321737692,
+        "v_spin_kick_kms": -30.22724220552378,
+        "v_total_kms": 152455.47468894994,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9665902223673913,
+        "klein_scale_correction": 1.0000040124771976,
+        "cosmological_factor": 1.0238656820265506,
+        "frequency_observed": 5.490232463046783,
+        "doppler_shift_hz": -0.1897675369532168,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.952221286521436,
+        "energy_initial": 0.6399088189673716,
+        "distance_km": 6.7409616919604855e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219299"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238839513-1.xml",
+      "gps_time": 1238839513.0,
+      "source_parameters": {
+        "mass_1": 58.14362349474702,
+        "mass_2": 42.99072317196216,
+        "mass_total": 101.13434666670918,
+        "mass_ratio": 1.3524690725060269,
+        "distance_mpc": 2097.4244812078055,
+        "redshift": 0.24530835752225016,
+        "snr": 7.874052476832059,
+        "efficiency": 0.039575537668956016,
+        "radiated_energy": 4.002446146133607,
+        "chi_eff": 0.6473672803752724
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23636603242762694,
+        "max_elevation": 198547.46723920666,
+        "final_epsilon": 8.979155549512266e-21,
+        "final_elevation": 7.542490661590304e-15,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.31019309051262045
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 146819.71368454638,
+        "v_peculiar_cosmo_kms": 287.04347972767437,
+        "v_spin_kick_kms": 323.6836401876362,
+        "v_total_kms": 147430.4408044617,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9818359171263944,
+        "klein_scale_correction": 1.0000038527690174,
+        "cosmological_factor": 1.024530835752225,
+        "frequency_observed": 5.57682800927792,
+        "doppler_shift_hz": -0.10317199072208005,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.943401484231345,
+        "energy_initial": 1.575773549517513,
+        "distance_km": 6.472651949007287e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219631"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238782700-1.xml",
+      "gps_time": 1238782700.0,
+      "source_parameters": {
+        "mass_1": 25.83451672943489,
+        "mass_2": 22.141827259927496,
+        "mass_total": 47.976343989362384,
+        "mass_ratio": 1.1667743780203028,
+        "distance_mpc": 2184.3686623332746,
+        "redshift": 0.23865682026550528,
+        "snr": 6.024046669413924,
+        "efficiency": 0.044282549183046915,
+        "radiated_energy": 2.124514812331718,
+        "chi_eff": -0.06045448441104756
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.09598632284510576,
+        "max_elevation": 80628.51118988884,
+        "final_epsilon": 3.489055091868793e-21,
+        "final_elevation": 2.930806277169786e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.0963710147407248
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 152905.80636332923,
+        "v_peculiar_cosmo_kms": -420.1044321737692,
+        "v_spin_kick_kms": -30.22724220552378,
+        "v_total_kms": 152455.47468894994,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9665902223673913,
+        "klein_scale_correction": 1.0000040124771976,
+        "cosmological_factor": 1.0238656820265506,
+        "frequency_observed": 5.490232463046783,
+        "doppler_shift_hz": -0.1897675369532168,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.952221286521436,
+        "energy_initial": 0.6399088189673716,
+        "distance_km": 6.7409616919604855e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219618"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238899272-1.xml",
+      "gps_time": 1238899272.0,
+      "source_parameters": {
+        "mass_1": 58.14362349474702,
+        "mass_2": 42.99072317196216,
+        "mass_total": 101.13434666670918,
+        "mass_ratio": 1.3524690725060269,
+        "distance_mpc": 2097.4244812078055,
+        "redshift": 0.24530835752225016,
+        "snr": 7.874052476832059,
+        "efficiency": 0.039575537668956016,
+        "radiated_energy": 4.002446146133607,
+        "chi_eff": 0.6473672803752724
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23636603242762694,
+        "max_elevation": 198547.46723920666,
+        "final_epsilon": 8.979155549512266e-21,
+        "final_elevation": 7.542490661590304e-15,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.31019309051262045
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 146819.71368454638,
+        "v_peculiar_cosmo_kms": 287.04347972767437,
+        "v_spin_kick_kms": 323.6836401876362,
+        "v_total_kms": 147430.4408044617,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9818359171263944,
+        "klein_scale_correction": 1.0000038527690174,
+        "cosmological_factor": 1.024530835752225,
+        "frequency_observed": 5.57682800927792,
+        "doppler_shift_hz": -0.10317199072208005,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.943401484231345,
+        "energy_initial": 1.575773549517513,
+        "distance_km": 6.472651949007287e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219784"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238845539-1.xml",
+      "gps_time": 1238845539.0,
+      "source_parameters": {
+        "mass_1": 25.83451672943489,
+        "mass_2": 22.141827259927496,
+        "mass_total": 47.976343989362384,
+        "mass_ratio": 1.1667743780203028,
+        "distance_mpc": 2184.3686623332746,
+        "redshift": 0.23865682026550528,
+        "snr": 6.024046669413924,
+        "efficiency": 0.044282549183046915,
+        "radiated_energy": 2.124514812331718,
+        "chi_eff": -0.06045448441104756
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.09598632284510576,
+        "max_elevation": 80628.51118988884,
+        "final_epsilon": 3.489055091868793e-21,
+        "final_elevation": 2.930806277169786e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.0963710147407248
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 152905.80636332923,
+        "v_peculiar_cosmo_kms": -420.1044321737692,
+        "v_spin_kick_kms": -30.22724220552378,
+        "v_total_kms": 152455.47468894994,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9665902223673913,
+        "klein_scale_correction": 1.0000040124771976,
+        "cosmological_factor": 1.0238656820265506,
+        "frequency_observed": 5.490232463046783,
+        "doppler_shift_hz": -0.1897675369532168,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.952221286521436,
+        "energy_initial": 0.6399088189673716,
+        "distance_km": 6.7409616919604855e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219757"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239082262-1.xml",
+      "gps_time": 1239082262.0,
+      "source_parameters": {
+        "mass_1": 58.14362349474702,
+        "mass_2": 42.99072317196216,
+        "mass_total": 101.13434666670918,
+        "mass_ratio": 1.3524690725060269,
+        "distance_mpc": 2097.4244812078055,
+        "redshift": 0.24530835752225016,
+        "snr": 7.874052476832059,
+        "efficiency": 0.039575537668956016,
+        "radiated_energy": 4.002446146133607,
+        "chi_eff": 0.6473672803752724
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23636603242762694,
+        "max_elevation": 198547.46723920666,
+        "final_epsilon": 8.979155549512266e-21,
+        "final_elevation": 7.542490661590304e-15,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.31019309051262045
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 146819.71368454638,
+        "v_peculiar_cosmo_kms": 287.04347972767437,
+        "v_spin_kick_kms": 323.6836401876362,
+        "v_total_kms": 147430.4408044617,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9818359171263944,
+        "klein_scale_correction": 1.0000038527690174,
+        "cosmological_factor": 1.024530835752225,
+        "frequency_observed": 5.57682800927792,
+        "doppler_shift_hz": -0.10317199072208005,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.943401484231345,
+        "energy_initial": 1.575773549517513,
+        "distance_km": 6.472651949007287e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219828"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1238919052-1.xml",
+      "gps_time": 1238919052.0,
+      "source_parameters": {
+        "mass_1": 25.83451672943489,
+        "mass_2": 22.141827259927496,
+        "mass_total": 47.976343989362384,
+        "mass_ratio": 1.1667743780203028,
+        "distance_mpc": 2184.3686623332746,
+        "redshift": 0.23865682026550528,
+        "snr": 6.024046669413924,
+        "efficiency": 0.044282549183046915,
+        "radiated_energy": 2.124514812331718,
+        "chi_eff": -0.06045448441104756
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.09598632284510576,
+        "max_elevation": 80628.51118988884,
+        "final_epsilon": 3.489055091868793e-21,
+        "final_elevation": 2.930806277169786e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.0963710147407248
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 152905.80636332923,
+        "v_peculiar_cosmo_kms": -420.1044321737692,
+        "v_spin_kick_kms": -30.22724220552378,
+        "v_total_kms": 152455.47468894994,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9665902223673913,
+        "klein_scale_correction": 1.0000040124771976,
+        "cosmological_factor": 1.0238656820265506,
+        "frequency_observed": 5.490232463046783,
+        "doppler_shift_hz": -0.1897675369532168,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.952221286521436,
+        "energy_initial": 0.6399088189673716,
+        "distance_km": 6.7409616919604855e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219858"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239174401-1.xml",
+      "gps_time": 1239174401.0,
+      "source_parameters": {
+        "mass_1": 58.14362349474702,
+        "mass_2": 42.99072317196216,
+        "mass_total": 101.13434666670918,
+        "mass_ratio": 1.3524690725060269,
+        "distance_mpc": 2097.4244812078055,
+        "redshift": 0.24530835752225016,
+        "snr": 7.874052476832059,
+        "efficiency": 0.039575537668956016,
+        "radiated_energy": 4.002446146133607,
+        "chi_eff": 0.6473672803752724
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23636603242762694,
+        "max_elevation": 198547.46723920666,
+        "final_epsilon": 8.979155549512266e-21,
+        "final_elevation": 7.542490661590304e-15,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.31019309051262045
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 146819.71368454638,
+        "v_peculiar_cosmo_kms": 287.04347972767437,
+        "v_spin_kick_kms": 323.6836401876362,
+        "v_total_kms": 147430.4408044617,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9818359171263944,
+        "klein_scale_correction": 1.0000038527690174,
+        "cosmological_factor": 1.024530835752225,
+        "frequency_observed": 5.57682800927792,
+        "doppler_shift_hz": -0.10317199072208005,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.943401484231345,
+        "energy_initial": 1.575773549517513,
+        "distance_km": 6.472651949007287e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.219972"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239092652-1.xml",
+      "gps_time": 1239092652.0,
+      "source_parameters": {
+        "mass_1": 47.29778538631733,
+        "mass_2": 23.113808003304975,
+        "mass_total": 70.41159338962231,
+        "mass_ratio": 2.0463000029919067,
+        "distance_mpc": 598.8964491214052,
+        "redshift": 0.37450756950859354,
+        "snr": 6.947953344187937,
+        "efficiency": 0.029547475903589783,
+        "radiated_energy": 2.080484859013225,
+        "chi_eff": 0.24560258535864887
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.1084133380028498,
+        "max_elevation": 91067.20392239385,
+        "final_epsilon": 1.6059681318052713e-20,
+        "final_elevation": 1.3490132307164283e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.12554180238857957
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 41922.751438498366,
+        "v_peculiar_cosmo_kms": 506.6037138246695,
+        "v_spin_kick_kms": 122.80129267932443,
+        "v_total_kms": 42552.15644500236,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9868135922570611,
+        "klein_scale_correction": 1.0000011001157392,
+        "cosmological_factor": 1.0374507569508593,
+        "frequency_observed": 5.605101204020107,
+        "doppler_shift_hz": -0.0748987959798928,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.67123418690474,
+        "energy_initial": 0.7227555866856653,
+        "distance_km": 1.8481944419886564e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220009"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239179057-1.xml",
+      "gps_time": 1239179057.0,
+      "source_parameters": {
+        "mass_1": 47.29778538631733,
+        "mass_2": 23.113808003304975,
+        "mass_total": 70.41159338962231,
+        "mass_ratio": 2.0463000029919067,
+        "distance_mpc": 598.8964491214052,
+        "redshift": 0.37450756950859354,
+        "snr": 6.947953344187937,
+        "efficiency": 0.029547475903589783,
+        "radiated_energy": 2.080484859013225,
+        "chi_eff": 0.24560258535864887
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.1084133380028498,
+        "max_elevation": 91067.20392239385,
+        "final_epsilon": 1.6059681318052713e-20,
+        "final_elevation": 1.3490132307164283e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.12554180238857957
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 41922.751438498366,
+        "v_peculiar_cosmo_kms": 506.6037138246695,
+        "v_spin_kick_kms": 122.80129267932443,
+        "v_total_kms": 42552.15644500236,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9868135922570611,
+        "klein_scale_correction": 1.0000011001157392,
+        "cosmological_factor": 1.0374507569508593,
+        "frequency_observed": 5.605101204020107,
+        "doppler_shift_hz": -0.0748987959798928,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.67123418690474,
+        "energy_initial": 0.7227555866856653,
+        "distance_km": 1.8481944419886564e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220112"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239198206-1.xml",
+      "gps_time": 1239198206.0,
+      "source_parameters": {
+        "mass_1": 58.14362349474702,
+        "mass_2": 42.99072317196216,
+        "mass_total": 101.13434666670918,
+        "mass_ratio": 1.3524690725060269,
+        "distance_mpc": 2097.4244812078055,
+        "redshift": 0.24530835752225016,
+        "snr": 7.874052476832059,
+        "efficiency": 0.039575537668956016,
+        "radiated_energy": 4.002446146133607,
+        "chi_eff": 0.6473672803752724
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23636603242762694,
+        "max_elevation": 198547.46723920666,
+        "final_epsilon": 8.979155549512266e-21,
+        "final_elevation": 7.542490661590304e-15,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.31019309051262045
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 146819.71368454638,
+        "v_peculiar_cosmo_kms": 287.04347972767437,
+        "v_spin_kick_kms": 323.6836401876362,
+        "v_total_kms": 147430.4408044617,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9818359171263944,
+        "klein_scale_correction": 1.0000038527690174,
+        "cosmological_factor": 1.024530835752225,
+        "frequency_observed": 5.57682800927792,
+        "doppler_shift_hz": -0.10317199072208005,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.943401484231345,
+        "energy_initial": 1.575773549517513,
+        "distance_km": 6.472651949007287e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220169"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239227262-1.xml",
+      "gps_time": 1239227262.0,
+      "source_parameters": {
+        "mass_1": 47.29778538631733,
+        "mass_2": 23.113808003304975,
+        "mass_total": 70.41159338962231,
+        "mass_ratio": 2.0463000029919067,
+        "distance_mpc": 598.8964491214052,
+        "redshift": 0.37450756950859354,
+        "snr": 6.947953344187937,
+        "efficiency": 0.029547475903589783,
+        "radiated_energy": 2.080484859013225,
+        "chi_eff": 0.24560258535864887
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.1084133380028498,
+        "max_elevation": 91067.20392239385,
+        "final_epsilon": 1.6059681318052713e-20,
+        "final_elevation": 1.3490132307164283e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.12554180238857957
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 41922.751438498366,
+        "v_peculiar_cosmo_kms": 506.6037138246695,
+        "v_spin_kick_kms": 122.80129267932443,
+        "v_total_kms": 42552.15644500236,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9868135922570611,
+        "klein_scale_correction": 1.0000011001157392,
+        "cosmological_factor": 1.0374507569508593,
+        "frequency_observed": 5.605101204020107,
+        "doppler_shift_hz": -0.0748987959798928,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.67123418690474,
+        "energy_initial": 0.7227555866856653,
+        "distance_km": 1.8481944419886564e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220246"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239393890-1.xml",
+      "gps_time": 1239393890.0,
+      "source_parameters": {
+        "mass_1": 47.29778538631733,
+        "mass_2": 23.113808003304975,
+        "mass_total": 70.41159338962231,
+        "mass_ratio": 2.0463000029919067,
+        "distance_mpc": 598.8964491214052,
+        "redshift": 0.37450756950859354,
+        "snr": 6.947953344187937,
+        "efficiency": 0.029547475903589783,
+        "radiated_energy": 2.080484859013225,
+        "chi_eff": 0.24560258535864887
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.1084133380028498,
+        "max_elevation": 91067.20392239385,
+        "final_epsilon": 1.6059681318052713e-20,
+        "final_elevation": 1.3490132307164283e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.12554180238857957
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 41922.751438498366,
+        "v_peculiar_cosmo_kms": 506.6037138246695,
+        "v_spin_kick_kms": 122.80129267932443,
+        "v_total_kms": 42552.15644500236,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9868135922570611,
+        "klein_scale_correction": 1.0000011001157392,
+        "cosmological_factor": 1.0374507569508593,
+        "frequency_observed": 5.605101204020107,
+        "doppler_shift_hz": -0.0748987959798928,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.67123418690474,
+        "energy_initial": 0.7227555866856653,
+        "distance_km": 1.8481944419886564e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220255"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239283789-1.xml",
+      "gps_time": 1239283789.0,
+      "source_parameters": {
+        "mass_1": 58.14362349474702,
+        "mass_2": 42.99072317196216,
+        "mass_total": 101.13434666670918,
+        "mass_ratio": 1.3524690725060269,
+        "distance_mpc": 2097.4244812078055,
+        "redshift": 0.24530835752225016,
+        "snr": 7.874052476832059,
+        "efficiency": 0.039575537668956016,
+        "radiated_energy": 4.002446146133607,
+        "chi_eff": 0.6473672803752724
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23636603242762694,
+        "max_elevation": 198547.46723920666,
+        "final_epsilon": 8.979155549512266e-21,
+        "final_elevation": 7.542490661590304e-15,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.31019309051262045
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 146819.71368454638,
+        "v_peculiar_cosmo_kms": 287.04347972767437,
+        "v_spin_kick_kms": 323.6836401876362,
+        "v_total_kms": 147430.4408044617,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9818359171263944,
+        "klein_scale_correction": 1.0000038527690174,
+        "cosmological_factor": 1.024530835752225,
+        "frequency_observed": 5.57682800927792,
+        "doppler_shift_hz": -0.10317199072208005,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.943401484231345,
+        "energy_initial": 1.575773549517513,
+        "distance_km": 6.472651949007287e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220282"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239491655-1.xml",
+      "gps_time": 1239491655.0,
+      "source_parameters": {
+        "mass_1": 44.76107061380949,
+        "mass_2": 35.975002099324485,
+        "mass_total": 80.73607271313398,
+        "mass_ratio": 1.2442270466094005,
+        "distance_mpc": 774.7463147226567,
+        "redshift": 0.3882036610882437,
+        "snr": 9.067984101225305,
+        "efficiency": 0.0421484733103999,
+        "radiated_energy": 3.40290220593603,
+        "chi_eff": -0.33927324296578715
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23143097326089337,
+        "max_elevation": 194402.01753915043,
+        "final_epsilon": 2.5922801401973396e-20,
+        "final_elevation": 2.1775153177657653e-14,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.34976873101014655
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 54232.24203058597,
+        "v_peculiar_cosmo_kms": -531.6928489291842,
+        "v_spin_kick_kms": -169.63662148289356,
+        "v_total_kms": 53530.91256017389,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9955275460703118,
+        "klein_scale_correction": 1.0000014231351948,
+        "cosmological_factor": 1.0388203661088244,
+        "frequency_observed": 5.654596461679371,
+        "doppler_shift_hz": -0.025403538320628805,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.727138077374814,
+        "energy_initial": 1.542873155072622,
+        "distance_km": 2.3908671272341186e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220301"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239534693-1.xml",
+      "gps_time": 1239534693.0,
+      "source_parameters": {
+        "mass_1": 44.76107061380949,
+        "mass_2": 35.975002099324485,
+        "mass_total": 80.73607271313398,
+        "mass_ratio": 1.2442270466094005,
+        "distance_mpc": 774.7463147226567,
+        "redshift": 0.3882036610882437,
+        "snr": 9.067984101225305,
+        "efficiency": 0.0421484733103999,
+        "radiated_energy": 3.40290220593603,
+        "chi_eff": -0.33927324296578715
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23143097326089337,
+        "max_elevation": 194402.01753915043,
+        "final_epsilon": 2.5922801401973396e-20,
+        "final_elevation": 2.1775153177657653e-14,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.34976873101014655
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 54232.24203058597,
+        "v_peculiar_cosmo_kms": -531.6928489291842,
+        "v_spin_kick_kms": -169.63662148289356,
+        "v_total_kms": 53530.91256017389,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9955275460703118,
+        "klein_scale_correction": 1.0000014231351948,
+        "cosmological_factor": 1.0388203661088244,
+        "frequency_observed": 5.654596461679371,
+        "doppler_shift_hz": -0.025403538320628805,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.727138077374814,
+        "energy_initial": 1.542873155072622,
+        "distance_km": 2.3908671272341186e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220392"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239543370-1.xml",
+      "gps_time": 1239543370.0,
+      "source_parameters": {
+        "mass_1": 47.29778538631733,
+        "mass_2": 23.113808003304975,
+        "mass_total": 70.41159338962231,
+        "mass_ratio": 2.0463000029919067,
+        "distance_mpc": 598.8964491214052,
+        "redshift": 0.37450756950859354,
+        "snr": 6.947953344187937,
+        "efficiency": 0.029547475903589783,
+        "radiated_energy": 2.080484859013225,
+        "chi_eff": 0.24560258535864887
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.1084133380028498,
+        "max_elevation": 91067.20392239385,
+        "final_epsilon": 1.6059681318052713e-20,
+        "final_elevation": 1.3490132307164283e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.12554180238857957
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 41922.751438498366,
+        "v_peculiar_cosmo_kms": 506.6037138246695,
+        "v_spin_kick_kms": 122.80129267932443,
+        "v_total_kms": 42552.15644500236,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9868135922570611,
+        "klein_scale_correction": 1.0000011001157392,
+        "cosmological_factor": 1.0374507569508593,
+        "frequency_observed": 5.605101204020107,
+        "doppler_shift_hz": -0.0748987959798928,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.67123418690474,
+        "energy_initial": 0.7227555866856653,
+        "distance_km": 1.8481944419886564e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220484"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239788217-1.xml",
+      "gps_time": 1239788217.0,
+      "source_parameters": {
+        "mass_1": 44.76107061380949,
+        "mass_2": 35.975002099324485,
+        "mass_total": 80.73607271313398,
+        "mass_ratio": 1.2442270466094005,
+        "distance_mpc": 774.7463147226567,
+        "redshift": 0.3882036610882437,
+        "snr": 9.067984101225305,
+        "efficiency": 0.0421484733103999,
+        "radiated_energy": 3.40290220593603,
+        "chi_eff": -0.33927324296578715
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23143097326089337,
+        "max_elevation": 194402.01753915043,
+        "final_epsilon": 2.5922801401973396e-20,
+        "final_elevation": 2.1775153177657653e-14,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.34976873101014655
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 54232.24203058597,
+        "v_peculiar_cosmo_kms": -531.6928489291842,
+        "v_spin_kick_kms": -169.63662148289356,
+        "v_total_kms": 53530.91256017389,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9955275460703118,
+        "klein_scale_correction": 1.0000014231351948,
+        "cosmological_factor": 1.0388203661088244,
+        "frequency_observed": 5.654596461679371,
+        "doppler_shift_hz": -0.025403538320628805,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.727138077374814,
+        "energy_initial": 1.542873155072622,
+        "distance_km": 2.3908671272341186e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220595"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239550519-1.xml",
+      "gps_time": 1239550519.0,
+      "source_parameters": {
+        "mass_1": 44.76107061380949,
+        "mass_2": 35.975002099324485,
+        "mass_total": 80.73607271313398,
+        "mass_ratio": 1.2442270466094005,
+        "distance_mpc": 774.7463147226567,
+        "redshift": 0.3882036610882437,
+        "snr": 9.067984101225305,
+        "efficiency": 0.0421484733103999,
+        "radiated_energy": 3.40290220593603,
+        "chi_eff": -0.33927324296578715
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23143097326089337,
+        "max_elevation": 194402.01753915043,
+        "final_epsilon": 2.5922801401973396e-20,
+        "final_elevation": 2.1775153177657653e-14,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.34976873101014655
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 54232.24203058597,
+        "v_peculiar_cosmo_kms": -531.6928489291842,
+        "v_spin_kick_kms": -169.63662148289356,
+        "v_total_kms": 53530.91256017389,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9955275460703118,
+        "klein_scale_correction": 1.0000014231351948,
+        "cosmological_factor": 1.0388203661088244,
+        "frequency_observed": 5.654596461679371,
+        "doppler_shift_hz": -0.025403538320628805,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.727138077374814,
+        "energy_initial": 1.542873155072622,
+        "distance_km": 2.3908671272341186e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220540"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239883947-1.xml",
+      "gps_time": 1239883947.0,
+      "source_parameters": {
+        "mass_1": 27.77759519012242,
+        "mass_2": 11.273232013522025,
+        "mass_total": 39.050827203644445,
+        "mass_ratio": 2.464031180836492,
+        "distance_mpc": 1023.9421657358113,
+        "redshift": 0.24854780054600306,
+        "snr": 9.097826171343161,
+        "efficiency": 0.026233560805192714,
+        "radiated_energy": 1.0244422499398809,
+        "chi_eff": -0.4295774157995662
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.06990148134399542,
+        "max_elevation": 58717.244328956156,
+        "final_epsilon": 5.7842479792877346e-21,
+        "final_elevation": 4.858768302601698e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599192106450953
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 71675.9516015068,
+        "v_peculiar_cosmo_kms": 24.07614196666009,
+        "v_spin_kick_kms": -214.7887078997831,
+        "v_total_kms": 71485.23903557367,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9748331763157035,
+        "klein_scale_correction": 1.0000018808842401,
+        "cosmological_factor": 1.0248547800546004,
+        "frequency_observed": 5.537052441473196,
+        "doppler_shift_hz": -0.14294755852680385,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.787696031596319,
+        "energy_initial": 0.46600987562663604,
+        "distance_km": 3.1598855234607137e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220604"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239855472-1.xml",
+      "gps_time": 1239855472.0,
+      "source_parameters": {
+        "mass_1": 47.29778538631733,
+        "mass_2": 23.113808003304975,
+        "mass_total": 70.41159338962231,
+        "mass_ratio": 2.0463000029919067,
+        "distance_mpc": 598.8964491214052,
+        "redshift": 0.37450756950859354,
+        "snr": 6.947953344187937,
+        "efficiency": 0.029547475903589783,
+        "radiated_energy": 2.080484859013225,
+        "chi_eff": 0.24560258535864887
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.1084133380028498,
+        "max_elevation": 91067.20392239385,
+        "final_epsilon": 1.6059681318052713e-20,
+        "final_elevation": 1.3490132307164283e-14,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.12554180238857957
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 41922.751438498366,
+        "v_peculiar_cosmo_kms": 506.6037138246695,
+        "v_spin_kick_kms": 122.80129267932443,
+        "v_total_kms": 42552.15644500236,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9868135922570611,
+        "klein_scale_correction": 1.0000011001157392,
+        "cosmological_factor": 1.0374507569508593,
+        "frequency_observed": 5.605101204020107,
+        "doppler_shift_hz": -0.0748987959798928,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.67123418690474,
+        "energy_initial": 0.7227555866856653,
+        "distance_km": 1.8481944419886564e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220616"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239883999-1.xml",
+      "gps_time": 1239883999.0,
+      "source_parameters": {
+        "mass_1": 27.77759519012242,
+        "mass_2": 11.273232013522025,
+        "mass_total": 39.050827203644445,
+        "mass_ratio": 2.464031180836492,
+        "distance_mpc": 1023.9421657358113,
+        "redshift": 0.24854780054600306,
+        "snr": 9.097826171343161,
+        "efficiency": 0.026233560805192714,
+        "radiated_energy": 1.0244422499398809,
+        "chi_eff": -0.4295774157995662
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.06990148134399542,
+        "max_elevation": 58717.244328956156,
+        "final_epsilon": 5.7842479792877346e-21,
+        "final_elevation": 4.858768302601698e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599192106450953
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 71675.9516015068,
+        "v_peculiar_cosmo_kms": 24.07614196666009,
+        "v_spin_kick_kms": -214.7887078997831,
+        "v_total_kms": 71485.23903557367,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9748331763157035,
+        "klein_scale_correction": 1.0000018808842401,
+        "cosmological_factor": 1.0248547800546004,
+        "frequency_observed": 5.537052441473196,
+        "doppler_shift_hz": -0.14294755852680385,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.787696031596319,
+        "energy_initial": 0.46600987562663604,
+        "distance_km": 3.1598855234607137e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220764"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239886944-1.xml",
+      "gps_time": 1239886944.0,
+      "source_parameters": {
+        "mass_1": 44.76107061380949,
+        "mass_2": 35.975002099324485,
+        "mass_total": 80.73607271313398,
+        "mass_ratio": 1.2442270466094005,
+        "distance_mpc": 774.7463147226567,
+        "redshift": 0.3882036610882437,
+        "snr": 9.067984101225305,
+        "efficiency": 0.0421484733103999,
+        "radiated_energy": 3.40290220593603,
+        "chi_eff": -0.33927324296578715
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23143097326089337,
+        "max_elevation": 194402.01753915043,
+        "final_epsilon": 2.5922801401973396e-20,
+        "final_elevation": 2.1775153177657653e-14,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.34976873101014655
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 54232.24203058597,
+        "v_peculiar_cosmo_kms": -531.6928489291842,
+        "v_spin_kick_kms": -169.63662148289356,
+        "v_total_kms": 53530.91256017389,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9955275460703118,
+        "klein_scale_correction": 1.0000014231351948,
+        "cosmological_factor": 1.0388203661088244,
+        "frequency_observed": 5.654596461679371,
+        "doppler_shift_hz": -0.025403538320628805,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.727138077374814,
+        "energy_initial": 1.542873155072622,
+        "distance_km": 2.3908671272341186e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220803"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239891926-1.xml",
+      "gps_time": 1239891926.0,
+      "source_parameters": {
+        "mass_1": 27.77759519012242,
+        "mass_2": 11.273232013522025,
+        "mass_total": 39.050827203644445,
+        "mass_ratio": 2.464031180836492,
+        "distance_mpc": 1023.9421657358113,
+        "redshift": 0.24854780054600306,
+        "snr": 9.097826171343161,
+        "efficiency": 0.026233560805192714,
+        "radiated_energy": 1.0244422499398809,
+        "chi_eff": -0.4295774157995662
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.06990148134399542,
+        "max_elevation": 58717.244328956156,
+        "final_epsilon": 5.7842479792877346e-21,
+        "final_elevation": 4.858768302601698e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599192106450953
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 71675.9516015068,
+        "v_peculiar_cosmo_kms": 24.07614196666009,
+        "v_spin_kick_kms": -214.7887078997831,
+        "v_total_kms": 71485.23903557367,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9748331763157035,
+        "klein_scale_correction": 1.0000018808842401,
+        "cosmological_factor": 1.0248547800546004,
+        "frequency_observed": 5.537052441473196,
+        "doppler_shift_hz": -0.14294755852680385,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.787696031596319,
+        "energy_initial": 0.46600987562663604,
+        "distance_km": 3.1598855234607137e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220932"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239917954-1.xml",
+      "gps_time": 1239917954.0,
+      "source_parameters": {
+        "mass_1": 27.77759519012242,
+        "mass_2": 11.273232013522025,
+        "mass_total": 39.050827203644445,
+        "mass_ratio": 2.464031180836492,
+        "distance_mpc": 1023.9421657358113,
+        "redshift": 0.24854780054600306,
+        "snr": 9.097826171343161,
+        "efficiency": 0.026233560805192714,
+        "radiated_energy": 1.0244422499398809,
+        "chi_eff": -0.4295774157995662
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.06990148134399542,
+        "max_elevation": 58717.244328956156,
+        "final_epsilon": 5.7842479792877346e-21,
+        "final_elevation": 4.858768302601698e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599192106450953
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 71675.9516015068,
+        "v_peculiar_cosmo_kms": 24.07614196666009,
+        "v_spin_kick_kms": -214.7887078997831,
+        "v_total_kms": 71485.23903557367,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9748331763157035,
+        "klein_scale_correction": 1.0000018808842401,
+        "cosmological_factor": 1.0248547800546004,
+        "frequency_observed": 5.537052441473196,
+        "doppler_shift_hz": -0.14294755852680385,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.787696031596319,
+        "energy_initial": 0.46600987562663604,
+        "distance_km": 3.1598855234607137e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.220931"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239937367-1.xml",
+      "gps_time": 1239937367.0,
+      "source_parameters": {
+        "mass_1": 17.374234471506487,
+        "mass_2": 12.618151123523592,
+        "mass_total": 29.99238559503008,
+        "mass_ratio": 1.3769239487959761,
+        "distance_mpc": 1959.8854924115137,
+        "redshift": 0.3089197432361779,
+        "snr": 6.279368416514441,
+        "efficiency": 0.03905026093487386,
+        "radiated_energy": 1.171210483545277,
+        "chi_eff": 0.4553373869611047
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.05515846589598615,
+        "max_elevation": 46333.111352628366,
+        "final_epsilon": 2.2555042902146707e-21,
+        "final_elevation": 1.8946236037803234e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.057726721441774057
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 137191.98446880595,
+        "v_peculiar_cosmo_kms": -444.2923335985798,
+        "v_spin_kick_kms": 227.66869348055235,
+        "v_total_kms": 136975.36082868793,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.973223059725177,
+        "klein_scale_correction": 1.0000036001229937,
+        "cosmological_factor": 1.0308919743236178,
+        "frequency_observed": 5.527906979239005,
+        "doppler_shift_hz": -0.1520930207609945,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.928673666912253,
+        "energy_initial": 0.367723105973241,
+        "distance_km": 6.048206629581931e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.221031"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239976056-1.xml",
+      "gps_time": 1239976056.0,
+      "source_parameters": {
+        "mass_1": 44.76107061380949,
+        "mass_2": 35.975002099324485,
+        "mass_total": 80.73607271313398,
+        "mass_ratio": 1.2442270466094005,
+        "distance_mpc": 774.7463147226567,
+        "redshift": 0.3882036610882437,
+        "snr": 9.067984101225305,
+        "efficiency": 0.0421484733103999,
+        "radiated_energy": 3.40290220593603,
+        "chi_eff": -0.33927324296578715
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.23143097326089337,
+        "max_elevation": 194402.01753915043,
+        "final_epsilon": 2.5922801401973396e-20,
+        "final_elevation": 2.1775153177657653e-14,
+        "final_state": "Klein_extrema",
+        "regime_classification": "extrema",
+        "mode_parity": 1,
+        "combined_factor": 0.34976873101014655
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 54232.24203058597,
+        "v_peculiar_cosmo_kms": -531.6928489291842,
+        "v_spin_kick_kms": -169.63662148289356,
+        "v_total_kms": 53530.91256017389,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9955275460703118,
+        "klein_scale_correction": 1.0000014231351948,
+        "cosmological_factor": 1.0388203661088244,
+        "frequency_observed": 5.654596461679371,
+        "doppler_shift_hz": -0.025403538320628805,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.727138077374814,
+        "energy_initial": 1.542873155072622,
+        "distance_km": 2.3908671272341186e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.221061"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1239990500-1.xml",
+      "gps_time": 1239990500.0,
+      "source_parameters": {
+        "mass_1": 17.374234471506487,
+        "mass_2": 12.618151123523592,
+        "mass_total": 29.99238559503008,
+        "mass_ratio": 1.3769239487959761,
+        "distance_mpc": 1959.8854924115137,
+        "redshift": 0.3089197432361779,
+        "snr": 6.279368416514441,
+        "efficiency": 0.03905026093487386,
+        "radiated_energy": 1.171210483545277,
+        "chi_eff": 0.4553373869611047
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.05515846589598615,
+        "max_elevation": 46333.111352628366,
+        "final_epsilon": 2.2555042902146707e-21,
+        "final_elevation": 1.8946236037803234e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.057726721441774057
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 137191.98446880595,
+        "v_peculiar_cosmo_kms": -444.2923335985798,
+        "v_spin_kick_kms": 227.66869348055235,
+        "v_total_kms": 136975.36082868793,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.973223059725177,
+        "klein_scale_correction": 1.0000036001229937,
+        "cosmological_factor": 1.0308919743236178,
+        "frequency_observed": 5.527906979239005,
+        "doppler_shift_hz": -0.1520930207609945,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.928673666912253,
+        "energy_initial": 0.367723105973241,
+        "distance_km": 6.048206629581931e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.221131"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240055015-1.xml",
+      "gps_time": 1240055015.0,
+      "source_parameters": {
+        "mass_1": 27.77759519012242,
+        "mass_2": 11.273232013522025,
+        "mass_total": 39.050827203644445,
+        "mass_ratio": 2.464031180836492,
+        "distance_mpc": 1023.9421657358113,
+        "redshift": 0.24854780054600306,
+        "snr": 9.097826171343161,
+        "efficiency": 0.026233560805192714,
+        "radiated_energy": 1.0244422499398809,
+        "chi_eff": -0.4295774157995662
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.06990148134399542,
+        "max_elevation": 58717.244328956156,
+        "final_epsilon": 5.7842479792877346e-21,
+        "final_elevation": 4.858768302601698e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599192106450953
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 71675.9516015068,
+        "v_peculiar_cosmo_kms": 24.07614196666009,
+        "v_spin_kick_kms": -214.7887078997831,
+        "v_total_kms": 71485.23903557367,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9748331763157035,
+        "klein_scale_correction": 1.0000018808842401,
+        "cosmological_factor": 1.0248547800546004,
+        "frequency_observed": 5.537052441473196,
+        "doppler_shift_hz": -0.14294755852680385,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.787696031596319,
+        "energy_initial": 0.46600987562663604,
+        "distance_km": 3.1598855234607137e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.221204"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240155151-1.xml",
+      "gps_time": 1240155151.0,
+      "source_parameters": {
+        "mass_1": 17.374234471506487,
+        "mass_2": 12.618151123523592,
+        "mass_total": 29.99238559503008,
+        "mass_ratio": 1.3769239487959761,
+        "distance_mpc": 1959.8854924115137,
+        "redshift": 0.3089197432361779,
+        "snr": 6.279368416514441,
+        "efficiency": 0.03905026093487386,
+        "radiated_energy": 1.171210483545277,
+        "chi_eff": 0.4553373869611047
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.05515846589598615,
+        "max_elevation": 46333.111352628366,
+        "final_epsilon": 2.2555042902146707e-21,
+        "final_elevation": 1.8946236037803234e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.057726721441774057
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 137191.98446880595,
+        "v_peculiar_cosmo_kms": -444.2923335985798,
+        "v_spin_kick_kms": 227.66869348055235,
+        "v_total_kms": 136975.36082868793,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.973223059725177,
+        "klein_scale_correction": 1.0000036001229937,
+        "cosmological_factor": 1.0308919743236178,
+        "frequency_observed": 5.527906979239005,
+        "doppler_shift_hz": -0.1520930207609945,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.928673666912253,
+        "energy_initial": 0.367723105973241,
+        "distance_km": 6.048206629581931e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.221306"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240215503-1.xml",
+      "gps_time": 1240215503.0,
+      "source_parameters": {
+        "mass_1": 49.60636146253375,
+        "mass_2": 13.868950363660607,
+        "mass_total": 63.47531182619436,
+        "mass_ratio": 3.5767927753575517,
+        "distance_mpc": 500.0,
+        "redshift": 0.33700539589986533,
+        "snr": 7.941163431489404,
+        "efficiency": 0.02118320308506031,
+        "radiated_energy": 1.3446104213018018,
+        "chi_eff": 0.22041268781361423
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.08008328330431069,
+        "max_elevation": 67269.95797562099,
+        "final_epsilon": 1.4431051055608484e-20,
+        "final_elevation": 1.2122082886711127e-14,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599240680829967
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 35000.0,
+        "v_peculiar_cosmo_kms": -763.0826910267845,
+        "v_spin_kick_kms": 110.20634390680712,
+        "v_total_kms": 34347.12365288002,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9832462414696405,
+        "klein_scale_correction": 1.000000918452381,
+        "cosmological_factor": 1.0337005395899865,
+        "frequency_observed": 5.584838651547558,
+        "doppler_shift_hz": -0.09516134845244206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.632043320000633,
+        "energy_initial": 0.5338885553620714,
+        "distance_km": 1.543e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.222584"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240164426-1.xml",
+      "gps_time": 1240164426.0,
+      "source_parameters": {
+        "mass_1": 17.374234471506487,
+        "mass_2": 12.618151123523592,
+        "mass_total": 29.99238559503008,
+        "mass_ratio": 1.3769239487959761,
+        "distance_mpc": 1959.8854924115137,
+        "redshift": 0.3089197432361779,
+        "snr": 6.279368416514441,
+        "efficiency": 0.03905026093487386,
+        "radiated_energy": 1.171210483545277,
+        "chi_eff": 0.4553373869611047
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.05515846589598615,
+        "max_elevation": 46333.111352628366,
+        "final_epsilon": 2.2555042902146707e-21,
+        "final_elevation": 1.8946236037803234e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.057726721441774057
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 137191.98446880595,
+        "v_peculiar_cosmo_kms": -444.2923335985798,
+        "v_spin_kick_kms": 227.66869348055235,
+        "v_total_kms": 136975.36082868793,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.973223059725177,
+        "klein_scale_correction": 1.0000036001229937,
+        "cosmological_factor": 1.0308919743236178,
+        "frequency_observed": 5.527906979239005,
+        "doppler_shift_hz": -0.1520930207609945,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.928673666912253,
+        "energy_initial": 0.367723105973241,
+        "distance_km": 6.048206629581931e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.222592"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240290694-1.xml",
+      "gps_time": 1240290694.0,
+      "source_parameters": {
+        "mass_1": 49.60636146253375,
+        "mass_2": 13.868950363660607,
+        "mass_total": 63.47531182619436,
+        "mass_ratio": 3.5767927753575517,
+        "distance_mpc": 500.0,
+        "redshift": 0.33700539589986533,
+        "snr": 7.941163431489404,
+        "efficiency": 0.02118320308506031,
+        "radiated_energy": 1.3446104213018018,
+        "chi_eff": 0.22041268781361423
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.08008328330431069,
+        "max_elevation": 67269.95797562099,
+        "final_epsilon": 1.4431051055608484e-20,
+        "final_elevation": 1.2122082886711127e-14,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599240680829967
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 35000.0,
+        "v_peculiar_cosmo_kms": -763.0826910267845,
+        "v_spin_kick_kms": 110.20634390680712,
+        "v_total_kms": 34347.12365288002,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9832462414696405,
+        "klein_scale_correction": 1.000000918452381,
+        "cosmological_factor": 1.0337005395899865,
+        "frequency_observed": 5.584838651547558,
+        "doppler_shift_hz": -0.09516134845244206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.632043320000633,
+        "energy_initial": 0.5338885553620714,
+        "distance_km": 1.543e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.224636"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240233548-1.xml",
+      "gps_time": 1240233548.0,
+      "source_parameters": {
+        "mass_1": 27.77759519012242,
+        "mass_2": 11.273232013522025,
+        "mass_total": 39.050827203644445,
+        "mass_ratio": 2.464031180836492,
+        "distance_mpc": 1023.9421657358113,
+        "redshift": 0.24854780054600306,
+        "snr": 9.097826171343161,
+        "efficiency": 0.026233560805192714,
+        "radiated_energy": 1.0244422499398809,
+        "chi_eff": -0.4295774157995662
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.06990148134399542,
+        "max_elevation": 58717.244328956156,
+        "final_epsilon": 5.7842479792877346e-21,
+        "final_elevation": 4.858768302601698e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599192106450953
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 71675.9516015068,
+        "v_peculiar_cosmo_kms": 24.07614196666009,
+        "v_spin_kick_kms": -214.7887078997831,
+        "v_total_kms": 71485.23903557367,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9748331763157035,
+        "klein_scale_correction": 1.0000018808842401,
+        "cosmological_factor": 1.0248547800546004,
+        "frequency_observed": 5.537052441473196,
+        "doppler_shift_hz": -0.14294755852680385,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.787696031596319,
+        "energy_initial": 0.46600987562663604,
+        "distance_km": 3.1598855234607137e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.224612"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240327333-1.xml",
+      "gps_time": 1240327333.0,
+      "source_parameters": {
+        "mass_1": 49.60636146253375,
+        "mass_2": 13.868950363660607,
+        "mass_total": 63.47531182619436,
+        "mass_ratio": 3.5767927753575517,
+        "distance_mpc": 500.0,
+        "redshift": 0.33700539589986533,
+        "snr": 7.941163431489404,
+        "efficiency": 0.02118320308506031,
+        "radiated_energy": 1.3446104213018018,
+        "chi_eff": 0.22041268781361423
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.08008328330431069,
+        "max_elevation": 67269.95797562099,
+        "final_epsilon": 1.4431051055608484e-20,
+        "final_elevation": 1.2122082886711127e-14,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599240680829967
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 35000.0,
+        "v_peculiar_cosmo_kms": -763.0826910267845,
+        "v_spin_kick_kms": 110.20634390680712,
+        "v_total_kms": 34347.12365288002,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9832462414696405,
+        "klein_scale_correction": 1.000000918452381,
+        "cosmological_factor": 1.0337005395899865,
+        "frequency_observed": 5.584838651547558,
+        "doppler_shift_hz": -0.09516134845244206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.632043320000633,
+        "energy_initial": 0.5338885553620714,
+        "distance_km": 1.543e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.225573"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240325074-1.xml",
+      "gps_time": 1240325074.0,
+      "source_parameters": {
+        "mass_1": 17.374234471506487,
+        "mass_2": 12.618151123523592,
+        "mass_total": 29.99238559503008,
+        "mass_ratio": 1.3769239487959761,
+        "distance_mpc": 1959.8854924115137,
+        "redshift": 0.3089197432361779,
+        "snr": 6.279368416514441,
+        "efficiency": 0.03905026093487386,
+        "radiated_energy": 1.171210483545277,
+        "chi_eff": 0.4553373869611047
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.05515846589598615,
+        "max_elevation": 46333.111352628366,
+        "final_epsilon": 2.2555042902146707e-21,
+        "final_elevation": 1.8946236037803234e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.057726721441774057
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 137191.98446880595,
+        "v_peculiar_cosmo_kms": -444.2923335985798,
+        "v_spin_kick_kms": 227.66869348055235,
+        "v_total_kms": 136975.36082868793,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.973223059725177,
+        "klein_scale_correction": 1.0000036001229937,
+        "cosmological_factor": 1.0308919743236178,
+        "frequency_observed": 5.527906979239005,
+        "doppler_shift_hz": -0.1520930207609945,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.928673666912253,
+        "energy_initial": 0.367723105973241,
+        "distance_km": 6.048206629581931e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.225592"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240352617-1.xml",
+      "gps_time": 1240352617.0,
+      "source_parameters": {
+        "mass_1": 26.872374982841606,
+        "mass_2": 21.617114312121082,
+        "mass_total": 48.48948929496269,
+        "mass_ratio": 1.2431064847436093,
+        "distance_mpc": 4835.142133552021,
+        "redshift": 0.3292517742571606,
+        "snr": 7.375995319908757,
+        "efficiency": 0.04217745260837409,
+        "radiated_energy": 2.045163136742552,
+        "chi_eff": 0.2123127744626755
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.11313835293797235,
+        "max_elevation": 95036.21646789678,
+        "final_epsilon": 1.735557008173669e-21,
+        "final_elevation": 1.457867886865882e-15,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.13908466029544483
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 338459.94934864144,
+        "v_peculiar_cosmo_kms": -692.303736724228,
+        "v_spin_kick_kms": 106.15638723133775,
+        "v_total_kms": 337873.8019991485,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9825165482124023,
+        "klein_scale_correction": 1.0000088816956096,
+        "cosmological_factor": 1.032925177425716,
+        "frequency_observed": 5.580693993846445,
+        "doppler_shift_hz": -0.09930600615355445,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 9.124762940383402,
+        "energy_initial": 0.7542556862531489,
+        "distance_km": 1.4921248624141537e+23,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.227083"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240399040-1.xml",
+      "gps_time": 1240399040.0,
+      "source_parameters": {
+        "mass_1": 49.60636146253375,
+        "mass_2": 13.868950363660607,
+        "mass_total": 63.47531182619436,
+        "mass_ratio": 3.5767927753575517,
+        "distance_mpc": 500.0,
+        "redshift": 0.33700539589986533,
+        "snr": 7.941163431489404,
+        "efficiency": 0.02118320308506031,
+        "radiated_energy": 1.3446104213018018,
+        "chi_eff": 0.22041268781361423
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.08008328330431069,
+        "max_elevation": 67269.95797562099,
+        "final_epsilon": 1.4431051055608484e-20,
+        "final_elevation": 1.2122082886711127e-14,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599240680829967
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 35000.0,
+        "v_peculiar_cosmo_kms": -763.0826910267845,
+        "v_spin_kick_kms": 110.20634390680712,
+        "v_total_kms": 34347.12365288002,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9832462414696405,
+        "klein_scale_correction": 1.000000918452381,
+        "cosmological_factor": 1.0337005395899865,
+        "frequency_observed": 5.584838651547558,
+        "doppler_shift_hz": -0.09516134845244206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.632043320000633,
+        "energy_initial": 0.5338885553620714,
+        "distance_km": 1.543e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.227102"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240620590-1.xml",
+      "gps_time": 1240620590.0,
+      "source_parameters": {
+        "mass_1": 26.872374982841606,
+        "mass_2": 21.617114312121082,
+        "mass_total": 48.48948929496269,
+        "mass_ratio": 1.2431064847436093,
+        "distance_mpc": 4835.142133552021,
+        "redshift": 0.3292517742571606,
+        "snr": 7.375995319908757,
+        "efficiency": 0.04217745260837409,
+        "radiated_energy": 2.045163136742552,
+        "chi_eff": 0.2123127744626755
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.11313835293797235,
+        "max_elevation": 95036.21646789678,
+        "final_epsilon": 1.735557008173669e-21,
+        "final_elevation": 1.457867886865882e-15,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.13908466029544483
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 338459.94934864144,
+        "v_peculiar_cosmo_kms": -692.303736724228,
+        "v_spin_kick_kms": 106.15638723133775,
+        "v_total_kms": 337873.8019991485,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9825165482124023,
+        "klein_scale_correction": 1.0000088816956096,
+        "cosmological_factor": 1.032925177425716,
+        "frequency_observed": 5.580693993846445,
+        "doppler_shift_hz": -0.09930600615355445,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 9.124762940383402,
+        "energy_initial": 0.7542556862531489,
+        "distance_km": 1.4921248624141537e+23,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.228198"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240630609-1.xml",
+      "gps_time": 1240630609.0,
+      "source_parameters": {
+        "mass_1": 17.374234471506487,
+        "mass_2": 12.618151123523592,
+        "mass_total": 29.99238559503008,
+        "mass_ratio": 1.3769239487959761,
+        "distance_mpc": 1959.8854924115137,
+        "redshift": 0.3089197432361779,
+        "snr": 6.279368416514441,
+        "efficiency": 0.03905026093487386,
+        "radiated_energy": 1.171210483545277,
+        "chi_eff": 0.4553373869611047
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.05515846589598615,
+        "max_elevation": 46333.111352628366,
+        "final_epsilon": 2.2555042902146707e-21,
+        "final_elevation": 1.8946236037803234e-15,
+        "final_state": "Klein_relajada",
+        "regime_classification": "relajada",
+        "mode_parity": -1,
+        "combined_factor": 0.057726721441774057
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 137191.98446880595,
+        "v_peculiar_cosmo_kms": -444.2923335985798,
+        "v_spin_kick_kms": 227.66869348055235,
+        "v_total_kms": 136975.36082868793,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.973223059725177,
+        "klein_scale_correction": 1.0000036001229937,
+        "cosmological_factor": 1.0308919743236178,
+        "frequency_observed": 5.527906979239005,
+        "doppler_shift_hz": -0.1520930207609945,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.928673666912253,
+        "energy_initial": 0.367723105973241,
+        "distance_km": 6.048206629581931e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.228215"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240651041-1.xml",
+      "gps_time": 1240651041.0,
+      "source_parameters": {
+        "mass_1": 49.60636146253375,
+        "mass_2": 13.868950363660607,
+        "mass_total": 63.47531182619436,
+        "mass_ratio": 3.5767927753575517,
+        "distance_mpc": 500.0,
+        "redshift": 0.33700539589986533,
+        "snr": 7.941163431489404,
+        "efficiency": 0.02118320308506031,
+        "radiated_energy": 1.3446104213018018,
+        "chi_eff": 0.22041268781361423
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.08008328330431069,
+        "max_elevation": 67269.95797562099,
+        "final_epsilon": 1.4431051055608484e-20,
+        "final_elevation": 1.2122082886711127e-14,
+        "final_state": "Klein_relajada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.10599240680829967
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 35000.0,
+        "v_peculiar_cosmo_kms": -763.0826910267845,
+        "v_spin_kick_kms": 110.20634390680712,
+        "v_total_kms": 34347.12365288002,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9832462414696405,
+        "klein_scale_correction": 1.000000918452381,
+        "cosmological_factor": 1.0337005395899865,
+        "frequency_observed": 5.584838651547558,
+        "doppler_shift_hz": -0.09516134845244206,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 8.632043320000633,
+        "energy_initial": 0.5338885553620714,
+        "distance_km": 1.543e+22,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.229683"
+    },
+    {
+      "event_id": "H1L1V1-GSTLAL_AllSky-1240630634-1.xml",
+      "gps_time": 1240630634.0,
+      "source_parameters": {
+        "mass_1": 26.872374982841606,
+        "mass_2": 21.617114312121082,
+        "mass_total": 48.48948929496269,
+        "mass_ratio": 1.2431064847436093,
+        "distance_mpc": 4835.142133552021,
+        "redshift": 0.3292517742571606,
+        "snr": 7.375995319908757,
+        "efficiency": 0.04217745260837409,
+        "radiated_energy": 2.045163136742552,
+        "chi_eff": 0.2123127744626755
+      },
+      "klein_evolution": {
+        "max_epsilon": 0.11313835293797235,
+        "max_elevation": 95036.21646789678,
+        "final_epsilon": 1.735557008173669e-21,
+        "final_elevation": 1.457867886865882e-15,
+        "final_state": "Klein_deformada",
+        "regime_classification": "deformada",
+        "mode_parity": 0,
+        "combined_factor": 0.13908466029544483
+      },
+      "doppler_analysis": {
+        "v_hubble_kms": 338459.94934864144,
+        "v_peculiar_cosmo_kms": -692.303736724228,
+        "v_spin_kick_kms": 106.15638723133775,
+        "v_total_kms": 337873.8019991485,
+        "v_peculiar_c": 0.05,
+        "beta": 0.05,
+        "doppler_factor": 0.9825165482124023,
+        "klein_scale_correction": 1.0000088816956096,
+        "cosmological_factor": 1.032925177425716,
+        "frequency_observed": 5.580693993846445,
+        "doppler_shift_hz": -0.09930600615355445,
+        "direction": "recede"
+      },
+      "physical_scales": {
+        "scale_factor_used": 9.124762940383402,
+        "energy_initial": 0.7542556862531489,
+        "distance_km": 1.4921248624141537e+23,
+        "regime": "gravitational"
+      },
+      "validation": {
+        "topology_conserved": "True",
+        "doppler_realistic": "True",
+        "energy_positive": "True",
+        "beta_physical": "False",
+        "solver_used": "analytical_fixed"
+      },
+      "timestamp": "2025-07-27T20:45:13.229716"
+    }
+  ]
+}
