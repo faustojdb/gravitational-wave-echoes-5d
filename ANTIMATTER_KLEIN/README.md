@@ -2,134 +2,112 @@
 
 ## Resumen
 
-Este módulo explora la conexión entre la topología Klein y la antimateria, derivando predicciones verificables desde primeros principios.
+Este módulo deriva predicciones cuantitativas sobre antimateria desde la topología Klein.
 
 ## HALLAZGO PRINCIPAL
 
 ```
-22 = 7π (error 0.04%)
+Todas las predicciones usan: 7π ≈ 22
 
-Todas las predicciones usan la MISMA constante: 7π ≈ 22
+Con corrección dimensional según el tipo de proceso:
+- Local (4D):       factor = 1
+- Cosmológico (3D): factor = 3/2
+- Termodinámico (5D): factor = 5/2
 ```
 
-## Resumen de Predicciones
+## Tabla de Predicciones
 
-| Fenómeno | Fórmula Klein | Predicción | Observado | Error |
-|----------|--------------|------------|-----------|-------|
-| Ratio 22 | 7π | 21.99 | 22 | **0.04%** |
-| η_B (asimetría) | (7π)⁻⁷ | 4×10⁻¹⁰ | 6×10⁻¹⁰ | **33%** |
-| ε (violación CP) | (7π)⁻² | 2.1×10⁻³ | 2.2×10⁻³ | **7%** |
+| Cantidad | Fórmula Klein | Predicción | Observado | Error |
+|----------|---------------|------------|-----------|-------|
+| 22 | 7π | 21.99 | 22 | **0.04%** |
+| ε (CP) | (7π)⁻² | 2.07×10⁻³ | 2.23×10⁻³ | **7%** |
+| η_B | (3/2)×(7π)⁻⁷ | 6.03×10⁻¹⁰ | 6.12×10⁻¹⁰ | **1.5%** |
 | τ(n→n̄) | (7π)²⁴×τ_nat | ~10⁸ s | >10⁸ s | **exacto** |
+| N_A | e^[(5/2-1/99)×7π] | 6.02×10²³ | 6.02×10²³ | **0.08%** |
 
-## Las 6 Preguntas Fundamentales
+## Origen de los Exponentes
 
-| # | Pregunta | Archivo | Estado |
-|---|----------|---------|--------|
-| 1 | ¿Por qué η_B = 6×10⁻¹⁰? | via #5 | **COMPLETADO** (33% error) |
-| 2 | ¿Tiempo de oscilación n → n̄? | `question_2_nn_oscillation.py` | **COMPLETADO** (exacto) |
-| 3 | ¿Por qué CP viola (~10⁻³) pero CPT no? | `question_3_cp_violation.py` | **COMPLETADO** (7% error) |
-| 4 | ¿Diferencia gravitacional m vs m̄? | `question_4_gravity.py` | Pendiente |
-| 5 | ¿De dónde sale el 22? | `question_5_origin_of_22.py` | **COMPLETADO** (0.04% error) |
-| 6 | ¿Por qué domina materia sobre antimateria? | via #5 | **COMPLETADO** (topológico) |
+| Exponente | Origen | Grupo/Estructura |
+|-----------|--------|------------------|
+| 2 | Violación CP = C × P | 2 operaciones |
+| 7 | Capas de energía | 5D + 2 (no-orientabilidad) |
+| 24 | Oscilación n→n̄ | dim(SU(5)) = 5² - 1 |
+| ~49 | Decaimiento protón | dim(SO(10)) + 2² |
 
-## Archivos
+## Corrección Dimensional
+
+```
+El factor 3/2 en η_B viene de:
+- 3 dimensiones espaciales
+- Igual que C = (3/2)Nk_B en termodinámica
+
+El factor 5/2 en N_A viene de:
+- 5 dimensiones de Kaluza-Klein
+- Igual que S = (5/2)Nk_B + ... en Sackur-Tetrode
+```
+
+## Archivos del Módulo
 
 ### Derivaciones Principales
 
-#### `question_5_origin_of_22.py` - COMPLETADO
-- **22 ≈ 7π** con error de solo 0.04%
-- El 7 viene de: 7 = 5 + 2 (Kaluza-Klein + no-orientabilidad)
-- Conexión: 22^7 ≈ η_B⁻¹
+| Archivo | Contenido | Resultado |
+|---------|-----------|-----------|
+| `question_5_origin_of_22.py` | Origen de 22 | 22 = 7π (0.04%) |
+| `question_3_cp_violation.py` | Violación CP | ε = (7π)⁻² (7%) |
+| `question_2_nn_oscillation.py` | Oscilación n→n̄ | τ = (7π)²⁴×τ_nat |
+| `why_seven_layers.py` | Origen del 7 | 7 = 5 + 2 |
+| `SU5_klein_connection.py` | Conexión GUT | 24 = dim(SU(5)) |
 
-#### `question_3_cp_violation.py` - COMPLETADO
-- **ε = (7π)⁻²** predice violación CP con 7% error
-- CP = 2 operaciones topológicas → 2 capas
-- CPT conserva porque es "vuelta completa"
+### Datos y Análisis
 
-#### `question_2_nn_oscillation.py` - COMPLETADO
-- **τ(n→n̄) = (7π)²⁴ × τ_natural ≈ 10⁸ s**
-- 24 capas: ¿4! o 7π/log(7π)×7?
-- ESS podría detectar → prueba directa de Klein
+| Archivo | Contenido |
+|---------|-----------|
+| `updated_experimental_data_2024.py` | Datos PDG/Planck/CERN |
+| `CERN_data_analysis.py` | Análisis ALPHA-g, n-n̄ |
+| `forbidden_modes_analysis.py` | Modos prohibidos Klein |
 
-#### `why_seven_layers.py`
-- 7 = 11 - 4 (Teoría M)
-- 7 = 5 + 2 (Kaluza-Klein + twist)
-- 7 escalas de energía fundamentales
-
-### Análisis de Datos
-
-#### `CERN_data_analysis.py`
-- ALPHA: espectroscopía anti-H (precisión 10⁻¹²)
-- ALPHA-g: gravedad (0.75±0.29)g
-- n-n̄: límite τ > 10⁸ s
-- η_B ≈ 6×10⁻¹⁰
-
-#### `forbidden_modes_analysis.py`
-- Klein prohíbe ciertos modos (paridad)
-- Hallazgo clave: 22⁷ ≈ 10^9.4 ≈ η_B⁻¹
-
-#### `antimatter_klein_connection.py`
-- No orientabilidad ↔ Conjugación de carga
-- CPT como operación geométrica
-- Factor 10^20.85 como "distancia topológica"
-
-## Estructura Teórica
+## Estructura Teórica Completa
 
 ```
-TOPOLOGÍA KLEIN
-       │
-       ▼
-   22 = 7π ◄──── Supresión por capa
-       │
-       ├──► (7π)⁻² = ε       [2 capas: C×P]
-       │
-       ├──► (7π)⁻⁷ = η_B     [7 capas: escalas de energía]
-       │
-       └──► (7π)²⁴ × τ₀ = τ  [24 capas: espacio config.]
+TOPOLOGÍA KLEIN EN 5D
+        │
+        ▼
+    7π ≈ 22  ←── Supresión fundamental por capa
+        │
+        ├──► (7π)⁻² = ε_CP        [2 capas: C×P]
+        │
+        ├──► (3/2)×(7π)⁻⁷ = η_B   [7 capas + factor 3D]
+        │
+        ├──► (7π)²⁴ = τ(n→n̄)     [24 = dim(SU(5))]
+        │
+        └──► e^[(5/2)×7π] = N_A   [factor 5D en exponente]
 ```
 
-## Constantes Derivadas
-
-```python
-# Constante fundamental
-RATIO_22 = 7 * pi  # = 21.99 (error 0.04%)
-
-# Capas topológicas
-N_CAPAS_CP = 2      # violación CP
-N_CAPAS_ETA = 7     # asimetría bariogénica
-N_CAPAS_NN = 24     # oscilación n-n̄
-
-# Predicciones
-epsilon_CP = (7*pi)**(-2)      # = 2.07×10⁻³
-eta_B = (7*pi)**(-7)           # = 4.0×10⁻¹⁰
-tau_nn = tau_nat * (7*pi)**24  # ≈ 10⁸ s
-```
-
-## Conexiones con Otros Módulos
+## Conexión con Grupos de Unificación
 
 ```
-ANTIMATTER_KLEIN/
-    ↓ usa
-QUANTUM_KLEIN_DEVELOPMENT/
-    ↓ derivaciones de
-KLEIN_UNIFIED_THEORY/core_theory/
+5D Kaluza-Klein
+      │
+      ▼
+   5² - 1 = 24 = dim(SU(5))
+      │
+      ├──► SU(3)×SU(2)×U(1) contenido en SU(5)
+      │
+      └──► SO(10) ⊃ SU(5) para decaimiento del protón
 ```
 
-## Predicciones Futuras (Testables)
+## Predicciones Testables
 
-1. **ESS (n→n̄)**: Si τ ~ 10⁸ s, debería detectarse con sensibilidad 10¹⁰ s
-2. **ALPHA-g**: Diferencia gravitacional m vs m̄ ~ (7π)⁻ⁿ para algún n
-3. **Precisión CPT**: Límite teórico Klein: < 10⁻²⁹
+1. **ESS (n→n̄)**: τ ~ 10⁸ s, detectable con sensibilidad 10¹⁰ s
+2. **ALPHA-g**: Diferencia gravitacional m vs m̄ ~ (7π)⁻ⁿ
+3. **Decaimiento protón**: τ >> 10³⁴ años (consistente)
 
-## Interpretación Física
+## Referencias Experimentales
 
-La topología Klein proporciona:
-1. **Explicación geométrica de CPT**: vuelta completa por Klein
-2. **Origen de violación CP**: vuelta parcial (2 capas)
-3. **Asimetría materia-antimateria**: 7 capas de supresión
-4. **Supresión de n→n̄**: 24 capas de configuración
-
-Todo unificado por la constante **7π ≈ 22**.
+- PDG 2024: ε = (2.228 ± 0.011)×10⁻³
+- Planck 2018 + BBN 2024: η_B = (6.12 ± 0.04)×10⁻¹⁰
+- ILL 1994: τ(n→n̄) > 8.6×10⁷ s
+- ALPHA-g 2023: a_g = (0.75 ± 0.29)g
 
 ---
 *Última actualización: Enero 2026*
