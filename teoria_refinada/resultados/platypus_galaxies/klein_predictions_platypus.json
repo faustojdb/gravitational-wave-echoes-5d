@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated": "2026-01-22T05:05:38.943636",
+    "model": "Klein Evolutionary Theory",
+    "target": "Platypus Galaxies (JWST)",
+    "reference_redshift": 2.0
+  },
+  "klein_parameters_at_z2": {
+    "R_klein_km": 5566.6860631149675,
+    "f_klein_hz": 8.571248863577958,
+    "coupling_strength": 0.29327243653888285,
+    "formation_efficiency": 0.28302817160260973
+  },
+  "spectral_predictions": {
+    "sigma_merger_kms": 150,
+    "sigma_klein_kms": 9.773679342103396,
+    "width_ratio": 15.347342055087154,
+    "prediction": "Platypus lines should be 15.3x narrower than merger galaxies"
+  },
+  "formation_epoch": {
+    "z_peak_formation": 1.3888888888888888,
+    "peak_efficiency": 0.5179011708646857,
+    "z_range_high_efficiency": [
+      0.5,
+      4.333333333333333
+    ],
+    "prediction": "Platypus galaxies should peak at z \u2248 1.4"
+  },
+  "spectral_signature": {
+    "f_klein_hz": 8.571248863577958,
+    "klein_period_seconds": 0.1166691127414731,
+    "velocity_modulation_kms": 47713.45159236942,
+    "Ha_rest_nm": 656.3,
+    "Ha_observed_nm": 1968.8999999999999,
+    "predicted_modulation_nm": 104.45338915121091,
+    "fractional_modulation": 0.15915494309189535
+  },
+  "testable_predictions": [
+    {
+      "test": "Line Width Comparison",
+      "prediction": "Platypus galaxies have \u03c3_v < 20 km/s vs ~150 km/s for mergers",
+      "observable": "FWHM of emission lines",
+      "significance": "HIGH - direct test of silent formation"
+    },
+    {
+      "test": "Redshift Distribution",
+      "prediction": "Peak abundance at z \u2248 1.4",
+      "observable": "Number counts vs redshift",
+      "significance": "MEDIUM - requires larger sample"
+    },
+    {
+      "test": "Size Evolution",
+      "prediction": "Smaller than expected at high z (follows R_klein scaling)",
+      "observable": "Angular size vs redshift",
+      "significance": "MEDIUM - requires resolved imaging"
+    },
+    {
+      "test": "Velocity Field",
+      "prediction": "Coherent rotation without merger signatures",
+      "observable": "IFU spectroscopy velocity maps",
+      "significance": "HIGH - smoking gun for silent formation"
+    },
+    {
+      "test": "Environment",
+      "prediction": "Can form in isolation (no nearby companions needed)",
+      "observable": "Environment density",
+      "significance": "MEDIUM - statistical test"
+    }
+  ]
+}

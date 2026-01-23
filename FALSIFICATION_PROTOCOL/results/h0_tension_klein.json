@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-01-22T06:22:13.969271",
+  "tension": {
+    "H0_local": 73.04,
+    "H0_cmb": 67.4,
+    "difference": 5.640000000000001,
+    "significance_sigma": 4.887561225309663
+  },
+  "klein_parameters": {
+    "R_km": 8400,
+    "f0_Hz": 5.68,
+    "epsilon_max": 0.65
+  },
+  "tension_explanation": {
+    "epsilon_required": 6.696940099312468e-07,
+    "epsilon_gw": 0.2,
+    "ratio_observed": 1.083679525222552,
+    "ratio_klein": 0.9999999999995732,
+    "delta_local": 2.1356669854180633e-14,
+    "delta_cmb": 4.480827190114188e-13,
+    "consistent": "False"
+  },
+  "z_dependent_h0": {
+    "data": [
+      {
+        "probe": "Cepheids (SH0ES)",
+        "z_eff": 0.023,
+        "H0": 73.04,
+        "err": 1.04
+      },
+      {
+        "probe": "TRGB",
+        "z_eff": 0.007,
+        "H0": 69.8,
+        "err": 1.7
+      },
+      {
+        "probe": "Masers",
+        "z_eff": 0.016,
+        "H0": 73.9,
+        "err": 3.0
+      },
+      {
+        "probe": "SN time delays",
+        "z_eff": 0.5,
+        "H0": 74.2,
+        "err": 1.6
+      },
+      {
+        "probe": "Strong lensing (H0LiCOW)",
+        "z_eff": 0.6,
+        "H0": 73.3,
+        "err": 1.8
+      },
+      {
+        "probe": "BAO + BBN",
+        "z_eff": 0.5,
+        "H0": 67.4,
+        "err": 1.1
+      },
+      {
+        "probe": "BAO + D/H",
+        "z_eff": 2.3,
+        "H0": 67.0,
+        "err": 1.2
+      },
+      {
+        "probe": "Planck CMB",
+        "z_eff": 1100,
+        "H0": 67.4,
+        "err": 0.5
+      }
+    ],
+    "H0_true_fit": 68.84262711175941,
+    "epsilon_fit": 0.0,
+    "chi2_klein": 49.19396914456607,
+    "chi2_constant": 49.19396914456607,
+    "F_stat": 0.0,
+    "p_value": 1.0,
+    "verdict": "\u2717 Constant H\u2080 fits as well or better"
+  },
+  "overall": "\u2717 Klein theory requires different \u03b5 for H\u2080 vs GW"
+}

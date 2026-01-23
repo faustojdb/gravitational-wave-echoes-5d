@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-01-22T13:48:18.272571",
+  "analysis": "Big Bang Klein - Extreme case analysis",
+  "klein_levels": {
+    "Klein_1": {
+      "R_m": 1.6165467790396732e-35,
+      "f_Hz": 2.951566401357968e+42
+    },
+    "Klein_2": {
+      "R_m": 1e-15,
+      "f_Hz": 4.771345159236942e+22
+    },
+    "Klein_3": {
+      "R_m": 8400000.0,
+      "f_Hz": 5.68
+    },
+    "Klein_4": {
+      "R_m": 1.543e+25,
+      "f_Hz": 3.092252209486029e-18
+    }
+  },
+  "activation_times": {
+    "Klein_1": {
+      "t_s": 5.392219636958556e-44,
+      "T_K": 7.74415873919193e+30,
+      "epoch": "Inflation era"
+    },
+    "Klein_2": {
+      "t_s": 3.3356409519815205e-24,
+      "T_K": 9.846193917820823e+20,
+      "epoch": "Electroweak era"
+    },
+    "Klein_3": {
+      "t_s": 0.028019383996644772,
+      "T_K": 10743078318.006601,
+      "epoch": "Nucleosynthesis"
+    },
+    "Klein_4": {
+      "t_s": 5.146893988907486e+16,
+      "T_K": 11.315099922376993,
+      "epoch": "After recombination"
+    }
+  },
+  "primordial_dynamics": {
+    "phases": [
+      "Pre-Planck",
+      "Klein\u2081 Activation",
+      "Klein Cascade"
+    ],
+    "inflation_hypothesis": "Klein\u2081 relaxation drives inflation",
+    "phase_transitions": "Klein activations trigger symmetry breaking"
+  },
+  "signatures": {
+    "CMB": {
+      "prediction": "Klein harmonic structure in angular power spectrum",
+      "scale": "0.0000 arcsec",
+      "test": "Look for odd/even asymmetry in CMB multipoles"
+    },
+    "PGW": {
+      "prediction": "Klein-modulated primordial GW spectrum",
+      "klein1_freq_today": 5.392219636958556e-72,
+      "test": "NANOGrav/PTA spectrum analysis"
+    },
+    "baryogenesis": {
+      "prediction": "Klein topology provides CP violation for baryogenesis",
+      "scale": "~10\u00b9\u2075 K",
+      "test": "Calculate CP violation from Klein\u2082 topology"
+    },
+    "dark_matter": {
+      "prediction": "Frozen Klein defects as dark matter",
+      "mass_scale": "1.35e+31 kg",
+      "test": "Microlensing searches for compact dark matter"
+    }
+  },
+  "inflation_model": {
+    "model": "Klein deformation as inflaton",
+    "potential": "V(\u03b5) = V\u2080 \u00d7 \u03b5\u00b2 \u00d7 (1 - \u03b5/\u03b5_max)\u00b2",
+    "n_s_predicted": 0.9666666666666667,
+    "n_s_observed": 0.965,
+    "r_predicted": 0.13333333333333333,
+    "r_limit": 0.06,
+    "unique_signature": "Odd/even mode asymmetry in primordial spectrum"
+  },
+  "summary": {
+    "inflation_n_s_match": true,
+    "testable_predictions": [
+      "CMB",
+      "PGW",
+      "baryogenesis",
+      "dark_matter"
+    ],
+    "status": "Speculative but internally consistent"
+  }
+}

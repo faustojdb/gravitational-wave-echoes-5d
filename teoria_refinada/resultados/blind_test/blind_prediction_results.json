@@ -1,0 +1,44 @@
+{
+  "test_date": "2026-01-22T04:48:52.609460",
+  "params_used": {
+    "epsilon_max": 0.65,
+    "f0_hz": 5.68,
+    "R_5D_km": 8400,
+    "gamma_coupling": 50.0,
+    "calibration_source": "GWTC-1/2.1/3 (90 events, pre-O4)",
+    "calibration_date": "2023-05-01"
+  },
+  "sample_sizes": {
+    "pre_o4": 99,
+    "o4": 85
+  },
+  "predictions": {
+    "topological_limit": {
+      "prediction": "\u03b5 \u2264 0.65 for all events",
+      "pre_o4_violations": 21,
+      "o4_violations": 29,
+      "o4_max_epsilon": 0.65,
+      "passed": false
+    },
+    "correlation_consistency": {
+      "prediction": "E-\u03b5 correlation consistent between pre-O4 and O4",
+      "r_pre_o4": 0.8870208025159594,
+      "r_o4": 0.6864667467049829,
+      "difference_sigma": 3.767536811123818,
+      "passed": "False"
+    },
+    "mass_scaling": {
+      "prediction": "\u03b5 \u221d M^0.5 (positive correlation)",
+      "r_pre_o4": 0.8594850616829357,
+      "r_o4": 0.7725869130683872,
+      "passed": "True"
+    },
+    "extreme_events": {
+      "prediction": "All extreme events (M > 100 M\u2609) respect \u03b5_max = 0.65",
+      "n_extreme": 13,
+      "violations": 13,
+      "passed": false
+    }
+  },
+  "overall_passed": false
+}
