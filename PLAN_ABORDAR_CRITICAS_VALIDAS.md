@@ -2,7 +2,27 @@
 ## Teoría Klein - Refactorización Hacia Rigor Matemático
 
 **Fecha:** Enero 2026
+**Actualizado:** 23 Enero 2026
 **Objetivo:** Convertir observaciones empíricas en física derivable
+
+---
+
+## CRÍTICA EPISTEMOLÓGICA FUNDAMENTAL
+
+> **"El número de coincidencias no importa. Importa el espacio de patrones permitidos."**
+
+Si el espacio permitido incluye π, 2π, 7π, potencias, productos, correcciones...
+entonces encontrar 15 o 50 coincidencias **es estadísticamente inevitable**, no sorprendente.
+
+### Las dos salidas posibles:
+
+| Opción | Descripción | Requisito |
+|--------|-------------|-----------|
+| **A - Congelar espacio** | Declarar ANTES de mirar datos qué está permitido | Aceptar fallos si ocurren |
+| **B - Predicción ciega** | Derivar algo NO usado en ajustes previos | Que pueda fallar claramente |
+
+### Criterio de evaluación:
+> **No evaluar "qué tan bien explicado está", sino "si reduce el espacio de patrones permitidos".**
 
 ---
 
@@ -10,18 +30,25 @@
 
 La crítica tiene razón en varios puntos fundamentales:
 
-| Crítica | Validez | Acción Requerida |
-|---------|---------|------------------|
-| R_Klein no es dimensionalmente consistente | ✅ Válida | Reescribir con unidades explícitas |
-| γ_holonomy = 0.336 insertado, no derivado | ✅ Válida | Derivar desde geometría Klein |
-| Corrección -1/2 es post-hoc | ✅ Válida | Derivar ANTES de comparar con datos |
-| "7 capas" no derivadas | ✅ Válida | Derivar desde π₁(K) |
-| Baseline estadístico no definido | ✅ Válida | Definir hipótesis nula explícita |
-| Look-elsewhere no corregido en constantes | ✅ Válida | Definir espacio de fórmulas permitidas |
+| Crítica | Validez | Acción Requerida | Prioridad |
+|---------|---------|------------------|-----------|
+| "7 capas" no derivadas | ✅ Válida | Derivar desde π₁(K) | 🔴 ALTA |
+| Espacio de patrones no definido | ✅ Válida | Congelar espacio ANTES | 🔴 ALTA |
+| Corrección -1/2 es post-hoc | ✅ Válida | Derivar ANTES de comparar | 🟡 MEDIA |
+| Baseline estadístico no definido | ✅ Válida | Definir hipótesis nula | 🟡 MEDIA |
+| R_Klein no derivado | ✅ Válida | **POSPUESTO** (ver nota) | 🟢 BAJA |
+| γ_holonomy = 0.336 insertado | ✅ Válida | Derivar desde geometría | 🟢 BAJA |
+
+### Nota sobre R_Klein:
+El radio Klein NO se abordará por ahora porque:
+1. No hay suficiente base empírica para validar derivaciones
+2. **Hipótesis nueva**: R_Klein podría depender del tiempo cósmico
+3. Ya se puede expresar t_U en "tiempo Klein": t_U/t_P = (7π)⁴⁵
+4. Es preferible desarrollar primero la base teórica (derivar 7)
 
 ---
 
-## PLAN DE 4 PUNTOS
+## PLAN REVISADO (3 PUNTOS PRIORITARIOS)
 
 ---
 
@@ -62,41 +89,28 @@ Klein con simetría U(1) es 7."
 
 ---
 
-## Punto 2: Corregir la Derivación de R_Klein
+## [POSPUESTO] Punto 2: R_Klein como Hipótesis Abierta
 
-### Problema actual:
-```
-R_Klein = (m_e × c²) × exp(α⁻¹ × γ_holonomy)
-```
-Esto es dimensionalmente incorrecto: energía × adimensional = energía, no longitud.
+### Estado: POSPUESTO - No prioritario
 
-### Corrección necesaria:
+### Problema original:
+La derivación dimensional de R_Klein no funciona correctamente.
 
-```
-R_Klein = (ℏc / m_e c²) × exp(α⁻¹ × γ_holonomy)
-        = (ℏ / m_e c) × exp(α⁻¹ × γ_holonomy)
-        = λ_Compton × exp(α⁻¹ × γ_holonomy)
-```
+### Nueva hipótesis a explorar (futuro):
+> **R_Klein podría ser dinámico y depender de la edad del universo.**
 
-Donde:
-- λ_Compton = ℏ/(m_e c) = 3.86 × 10⁻¹³ m (longitud de Compton del electrón)
-- exp(137.036 × 0.336) = 5.12 × 10¹⁹
+Evidencia circunstancial:
+- t_U/t_P = (7π)⁴⁵ sugiere una conexión temporal
+- Si R_Klein ∝ f(t_U), entonces su valor actual sería una "instantánea"
+- Esto explicaría por qué no emerge de constantes fundamentales estáticas
 
-Resultado: R = 3.86 × 10⁻¹³ × 5.12 × 10¹⁹ = 1.98 × 10⁷ m ≈ 20,000 km
+### Por qué se pospone:
+1. Falta base empírica para validar cualquier derivación
+2. Es más productivo primero derivar el "7" formalmente
+3. La hipótesis R(t) requiere primero entender la estructura topológica
 
-**¡Esto NO da 419 km!**
-
-### Implicación:
-La fórmula original tiene un error. Hay que:
-1. O encontrar la fórmula correcta que SÍ dé el radio observado
-2. O aceptar que el radio empírico no tiene derivación fundamental aún
-
-### Acción honesta:
-Documentar el problema y buscar la derivación correcta, o admitir que
-R_Klein sigue siendo empírico.
-
-### Archivos a modificar:
-- `FUNDAMENTAL_RADIUS_INVESTIGATION/1_Theory/KLEIN_FUNDAMENTAL_DERIVATION_PAPER.md`
+### Archivo de referencia:
+- `FUNDAMENTAL_RADIUS_INVESTIGATION/` (trabajo previo, no modificar aún)
 
 ---
 
@@ -201,14 +215,14 @@ DESPUÉS: Considerando look-elsewhere en espacio de 1350 fórmulas,
 
 ---
 
-## Resumen del Plan
+## Resumen del Plan Revisado
 
-| Punto | Trabajo | Tiempo Est. | Dificultad |
-|-------|---------|-------------|------------|
-| 1. Derivar "7 capas" | Topología algebraica | 2-3 semanas | Alta |
-| 2. Corregir R_Klein | Análisis dimensional | 1 semana | Media |
-| 3. Derivar correcciones a priori | Teoría de campos | 3-4 semanas | Muy alta |
-| 4. Baseline estadístico | Metodología | 1 semana | Media |
+| Punto | Trabajo | Estado | Prioridad |
+|-------|---------|--------|-----------|
+| 1. Derivar "7 capas" | Topología algebraica desde π₁(K) | 🔴 ACTIVO | ALTA |
+| 2. R_Klein | Pospuesto - hipótesis R(t) a explorar | ⚪ POSPUESTO | BAJA |
+| 3. Derivar correcciones a priori | Teoría de campos | 🟡 PENDIENTE | MEDIA |
+| 4. Baseline estadístico | Congelar espacio de patrones | 🟡 PENDIENTE | MEDIA |
 
 ---
 
@@ -218,28 +232,46 @@ DESPUÉS: Considerando look-elsewhere en espacio de 1350 fórmulas,
 - Las coincidencias numéricas son estadísticamente improbables (post look-elsewhere)
 - El factor 7π aparece en múltiples contextos independientes
 - Las correcciones de orden superior siguen un patrón geométrico
+- La supresión armónica 22:1 (modos impares vs pares) es una firma topológica
 
 ### Lo que NO PODEMOS defender (aún):
 - Que esto sea una "teoría derivada desde primeros principios"
 - Que el número 7 emerja necesariamente de la topología Klein
 - Que las correcciones sean predicciones (son retrofits)
+- Que el espacio de patrones esté congelado
 
 ### Lo que DEBEMOS hacer:
-1. Reformular como "marco heurístico con motivación topológica"
-2. Trabajar en derivaciones formales (puntos 1-3)
-3. Ser honestos sobre qué es especulación vs derivación
+1. **PRIMERO**: Derivar el 7 desde π₁(K) formalmente
+2. Congelar el espacio de patrones permitidos (aceptar amputaciones)
+3. Identificar predicciones genuinamente ciegas
+4. Ser honestos sobre qué es especulación vs derivación
 
 ---
 
-## Siguiente Paso Recomendado
+## Siguiente Paso: DERIVAR EL 7
 
-**Opción A:** Abordar Punto 2 primero (corrección dimensional) - más fácil, resultados rápidos
+### Objetivo inmediato:
+Demostrar matemáticamente que el número 7 emerge de la topología de la botella de Klein.
 
-**Opción B:** Abordar Punto 1 primero (derivar 7) - más difícil, pero fundamental
+### Enfoque:
+```
+π₁(K) = ⟨a, b | aba⁻¹b = 1⟩ ≅ ℤ ⋊ ℤ
 
-**Opción C:** Abordar Punto 4 primero (estadística) - limpia la metodología
+Pregunta: ¿Por qué exactamente 7 "capas" o modos?
+
+Posibles vías:
+1. Representaciones de π₁(K) en U(1) o SU(N)
+2. Clases de homotopía de fibrados sobre K
+3. Índices topológicos (Euler, Chern)
+4. Conexión con grupos de Lie (¿por qué SU(5) con dim=24?)
+```
+
+### Archivos a crear:
+- `TEORIA_FORMAL/derivacion_7_capas.md`
+- `TEORIA_FORMAL/scripts/klein_topology_calculation.py`
 
 ---
 
 *Plan creado: Enero 2026*
-*Para continuar mañana*
+*Actualizado: 23 Enero 2026*
+*Siguiente: Derivar el 7 desde π₁(K)*
