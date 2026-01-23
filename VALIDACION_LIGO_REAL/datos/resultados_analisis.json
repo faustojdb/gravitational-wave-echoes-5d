@@ -1,0 +1,228 @@
+{
+  "timestamp": "2026-01-23T15:20:52.028577",
+  "n_events": 3,
+  "mean_ratio": 3.4717108401948273,
+  "std_ratio": 0.1325122005704832,
+  "final_verdict": "AMBIGUO",
+  "events": [
+    {
+      "event": "GW150914",
+      "f0_Hz": 237.5,
+      "harmonics": [
+        {
+          "n": 1,
+          "frequency": 237.5,
+          "amplitude": 497.62237228763155,
+          "type": "odd"
+        },
+        {
+          "n": 2,
+          "frequency": 475.0,
+          "amplitude": 151.23665256094768,
+          "type": "even"
+        },
+        {
+          "n": 3,
+          "frequency": 712.5,
+          "amplitude": 5.788296704306947,
+          "type": "odd"
+        },
+        {
+          "n": 4,
+          "frequency": 950.0,
+          "amplitude": 0.4636264138012736,
+          "type": "even"
+        },
+        {
+          "n": 5,
+          "frequency": 1187.5,
+          "amplitude": 0.2773212620207203,
+          "type": "odd"
+        },
+        {
+          "n": 6,
+          "frequency": 1425.0,
+          "amplitude": 0.23336527616569275,
+          "type": "even"
+        },
+        {
+          "n": 7,
+          "frequency": 1662.5,
+          "amplitude": 0.2119267650284289,
+          "type": "odd"
+        },
+        {
+          "n": 8,
+          "frequency": 1900.0,
+          "amplitude": 0.20195717658216322,
+          "type": "even"
+        },
+        {
+          "n": 9,
+          "frequency": 2137.5,
+          "amplitude": 0,
+          "type": "odd"
+        },
+        {
+          "n": 10,
+          "frequency": 2375.0,
+          "amplitude": 0,
+          "type": "even"
+        }
+      ],
+      "mean_odd": 100.77998340379753,
+      "mean_even": 30.427120285499363,
+      "ratio": 3.3121761921001176,
+      "t_statistic": 0.6783501784042836,
+      "p_value": 0.5166873747788181,
+      "decision": "AMBIGUO - Requiere m\u00e1s datos",
+      "klein_status": "\u26a0\ufe0f INCONCLUSO"
+    },
+    {
+      "event": "GW170814",
+      "f0_Hz": 242.5,
+      "harmonics": [
+        {
+          "n": 1,
+          "frequency": 242.5,
+          "amplitude": 495.2229915267149,
+          "type": "odd"
+        },
+        {
+          "n": 2,
+          "frequency": 485.0,
+          "amplitude": 143.29478879109294,
+          "type": "even"
+        },
+        {
+          "n": 3,
+          "frequency": 727.5,
+          "amplitude": 4.243160077012046,
+          "type": "odd"
+        },
+        {
+          "n": 4,
+          "frequency": 970.0,
+          "amplitude": 0.4969985177491804,
+          "type": "even"
+        },
+        {
+          "n": 5,
+          "frequency": 1212.5,
+          "amplitude": 0.2759168644897782,
+          "type": "odd"
+        },
+        {
+          "n": 6,
+          "frequency": 1455.0,
+          "amplitude": 0.23512085420517823,
+          "type": "even"
+        },
+        {
+          "n": 7,
+          "frequency": 1697.5,
+          "amplitude": 0.21439940177101574,
+          "type": "odd"
+        },
+        {
+          "n": 8,
+          "frequency": 1940.0,
+          "amplitude": 0.20544212509047738,
+          "type": "even"
+        },
+        {
+          "n": 9,
+          "frequency": 2182.5,
+          "amplitude": 0,
+          "type": "odd"
+        },
+        {
+          "n": 10,
+          "frequency": 2425.0,
+          "amplitude": 0,
+          "type": "even"
+        }
+      ],
+      "mean_odd": 99.99129357399754,
+      "mean_even": 28.846470057627556,
+      "ratio": 3.466326846031476,
+      "t_statistic": 0.6915976142952269,
+      "p_value": 0.5087596192093249,
+      "decision": "AMBIGUO - Requiere m\u00e1s datos",
+      "klein_status": "\u26a0\ufe0f INCONCLUSO"
+    },
+    {
+      "event": "GW190521",
+      "f0_Hz": 242.5,
+      "harmonics": [
+        {
+          "n": 1,
+          "frequency": 242.5,
+          "amplitude": 496.8645265322051,
+          "type": "odd"
+        },
+        {
+          "n": 2,
+          "frequency": 485.0,
+          "amplitude": 136.84612989453134,
+          "type": "even"
+        },
+        {
+          "n": 3,
+          "frequency": 727.5,
+          "amplitude": 3.6281659983344543,
+          "type": "odd"
+        },
+        {
+          "n": 4,
+          "frequency": 970.0,
+          "amplitude": 0.47770236331510196,
+          "type": "even"
+        },
+        {
+          "n": 5,
+          "frequency": 1212.5,
+          "amplitude": 0.2750458920139701,
+          "type": "odd"
+        },
+        {
+          "n": 6,
+          "frequency": 1455.0,
+          "amplitude": 0.2328513247990392,
+          "type": "even"
+        },
+        {
+          "n": 7,
+          "frequency": 1697.5,
+          "amplitude": 0.21171054414999957,
+          "type": "odd"
+        },
+        {
+          "n": 8,
+          "frequency": 1940.0,
+          "amplitude": 0.20259362279461662,
+          "type": "even"
+        },
+        {
+          "n": 9,
+          "frequency": 2182.5,
+          "amplitude": 0,
+          "type": "odd"
+        },
+        {
+          "n": 10,
+          "frequency": 2425.0,
+          "amplitude": 0,
+          "type": "even"
+        }
+      ],
+      "mean_odd": 100.1958897933407,
+      "mean_even": 27.55185544108802,
+      "ratio": 3.6366294824528875,
+      "t_statistic": 0.7062090693419485,
+      "p_value": 0.5001045899699756,
+      "decision": "AMBIGUO - Requiere m\u00e1s datos",
+      "klein_status": "\u26a0\ufe0f INCONCLUSO"
+    }
+  ]
+}
