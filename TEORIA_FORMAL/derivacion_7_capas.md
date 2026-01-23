@@ -203,40 +203,76 @@ Documentar explícitamente:
 
 ## 6. RESULTADO PRINCIPAL (23 Enero 2026)
 
-### Fórmula descubierta:
+### Fórmula observada:
 ```
 7 = 2^(k+1) - 1   donde k = género no-orientable de K² = 2
 7 = 2³ - 1 = 8 - 1 = 7 ✓
 ```
 
-### Interpretación física:
-- K² tiene género no-orientable k=2
-- Hay k+1 = 3 "bits de paridad" topológicos
-- Cada bit puede ser ±1
-- Total de configuraciones: 2³ = 8
-- 1 configuración es la identidad (referencia)
-- 7 configuraciones son "suprimidas" por factor π cada una
-- Total: 7 capas × π = 7π ≈ 22 ✓
+### ⚠️ ADVERTENCIA: Esta fórmula NO está justificada
 
-### Verificación para otras superficies:
-| Superficie | Género k | 2^(k+1)-1 | Factor |
-|------------|----------|-----------|--------|
-| ℝP² | 1 | 3 | 3π ≈ 9.42 |
-| **K²** | **2** | **7** | **7π ≈ 21.99** ✓ |
-| K² # ℝP² | 3 | 15 | 15π ≈ 47.12 |
+**Problemas sin resolver:**
+
+| Elemento | Pregunta | Estado |
+|----------|----------|--------|
+| k+1 | ¿Por qué k+1 y no k? | ❌ Ad hoc |
+| 2^n | ¿Por qué base 2? | ❌ Sin justificación |
+| -1 | ¿Por qué restar 1? | ❌ Sin justificación |
+| Factor π | ¿Por qué cada "capa" contribuye π? | ❌ Sin derivación |
+
+### Diagnóstico honesto:
+
+Esta fórmula es tan ad hoc como decir "7 = 5 + 2" o "7 = 11 - 4".
+No hemos derivado nada, solo encontramos otra manera de escribir 7.
+
+**Para que sea una derivación genuina necesitaríamos:**
+1. Un teorema que diga: "Para una superficie no-orientable de género k, el número de [algo físicamente relevante] es 2^(k+1) - 1"
+2. Justificar por qué ese [algo] corresponde a factores de supresión π
+3. Sin estos, estamos en cherry picking
 
 ---
 
-## 7. Estado Actual
+## 7. Posibilidad Incómoda
+
+### ¿Y si el 7 NO se puede derivar de K²?
+
+**Invariantes conocidos de K²:**
+- χ(K²) = 0 (no da 7)
+- k = 2 (no da 7)
+- |Tor(H₁)| = 2 (no da 7)
+- π₁ es infinito (no da 7)
+
+**Ningún invariante topológico estándar de K² da 7.**
+
+### Opciones honestas:
+
+| Opción | Descripción | Consecuencia |
+|--------|-------------|--------------|
+| **A** | 7 es un parámetro empírico, no derivable | Teoría es heurística, no fundamental |
+| **B** | 7 viene de algo más profundo que K² | Necesitamos otra estructura (¿Teoría M? ¿E₇?) |
+| **C** | La conexión K² → 7 existe pero no la hemos encontrado | Seguir buscando |
+
+---
+
+## 8. Estado Actual
 
 | Vía | Progreso | Resultado |
 |-----|----------|-----------|
-| A: Representaciones U(1) | ✅ Completo | NO da 7 directamente |
-| B: Fibrados sobre K² | ✅ Completo | NO da 7 directamente |
-| C: Extensión a 5D+ | 🔄 En progreso | Prometedor pero incompleto |
-| D: Grupos de Lie (E₇) | 🔄 En progreso | Conexión sugestiva |
-| E: 7 = 5 + 2 | ⚠️ Hipótesis | Heurístico, no riguroso |
-| **F: 7 = 2^(k+1) - 1** | ✅ **NUEVO** | **Fórmula identificada** |
+| A: Representaciones U(1) | ✅ Completo | NO da 7 |
+| B: Fibrados sobre K² | ✅ Completo | NO da 7 |
+| C: Extensión a 5D+ | 🔄 En progreso | Sin resultado claro |
+| D: Grupos de Lie (E₇) | 🔄 En progreso | Sugestivo pero no riguroso |
+| E: 7 = 5 + 2 | ❌ Descartado | Ad hoc |
+| F: 7 = 2^(k+1) - 1 | ❌ Descartado | Ad hoc (sin justificación del k+1) |
+
+### Conclusión provisional:
+
+**No hemos encontrado una derivación rigurosa del número 7 desde la topología de K².**
+
+Esto significa que, hasta nuevo aviso:
+- El 7 es un **parámetro empírico** de la teoría
+- La teoría Klein es un **marco heurístico**, no una teoría derivada desde primeros principios
+- Las "coincidencias" son observaciones interesantes, pero no derivaciones
 
 ---
 
