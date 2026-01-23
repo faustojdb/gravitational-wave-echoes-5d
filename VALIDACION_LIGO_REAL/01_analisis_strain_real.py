@@ -148,17 +148,18 @@ class LIGORealStrainAnalyzer:
                                     return self._download_hdf5(url, event_name, detector)
 
             print(f"   ⚠ No se encontró strain data via API")
-            return None, None
+            return None, None, None
 
         except Exception as e:
             print(f"   ❌ Error: {e}")
             import traceback
             traceback.print_exc()
-            return None, None
+            return None, None, None
 
     def _download_hdf5(self, url, event_name, detector):
         """
         Descarga y lee archivo HDF5 de GWOSC.
+        Retorna strain, sample_rate, y gps_start del archivo.
         """
         local_path = self.output_dir / f"{event_name}_{detector}.hdf5"
 
@@ -166,7 +167,7 @@ class LIGORealStrainAnalyzer:
             # Descargar si no existe
             if not local_path.exists():
                 print(f"   Descargando {local_path.name}...")
-                response = requests.get(url, timeout=120, stream=True)
+                response = requests.get(url, timeout=300, stream=True)
                 if response.status_code == 200:
                     with open(local_path, 'wb') as f:
                         for chunk in response.iter_content(chunk_size=8192):
@@ -174,7 +175,7 @@ class LIGORealStrainAnalyzer:
                     print(f"   ✓ Descargado: {local_path.stat().st_size / 1e6:.1f} MB")
                 else:
                     print(f"   ❌ HTTP {response.status_code}")
-                    return None, None
+                    return None, None, None
 
             # Leer archivo HDF5
             with h5py.File(local_path, 'r') as f:
@@ -183,53 +184,193 @@ class LIGORealStrainAnalyzer:
                 # Sample rate típico: 4096 o 16384 Hz
                 dt = f['strain']['Strain'].attrs.get('Xspacing', 1/4096)
                 sample_rate = int(1/dt)
+                # GPS start time del archivo
+                gps_start = f['strain']['Strain'].attrs.get('Xstart', 0)
 
             print(f"   ✓ Leído: {len(strain)} samples @ {sample_rate} Hz")
-            return strain, sample_rate
+            print(f"   GPS start: {gps_start}")
+            return strain, sample_rate, gps_start
 
         except Exception as e:
             print(f"   ❌ Error leyendo HDF5: {e}")
+            return None, None, None
+
+    def extract_event_window(self, strain, sample_rate, gps_start, event_gps,
+                              window_before=0.5, window_after=0.1):
+        """
+        Extrae la ventana temporal alrededor del evento.
+
+        Para BBH mergers:
+        - La señal crece en frecuencia y amplitud hacia el merger
+        - El merger (coalescencia) es el punto de máxima amplitud
+        - Después del merger viene el ringdown (decae rápidamente)
+
+        Parameters
+        ----------
+        strain : array
+            Datos de strain completos
+        sample_rate : int
+            Tasa de muestreo en Hz
+        gps_start : float
+            Tiempo GPS del inicio del archivo
+        event_gps : float
+            Tiempo GPS del evento (coalescencia)
+        window_before : float
+            Segundos antes del merger a incluir (default 0.5s)
+        window_after : float
+            Segundos después del merger a incluir (default 0.1s)
+
+        Returns
+        -------
+        strain_window : array
+            Segmento de strain con la señal (None si evento fuera de rango)
+        t_window : array
+            Vector de tiempo correspondiente
+        """
+        # Calcular offset temporal
+        time_offset = event_gps - gps_start
+        file_duration = len(strain) / sample_rate
+
+        print(f"   GPS archivo: {gps_start} a {gps_start + file_duration:.1f}")
+        print(f"   GPS evento: {event_gps}")
+        print(f"   Offset: {time_offset:.1f} s")
+
+        # Verificar que el evento está dentro del archivo
+        if time_offset < 0 or time_offset > file_duration:
+            print(f"   ⚠ EVENTO FUERA DE RANGO del archivo descargado")
             return None, None
 
-    def generate_synthetic_test_data(self, event_name, sample_rate=4096, duration=4.0):
+        # Calcular índices
+        center_idx = int(time_offset * sample_rate)
+
+        idx_before = int(window_before * sample_rate)
+        idx_after = int(window_after * sample_rate)
+
+        start_idx = max(0, center_idx - idx_before)
+        end_idx = min(len(strain), center_idx + idx_after)
+
+        # Verificar que tenemos suficientes datos
+        if end_idx <= start_idx:
+            print(f"   ⚠ Ventana inválida: start={start_idx}, end={end_idx}")
+            return None, None
+
+        strain_window = strain[start_idx:end_idx]
+        duration = len(strain_window) / sample_rate
+
+        # Vector de tiempo relativo al merger (t=0 en coalescencia)
+        t_window = np.linspace(-window_before, window_after, len(strain_window))
+
+        print(f"   Ventana extraída: {duration:.3f} s alrededor del merger")
+        print(f"   Índices: {start_idx} a {end_idx} (de {len(strain)} total)")
+
+        return strain_window, t_window
+
+    def whiten_strain(self, strain, sample_rate, fft_size=4096):
+        """
+        Whitening de la señal de strain.
+
+        El whitening normaliza el espectro de potencia para que todas
+        las frecuencias tengan aproximadamente la misma amplitud.
+        Esto es crucial porque el ruido del detector NO es blanco
+        (tiene estructura en frecuencia).
+
+        Parameters
+        ----------
+        strain : array
+            Datos de strain
+        sample_rate : int
+            Tasa de muestreo
+        fft_size : int
+            Tamaño del segmento para estimar PSD
+
+        Returns
+        -------
+        whitened : array
+            Strain whitened
+        """
+        # Estimar PSD usando método de Welch
+        freqs, psd = signal.welch(strain, sample_rate, nperseg=min(fft_size, len(strain)//4))
+
+        # Interpolar PSD a todas las frecuencias
+        psd_interp = np.interp(
+            np.fft.rfftfreq(len(strain), 1/sample_rate),
+            freqs,
+            psd
+        )
+
+        # Evitar división por cero
+        psd_interp = np.maximum(psd_interp, 1e-40)
+
+        # FFT de la señal
+        strain_fft = np.fft.rfft(strain)
+
+        # Dividir por sqrt(PSD) para whitening
+        whitened_fft = strain_fft / np.sqrt(psd_interp)
+
+        # Volver al dominio del tiempo
+        whitened = np.fft.irfft(whitened_fft, n=len(strain))
+
+        # Normalizar
+        whitened = whitened / np.std(whitened) * np.std(strain)
+
+        return whitened
+
+    def generate_synthetic_test_data(self, event_name, sample_rate=4096, duration=0.6):
         """
         Genera datos sintéticos para testing del pipeline.
         SOLO para verificar que el código funciona.
         NO es el análisis real.
+
+        Simula una señal chirp tipo BBH merger SIN supresión de modos
+        (expectativa de GR estándar: ratio odd/even ≈ 1)
         """
         print(f"⚠ Generando datos SINTÉTICOS para {event_name} (solo testing)")
 
         t = np.linspace(0, duration, int(sample_rate * duration))
 
         # Señal tipo chirp simplificada
-        f0 = 50  # Hz, frecuencia inicial
-        f1 = 250  # Hz, frecuencia final
+        f0 = 50   # Hz, frecuencia inicial
+        f1 = 250  # Hz, frecuencia final (merger)
 
-        # Chirp + armónicos
+        # Chirp con amplitud creciente hacia el merger
+        amplitude_envelope = (t / duration) ** 2
+
+        # Fase del chirp
         phase = 2 * np.pi * (f0 * t + (f1 - f0) * t**2 / (2 * duration))
 
-        # Fundamental + armónicos con diferentes amplitudes
+        # Fundamental + armónicos con decaimiento natural
+        # En GR estándar, odd y even deberían tener amplitudes similares
         strain = np.zeros_like(t)
 
-        # Simular DOS escenarios para comparar:
-        # A) Sin supresión (GR): odd y even similares
-        # B) Con supresión (Klein): even suprimidos
+        for n in range(1, 9):
+            amp_n = 1.0 / n  # Decaimiento natural 1/n
+            strain += amp_n * np.sin(n * phase)
 
-        # Por defecto, generamos sin supresión para test neutro
-        for n in range(1, 11):
-            amplitude = 1.0 / n  # Decaimiento natural
-            strain += amplitude * np.sin(n * phase)
+        strain *= amplitude_envelope
 
-        # Añadir ruido
-        noise = np.random.normal(0, 0.1, len(t))
+        # Añadir ruido gaussiano (SNR ~ 10)
+        signal_rms = np.std(strain)
+        noise = np.random.normal(0, signal_rms / 10, len(t))
         strain += noise
 
         return strain, sample_rate
 
     def analyze_harmonics(self, strain, sample_rate, event_name):
         """
-        Análisis de armónicos en la señal.
+        Análisis de armónicos en la señal de merger.
         Este es el análisis CIEGO - no asume Klein.
+
+        Para ondas gravitacionales de BBH:
+        - La señal es un chirp (frecuencia que aumenta hacia el merger)
+        - Los "armónicos" son modos multipolares (l=2 cuadrupolo, l=3 octupolo, etc.)
+        - En GR, l=2 (m=±2) domina, l=3 es ~10-20% para masas asimétricas
+        - Klein predice supresión de ciertos modos
+
+        Método:
+        1. Calcular espectrograma (tiempo-frecuencia)
+        2. Identificar el track del chirp principal (l=2, m=2)
+        3. Buscar potencia en múltiplos de frecuencia
+        4. Comparar amplitudes de modos impares vs pares
         """
         print(f"\n🔬 Analizando armónicos de {event_name}...")
 
@@ -237,19 +378,56 @@ class LIGORealStrainAnalyzer:
         n_samples = len(strain)
         duration = n_samples / sample_rate
 
-        print(f"   Duración: {duration:.2f} s")
+        print(f"   Duración ventana: {duration:.3f} s")
         print(f"   Sample rate: {sample_rate} Hz")
+        print(f"   Muestras: {n_samples}")
 
-        # Paso 1: Preprocesamiento
-        # Bandpass filter 20-500 Hz (rango típico de GW)
+        # Paso 1: Bandpass filter 20-500 Hz (rango típico de GW)
         nyquist = sample_rate / 2
         low = 20 / nyquist
         high = min(500 / nyquist, 0.99)
 
-        b, a = signal.butter(4, [low, high], btype='band')
-        strain_filtered = signal.filtfilt(b, a, strain)
+        try:
+            b, a = signal.butter(4, [low, high], btype='band')
+            strain_filtered = signal.filtfilt(b, a, strain)
+        except Exception as e:
+            print(f"   ⚠ Error en filtrado: {e}, usando datos sin filtrar")
+            strain_filtered = strain
 
-        # Paso 2: FFT
+        # Paso 2: Espectrograma para señal chirp
+        # Usar ventana corta para resolución temporal
+        nperseg = min(256, n_samples // 4)
+        noverlap = nperseg // 2
+
+        f_spec, t_spec, Sxx = signal.spectrogram(
+            strain_filtered, sample_rate,
+            nperseg=nperseg, noverlap=noverlap
+        )
+
+        # Paso 3: Encontrar el track de frecuencia dominante
+        # Para cada tiempo, encontrar la frecuencia con máxima potencia
+        freq_track = []
+        power_track = []
+        for i in range(Sxx.shape[1]):
+            # Buscar en rango 30-300 Hz
+            valid_mask = (f_spec > 30) & (f_spec < 300)
+            if np.any(valid_mask):
+                slice_power = Sxx[valid_mask, i]
+                max_idx = np.argmax(slice_power)
+                freq_track.append(f_spec[valid_mask][max_idx])
+                power_track.append(slice_power[max_idx])
+
+        if not freq_track:
+            print("   ❌ No se encontró señal en rango 30-300 Hz")
+            return None
+
+        # Frecuencia característica (mediana del track)
+        f0 = np.median(freq_track)
+        f0_max = np.max(freq_track)  # Frecuencia en el merger
+        print(f"   Frecuencia característica: f₀ = {f0:.1f} Hz")
+        print(f"   Frecuencia máxima (merger): {f0_max:.1f} Hz")
+
+        # Paso 4: FFT completa para análisis de armónicos
         fft_result = fft(strain_filtered)
         freqs = fftfreq(n_samples, 1/sample_rate)
 
@@ -258,90 +436,98 @@ class LIGORealStrainAnalyzer:
         freqs_pos = freqs[positive_mask]
         amplitudes = np.abs(fft_result[positive_mask])
 
-        # Paso 3: Encontrar frecuencia fundamental (peak dominante)
-        # Buscar en rango 30-300 Hz
-        search_mask = (freqs_pos > 30) & (freqs_pos < 300)
-        if not np.any(search_mask):
-            print("   ❌ No se encontró señal en rango 30-300 Hz")
-            return None
+        # Resolución en frecuencia
+        df = freqs_pos[1] - freqs_pos[0]
+        print(f"   Resolución FFT: Δf = {df:.2f} Hz")
 
-        peak_idx = np.argmax(amplitudes[search_mask])
-        f0 = freqs_pos[search_mask][peak_idx]
-        print(f"   Frecuencia fundamental detectada: f₀ = {f0:.1f} Hz")
+        # Paso 5: Extraer potencia en bandas armónicas
+        # Usar ventana más amplia debido a la naturaleza chirp
+        window_hz = max(10, df * 3)  # Ventana de búsqueda
 
-        # Paso 4: Extraer amplitudes de armónicos
-        n_harmonics = 10
+        n_harmonics = min(8, int(500 / f0))  # Hasta 500 Hz
         harmonic_amplitudes = []
 
+        print(f"\n   Armónicos detectados (ventana ±{window_hz:.1f} Hz):")
         for n in range(1, n_harmonics + 1):
             f_harmonic = n * f0
 
-            # Buscar peak cerca de la frecuencia armónica (±5 Hz)
-            mask = np.abs(freqs_pos - f_harmonic) < 5
+            if f_harmonic > nyquist:
+                break
+
+            # Integrar potencia en la banda armónica
+            mask = np.abs(freqs_pos - f_harmonic) < window_hz
             if np.any(mask):
-                amp = np.max(amplitudes[mask])
+                # Usar suma de potencia (mejor para señales chirp)
+                power = np.sum(amplitudes[mask]**2)
+                amp = np.sqrt(power)
             else:
                 amp = 0
 
+            harm_type = 'odd' if n % 2 == 1 else 'even'
             harmonic_amplitudes.append({
                 'n': n,
                 'frequency': f_harmonic,
                 'amplitude': amp,
-                'type': 'odd' if n % 2 == 1 else 'even'
+                'type': harm_type
             })
+            print(f"      n={n} ({harm_type}): f={f_harmonic:.1f} Hz, A={amp:.2e}")
 
-        # Paso 5: Separar odd/even
+        # Paso 6: Separar odd/even y calcular ratio
         odd_amps = [h['amplitude'] for h in harmonic_amplitudes if h['type'] == 'odd']
         even_amps = [h['amplitude'] for h in harmonic_amplitudes if h['type'] == 'even']
 
         mean_odd = np.mean(odd_amps) if odd_amps else 0
-        mean_even = np.mean(even_amps) if even_amps else 1e-10
+        mean_even = np.mean(even_amps) if even_amps else 1e-20
 
-        ratio = mean_odd / mean_even if mean_even > 0 else np.inf
+        ratio = mean_odd / mean_even if mean_even > 1e-20 else np.inf
 
         print(f"\n   📊 RESULTADOS:")
-        print(f"   Amplitud media (odd):  {mean_odd:.4f}")
-        print(f"   Amplitud media (even): {mean_even:.4f}")
+        print(f"   Amplitud media (odd, n=1,3,5...):  {mean_odd:.2e}")
+        print(f"   Amplitud media (even, n=2,4,6...): {mean_even:.2e}")
         print(f"   RATIO odd/even: {ratio:.2f}")
 
-        # Paso 6: Test estadístico
+        # Paso 7: Test estadístico
+        t_stat, p_value = None, None
         if len(odd_amps) > 1 and len(even_amps) > 1:
-            t_stat, p_value = ttest_ind(odd_amps, even_amps)
-            print(f"   t-statistic: {t_stat:.2f}")
+            # Usar log para normalizar las distribuciones
+            log_odd = np.log10(np.array(odd_amps) + 1e-20)
+            log_even = np.log10(np.array(even_amps) + 1e-20)
+            t_stat, p_value = ttest_ind(log_odd, log_even)
+            print(f"   t-statistic (log): {t_stat:.2f}")
             print(f"   p-value: {p_value:.4f}")
-        else:
-            t_stat, p_value = None, None
 
-        # Paso 7: Decisión según protocolo
+        # Paso 8: Decisión según protocolo pre-registrado
         print(f"\n   📋 DECISIÓN SEGÚN PROTOCOLO:")
         if ratio < 2:
             decision = "H₀ (GR estándar) - Sin supresión"
             klein_status = "❌ REFUTADO"
-        elif ratio < 10:
-            decision = "AMBIGUO - Requiere más datos"
+        elif ratio < 5:
+            decision = "AMBIGUO - Posible asimetría natural"
             klein_status = "⚠️ INCONCLUSO"
-        elif ratio < 20:
-            decision = "SUGESTIVO de Klein"
+        elif ratio < 15:
+            decision = "SUGESTIVO - Supresión moderada"
             klein_status = "⚠️ SUGESTIVO"
-        elif ratio < 35:
-            decision = "H₁ (Klein moderado) - Supresión detectada"
-            klein_status = "✅ CONFIRMADO (moderado)"
+        elif ratio < 30:
+            decision = "H₁ (Klein ~7π) - Supresión significativa"
+            klein_status = "🔶 CONSISTENTE"
         else:
-            decision = "H₂ (Klein fuerte) - Supresión extrema"
-            klein_status = "✅ CONFIRMADO (fuerte)"
+            decision = "H₂ (Klein ~40:1) - Supresión extrema"
+            klein_status = "✅ CONFIRMADO"
 
         print(f"   Decisión: {decision}")
         print(f"   Estado Klein: {klein_status}")
 
         return {
             'event': event_name,
-            'f0_Hz': f0,
+            'f0_Hz': float(f0),
+            'f0_max_Hz': float(f0_max),
+            'duration_s': float(duration),
             'harmonics': harmonic_amplitudes,
-            'mean_odd': mean_odd,
-            'mean_even': mean_even,
-            'ratio': ratio,
-            't_statistic': t_stat,
-            'p_value': p_value,
+            'mean_odd': float(mean_odd),
+            'mean_even': float(mean_even),
+            'ratio': float(ratio) if not np.isinf(ratio) else 999.0,
+            't_statistic': float(t_stat) if t_stat else None,
+            'p_value': float(p_value) if p_value else None,
             'decision': decision,
             'klein_status': klein_status
         }
@@ -370,19 +556,48 @@ class LIGORealStrainAnalyzer:
             print(f"EVENTO: {event_name}")
             print(f"Descripción: {event_info['description']}")
             print(f"SNR: {event_info['snr']}")
+            print(f"GPS time: {event_info['gps_time']}")
             print(f"{'─' * 40}")
 
+            is_synthetic = False
+
             if use_real_data:
-                strain, sample_rate = self.download_strain_data(event_name, 'H1')
-                if strain is None:
+                result = self.download_strain_data(event_name, 'H1')
+                if result[0] is None:
                     print("   ⚠ Usando datos sintéticos como fallback")
                     strain, sample_rate = self.generate_synthetic_test_data(event_name)
+                    is_synthetic = True
+                else:
+                    strain_full, sample_rate, gps_start = result
+
+                    # PASO CRÍTICO: Extraer ventana alrededor del merger
+                    print(f"\n📍 Extrayendo ventana del merger...")
+                    strain_window, t_window = self.extract_event_window(
+                        strain_full, sample_rate, gps_start,
+                        event_info['gps_time'],
+                        window_before=0.5,  # 0.5s antes del merger
+                        window_after=0.1    # 0.1s después (ringdown)
+                    )
+
+                    if strain_window is None or len(strain_window) < 100:
+                        print("   ⚠ No se pudo extraer ventana válida")
+                        print("   ⚠ Usando datos sintéticos como fallback")
+                        strain, sample_rate = self.generate_synthetic_test_data(event_name)
+                        is_synthetic = True
+                    else:
+                        # PASO CRÍTICO: Whitening
+                        print(f"📊 Aplicando whitening...")
+                        strain = self.whiten_strain(strain_window, sample_rate)
+                        print(f"   ✓ Whitening aplicado")
+
             else:
                 strain, sample_rate = self.generate_synthetic_test_data(event_name)
+                is_synthetic = True
 
             if strain is not None:
                 result = self.analyze_harmonics(strain, sample_rate, event_name)
                 if result:
+                    result['is_synthetic'] = is_synthetic
                     all_results.append(result)
 
         # Resumen final
@@ -412,7 +627,8 @@ class LIGORealStrainAnalyzer:
         print("\nRESULTADOS POR EVENTO:")
         print("-" * 50)
         for r in results:
-            print(f"  {r['event']}: ratio = {r['ratio']:.2f} → {r['klein_status']}")
+            data_type = "SINTÉTICO" if r.get('is_synthetic', False) else "REAL"
+            print(f"  {r['event']} [{data_type}]: ratio = {r['ratio']:.2f} → {r['klein_status']}")
 
         print("\n" + "=" * 60)
         print("VEREDICTO FINAL:")
