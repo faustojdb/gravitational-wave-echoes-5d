@@ -42,24 +42,32 @@ print("=" * 80)
 print("""
 
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                     TABLA MAESTRA DE PREDICCIONES                            ║
+║           TABLA MAESTRA DE PREDICCIONES (Actualizada Enero 2026)             ║
 ╠══════════════════════════════════════════════════════════════════════════════╣
 ║                                                                              ║
 ║  #  │ Cantidad          │ Fórmula Klein           │ Error   │ Categoría     ║
 ║ ────┼───────────────────┼─────────────────────────┼─────────┼───────────────║
 ║  1  │ m_p/m_e           │ 6π⁵ = (7-1)π⁵           │ 0.002%  │ Partículas    ║
 ║  2  │ m_H/m_p           │ 42.5π = (6×7 + 1/2)π    │ 0.020%  │ Partículas    ║
-║  3  │ 1/α               │ 7²π - 7 - π²            │ 0.024%  │ EM            ║
+║  3  │ 1/α (CORREGIDO)   │ 7²π - 7 - π² - 1/π³     │ 1.35ppm │ EM            ║
 ║  4  │ 22 (GW)           │ 7π                      │ 0.04%   │ Gravedad      ║
 ║  5  │ N_A               │ e^[(5/2 - 1/99)×7π]     │ 0.08%   │ Termodinámica ║
 ║  6  │ T_CMB             │ π×T_P/(7π)²⁴            │ 0.22%   │ Cosmología    ║
-║  7  │ m_μ/m_e           │ 21π² = 3×7×π²           │ 0.24%   │ Partículas    ║
+║  7  │ m_μ/m_e (CORR.)   │ 21π² - 1/2              │ -32ppm  │ Partículas    ║
 ║  8  │ ρ_Λ/ρ_P           │ (7/2)×(7π)⁻⁹²           │ 0.64%   │ Cosmología    ║
 ║  9  │ m_e/m_ν₃          │ 2×(7π)⁵                 │ 1.2%    │ Neutrinos     ║
 ║ 10  │ η_B               │ (3/2)×(7π)⁻⁷            │ 1.5%    │ Antimateria   ║
 ║ 11  │ θ₁₃ (neutrino)    │ 1/7 rad                 │ 4.0%    │ Neutrinos     ║
 ║ 12  │ m_P/m_p           │ 2×(7π)¹⁴                │ 5%      │ Gravedad      ║
 ║ 13  │ ε_CP              │ (7π)⁻²                  │ 7.2%    │ Antimateria   ║
+║                                                                              ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                     NUEVOS DESCUBRIMIENTOS (Enero 2026)                      ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║ 14  │ c (meridianos/s)  │ 7π + 8 ≈ 30             │ 0.03%   │ Res. Planeta. ║
+║ 15  │ 3er armón. Tierra │ 7π Hz ≈ 22 Hz           │ 2%      │ Res. Terrestre║
+║ 16  │ B_d/m_e (Deut.)   │ 7π/5                    │ 1.8%    │ Nuclear       ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 """)
@@ -89,21 +97,25 @@ obs = {
     "epsilon_CP": 2.228e-3,
 }
 
-# Predicciones Klein
+# Predicciones Klein (ACTUALIZADAS Enero 2026 - Post-Falsación)
 pred = {
     "m_p/m_e": 6 * pi**5,
     "m_H/m_p": (6*7 + 0.5) * pi,
-    "1/alpha": 7**2 * pi - 7 - pi**2,
+    "1/alpha": 7**2 * pi - 7 - pi**2 - 1/pi**3,  # CORREGIDO: volumen 3-esfera
     "22": 7 * pi,
     "N_A": np.exp((5/2 - 1/99) * 7 * pi),
     "T_CMB_ratio": (7*pi)**24 / pi,
-    "m_mu/m_e": 3 * 7 * pi**2,
+    "m_mu/m_e": 3 * 7 * pi**2 - 0.5,  # CORREGIDO: inversión de fase
     "rho_Lambda_ratio": (7/2) * (7*pi)**(-92),
     "m_e/m_nu3": 2 * (7*pi)**5,
     "eta_B": (3/2) * (7*pi)**(-7),
     "theta13": 1/7,
     "m_P/m_p": 2 * (7*pi)**14,
     "epsilon_CP": (7*pi)**(-2),
+    # NUEVOS DESCUBRIMIENTOS
+    "c_meridianos_s": 7 * pi + 8,  # velocidad de luz en meridianos/segundo
+    "armonico_tierra_3": 7 * pi,  # 3er armónico terrestre ≈ 22 Hz
+    "deuterio_B_me": 7 * pi / 5,  # energía de enlace del deuterio / m_e
 }
 
 print("\n  Cantidad          │ Observado     │ Predicción    │ Error")

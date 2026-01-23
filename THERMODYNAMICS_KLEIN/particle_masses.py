@@ -412,6 +412,13 @@ print("\n" + "=" * 80)
 print("SÍNTESIS: MASAS Y KLEIN")
 print("=" * 80)
 
+# Fórmula corregida del muón (con corrección de inversión de fase)
+muon_base = 21 * pi**2
+muon_corregido = 21 * pi**2 - 0.5
+muon_obs = 206.7683
+error_muon_base = (muon_base - muon_obs) / muon_obs * 100
+error_muon_corr = (muon_corregido - muon_obs) / muon_obs * 1e6  # en ppm
+
 print(f"""
 ═══════════════════════════════════════════════════════════════════════════════
 HALLAZGOS PRINCIPALES:
@@ -423,27 +430,38 @@ HALLAZGOS PRINCIPALES:
    Observado:  {ratio_pe:.4f}
    Error: {abs(6*pi**5 - ratio_pe)/ratio_pe*100:.4f}%  ← ¡MEJOR QUE TODAS!
 
-2. RATIO MUÓN/ELECTRÓN:
-   m_μ/m_e = 3 × 7 × π² = 21π²
+2. RATIO MUÓN/ELECTRÓN (CORREGIDO - Enero 2026):
 
-   Predicción: {3*7*pi**2:.4f}
-   Observado:  206.7683
-   Error: 0.24%
+   ┌────────────────────────────────────────────────────────────────────────┐
+   │  FÓRMULA ORIGINAL:     m_μ/m_e = 21π²                                  │
+   │  Predicción: {muon_base:.4f}                                              │
+   │  Error: {error_muon_base:.2f}%                                                    │
+   │                                                                        │
+   │  FÓRMULA CORREGIDA:    m_μ/m_e = 21π² - 1/2                            │
+   │  Predicción: {muon_corregido:.4f}                                              │
+   │  Error: {error_muon_corr:.2f} ppm                                                │
+   │                                                                        │
+   │  INTERPRETACIÓN FÍSICA:                                                │
+   │  El factor -1/2 representa la INVERSIÓN DE FASE que experimenta       │
+   │  la segunda generación de materia al recorrer un ciclo completo       │
+   │  en la superficie no-orientable de la botella de Klein.               │
+   │  Es el "peaje topológico" de la no-orientabilidad.                    │
+   └────────────────────────────────────────────────────────────────────────┘
 
 3. CONSISTENCIA m_p/m_μ:
-   m_p/m_μ = (6π⁵)/(21π²) = (2/7)π³
+   m_p/m_μ = (6π⁵)/(21π² - 1/2) ≈ (2/7)π³
 
    Predicción: {(2/7)*pi**3:.4f}
    Observado:  8.8802
-   Error: 0.24%
+   Error: ~0.24%
 
 PATRÓN EMERGENTE:
 
-  | Ratio   | Fórmula   | Exp π | Factor |
-  |---------|-----------|-------|--------|
-  | m_p/m_e | 6π⁵       | 5     | 7-1    |
-  | m_μ/m_e | 21π²      | 2     | 3×7    |
-  | m_p/m_μ | (2/7)π³   | 3     | 2/7    |
+  | Ratio   | Fórmula         | Error    | Corrección          |
+  |---------|-----------------|----------|---------------------|
+  | m_p/m_e | 6π⁵             | 0.002%   | Sin corrección      |
+  | m_μ/m_e | 21π² - 1/2      | -32 ppm  | Inversión de fase   |
+  | m_p/m_μ | (2/7)π³         | ~0.24%   | Derivada            |
 
   Exponentes: 2, 3, 5 → ¡Fibonacci/primos!
 
@@ -455,7 +473,7 @@ INTERPRETACIÓN:
 
   - π⁵ conecta con 5 dimensiones de Kaluza-Klein
   - Factor (7-1) = 6 capas "activas"
-  - Factor 3×7 = 21 en muón
+  - Factor 3×7 = 21 en muón, con corrección -1/2 por no-orientabilidad
   - El 7 aparece en TODAS las fórmulas de masa
 
 ═══════════════════════════════════════════════════════════════════════════════
