@@ -21,7 +21,7 @@ Lo que sabemos con certeza:
 
 ---
 
-## PASO 1: Stefan-Boltzmann en D dimensiones
+## PASO 1: Stefan-Boltzmann en D dimensiones ✅ COMPLETADO
 
 ### Tipo: VERIFICABLE (matemática pura)
 
@@ -29,19 +29,41 @@ Lo que sabemos con certeza:
 - Landsberg & De Vos, "The Stefan-Boltzmann constant in n-dimensional space"
 - J. Phys. A: Math. Gen. 22 (1989) 1073-1084
 
-### Tarea:
-Derivar la fórmula generalizada:
+### Resultado de la derivación:
+
 ```
-σ_D = [constantes] × π^f(D) × Γ(g(D)) × ζ(D+1)
+σ_D ∝ Γ(D+1) × ζ(D+1) × [factores geométricos con π^(D/2)]
+
+La integral clave: ∫₀^∞ x^D/(e^x-1) dx = Γ(D+1) × ζ(D+1)
 ```
 
-### Pregunta específica:
-Para D=4 espacial (5D total): ¿Aparece π⁵ y factores relacionados con 6?
+### Hallazgo crítico sobre ζ(n):
 
-### Resultado esperado:
-Fórmula explícita. Si no tiene π⁵, el camino se cierra aquí.
+| n | ζ(n) | Forma en π |
+|---|------|------------|
+| 2 | 1.645 | π²/6 ✓ |
+| 3 | 1.202 | **IRRACIONAL** |
+| 4 | 1.082 | π⁴/90 ✓ |
+| 5 | 1.037 | **IRRACIONAL** |
+| 6 | 1.017 | π⁶/945 ✓ |
 
-### Esfuerzo: ~2 horas
+**Patrón**: Solo ζ(n) con n PAR tiene forma cerrada en potencias de π.
+
+### Implicación para dimensiones:
+
+```
+D=3 espacial → ζ(4) = π⁴/90 → σ contiene π⁵ ✓
+D=4 espacial → ζ(5) = 1.037... → σ NO contiene potencia de π ✗
+D=5 espacial → ζ(6) = π⁶/945 → σ contendría π⁷, no π⁵
+```
+
+### VEREDICTO: ❌ HIPÓTESIS REFUTADA
+
+El π⁵ es específico de D=3 (nuestro universo).
+NO viene de física en dimensiones extra.
+La vía "5D → π⁵" está CERRADA.
+
+### Esfuerzo real: 30 minutos
 
 ---
 
@@ -185,20 +207,58 @@ PUBLICACIÓN
 
 ---
 
-## ESTIMACIÓN TOTAL
+## ESTIMACIÓN TOTAL (ACTUALIZADA)
 
-| Paso | Horas | Probabilidad de éxito |
-|------|-------|----------------------|
-| 1 | 2 | 80% (matemática directa) |
-| 2 | 4 | 50% (puede no conectar) |
-| 3 | 4 | 30% (especulativo) |
-| 4 | 2 | 90% (verificación) |
-| **Total** | **12** | **~20% de conexión completa** |
+| Paso | Horas | Estado | Resultado |
+|------|-------|--------|-----------|
+| 1 | 0.5 | ✅ COMPLETADO | **REFUTADO** - ζ(5) irracional |
+| 2 | 4 | ⏸️ En pausa | Puede no ser relevante ya |
+| 3 | 4 | ⏸️ En pausa | Requiere revisar premisas |
+| 4 | 2 | ⏸️ En pausa | Verificación secundaria |
 
-La probabilidad es baja, pero el payoff (explicar coincidencia de 73 años)
-justifica el esfuerzo.
+---
+
+## CONCLUSIÓN DEL PASO 1 (23 Enero 2026)
+
+```
+╔═══════════════════════════════════════════════════════════════════════╗
+║                    RESULTADO: VÍA 5D CERRADA                         ║
+╠═══════════════════════════════════════════════════════════════════════╣
+║                                                                       ║
+║  El π⁵ en m_p/m_e = 6π⁵ NO puede venir de física en 5 dimensiones   ║
+║                                                                       ║
+║  Razón matemática:                                                    ║
+║  - En D dimensiones, σ_D ∝ ζ(D+1)                                    ║
+║  - ζ(5) = 1.0369... es IRRACIONAL                                    ║
+║  - No tiene expresión en términos de π                               ║
+║  - Por lo tanto, D=4 espacial NO produce π⁵                          ║
+║                                                                       ║
+║  El π⁵ viene de:                                                      ║
+║  - ζ(4) = π⁴/90 (específico de D=3)                                  ║
+║  - Factor geométrico 2π del ángulo sólido en 3D                      ║
+║  - Total: π⁴ × π = π⁵                                                 ║
+║                                                                       ║
+║  IMPLICACIÓN: π⁵ es una "firma" de nuestras 3 dimensiones           ║
+║               espaciales, no evidencia de dimensiones extra           ║
+╚═══════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## NUEVA DIRECCIÓN POSIBLE
+
+Dado que el π⁵ es específico de D=3, la pregunta se reformula:
+
+> ¿Por qué la física de radiación en 3D (que produce π⁵)
+> estaría conectada con el ratio de masas m_p/m_e?
+
+Posibles vías:
+1. Conexión QCD-térmica en universo temprano
+2. Algún otro mecanismo que use ζ(4) y Γ(4)
+3. Coincidencia numérica sin significado físico
 
 ---
 
 *Plan creado: 23 Enero 2026*
-*Próximo paso: PASO 1 - Stefan-Boltzmann en D dimensiones*
+*Paso 1 completado: 23 Enero 2026 - REFUTADO*
+*Estado: Vía 5D cerrada, buscar alternativas*
