@@ -120,12 +120,12 @@
 
 ---
 
-## REGISTRO DE PROGRESO (ACTUALIZADO 23 ENE 2026)
+## REGISTRO DE PROGRESO (ACTUALIZADO 23 ENE 2026 - PM)
 
 | Vía | Estado | Resultado | Confianza |
 |-----|--------|-----------|-----------|
 | 1. Origen del 7 | ✅ Completo | 6+1 sugestiva, resto descartado | ⭐⭐⭐ |
-| 2. Supresión 22:1 | ✅ Completo | NO VALIDADA (datos sintéticos) | ⭐⭐ |
+| 2. Supresión 22:1 | ✅ **VALIDADA** | **❌ REFUTADA** (ratio real ~1.85) | ❌ |
 | 3. Predicciones ciegas | ✅ Completo | Solo θ₁₃=1/7 viable | ⭐⭐⭐ |
 | 4. Física 6π⁵ | ✅ Completo | Coincidencia sin explicación | ⭐⭐⭐ |
 
@@ -139,25 +139,38 @@
 |----------|-------------|-----------|
 | 7 desde K² | No derivable topológicamente | ❌ FALLIDO |
 | 7 = 6+1 | Klein(6) + ambiente(1) | ⭐⭐⭐ SUGESTIVA |
-| Supresión LIGO | 92% datos sintéticos, modelo circular | ❌ NO VALIDADA |
+| Supresión LIGO | **Ratio real ~1.85, no 22-40** | ❌ **REFUTADA** |
 | θ₁₃ = 1/7 | Única predicción ciega viable | ⭐⭐⭐ CANDIDATA |
 | m_p/m_e = 6π⁵ | Coincidencia 19ppm sin mecanismo | ⭐⭐⭐ NOTABLE |
 
 ### Lo que NO encontramos:
 
 1. Derivación del 7 desde primeros principios
-2. Validación observacional independiente
+2. ~~Validación observacional independiente~~ **→ INTENTADA Y FALLIDA (LIGO)**
 3. Mecanismo físico para 6π⁵
 4. Predicciones ciegas adicionales viables
+
+### Validación LIGO (23 Enero 2026):
+
+```
+Predicción Klein: ratio odd/even ≈ 22-40
+Datos reales LIGO:
+  - GW150914: ratio = 2.11
+  - GW170814: ratio = 1.58
+  - Promedio: 1.85 ± 0.26
+
+VEREDICTO: REFUTADA (datos consistentes con GR, no con Klein)
+```
 
 ### Conclusión honesta:
 
 > **La Teoría Klein tiene coincidencias numéricas notables
 > (especialmente m_p/m_e = 6π⁵ con 19ppm de error)
-> pero NO tiene derivaciones desde primeros principios
-> ni validación observacional independiente.**
+> pero NO tiene derivaciones desde primeros principios.
+> La única predicción observacional testeable (supresión LIGO)
+> fue REFUTADA por datos reales.**
 
-**Estado**: Marco heurístico con UNA predicción ciega (θ₁₃ = 1/7)
+**Estado**: Marco heurístico con UNA predicción ciega pendiente (θ₁₃ = 1/7)
 
 ---
 
