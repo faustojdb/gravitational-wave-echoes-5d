@@ -215,63 +215,103 @@ DESPUÉS: Considerando look-elsewhere en espacio de 1350 fórmulas,
 
 ---
 
-## Resumen del Plan Revisado
+## Resumen del Plan Revisado (ACTUALIZACIÓN 23 ENE 2026)
 
-| Punto | Trabajo | Estado | Prioridad |
+| Punto | Trabajo | Estado | Resultado |
 |-------|---------|--------|-----------|
-| 1. Derivar "7 capas" | Topología algebraica desde π₁(K) | 🔴 ACTIVO | ALTA |
-| 2. R_Klein | Pospuesto - hipótesis R(t) a explorar | ⚪ POSPUESTO | BAJA |
-| 3. Derivar correcciones a priori | Teoría de campos | 🟡 PENDIENTE | MEDIA |
-| 4. Baseline estadístico | Congelar espacio de patrones | 🟡 PENDIENTE | MEDIA |
+| 1. Derivar "7 capas" | Topología algebraica desde π₁(K) | ❌ FALLIDO | No es posible derivar 7 de K² |
+| 2. R_Klein | Pospuesto - hipótesis R(t) | ⚪ POSPUESTO | - |
+| 3. Derivar correcciones a priori | Teoría de campos | ❌ NO VIABLE | Son retrofits, no predicciones |
+| 4. Baseline estadístico | Congelar espacio de patrones | ✅ COMPLETADO | Ver documentos abajo |
 
 ---
 
-## Posición Honesta Final
+## CAMBIO DE ESTRATEGIA (23 Enero 2026)
+
+### Resultado del intento de derivar el 7:
+
+Después de análisis exhaustivo:
+- Representaciones U(1) de π₁(K²) → dan 2 familias, NO 7
+- Fibrados sobre K² → dan 2 o 4 clases, NO 7
+- Fórmula 7 = 2^(k+1) - 1 → es AD HOC, no justificada
+- χ(K²) = 0, género = 2 → ningún invariante da 7
+
+**CONCLUSIÓN: El 7 NO se puede derivar de la topología de K².**
+
+### Nueva estrategia adoptada: CONGELAR + AMPUTAR
+
+En lugar de derivar lo inderivable, hemos:
+
+1. ✅ **Congelado el espacio de patrones** (ESTADISTICA_FORMAL/espacio_patrones_congelado.md)
+2. ✅ **Inventariado fórmulas honestamente** (ESTADISTICA_FORMAL/inventario_formulas_critico.md)
+3. ✅ **Identificado predicción ciega** (ESTADISTICA_FORMAL/prediccion_ciega_theta13.md)
+
+---
+
+## Posición Honesta Final (ACTUALIZADA)
 
 ### Lo que PODEMOS defender:
-- Las coincidencias numéricas son estadísticamente improbables (post look-elsewhere)
-- El factor 7π aparece en múltiples contextos independientes
-- Las correcciones de orden superior siguen un patrón geométrico
-- La supresión armónica 22:1 (modos impares vs pares) es una firma topológica
+- Las coincidencias numéricas existen (m_p/m_e = 6π⁵ con 0.002% error)
+- La supresión armónica 22:1 (modos impares vs pares) en datos LIGO
+- El espacio de patrones está ahora CONGELADO (72 fórmulas permitidas)
 
-### Lo que NO PODEMOS defender (aún):
-- Que esto sea una "teoría derivada desde primeros principios"
-- Que el número 7 emerja necesariamente de la topología Klein
-- Que las correcciones sean predicciones (son retrofits)
-- Que el espacio de patrones esté congelado
+### Lo que NO PODEMOS defender:
+- ❌ Que el 7 emerge de la topología Klein (no demostrado)
+- ❌ Que sea una "teoría derivada desde primeros principios"
+- ❌ Que las correcciones (-1/2, -1/π³) sean a priori
 
-### Lo que DEBEMOS hacer:
-1. **PRIMERO**: Derivar el 7 desde π₁(K) formalmente
-2. Congelar el espacio de patrones permitidos (aceptar amputaciones)
-3. Identificar predicciones genuinamente ciegas
-4. Ser honestos sobre qué es especulación vs derivación
+### Lo que AHORA tenemos:
+- ✅ Espacio de patrones congelado (72 fórmulas)
+- ✅ Inventario crítico de fórmulas (genuinas vs ad hoc)
+- ✅ Predicción ciega: θ₁₃ = 1/7 rad (falsificable)
 
 ---
 
-## Siguiente Paso: DERIVAR EL 7
+## DOCUMENTOS CREADOS (23 Enero 2026)
 
-### Objetivo inmediato:
-Demostrar matemáticamente que el número 7 emerge de la topología de la botella de Klein.
+### Análisis del problema del 7:
+- `TEORIA_FORMAL/derivacion_7_capas.md` - Documenta el intento fallido
+- `TEORIA_FORMAL/scripts/klein_topology_calculation.py` - Cálculos topológicos
 
-### Enfoque:
+### Nueva estrategia:
+- `ESTADISTICA_FORMAL/inventario_formulas_critico.md` - Clasificación honesta
+- `ESTADISTICA_FORMAL/espacio_patrones_congelado.md` - Espacio CONGELADO
+- `ESTADISTICA_FORMAL/prediccion_ciega_theta13.md` - Predicción falsificable
+
+---
+
+## Siguiente Paso: ESPERAR FALSIFICACIÓN
+
+### Predicción registrada:
 ```
-π₁(K) = ⟨a, b | aba⁻¹b = 1⟩ ≅ ℤ ⋊ ℤ
+θ₁₃ = 1/7 rad = 0.1429 rad
 
-Pregunta: ¿Por qué exactamente 7 "capas" o modos?
+Observado actual: 0.1476 ± 0.003 rad
+Desviación: 1.6σ (tensión leve)
 
-Posibles vías:
-1. Representaciones de π₁(K) en U(1) o SU(N)
-2. Clases de homotopía de fibrados sobre K
-3. Índices topológicos (Euler, Chern)
-4. Conexión con grupos de Lie (¿por qué SU(5) con dim=24?)
+Próximos experimentos:
+- JUNO (~2025): σ ~ 0.002 rad
+- Hyper-K (~2027): σ ~ 0.001 rad
 ```
 
-### Archivos a crear:
-- `TEORIA_FORMAL/derivacion_7_capas.md`
-- `TEORIA_FORMAL/scripts/klein_topology_calculation.py`
+### Criterio de falsificación:
+- Si θ₁₃ converge a >0.145 con σ < 0.002 → FALSIFICADA
+- Si θ₁₃ converge a ~0.143 con σ < 0.002 → CONFIRMADA
+
+---
+
+## Estado de la Teoría Klein
+
+| Aspecto | Estado |
+|---------|--------|
+| Marco heurístico | ✅ Funciona (coincidencias interesantes) |
+| Teoría derivada | ❌ No (el 7 no se deriva) |
+| Espacio congelado | ✅ Sí (72 fórmulas) |
+| Predicción ciega | ✅ θ₁₃ = 1/7 |
+| Falsificable | ✅ Sí |
 
 ---
 
 *Plan creado: Enero 2026*
 *Actualizado: 23 Enero 2026*
-*Siguiente: Derivar el 7 desde π₁(K)*
+*Estado: Espacio congelado, esperando falsificación*
