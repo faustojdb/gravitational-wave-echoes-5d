@@ -131,6 +131,7 @@
 | 5. Entrelazamiento Klein | 🔄 En progreso | Literatura soporta inversión topológica | ⭐⭐⭐ |
 | 6. Condensate Wall | ✅ Completo | 6 emerge, pero NO π⁵ | ⭐⭐ |
 | 7. Origen de π⁵ | ✅ **HALLAZGO** | **π⁵ natural en Stefan-Boltzmann** | ⭐⭐⭐⭐ |
+| 8. θ₁₃ = 1/7 rad | ✅ **VERIFICADA** | 2.3σ del valor exp. (marginalmente consistente) | ⭐⭐ |
 
 ---
 
@@ -194,8 +195,8 @@ VEREDICTO: REFUTADA (datos consistentes con GR, no con Klein)
 > - m_p/m_e = 6π⁵ (19ppm): π⁵ aparece en Stefan-Boltzmann, 6 = χ(K²)
 > - Inversión topológica: DEMOSTRADA en literatura (Tyc et al.)
 >
-> **Pendiente de verificación:**
-> - θ₁₃ = 1/7 rad (única predicción ciega viable)
+> **Verificado - resultado ambiguo:**
+> - θ₁₃ = 1/7 rad: 2.3σ del experimental (dentro de 3σ, fuera de 2σ)
 >
 > **Soporte teórico encontrado:**
 > - Paper arXiv:2511.23447 (Klein Bottle Cosmology): marco riguroso 6D = M₄ × K²
