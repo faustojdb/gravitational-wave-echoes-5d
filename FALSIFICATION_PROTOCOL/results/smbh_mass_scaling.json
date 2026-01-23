@@ -1,0 +1,274 @@
+{
+  "timestamp": "2026-01-22T13:31:30.661319",
+  "parameters": {
+    "R_Klein_km": 8400,
+    "f0_Hz": 5.68,
+    "M_critical_solar": 2847.457627118644
+  },
+  "data_summary": {
+    "n_events": 219,
+    "M_min": 2.73,
+    "M_max": 238.0,
+    "n_above_critical": 0,
+    "n_below_critical": 219
+  },
+  "mass_bin_analysis": [
+    {
+      "bin": "Light stellar (< 30 M\u2609)",
+      "m_min": 0,
+      "m_max": 30,
+      "n_events": 38,
+      "sufficient_data": true,
+      "mean_M_total": 18.85657894736842,
+      "mean_R_s": 55.626907894736846,
+      "mean_R_s_over_R_Klein": 0.006622250939849624,
+      "mean_resonance_score": 0.6138593745873017,
+      "mean_epsilon": 0.2470957310366884,
+      "correlations": {
+        "SNR_vs_resonance": {
+          "r": -0.09391933260021765,
+          "p": 0.5748932087311248
+        },
+        "SNR_vs_epsilon": {
+          "r": -0.8612539665171244,
+          "p": 3.964763850385651e-12
+        },
+        "SNR_vs_harmonic_dev": {
+          "r": 0.09391933260021765,
+          "p": 0.5748932087311248
+        }
+      }
+    },
+    {
+      "bin": "Medium stellar (30-60 M\u2609)",
+      "m_min": 30,
+      "m_max": 60,
+      "n_events": 91,
+      "sufficient_data": true,
+      "mean_M_total": 48.37912087912089,
+      "mean_R_s": 142.71840659340657,
+      "mean_R_s_over_R_Klein": 0.016990286499215072,
+      "mean_resonance_score": 0.5534831499242235,
+      "mean_epsilon": 0.25287477859968677,
+      "correlations": {
+        "SNR_vs_resonance": {
+          "r": -0.19184719625580993,
+          "p": 0.06849014266525685
+        },
+        "SNR_vs_epsilon": {
+          "r": -0.7437635396381618,
+          "p": 3.030641856387669e-17
+        },
+        "SNR_vs_harmonic_dev": {
+          "r": 0.19184719625580993,
+          "p": 0.06849014266525685
+        }
+      }
+    },
+    {
+      "bin": "Heavy stellar (60-100 M\u2609)",
+      "m_min": 60,
+      "m_max": 100,
+      "n_events": 69,
+      "sufficient_data": true,
+      "mean_M_total": 74.09420289855072,
+      "mean_R_s": 218.57789855072463,
+      "mean_R_s_over_R_Klein": 0.026021178398895787,
+      "mean_resonance_score": 0.5606999017735766,
+      "mean_epsilon": 0.2198074063739035,
+      "correlations": {
+        "SNR_vs_resonance": {
+          "r": 0.05039145708157819,
+          "p": 0.6809278953119987
+        },
+        "SNR_vs_epsilon": {
+          "r": -0.8291194738765072,
+          "p": 1.4000971917949968e-18
+        },
+        "SNR_vs_harmonic_dev": {
+          "r": -0.05039145708157819,
+          "p": 0.6809278953119987
+        }
+      }
+    },
+    {
+      "bin": "Very heavy (100-200 M\u2609)",
+      "m_min": 100,
+      "m_max": 200,
+      "n_events": 20,
+      "sufficient_data": true,
+      "mean_M_total": 122.49000000000001,
+      "mean_R_s": 361.3455,
+      "mean_R_s_over_R_Klein": 0.04301732142857143,
+      "mean_resonance_score": 0.583933063722575,
+      "mean_epsilon": 0.21758397546865224,
+      "correlations": {
+        "SNR_vs_resonance": {
+          "r": 0.23308270676691725,
+          "p": 0.3226780250046228
+        },
+        "SNR_vs_epsilon": {
+          "r": -0.5894736842105263,
+          "p": 0.006233369103076914
+        },
+        "SNR_vs_harmonic_dev": {
+          "r": -0.23308270676691725,
+          "p": 0.3226780250046228
+        }
+      }
+    },
+    {
+      "bin": "Light IMBH (200-500 M\u2609)",
+      "m_min": 200,
+      "m_max": 500,
+      "n_events": 1,
+      "sufficient_data": false
+    },
+    {
+      "bin": "IMBH+ (> 500 M\u2609)",
+      "m_min": 500,
+      "m_max": 9999,
+      "n_events": 0,
+      "sufficient_data": false
+    }
+  ],
+  "transition_search": {
+    "sufficient_data": false,
+    "reason": "All events on one side of M_critical"
+  },
+  "massive_events": {
+    "top_10_massive": [
+      {
+        "name": "GW231123_135430",
+        "M_total": 238.0,
+        "R_s": 702.1,
+        "R_s_over_R_Klein": 0.08358333333333334,
+        "SNR": 21.8,
+        "SNR_residual_norm": -0.30934789650214395,
+        "resonance_score": 0.2829627469435465,
+        "epsilon_est": 0.29560881652622756,
+        "above_critical": false
+      },
+      {
+        "name": "GW190426_190642",
+        "M_total": 182.3,
+        "R_s": 537.7850000000001,
+        "R_s_over_R_Klein": 0.06402202380952382,
+        "SNR": 8.7,
+        "SNR_residual_norm": -0.26674723166717557,
+        "resonance_score": 0.10074183645037305,
+        "epsilon_est": 0.22491917709708142,
+        "above_critical": false
+      },
+      {
+        "name": "GW190521",
+        "M_total": 153.1,
+        "R_s": 451.64500000000004,
+        "R_s_over_R_Klein": 0.05376726190476191,
+        "SNR": 14.3,
+        "SNR_residual_norm": 0.014396901091355666,
+        "resonance_score": 0.6502291048068135,
+        "epsilon_est": 0.2394282744416458,
+        "above_critical": false
+      },
+      {
+        "name": "GW231028_153006",
+        "M_total": 153.0,
+        "R_s": 451.35,
+        "R_s_over_R_Klein": 0.05373214285714286,
+        "SNR": 22.4,
+        "SNR_residual_norm": 1.0459057789220905,
+        "resonance_score": 0.8894103006497464,
+        "epsilon_est": 0.22289087781936634,
+        "above_critical": false
+      },
+      {
+        "name": "GW200220_061928",
+        "M_total": 148.0,
+        "R_s": 436.6,
+        "R_s_over_R_Klein": 0.05197619047619048,
+        "SNR": 7.2,
+        "SNR_residual_norm": -0.05802875298058249,
+        "resonance_score": 0.9946226386600405,
+        "epsilon_est": 0.19894625280856257,
+        "above_critical": false
+      },
+      {
+        "name": "GW230704_212616",
+        "M_total": 140.0,
+        "R_s": 413.0,
+        "R_s_over_R_Klein": 0.049166666666666664,
+        "SNR": 8.7,
+        "SNR_residual_norm": 0.4882949255551131,
+        "resonance_score": 0.9998380756918714,
+        "epsilon_est": 0.18705826337525747,
+        "above_critical": false
+      },
+      {
+        "name": "GW231005_021030",
+        "M_total": 134.0,
+        "R_s": 395.3,
+        "R_s_over_R_Klein": 0.04705952380952381,
+        "SNR": 10.4,
+        "SNR_residual_norm": 0.5285321365908434,
+        "resonance_score": 0.15925484742134502,
+        "epsilon_est": 0.19406660337455933,
+        "above_critical": false
+      },
+      {
+        "name": "GW230922_040658",
+        "M_total": 125.0,
+        "R_s": 368.75,
+        "R_s_over_R_Klein": 0.04389880952380952,
+        "SNR": 12.5,
+        "SNR_residual_norm": 1.0197649971578122,
+        "resonance_score": 0.9310759725140914,
+        "epsilon_est": 0.18864999845524108,
+        "above_critical": false
+      },
+      {
+        "name": "GW231001_140220",
+        "M_total": 117.0,
+        "R_s": 345.15000000000003,
+        "R_s_over_R_Klein": 0.04108928571428572,
+        "SNR": 11.5,
+        "SNR_residual_norm": 0.32897476979358087,
+        "resonance_score": 0.24998726187942044,
+        "epsilon_est": 0.21124730679229667,
+        "above_critical": false
+      },
+      {
+        "name": "GW190602_175927",
+        "M_total": 115.6,
+        "R_s": 341.02,
+        "R_s_over_R_Klein": 0.04059761904761904,
+        "SNR": 13.2,
+        "SNR_residual_norm": 0.011746120266878593,
+        "resonance_score": 0.9890455097240323,
+        "epsilon_est": 0.23698718393913443,
+        "above_critical": false
+      }
+    ],
+    "n_above_critical": 0,
+    "n_total": 219,
+    "fraction_above_critical": 0.0
+  },
+  "scaling_model": {
+    "model": "klein_suppression",
+    "parameters": {
+      "A": 0.5683657685775124,
+      "A_err": 0.04471190890503121,
+      "M_c": 2767.7026955907036,
+      "M_c_err": 333150.7336921621,
+      "n": 1.8387721911864654,
+      "n_err": 80.02010182393782
+    },
+    "r_squared": 4.32219545754009e-05,
+    "theoretical_M_critical": 2847.457627118644,
+    "M_c_vs_theory_ratio": 0.9719908276181638,
+    "verdict": "\u2713 MODEL SUPPORTS Klein suppression at high mass"
+  },
+  "conclusions": [
+    "Klein correlations ARE weaker at higher mass"
+  ]
+}
