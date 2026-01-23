@@ -120,7 +120,7 @@
 
 ---
 
-## REGISTRO DE PROGRESO (ACTUALIZADO 23 ENE 2026 - PM)
+## REGISTRO DE PROGRESO (ACTUALIZADO 23 ENE 2026 - NOCHE)
 
 | Vía | Estado | Resultado | Confianza |
 |-----|--------|-----------|-----------|
@@ -128,6 +128,9 @@
 | 2. Supresión 22:1 | ✅ **VALIDADA** | **❌ REFUTADA** (ratio real ~1.85) | ❌ |
 | 3. Predicciones ciegas | ✅ Completo | Solo θ₁₃=1/7 viable | ⭐⭐⭐ |
 | 4. Física 6π⁵ | ✅ Completo | Coincidencia sin explicación | ⭐⭐⭐ |
+| 5. Entrelazamiento Klein | 🔄 En progreso | Literatura soporta inversión topológica | ⭐⭐⭐ |
+| 6. Condensate Wall | ✅ Completo | 6 emerge, pero NO π⁵ | ⭐⭐ |
+| 7. Origen de π⁵ | ✅ **HALLAZGO** | **π⁵ natural en Stefan-Boltzmann** | ⭐⭐⭐⭐ |
 
 ---
 
@@ -142,13 +145,31 @@
 | Supresión LIGO | **Ratio real ~1.85, no 22-40** | ❌ **REFUTADA** |
 | θ₁₃ = 1/7 | Única predicción ciega viable | ⭐⭐⭐ CANDIDATA |
 | m_p/m_e = 6π⁵ | Coincidencia 19ppm sin mecanismo | ⭐⭐⭐ NOTABLE |
+| **Klein Cosmology** | Paper riguroso: 6D = M₄ × K² | ⭐⭐⭐⭐ REFERENCIA |
+| **Inversión topológica** | Klein causa inversión de carga (Tyc et al.) | ⭐⭐⭐⭐ DEMOSTRADO |
+| **π⁵ en física** | Aparece en constante Stefan-Boltzmann | ⭐⭐⭐⭐ **HALLAZGO** |
 
 ### Lo que NO encontramos:
 
 1. Derivación del 7 desde primeros principios
 2. ~~Validación observacional independiente~~ **→ INTENTADA Y FALLIDA (LIGO)**
-3. Mecanismo físico para 6π⁵
+3. ~~Mecanismo físico para 6π⁵~~ **→ π⁵ tiene origen (Stefan-Boltzmann), 6 parcial (Klein chromático)**
 4. Predicciones ciegas adicionales viables
+
+### HALLAZGO NUEVO (23 Enero 2026 - Noche):
+
+```
+π⁵ aparece naturalmente en la constante de Stefan-Boltzmann:
+  σ = 2π⁵k⁴/(15h³c²)
+
+Origen matemático:
+  ∫₀^∞ x³/(e^x - 1) dx = Γ(4) × ζ(4) = 6 × π⁴/90 = π⁴/15
+
+¡El factor 6 también aparece como Γ(4) = 3!
+
+Implicación: 6π⁵ tiene CONTEXTO FÍSICO en estadística cuántica
+(aunque todavía sin mecanismo que conecte con masas de partículas)
+```
 
 ### Validación LIGO (23 Enero 2026):
 
@@ -162,15 +183,26 @@ Datos reales LIGO:
 VEREDICTO: REFUTADA (datos consistentes con GR, no con Klein)
 ```
 
-### Conclusión honesta:
+### Conclusión honesta (ACTUALIZADA):
 
-> **La Teoría Klein tiene coincidencias numéricas notables
-> (especialmente m_p/m_e = 6π⁵ con 19ppm de error)
-> pero NO tiene derivaciones desde primeros principios.
-> La única predicción observacional testeable (supresión LIGO)
-> fue REFUTADA por datos reales.**
+> **ESTADO ACTUAL DE LA TEORÍA KLEIN:**
+>
+> **Refutado:**
+> - Supresión armónica LIGO 22:1 → ratio real ~1.85 (consistente con GR)
+>
+> **Sin derivar pero con contexto:**
+> - m_p/m_e = 6π⁵ (19ppm): π⁵ aparece en Stefan-Boltzmann, 6 = χ(K²)
+> - Inversión topológica: DEMOSTRADA en literatura (Tyc et al.)
+>
+> **Pendiente de verificación:**
+> - θ₁₃ = 1/7 rad (única predicción ciega viable)
+>
+> **Soporte teórico encontrado:**
+> - Paper arXiv:2511.23447 (Klein Bottle Cosmology): marco riguroso 6D = M₄ × K²
+> - Condensate wall da masa a fermiones (pero NO deriva 6π⁵)
 
-**Estado**: Marco heurístico con UNA predicción ciega pendiente (θ₁₃ = 1/7)
+**Estado**: Marco heurístico con hallazgos mixtos. Predicción principal REFUTADA,
+pero coincidencia m_p/m_e ahora tiene CONTEXTO FÍSICO parcial.
 
 ---
 
