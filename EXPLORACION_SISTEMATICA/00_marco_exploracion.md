@@ -136,6 +136,7 @@
 | 10. Ruta 5D → π⁵ | ✅ **REFUTADA** | ζ(5) es irracional, π⁵ específico de D=3 | ❌ |
 | 11. Dualidad par/impar | ✅ **HALLAZGO** | **β(impar) = π^n × racional** (dual de ζ) | ⭐⭐⭐⭐ |
 | 12. Auditoría anti-ad-hoc | ✅ Realizada | Cherry picking detectado en interpretación física | ⚠️ |
+| 13. Análisis estadístico | ✅ **COMPLETADO** | Solo m_p/m_e tiene expresión, prob. azar ~17% | ⚠️ |
 
 ---
 
