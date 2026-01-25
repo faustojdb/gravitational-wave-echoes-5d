@@ -494,17 +494,63 @@ para el "lado impar".
 
 ---
 
-## CONCLUSIÓN FINAL
+---
+
+## 19. AUDITORÍA ANTI-AD-HOC (25 Enero 2026)
+
+### 19.1 Cherry Picking Detectado
+
+| Afirmación | Problema |
+|------------|----------|
+| 6 = Γ(4) | Elegido entre MUCHAS formas de obtener 6 |
+| Stefan-Boltzmann elegido | Porque tiene π⁵, no por razón a priori |
+| β = fermiónico | Analogía post-hoc, no derivación |
+| Klein → β | Hipótesis sin verificar |
+
+### 19.2 Lo que Realmente Podemos Afirmar
+
+**SÓLIDO (matemática pura):**
+- ✅ Dualidad ζ↔β existe y es exacta
+- ✅ β(impar) = π^n × racional
+- ✅ ζ(par) = π^n × racional
+
+**SUGESTIVO pero NO DERIVADO:**
+- ⚠️ 6 = Γ(4) es UNA de varias formas de obtener 6
+- ⚠️ Stefan-Boltzmann contiene π⁵ (hecho, no explicación)
+- ⚠️ La alternancia en β RECUERDA a fermiones (analogía)
+
+**ESPECULATIVO:**
+- ❓ Klein → β (hipótesis sin cálculo explícito)
+- ❓ m_p/m_e refleja dualidad (narrativa post-hoc)
+
+### 19.3 Corrección de Lenguaje
+
+| Dijimos | Debimos decir |
+|---------|---------------|
+| "6 = Γ(4) viene de Stefan-Boltzmann" | "6 = Γ(4) es una de varias formas de obtener 6, que coincide con Stefan-Boltzmann" |
+| "β representa lado fermiónico" | "β tiene alternancia que recuerda a fermiones, sin derivación" |
+| "Klein → β" | "Klein introduce signos; si produce β es hipótesis sin verificar" |
+| "m_p/m_e = 6π⁵ refleja dualidad" | "m_p/m_e ≈ 6π⁵ es coincidencia con contexto pero sin derivación" |
+
+---
+
+## CONCLUSIÓN FINAL (CORREGIDA)
 
 ### Lo que establecimos:
 
-1. **Matemáticamente**: La dualidad ζ↔β es real y exacta
-2. **Físicamente**: La interpretación bosón/fermión es plausible pero especulativa
+1. **Matemáticamente**: La dualidad ζ↔β es real y exacta ✅
+2. **Físicamente**: La interpretación bosón/fermión es ANALOGÍA, no derivación ⚠️
 3. **En literatura**: No hay conexión previa Klein → β → masas
-4. **Original**: Nuestra hipótesis parece ser nueva
+4. **Original**: Nuestra hipótesis es nueva, pero también **no verificada**
 
-### Próximo paso potencial:
+### Honestidad epistemológica:
 
-Escribir una nota explorando formalmente si la compactificación
-en botella de Klein introduce funciones β en lugar de ζ en
-el cálculo de correcciones a masas de partículas.
+- **Prob. de que m_p/m_e ≈ 6π⁵ sea azar**: ~10-20% (no despreciable)
+- **Elegimos Γ(4)** porque encaja, no porque haya razón a priori
+- **La narrativa es coherente** pero eso no la hace verdadera
+
+### Próximo paso (si se continúa):
+
+Calcular explícitamente si la compactificación en Klein
+produce funciones β en la regularización. Sin este cálculo,
+la hipótesis Klein → β permanece como especulación.

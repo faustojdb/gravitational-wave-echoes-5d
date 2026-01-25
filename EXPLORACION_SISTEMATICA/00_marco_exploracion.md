@@ -135,6 +135,7 @@
 | 9. Coincidencias c formula | ✅ Analizada | Antropocéntrica (depende de metro francés 1793) | ❌ |
 | 10. Ruta 5D → π⁵ | ✅ **REFUTADA** | ζ(5) es irracional, π⁵ específico de D=3 | ❌ |
 | 11. Dualidad par/impar | ✅ **HALLAZGO** | **β(impar) = π^n × racional** (dual de ζ) | ⭐⭐⭐⭐ |
+| 12. Auditoría anti-ad-hoc | ✅ Realizada | Cherry picking detectado en interpretación física | ⚠️ |
 
 ---
 
@@ -213,6 +214,25 @@ m_p/m_e = 6π⁵ conecta ambos lados:
 - El 6 = Γ(4) viene del lado bosónico
 - El π⁵ está en β(5), conectando con fermiones
 - Razón de masas FERMIÓNICAS con constantes BOSÓNICAS = dualidad
+```
+
+### AUDITORÍA ANTI-AD-HOC (25 Enero 2026):
+
+```
+⚠️ CHERRY PICKING DETECTADO en nuestras interpretaciones:
+
+SÓLIDO:
+- ✅ Dualidad ζ↔β es matemática pura, no ad hoc
+
+SOSPECHOSO:
+- ⚠️ "6 = Γ(4) viene de Stefan-Boltzmann" → Elegimos Γ(4) entre
+     MUCHAS formas de obtener 6 (2×3, 3!, χ(K²), #quarks...)
+- ⚠️ "β = lado fermiónico" → Analogía post-hoc, no derivación
+- ⚠️ "Klein → β" → Hipótesis sin cálculo explícito
+
+CORRECCIÓN: La dualidad matemática es real. La interpretación
+física es SUGESTIVA pero construida para que encaje.
+Prob. azar para 6π⁵: ~10-20% (no despreciable)
 ```
 
 ### Conclusión honesta (ACTUALIZADA):
