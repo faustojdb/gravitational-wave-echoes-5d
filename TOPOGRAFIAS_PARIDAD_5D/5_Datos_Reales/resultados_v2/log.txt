@@ -68,3 +68,11 @@
 [07:11:17] evento GW200128_022011 (SNR 10.6, Mf 71.0)
 [07:11:22]   GW200128_022011 H1 W1: ok, off válidas=224 (vetadas A=0, B=0)
 [07:11:22]   GW200128_022011 H1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:11:26]   GW200128_022011 L1 W1: ok, off válidas=222 (vetadas A=0, B=2)
+[07:11:27]   GW200128_022011 L1 W2: ok, off válidas=55 (vetadas A=0, B=1)
+[07:11:54]   GW200128_022011 V1: NaN, descartado
+[07:11:54]   W1: dets=['H1', 'L1'] zmax_on=14.07 @ 1363 Hz, p_ind=0.423 (n_nulas=111, nul std=2.10)
+[07:11:54]   W2: dets=['H1', 'L1'] zmax_on=10.07 @ 955 Hz, p_ind=0.852 (n_nulas=27, nul std=1.94)
+[07:11:54] evento GW200129_065458 (SNR 26.8, Mf 60.2)
+[07:12:00]   GW200129_065458 H1 W1: ok, off válidas=224 (vetadas A=0, B=0)
+[07:12:00]   GW200129_065458 H1 W2: ok, off válidas=56 (vetadas A=0, B=0)
