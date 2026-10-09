@@ -121,3 +121,12 @@
 [07:15:18] evento GW200225_060421 (SNR 12.5, Mf 32.1)
 [07:15:23]   GW200225_060421 H1 W1: ok, off válidas=224 (vetadas A=0, B=0)
 [07:15:24]   GW200225_060421 H1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:15:28]   GW200225_060421 L1 W1: ok, off válidas=224 (vetadas A=0, B=0)
+[07:15:29]   GW200225_060421 L1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:16:09]   GW200225_060421 V1: NaN, descartado
+[07:16:09]   W1: dets=['H1', 'L1'] zmax_on=16.95 @ 232 Hz, p_ind=0.107 (n_nulas=112, nul std=2.07)
+[07:16:09]   W2: dets=['H1', 'L1'] zmax_on=13.01 @ 987 Hz, p_ind=0.393 (n_nulas=28, nul std=1.94)
+[07:16:09] evento GW200302_015811 (SNR 10.8, Mf 55.5)
+[07:16:15]   GW200302_015811 H1 W1: ok, off válidas=223 (vetadas A=0, B=1)
+[07:16:16]   GW200302_015811 H1 W2: ok, off válidas=55 (vetadas A=0, B=1)
+[07:16:16]   GW200302_015811 L1: sin datos (GetExceptionGroup)
