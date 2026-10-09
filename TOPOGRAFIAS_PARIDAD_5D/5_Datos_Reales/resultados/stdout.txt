@@ -36,3 +36,7 @@
 [06:41:35]   W2: dets=['H1', 'L1'] zmax_on=12.83 @ 1460 Hz, p_ind=0.536 (n_nulas=28)
 [06:41:35] evento GW200112_155838 (SNR 19.8, Mf 60.8)
 [06:41:36]   GW200112_155838 H1: sin datos (GetExceptionGroup: failed to get data from any source (1 sub-exception))
+[06:42:12]   GW200112_155838 L1: ok, off W1=224 W2=56
+[06:42:12]   W1: dets=['L1'] zmax_on=10.31 @ 111 Hz, p_ind=0.589 (n_nulas=112)
+[06:42:12]   W2: dets=['L1'] zmax_on=13.13 @ 1718 Hz, p_ind=0.179 (n_nulas=28)
+[06:42:12] evento GW200128_022011 (SNR 10.6, Mf 71.0)
