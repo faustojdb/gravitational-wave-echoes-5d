@@ -1,0 +1,52 @@
+# TOPOGRAFIAS_PARIDAD_5D — ¿Qué forma de la 5ª dimensión anula los modos pares de un lado y los impares del otro?
+
+Estudio independiente, iniciado el 9 de octubre de 2026, dentro del repositorio `gravitational-wave-echoes-5d` (se reutilizan sus herramientas de descarga/análisis de LIGO, no sus conclusiones).
+
+## Hipótesis que se estudia
+
+Una fusión de agujeros negros o una supernova emite ondas gravitacionales que también se propagan en una quinta dimensión. La propuesta es que la **topografía** de esa dimensión actúa como un filtro: cuando la onda regresa a nuestro lado un conjunto de modos (par o impar) queda anulado, y cuando va hacia el otro lado se anula el conjunto contrario. Analogía: una onda de agua vive sobre la superficie, no debajo del agua. Preguntas: ¿qué topografías pueden hacer eso? ¿qué características necesitan? ¿existen en la literatura seria?
+
+## Respuesta en tres líneas
+
+1. La selección par/impar **dependiente del lado** exige dos paredes **inequivalentes**: el orbifold $S^1/(Z_2\times Z_2')$ (intervalo con fase de Scherk–Schwarz). En él los modos impares vienen en dos familias espejo, una visible sólo desde nuestra pared y otra sólo desde la pared sombra; los pares se ven desde ambas.
+2. Topografías sin paredes (círculo, **botella de Klein**, $RP^2$, Möbius) filtran por paridad **del campo**, no **del lado**: no tienen "lados".
+3. Esa topografía existe y está publicada (Kawamura 2001; Barbieri–Hall–Nomura 2001; Nilse 2006). Para que sus modos caigan en la banda de LIGO sin violar los tests de laboratorio debe ser **warped** (Randall–Sundrum); con cuerda negra entre branas (Seahra–Clarkson–Maartens 2005) la estabilidad fija $f_1\gtrsim460\,(30M_\odot/M)$ Hz. El cálculo de ondas gravitacionales en este orbifold warped **no existe en la literatura**: es el trabajo a hacer.
+
+## Estructura
+
+```
+TOPOGRAFIAS_PARIDAD_5D/
+├── README.md                                   ← este archivo
+├── 1_Teoria/
+│   ├── 01_criterio_de_seleccion_por_paridad.md ← formalismo KK, paridad ⇔ Neumann/Dirichlet, criterio de dos paredes
+│   └── 02_catalogo_topografias_candidatas.md   ← tabla de 11 topografías, características requeridas, ¿existen?
+├── 2_Bibliografia/
+│   └── bibliografia_anotada.md                 ← 36 referencias; ✅ = verificada en esta sesión, ⚠️ = de memoria
+├── 3_Codigo/
+│   └── modos_paridad_topografias.py            ← espectros y funciones de modo por topografía, simulación 1+1, RS, cuerda negra
+└── 4_Resultados/
+    ├── CONCLUSIONES.md                         ← síntesis, aciertos/correcciones, predicciones falsables, próximos pasos
+    ├── tabla_resumen.md                        ← tablas generadas por el código
+    ├── resumen_numerico.json
+    └── figuras/fig1 … fig7
+```
+
+## Reproducir
+
+```bash
+pip install numpy scipy matplotlib
+cd TOPOGRAFIAS_PARIDAD_5D/3_Codigo
+python3 modos_paridad_topografias.py          # ~1 min; escribe 4_Resultados/
+```
+
+## Figuras
+
+| | |
+|---|---|
+| fig1 | Funciones de modo de los cuatro sectores $(P,P')$ de $S^1/(Z_2\times Z_2')$ y su valor en cada pared |
+| fig2 | Peso $|f_n|^2$ en pared I y II para $S^1$, $S^1/Z_2$, $S^1/(Z_2\times Z_2')$ |
+| fig3 | Botella de Klein (selección por paridad del campo) y banda de Möbius (espectro semientero) |
+| fig4 | Randall–Sundrum: modo cero ligado vs. onda de agua, potencial volcán, torre KK en branas UV/IR |
+| fig5 | Cuerda negra RS: frecuencias KK vs. separación de branas y bandas LIGO/LISA |
+| fig6 | Simulación 1+1: pulso junto a la pared I con contornos NN, ND, DN, DD; espectro visto en cada pared |
+| fig7 | Frecuencia KK mínima impuesta por la estabilidad de Gregory–Laflamme vs. masa del agujero negro |
