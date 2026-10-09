@@ -24,16 +24,21 @@ TOPOGRAFIAS_PARIDAD_5D/
 ├── 1_Teoria/
 │   ├── 01_criterio_de_seleccion_por_paridad.md ← formalismo KK, paridad ⇔ Neumann/Dirichlet, criterio de dos paredes
 │   ├── 02_catalogo_topografias_candidatas.md   ← tabla de 11 topografías, características requeridas, ¿existen?
-│   └── 03_prediccion_independiente_del_modelo.md ← lo que TODAS las variantes predicen en común
+│   ├── 03_prediccion_independiente_del_modelo.md ← lo que TODAS las variantes predicen en común
+│   └── 04_modelo_elastico.md                   ← derivación pura: rigidez, pretensión, rotura, permeabilidad, escalas (sin parámetros libres)
 ├── 2_Bibliografia/
 │   └── bibliografia_anotada.md                 ← 36 referencias; ✅ = verificada en esta sesión, ⚠️ = de memoria
 ├── 3_Codigo/
-│   └── modos_paridad_topografias.py            ← espectros y funciones de modo por topografía, simulación 1+1, RS, cuerda negra
+│   ├── modos_paridad_topografias.py            ← espectros y funciones de modo por topografía, simulación 1+1, RS, cuerda negra
+│   └── numeros_modelo_elastico.py              ← todos los números citados en 04_modelo_elastico.md
 ├── 4_Resultados/
 │   ├── CONCLUSIONES.md                         ← síntesis en tres niveles (teorema / modelo / dato), próximos pasos
 │   ├── tabla_resumen.md                        ← tablas generadas por el código
 │   ├── resumen_numerico.json
 │   └── figuras/fig1 … fig7
+├── 6_Auditoria_trabajo_previo/
+│   ├── AUDITORIA.md                            ← inventario con archivo:línea de superficies, radios, frecuencias, significancias y causas de fallo
+│   └── cotas_fisicas.md
 └── 5_Datos_Reales/
     ├── PROTOCOLO.md                            ← protocolo fijado ANTES de mirar los datos
     ├── busqueda_lineas_tardias.py              ← descarga strain de GWOSC y busca líneas tardías (con controles)
