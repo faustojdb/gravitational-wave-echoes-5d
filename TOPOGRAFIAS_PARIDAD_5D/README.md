@@ -26,13 +26,15 @@ TOPOGRAFIAS_PARIDAD_5D/
 │   ├── 02_catalogo_topografias_candidatas.md   ← tabla de 11 topografías, características requeridas, ¿existen?
 │   ├── 03_prediccion_independiente_del_modelo.md ← lo que TODAS las variantes predicen en común
 │   ├── 04_modelo_elastico.md                   ← derivación pura: rigidez, pretensión, rotura, permeabilidad, escalas (sin parámetros libres)
-│   └── 05_ventana_submilimetrica.md            ← √(ℓ_P L_Λ) = 39 µm, Yukawa α = 2 derivada por topografía, materia sombra, por qué LIGO no accede
+│   ├── 05_ventana_submilimetrica.md            ← √(ℓ_P L_Λ) = 39 µm, Yukawa α = 2 derivada por topografía, por qué LIGO no accede
+│   └── 06_materia_sombra.md                    ← V_propio = coth, V_sombra = tanh (exacto, verificado por imágenes), permeabilidad, GW idénticas, = materia oscura
 ├── 2_Bibliografia/
 │   └── bibliografia_anotada.md                 ← 36 referencias; ✅ = verificada en esta sesión, ⚠️ = de memoria
 ├── 3_Codigo/
 │   ├── modos_paridad_topografias.py            ← espectros y funciones de modo por topografía, simulación 1+1, RS, cuerda negra
 │   ├── numeros_modelo_elastico.py              ← todos los números citados en 04_modelo_elastico.md
-│   └── numeros_ventana_submm.py                ← todos los números citados en 05_ventana_submilimetrica.md
+│   ├── numeros_ventana_submm.py                ← todos los números citados en 05_ventana_submilimetrica.md
+│   └── numeros_materia_sombra.py               ← verificación KK = imágenes y tablas de 06_materia_sombra.md
 ├── 4_Resultados/
 │   ├── CONCLUSIONES.md                         ← síntesis en tres niveles (teorema / modelo / dato), próximos pasos
 │   ├── tabla_resumen.md                        ← tablas generadas por el código
