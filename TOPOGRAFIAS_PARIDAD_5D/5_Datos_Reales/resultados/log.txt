@@ -85,3 +85,9 @@
 [06:52:52]   W1: dets=['H1', 'L1'] zmax_on=11.97 @ 1269 Hz, p_ind=0.688 (n_nulas=112)
 [06:52:52]   W2: dets=['H1', 'L1'] zmax_on=12.97 @ 785 Hz, p_ind=0.536 (n_nulas=28)
 [06:52:52] evento GW200316_215756 (SNR 10.3, Mf 20.2)
+[06:53:43]   GW200316_215756 H1: ok, off W1=224 W2=56
+[06:54:41]   GW200316_215756 L1: NaN en el segmento, detector descartado
+[06:54:41]   W1: dets=['H1'] zmax_on=12.32 @ 1515 Hz, p_ind=0.223 (n_nulas=112)
+[06:54:41]   W2: dets=['H1'] zmax_on=8.63 @ 867 Hz, p_ind=0.750 (n_nulas=28)
+[06:54:43] APILADO W1: Zmax=41.89 @ 95 Hz, p=0.9795, p_corr=1.0000, nula p95=1019.51
+[06:54:44] APILADO W2: Zmax=40.65 @ 1011 Hz, p=0.7300, p_corr=1.0000, nula p95=60811.36
