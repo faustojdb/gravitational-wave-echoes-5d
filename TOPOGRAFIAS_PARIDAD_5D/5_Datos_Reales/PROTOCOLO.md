@@ -54,3 +54,5 @@ Si existe una dimensión extra con modos de Kaluza-Klein accesibles a la banda d
 (ninguna)
 
 **Enmienda 1 (9 oct 2026, antes de correr el análisis, por implementación):** para evitar que cada ventana off-source entre en su propia mediana/MAD, las ventanas off-source de cada evento y detector se dividen en dos mitades por orden temporal alternado: mitad "referencia" (define mediana y MAD por bin) y mitad "nula" (provee las réplicas del apilado). La ventana on-source y las ventanas nulas se normalizan ambas con la mitad de referencia, de modo que el tratamiento es idéntico. Las réplicas nulas usan el mismo índice temporal de ventana para H1 y L1, imitando la coincidencia on-source.
+
+**Enmienda 2 (9 oct 2026, antes de obtener ningún resultado; fallo técnico):** el filtro pasa-banda 20–1800 Hz de gwpy falla a 4096 Hz porque la banda de transición superior supera Nyquist. Se reemplaza por un pasa-altos a 20 Hz y la selección de bins 20–1800 Hz en el espectro, que es equivalente para un estadístico definido bin a bin. Se relanza todo desde cero para que todos los eventos usen el mismo pipeline.

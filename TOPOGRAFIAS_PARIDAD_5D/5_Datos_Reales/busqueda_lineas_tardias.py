@@ -73,7 +73,7 @@ def analizar_evento(ev, outdir, log):
         pre = ts.crop(t0 + C["psd_ini"], t0 + C["psd_fin"])
         asd = pre.asd(fftlength=C["fftlength"], overlap=C["overlap"], method="median")
         wh = ts.whiten(fftlength=C["fftlength"], overlap=C["overlap"], asd=asd)
-        wh = wh.bandpass(*C["band"])
+        wh = wh.highpass(C["band"][0])  # el límite superior se aplica seleccionando bins del espectro (Enmienda 2)
         tt = wh.times.value
         x = wh.value
         det_res = {}
