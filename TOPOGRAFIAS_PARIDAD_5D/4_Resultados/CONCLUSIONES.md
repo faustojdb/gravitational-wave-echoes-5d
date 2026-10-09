@@ -25,6 +25,17 @@ Reescrito según `CLAUDE.md`: cada afirmación se etiqueta como **teorema**, **s
 - Cálculo con fórmulas publicadas y cotas publicadas: fig5, fig7 y las tablas. Dependen del supuesto de modelo indicado.
 - Datos reales: ninguno hasta esta versión. El análisis con strain de GWOSC está en `5_Datos_Reales/`, con protocolo fijado antes de mirar los datos.
 
-## Predicción mínima y análisis en curso
+## Predicción mínima y resultado sobre datos reales
 
-Lo único que todas las variantes comparten es una línea tardía a frecuencia fija, común a todos los eventos, que no escala con la masa del remanente. Se busca eso, a ciegas, con controles off-source del mismo pipeline (`5_Datos_Reales/PROTOCOLO.md`). El resultado, positivo o negativo, se reporta en `5_Datos_Reales/resultados/REPORTE.md`.
+Lo único que todas las variantes comparten es una línea tardía a frecuencia fija, común a todos los eventos, que no escala con la masa del remanente. Se buscó eso, a ciegas, en strain público de GWOSC para 18 fusiones BBH de GWTC-3 (SNR ≥ 10, FAR ≤ 1/año), con protocolo fijado antes de mirar los datos y nula construida por el mismo pipeline sobre ventanas fuera de los eventos (`5_Datos_Reales/PROTOCOLO.md`).
+
+- **Dato:** resultado **negativo**. Máximo del estadístico apilado Z = 41.9 (W1, 95 Hz) y 40.6 (W2, 1011 Hz), con p = 0.98 y 0.73; en ambas ventanas el observado está por debajo de la mediana de la nula. El cuerpo de la distribución de potencia posfusión es indistinguible del ruido fuera de los eventos. Un exploratorio post hoc con recorte de glitches (no confirmatorio) da p ≥ 0.16 en todos los casos. Detalle en `5_Datos_Reales/resultados/REPORTE.md`.
+- **Modelo:** quedan desfavorecidas las variantes que predicen modos masivos en 20–1800 Hz con potencia relativa ≳ 2 MAD por evento. Las variantes con frecuencias fuera de banda (toda compactificación plana permitida por los tests de laboratorio) no se ven afectadas.
+- **Teorema:** el resultado matemático de selección de paridad por lado no cambia; lo que falla es su versión observable en la banda de LIGO con esta sensibilidad.
+
+## Qué haría falta para ir más lejos (sin violar `CLAUDE.md`)
+
+1. Veto de glitches definido a priori (banderas de calidad de datos de GWOSC) en una nueva versión del protocolo, fechada antes de correrla.
+2. Incluir Virgo y ventanas más largas para modos de decaimiento lento.
+3. Inyecciones de eficiencia para convertir la sensibilidad en límite de amplitud de strain, reportadas como calibración y no como evidencia.
+4. Cálculo teórico pendiente: señal de una fusión en $S^1/(Z_2\times Z_2')$ warped con los cuatro sectores de paridad, para saber qué amplitud relativa predice y si queda por encima o por debajo de la sensibilidad alcanzada.

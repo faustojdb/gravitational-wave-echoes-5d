@@ -141,7 +141,7 @@ def main():
     rng = np.random.default_rng(20261009)
     por_evento = {}
     Zs = {}
-    f_ref = None
+    f_ref = {}
     for ev in muestra:
         log(f"evento {ev['nombre']} (SNR {ev['snr']}, Mf {ev['mf']})")
         try:
@@ -155,8 +155,7 @@ def main():
         for vn in C["ventanas"]:
             dets = [d for d in Z if vn in Z[d]]
             f = Z[dets[0]][vn]["f"]
-            if f_ref is None:
-                f_ref = f
+            f_ref.setdefault(vn, f)
             z_on = sum(Z[d][vn]["z_on"] for d in dets)
             nmin = min(Z[d][vn]["z_nul"].shape[0] for d in dets)
             z_nul = sum(Z[d][vn]["z_nul"][:nmin] for d in dets)  # mismo índice temporal en ambos detectores
@@ -176,7 +175,7 @@ def main():
     for vn in Zs:
         on = np.array(Zs[vn]["on"]); nul = Zs[vn]["nul"]
         Zf = on.sum(axis=0)
-        Zmax = float(Zf.max()); fZ = float(f_ref[int(Zf.argmax())])
+        Zmax = float(Zf.max()); fZ = float(f_ref[vn][int(Zf.argmax())])
         nev = len(nul)
         Zmax_nul = np.empty(a.nrep)
         for r in range(a.nrep):
@@ -193,7 +192,8 @@ def main():
                                       nula_p95=float(np.quantile(Zmax_nul, 0.95)), nula_p999=float(np.quantile(Zmax_nul, 0.999)),
                                       nula_mediana=float(np.median(Zmax_nul)), frac_eventos_z_positivo_en_fmax=frac_pos,
                                       criterio_exito="p_corr < 0.001", exito=bool(p_corr < 0.001))
-        np.savez(os.path.join(a.outdir, f"apilado_{vn}.npz"), f=f_ref, Z=Zf, z_on=on, Zmax_nul=Zmax_nul)
+        np.savez(os.path.join(a.outdir, f"apilado_{vn}.npz"), f=f_ref[vn], Z=Zf, z_on=on, Zmax_nul=Zmax_nul,
+                 eventos=np.array(list(por_evento)), **{f"z_nul_{e}": nul[e] for e in range(nev)})
         log(f"APILADO {vn}: Zmax={Zmax:.2f} @ {fZ:.0f} Hz, p={p:.4f}, p_corr={p_corr:.4f}, nula p95={resumen['apilado'][vn]['nula_p95']:.2f}")
     json.dump(resumen, open(os.path.join(a.outdir, "resumen.json"), "w"), indent=1)
 

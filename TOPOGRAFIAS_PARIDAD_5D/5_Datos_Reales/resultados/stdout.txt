@@ -1,116 +1,94 @@
-[06:32:53] muestra: 18 eventos; config: {"catalogo": "GWTC-3-confident", "snr_min": 10.0, "far_max": 1.0, "m_min": 3.0, "detectores": ["H1", "L1"], "fs": 4096, "seg": 128.0, "psd_ini": -124.0, "psd_fin": -8.0, "fftlength": 4.0, "overlap": 2.0, "band": [20.0, 1800.0], "ventanas": {"W1": [0.05, 1.0], "W2": [1.05, 4.0]}, "off_rangos": [[-120.0, -8.0], [8.0, 120.0]], "df_out": 1.0}
-[06:32:53] evento GW191109_010717 (SNR 17.3, Mf 107.0)
-[06:33:03]   GW191109_010717 H1: ok, off W1=224 W2=56
-[06:33:36]   GW191109_010717 L1: ok, off W1=224 W2=56
-[06:33:36]   W1: dets=['H1', 'L1'] zmax_on=17.10 @ 1478 Hz, p_ind=0.196 (n_nulas=112)
-[06:33:36]   W2: dets=['H1', 'L1'] zmax_on=10.89 @ 567 Hz, p_ind=0.750 (n_nulas=28)
-[06:33:36] evento GW191129_134029 (SNR 13.1, Mf 16.8)
-[06:34:27]   GW191129_134029 H1: ok, off W1=224 W2=56
-[06:34:58]   GW191129_134029 L1: ok, off W1=224 W2=56
-[06:34:58]   W1: dets=['H1', 'L1'] zmax_on=11.12 @ 931 Hz, p_ind=0.875 (n_nulas=112)
-[06:34:58]   W2: dets=['H1', 'L1'] zmax_on=17.42 @ 1111 Hz, p_ind=0.143 (n_nulas=28)
-[06:34:58] evento GW191204_171526 (SNR 17.4, Mf 19.18)
-[06:35:29]   GW191204_171526 H1: ok, off W1=224 W2=56
-[06:36:14]   GW191204_171526 L1: ok, off W1=224 W2=56
-[06:36:14]   W1: dets=['H1', 'L1'] zmax_on=12.41 @ 1743 Hz, p_ind=0.696 (n_nulas=112)
-[06:36:14]   W2: dets=['H1', 'L1'] zmax_on=13.82 @ 1316 Hz, p_ind=0.250 (n_nulas=28)
-[06:36:14] evento GW191215_223052 (SNR 11.2, Mf 41.4)
-[06:37:10]   GW191215_223052 H1: ok, off W1=224 W2=56
-[06:38:02]   GW191215_223052 L1: ok, off W1=224 W2=56
-[06:38:02]   W1: dets=['H1', 'L1'] zmax_on=13.22 @ 52 Hz, p_ind=0.545 (n_nulas=112)
-[06:38:02]   W2: dets=['H1', 'L1'] zmax_on=10.67 @ 165 Hz, p_ind=0.929 (n_nulas=28)
-[06:38:02] evento GW191216_213338 (SNR 18.6, Mf 18.87)
-[06:38:45]   GW191216_213338 H1: ok, off W1=224 W2=56
-[06:38:47]   GW191216_213338 L1: sin datos (GetExceptionGroup: failed to get data from any source (1 sub-exception))
-[06:38:48]   W1: dets=['H1'] zmax_on=11.72 @ 443 Hz, p_ind=0.491 (n_nulas=112)
-[06:38:48]   W2: dets=['H1'] zmax_on=10.72 @ 289 Hz, p_ind=0.571 (n_nulas=28)
-[06:38:48] evento GW191222_033537 (SNR 12.5, Mf 75.5)
-[06:39:27]   GW191222_033537 H1: ok, off W1=224 W2=56
-[06:40:18]   GW191222_033537 L1: ok, off W1=224 W2=56
-[06:40:18]   W1: dets=['H1', 'L1'] zmax_on=15.59 @ 1545 Hz, p_ind=0.277 (n_nulas=112)
-[06:40:18]   W2: dets=['H1', 'L1'] zmax_on=11.17 @ 1105 Hz, p_ind=0.786 (n_nulas=28)
-[06:40:18] evento GW191230_180458 (SNR 10.4, Mf 82.0)
-[06:41:02]   GW191230_180458 H1: ok, off W1=224 W2=56
-[06:41:34]   GW191230_180458 L1: ok, off W1=224 W2=56
-[06:41:35]   W1: dets=['H1', 'L1'] zmax_on=10.69 @ 1731 Hz, p_ind=0.973 (n_nulas=112)
-[06:41:35]   W2: dets=['H1', 'L1'] zmax_on=12.83 @ 1460 Hz, p_ind=0.536 (n_nulas=28)
-[06:41:35] evento GW200112_155838 (SNR 19.8, Mf 60.8)
-[06:41:36]   GW200112_155838 H1: sin datos (GetExceptionGroup: failed to get data from any source (1 sub-exception))
-[06:42:12]   GW200112_155838 L1: ok, off W1=224 W2=56
-[06:42:12]   W1: dets=['L1'] zmax_on=10.31 @ 111 Hz, p_ind=0.589 (n_nulas=112)
-[06:42:12]   W2: dets=['L1'] zmax_on=13.13 @ 1718 Hz, p_ind=0.179 (n_nulas=28)
-[06:42:12] evento GW200128_022011 (SNR 10.6, Mf 71.0)
-[06:42:49]   GW200128_022011 H1: ok, off W1=224 W2=56
-[06:43:11]   GW200128_022011 L1: ok, off W1=224 W2=56
-[06:43:11]   W1: dets=['H1', 'L1'] zmax_on=14.52 @ 1363 Hz, p_ind=0.348 (n_nulas=112)
-[06:43:11]   W2: dets=['H1', 'L1'] zmax_on=10.29 @ 1572 Hz, p_ind=0.893 (n_nulas=28)
-[06:43:11] evento GW200129_065458 (SNR 26.8, Mf 60.2)
-[06:43:18]   GW200129_065458 H1: ok, off W1=224 W2=56
-[06:43:53]   GW200129_065458 L1: ok, off W1=224 W2=56
-[06:43:53]   W1: dets=['H1', 'L1'] zmax_on=12.21 @ 1140 Hz, p_ind=0.759 (n_nulas=112)
-[06:43:53]   W2: dets=['H1', 'L1'] zmax_on=14.82 @ 47 Hz, p_ind=0.286 (n_nulas=28)
-[06:43:53] evento GW200202_154313 (SNR 10.8, Mf 16.76)
-[06:44:29]   GW200202_154313 H1: ok, off W1=224 W2=56
-[06:45:02]   GW200202_154313 L1: ok, off W1=224 W2=56
-[06:45:02]   W1: dets=['H1', 'L1'] zmax_on=15.60 @ 532 Hz, p_ind=0.196 (n_nulas=112)
-[06:45:02]   W2: dets=['H1', 'L1'] zmax_on=10.91 @ 979 Hz, p_ind=0.893 (n_nulas=28)
-[06:45:02] evento GW200208_130117 (SNR 10.8, Mf 62.5)
-[06:45:33]   GW200208_130117 H1: ok, off W1=224 W2=56
-[06:45:58]   GW200208_130117 L1: ok, off W1=224 W2=56
-[06:45:58]   W1: dets=['H1', 'L1'] zmax_on=14.89 @ 1176 Hz, p_ind=0.330 (n_nulas=112)
-[06:45:58]   W2: dets=['H1', 'L1'] zmax_on=11.42 @ 812 Hz, p_ind=0.857 (n_nulas=28)
-[06:45:58] evento GW200219_094415 (SNR 10.7, Mf 62.2)
-[06:46:22]   GW200219_094415 H1: ok, off W1=224 W2=56
-[06:47:15]   GW200219_094415 L1: ok, off W1=224 W2=56
-[06:47:15]   W1: dets=['H1', 'L1'] zmax_on=13.00 @ 700 Hz, p_ind=0.616 (n_nulas=112)
-[06:47:15]   W2: dets=['H1', 'L1'] zmax_on=14.33 @ 1493 Hz, p_ind=0.179 (n_nulas=28)
-[06:47:15] evento GW200224_222234 (SNR 20.0, Mf 68.7)
-[06:48:04]   GW200224_222234 H1: ok, off W1=224 W2=56
-[06:49:02]   GW200224_222234 L1: ok, off W1=224 W2=56
-[06:49:02]   W1: dets=['H1', 'L1'] zmax_on=17.43 @ 1097 Hz, p_ind=0.071 (n_nulas=112)
-[06:49:02]   W2: dets=['H1', 'L1'] zmax_on=10.44 @ 70 Hz, p_ind=0.893 (n_nulas=28)
-[06:49:02] evento GW200225_060421 (SNR 12.5, Mf 32.1)
-[06:49:50]   GW200225_060421 H1: ok, off W1=224 W2=56
-[06:50:41]   GW200225_060421 L1: ok, off W1=224 W2=56
-[06:50:41]   W1: dets=['H1', 'L1'] zmax_on=16.95 @ 232 Hz, p_ind=0.107 (n_nulas=112)
-[06:50:41]   W2: dets=['H1', 'L1'] zmax_on=13.01 @ 987 Hz, p_ind=0.393 (n_nulas=28)
-[06:50:41] evento GW200302_015811 (SNR 10.8, Mf 55.5)
-[06:51:30]   GW200302_015811 H1: ok, off W1=224 W2=56
-[06:51:32]   GW200302_015811 L1: sin datos (GetExceptionGroup: failed to get data from any source (1 sub-exception))
-[06:51:32]   W1: dets=['H1'] zmax_on=10.11 @ 266 Hz, p_ind=0.580 (n_nulas=112)
-[06:51:32]   W2: dets=['H1'] zmax_on=10.95 @ 595 Hz, p_ind=0.429 (n_nulas=28)
-[06:51:32] evento GW200311_115853 (SNR 17.8, Mf 59.0)
-[06:52:20]   GW200311_115853 H1: ok, off W1=224 W2=56
-[06:52:52]   GW200311_115853 L1: ok, off W1=224 W2=56
-[06:52:52]   W1: dets=['H1', 'L1'] zmax_on=11.97 @ 1269 Hz, p_ind=0.688 (n_nulas=112)
-[06:52:52]   W2: dets=['H1', 'L1'] zmax_on=12.97 @ 785 Hz, p_ind=0.536 (n_nulas=28)
-[06:52:52] evento GW200316_215756 (SNR 10.3, Mf 20.2)
-[06:53:43]   GW200316_215756 H1: ok, off W1=224 W2=56
-[06:54:41]   GW200316_215756 L1: NaN en el segmento, detector descartado
-[06:54:41]   W1: dets=['H1'] zmax_on=12.32 @ 1515 Hz, p_ind=0.223 (n_nulas=112)
-[06:54:41]   W2: dets=['H1'] zmax_on=8.63 @ 867 Hz, p_ind=0.750 (n_nulas=28)
-[06:54:43] APILADO W1: Zmax=41.89 @ 95 Hz, p=0.9795, p_corr=1.0000, nula p95=1019.51
-[06:54:44] APILADO W2: Zmax=40.65 @ 1011 Hz, p=0.7300, p_corr=1.0000, nula p95=60811.36
-Traceback (most recent call last):
-  File "/home/user/gravitational-wave-echoes-5d/TOPOGRAFIAS_PARIDAD_5D/5_Datos_Reales/busqueda_lineas_tardias.py", line 231, in <module>
-    main()
-    ~~~~^^
-  File "/home/user/gravitational-wave-echoes-5d/TOPOGRAFIAS_PARIDAD_5D/5_Datos_Reales/busqueda_lineas_tardias.py", line 207, in main
-    axs[i, 0].plot(d["f"], d["Z"], lw=0.6)
-    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/matplotlib/axes/_axes.py", line 1792, in plot
-    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
-            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.13/dist-packages/matplotlib/axes/_base.py", line 331, in __call__
-    yield from self._plot_args(
-               ~~~~~~~~~~~~~~~^
-        axes, this, kwargs, ambiguous_fmt_datakey=ambiguous_fmt_datakey,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-        return_kwargs=return_kwargs
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    )
-    ^
-  File "/usr/local/lib/python3.13/dist-packages/matplotlib/axes/_base.py", line 509, in _plot_args
-    raise ValueError(f"x and y must have same first dimension, but "
-                     f"have shapes {x.shape} and {y.shape}")
-ValueError: x and y must have same first dimension, but have shapes (1781,) and (1780,)
+[06:55:57] muestra: 18 eventos; config: {"catalogo": "GWTC-3-confident", "snr_min": 10.0, "far_max": 1.0, "m_min": 3.0, "detectores": ["H1", "L1"], "fs": 4096, "seg": 128.0, "psd_ini": -124.0, "psd_fin": -8.0, "fftlength": 4.0, "overlap": 2.0, "band": [20.0, 1800.0], "ventanas": {"W1": [0.05, 1.0], "W2": [1.05, 4.0]}, "off_rangos": [[-120.0, -8.0], [8.0, 120.0]], "df_out": 1.0}
+[06:55:57] evento GW191109_010717 (SNR 17.3, Mf 107.0)
+[06:56:05]   GW191109_010717 H1: ok, off W1=224 W2=56
+[06:56:10]   GW191109_010717 L1: ok, off W1=224 W2=56
+[06:56:10]   W1: dets=['H1', 'L1'] zmax_on=17.10 @ 1478 Hz, p_ind=0.196 (n_nulas=112)
+[06:56:10]   W2: dets=['H1', 'L1'] zmax_on=10.89 @ 567 Hz, p_ind=0.750 (n_nulas=28)
+[06:56:10] evento GW191129_134029 (SNR 13.1, Mf 16.8)
+[06:56:16]   GW191129_134029 H1: ok, off W1=224 W2=56
+[06:56:20]   GW191129_134029 L1: ok, off W1=224 W2=56
+[06:56:20]   W1: dets=['H1', 'L1'] zmax_on=11.12 @ 931 Hz, p_ind=0.875 (n_nulas=112)
+[06:56:20]   W2: dets=['H1', 'L1'] zmax_on=17.42 @ 1111 Hz, p_ind=0.143 (n_nulas=28)
+[06:56:20] evento GW191204_171526 (SNR 17.4, Mf 19.18)
+[06:56:25]   GW191204_171526 H1: ok, off W1=224 W2=56
+[06:56:30]   GW191204_171526 L1: ok, off W1=224 W2=56
+[06:56:30]   W1: dets=['H1', 'L1'] zmax_on=12.41 @ 1743 Hz, p_ind=0.696 (n_nulas=112)
+[06:56:30]   W2: dets=['H1', 'L1'] zmax_on=13.82 @ 1316 Hz, p_ind=0.250 (n_nulas=28)
+[06:56:30] evento GW191215_223052 (SNR 11.2, Mf 41.4)
+[06:56:35]   GW191215_223052 H1: ok, off W1=224 W2=56
+[06:56:40]   GW191215_223052 L1: ok, off W1=224 W2=56
+[06:56:40]   W1: dets=['H1', 'L1'] zmax_on=13.22 @ 52 Hz, p_ind=0.545 (n_nulas=112)
+[06:56:40]   W2: dets=['H1', 'L1'] zmax_on=10.67 @ 165 Hz, p_ind=0.929 (n_nulas=28)
+[06:56:40] evento GW191216_213338 (SNR 18.6, Mf 18.87)
+[06:56:44]   GW191216_213338 H1: ok, off W1=224 W2=56
+[06:56:45]   GW191216_213338 L1: sin datos (GetExceptionGroup: failed to get data from any source (1 sub-exception))
+[06:56:45]   W1: dets=['H1'] zmax_on=11.72 @ 443 Hz, p_ind=0.491 (n_nulas=112)
+[06:56:45]   W2: dets=['H1'] zmax_on=10.72 @ 289 Hz, p_ind=0.571 (n_nulas=28)
+[06:56:45] evento GW191222_033537 (SNR 12.5, Mf 75.5)
+[06:56:50]   GW191222_033537 H1: ok, off W1=224 W2=56
+[06:56:55]   GW191222_033537 L1: ok, off W1=224 W2=56
+[06:56:55]   W1: dets=['H1', 'L1'] zmax_on=15.59 @ 1545 Hz, p_ind=0.277 (n_nulas=112)
+[06:56:55]   W2: dets=['H1', 'L1'] zmax_on=11.17 @ 1105 Hz, p_ind=0.786 (n_nulas=28)
+[06:56:55] evento GW191230_180458 (SNR 10.4, Mf 82.0)
+[06:57:00]   GW191230_180458 H1: ok, off W1=224 W2=56
+[06:57:04]   GW191230_180458 L1: ok, off W1=224 W2=56
+[06:57:04]   W1: dets=['H1', 'L1'] zmax_on=10.69 @ 1731 Hz, p_ind=0.973 (n_nulas=112)
+[06:57:04]   W2: dets=['H1', 'L1'] zmax_on=12.83 @ 1460 Hz, p_ind=0.536 (n_nulas=28)
+[06:57:04] evento GW200112_155838 (SNR 19.8, Mf 60.8)
+[06:57:05]   GW200112_155838 H1: sin datos (GetExceptionGroup: failed to get data from any source (1 sub-exception))
+[06:57:10]   GW200112_155838 L1: ok, off W1=224 W2=56
+[06:57:10]   W1: dets=['L1'] zmax_on=10.31 @ 111 Hz, p_ind=0.589 (n_nulas=112)
+[06:57:10]   W2: dets=['L1'] zmax_on=13.13 @ 1718 Hz, p_ind=0.179 (n_nulas=28)
+[06:57:10] evento GW200128_022011 (SNR 10.6, Mf 71.0)
+[06:57:15]   GW200128_022011 H1: ok, off W1=224 W2=56
+[06:57:18]   GW200128_022011 L1: ok, off W1=224 W2=56
+[06:57:18]   W1: dets=['H1', 'L1'] zmax_on=14.52 @ 1363 Hz, p_ind=0.348 (n_nulas=112)
+[06:57:18]   W2: dets=['H1', 'L1'] zmax_on=10.29 @ 1572 Hz, p_ind=0.893 (n_nulas=28)
+[06:57:18] evento GW200129_065458 (SNR 26.8, Mf 60.2)
+[06:57:23]   GW200129_065458 H1: ok, off W1=224 W2=56
+[06:57:27]   GW200129_065458 L1: ok, off W1=224 W2=56
+[06:57:27]   W1: dets=['H1', 'L1'] zmax_on=12.21 @ 1140 Hz, p_ind=0.759 (n_nulas=112)
+[06:57:27]   W2: dets=['H1', 'L1'] zmax_on=14.82 @ 47 Hz, p_ind=0.286 (n_nulas=28)
+[06:57:27] evento GW200202_154313 (SNR 10.8, Mf 16.76)
+[06:57:33]   GW200202_154313 H1: ok, off W1=224 W2=56
+[06:57:38]   GW200202_154313 L1: ok, off W1=224 W2=56
+[06:57:38]   W1: dets=['H1', 'L1'] zmax_on=15.60 @ 532 Hz, p_ind=0.196 (n_nulas=112)
+[06:57:38]   W2: dets=['H1', 'L1'] zmax_on=10.91 @ 979 Hz, p_ind=0.893 (n_nulas=28)
+[06:57:38] evento GW200208_130117 (SNR 10.8, Mf 62.5)
+[06:57:43]   GW200208_130117 H1: ok, off W1=224 W2=56
+[06:57:47]   GW200208_130117 L1: ok, off W1=224 W2=56
+[06:57:47]   W1: dets=['H1', 'L1'] zmax_on=14.89 @ 1176 Hz, p_ind=0.330 (n_nulas=112)
+[06:57:47]   W2: dets=['H1', 'L1'] zmax_on=11.42 @ 812 Hz, p_ind=0.857 (n_nulas=28)
+[06:57:47] evento GW200219_094415 (SNR 10.7, Mf 62.2)
+[06:57:52]   GW200219_094415 H1: ok, off W1=224 W2=56
+[06:57:57]   GW200219_094415 L1: ok, off W1=224 W2=56
+[06:57:57]   W1: dets=['H1', 'L1'] zmax_on=13.00 @ 700 Hz, p_ind=0.616 (n_nulas=112)
+[06:57:57]   W2: dets=['H1', 'L1'] zmax_on=14.33 @ 1493 Hz, p_ind=0.179 (n_nulas=28)
+[06:57:57] evento GW200224_222234 (SNR 20.0, Mf 68.7)
+[06:58:02]   GW200224_222234 H1: ok, off W1=224 W2=56
+[06:58:06]   GW200224_222234 L1: ok, off W1=224 W2=56
+[06:58:06]   W1: dets=['H1', 'L1'] zmax_on=17.43 @ 1097 Hz, p_ind=0.071 (n_nulas=112)
+[06:58:06]   W2: dets=['H1', 'L1'] zmax_on=10.44 @ 70 Hz, p_ind=0.893 (n_nulas=28)
+[06:58:06] evento GW200225_060421 (SNR 12.5, Mf 32.1)
+[06:58:12]   GW200225_060421 H1: ok, off W1=224 W2=56
+[06:58:17]   GW200225_060421 L1: ok, off W1=224 W2=56
+[06:58:17]   W1: dets=['H1', 'L1'] zmax_on=16.95 @ 232 Hz, p_ind=0.107 (n_nulas=112)
+[06:58:17]   W2: dets=['H1', 'L1'] zmax_on=13.01 @ 987 Hz, p_ind=0.393 (n_nulas=28)
+[06:58:17] evento GW200302_015811 (SNR 10.8, Mf 55.5)
+[06:58:22]   GW200302_015811 H1: ok, off W1=224 W2=56
+[06:58:22]   GW200302_015811 L1: sin datos (GetExceptionGroup: failed to get data from any source (1 sub-exception))
+[06:58:22]   W1: dets=['H1'] zmax_on=10.11 @ 266 Hz, p_ind=0.580 (n_nulas=112)
+[06:58:22]   W2: dets=['H1'] zmax_on=10.95 @ 595 Hz, p_ind=0.429 (n_nulas=28)
+[06:58:22] evento GW200311_115853 (SNR 17.8, Mf 59.0)
+[06:58:29]   GW200311_115853 H1: ok, off W1=224 W2=56
+[06:58:33]   GW200311_115853 L1: ok, off W1=224 W2=56
+[06:58:33]   W1: dets=['H1', 'L1'] zmax_on=11.97 @ 1269 Hz, p_ind=0.688 (n_nulas=112)
+[06:58:33]   W2: dets=['H1', 'L1'] zmax_on=12.97 @ 785 Hz, p_ind=0.536 (n_nulas=28)
+[06:58:33] evento GW200316_215756 (SNR 10.3, Mf 20.2)
+[06:58:38]   GW200316_215756 H1: ok, off W1=224 W2=56
+[06:58:41]   GW200316_215756 L1: NaN en el segmento, detector descartado
+[06:58:41]   W1: dets=['H1'] zmax_on=12.32 @ 1515 Hz, p_ind=0.223 (n_nulas=112)
+[06:58:41]   W2: dets=['H1'] zmax_on=8.63 @ 867 Hz, p_ind=0.750 (n_nulas=28)
+[06:58:43] APILADO W1: Zmax=41.89 @ 95 Hz, p=0.9795, p_corr=1.0000, nula p95=1019.51
+[06:58:43] APILADO W2: Zmax=40.65 @ 1011 Hz, p=0.7300, p_corr=1.0000, nula p95=60811.36
+[06:58:47] fin
