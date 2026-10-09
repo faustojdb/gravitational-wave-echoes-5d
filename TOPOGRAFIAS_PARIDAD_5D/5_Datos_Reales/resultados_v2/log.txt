@@ -137,3 +137,13 @@
 [07:17:13] evento GW200311_115853 (SNR 17.8, Mf 59.0)
 [07:17:19]   GW200311_115853 H1 W1: ok, off válidas=224 (vetadas A=0, B=0)
 [07:17:19]   GW200311_115853 H1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:17:23]   GW200311_115853 L1 W1: ok, off válidas=224 (vetadas A=0, B=0)
+[07:17:23]   GW200311_115853 L1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:18:26]   GW200311_115853 V1 W1: ok, off válidas=224 (vetadas A=0, B=0)
+[07:18:27]   GW200311_115853 V1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:18:27]   W1: dets=['H1', 'L1', 'V1'] zmax_on=16.39 @ 1269 Hz, p_ind=0.339 (n_nulas=112, nul std=2.54)
+[07:18:27]   W2: dets=['H1', 'L1', 'V1'] zmax_on=15.16 @ 785 Hz, p_ind=0.321 (n_nulas=28, nul std=2.41)
+[07:18:27] evento GW200316_215756 (SNR 10.3, Mf 20.2)
+[07:18:33]   GW200316_215756 H1 W1: ok, off válidas=222 (vetadas A=0, B=2)
+[07:18:33]   GW200316_215756 H1 W2: ok, off válidas=55 (vetadas A=0, B=1)
+[07:18:35]   GW200316_215756 L1: NaN, descartado
