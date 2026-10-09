@@ -43,3 +43,11 @@
 [07:09:35] evento GW191222_033537 (SNR 12.5, Mf 75.5)
 [07:09:40]   GW191222_033537 H1 W1: ok, off válidas=220 (vetadas A=0, B=4)
 [07:09:41]   GW191222_033537 H1 W2: ok, off válidas=54 (vetadas A=0, B=2)
+[07:09:46]   GW191222_033537 L1 W1: ok, off válidas=224 (vetadas A=0, B=0)
+[07:09:46]   GW191222_033537 L1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:10:05]   GW191222_033537 V1: NaN, descartado
+[07:10:06]   W1: dets=['H1', 'L1'] zmax_on=15.60 @ 1545 Hz, p_ind=0.236 (n_nulas=110, nul std=2.08)
+[07:10:06]   W2: dets=['H1', 'L1'] zmax_on=11.55 @ 1105 Hz, p_ind=0.778 (n_nulas=27, nul std=1.98)
+[07:10:06] evento GW191230_180458 (SNR 10.4, Mf 82.0)
+[07:10:11]   GW191230_180458 H1 W1: ok, off válidas=221 (vetadas A=0, B=3)
+[07:10:11]   GW191230_180458 H1 W2: ok, off válidas=54 (vetadas A=0, B=2)
