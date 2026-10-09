@@ -147,3 +147,10 @@
 [07:18:33]   GW200316_215756 H1 W1: ok, off válidas=222 (vetadas A=0, B=2)
 [07:18:33]   GW200316_215756 H1 W2: ok, off válidas=55 (vetadas A=0, B=1)
 [07:18:35]   GW200316_215756 L1: NaN, descartado
+[07:19:34]   GW200316_215756 V1 W1: ok, off válidas=224 (vetadas A=0, B=0)
+[07:19:34]   GW200316_215756 V1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:19:34]   W1: dets=['H1', 'V1'] zmax_on=13.35 @ 1547 Hz, p_ind=0.477 (n_nulas=111, nul std=2.06)
+[07:19:34]   W2: dets=['H1', 'V1'] zmax_on=11.30 @ 165 Hz, p_ind=0.630 (n_nulas=27, nul std=1.94)
+[07:19:36] APILADO W1: n_ev=18 Zmax=52.27 @ 1619 Hz, p=0.9545, p_corr=1.0000, nula mediana=60.9 p95=359.0 p99.9=2613.5
+[07:19:37] APILADO W2: n_ev=18 Zmax=48.42 @ 1460 Hz, p=0.6820, p_corr=1.0000, nula mediana=51.7 p95=983.7 p99.9=3821.6
+[07:19:40] fin
