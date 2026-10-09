@@ -1,0 +1,7 @@
+[06:32:53] muestra: 18 eventos; config: {"catalogo": "GWTC-3-confident", "snr_min": 10.0, "far_max": 1.0, "m_min": 3.0, "detectores": ["H1", "L1"], "fs": 4096, "seg": 128.0, "psd_ini": -124.0, "psd_fin": -8.0, "fftlength": 4.0, "overlap": 2.0, "band": [20.0, 1800.0], "ventanas": {"W1": [0.05, 1.0], "W2": [1.05, 4.0]}, "off_rangos": [[-120.0, -8.0], [8.0, 120.0]], "df_out": 1.0}
+[06:32:53] evento GW191109_010717 (SNR 17.3, Mf 107.0)
+[06:33:03]   GW191109_010717 H1: ok, off W1=224 W2=56
+[06:33:36]   GW191109_010717 L1: ok, off W1=224 W2=56
+[06:33:36]   W1: dets=['H1', 'L1'] zmax_on=17.10 @ 1478 Hz, p_ind=0.196 (n_nulas=112)
+[06:33:36]   W2: dets=['H1', 'L1'] zmax_on=10.89 @ 567 Hz, p_ind=0.750 (n_nulas=28)
+[06:33:36] evento GW191129_134029 (SNR 13.1, Mf 16.8)
