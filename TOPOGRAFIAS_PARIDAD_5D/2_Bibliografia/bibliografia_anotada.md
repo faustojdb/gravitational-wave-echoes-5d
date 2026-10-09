@@ -52,7 +52,3 @@ Todas las entradas marcadas ✅ fueron verificadas en esta sesión (9 oct 2026) 
 ## E. Analogía de onda superficial
 
 35. ⚠️ **H. Lamb**, *Hydrodynamics*, 6ª ed. (1932), §228: dispersión $\omega^2=gk\tanh kh$; en agua profunda $\omega^2=gk$ y todos los campos decaen como $e^{kz}$ (z negativo hacia abajo). Verificado en fuentes secundarias (notas de curso) que citan ese parágrafo.
-
-## F. Trabajos previos de este repositorio
-
-36. Los documentos de `KLEIN FIELD THEORY/`, `FUNDAMENTAL_RADIUS_INVESTIGATION/` y `teoria_refinada/` proponen una botella de Klein con $R_{eff}\sim8400$ km o $R\sim419$ km y supresión de modos pares. A la luz de A4 y D34: (i) la botella de Klein da selección par/impar por paridad **del campo**, no por lado; (ii) un radio de cientos o miles de km en compactificación plana está excluido por 9–10 órdenes de magnitud por los tests de torsión, salvo warping. El presente estudio no repite esos análisis; los toma como motivación y propone la topografía que sí cumple el criterio.

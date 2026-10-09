@@ -18,6 +18,10 @@ $$\left(\Box_4 + \partial_y^2\right)\Phi(x,y)=0,\qquad \Phi(x,y)=\sum_n \phi_n(x
 
 Cada $f_n(y)$ es un **modo KK**; en 4D el campo $\phi_n$ se comporta como una partícula de masa $m_n$. El modo con $m_0=0$ es el gravitón ordinario de la Relatividad General; los demás son gravitones masivos. La geometría/topología de la dimensión $y$ fija (a) qué $f_n$ existen, (b) sus masas $m_n$, y (c) **el valor $f_n(y_\star)$ en el punto $y_\star$ donde está nuestra brana**. Ese valor es el acoplamiento del modo $n$ con la materia de nuestra brana: un modo con $f_n(y_\star)=0$ **no se emite ni se detecta** en nuestra brana. Esa es la traducción precisa de "el modo queda anulado de nuestro lado".
 
+## 1.2b Qué es y qué no es una "pared"
+
+En todo este documento, "pared" o "punto fijo" significa una **limitación dimensional**: el lugar donde la identificación $y\to-y$ pliega la coordenada, de modo que las configuraciones del campo quedan restringidas (un campo impar debe valer cero ahí). No es un objeto, no tiene energía, no interactúa con nada. La selección de paridad descrita abajo sólo necesita esto. Cuando más adelante aparezca una **brana** con tensión (Randall–Sundrum), eso ya es un objeto físico y constituye un supuesto adicional, que se señala como tal.
+
 ## 1.3 Paridad = condición de contorno
 
 Si la dimensión extra tiene una reflexión $y\to -y$ como simetría (orbifold), cada campo tiene una paridad $P=\pm 1$ bajo ella, y en el punto fijo $y=0$:
@@ -44,7 +48,7 @@ y cada campo lleva **dos** paridades $(P,P')$. Las funciones de modo (verificada
 | $(-,+)$ | $\sin((2n+1)y/R)$ | $(2n+1)/R$ (1, 3, 5, …) | **$=0$** | $\neq 0$ |
 | $(-,-)$ | $\sin((2n+2)y/R)$ | $(2n+2)/R$ (2, 4, 6, …) | **$=0$** | **$=0$** |
 
-Léase así: **los modos de número KK impar vienen en dos familias espejo**. La familia $(+,-)$ vive en nuestra pared y está anulada en la pared sombra; la familia $(-,+)$ está anulada en nuestra pared y vive en la sombra. Los modos de número KK par $(+,+)$ viven en ambas, y $(-,-)$ en ninguna. Esto es, con toda exactitud, el mecanismo que propone la hipótesis: la misma onda 5D, al "ir hacia nuestro lado" sólo puede materializarse en los modos no nulos en la pared I; al "ir hacia el otro lado" sólo en los no nulos en la pared II. Y los dos conjuntos son complementarios para los modos impares. La figura `4_Resultados/figuras/fig1_modos_S1_Z2xZ2p.png` muestra los cuatro sectores, y la simulación 1+1 de `fig6_simulacion_dos_paredes.png` lo muestra dinámicamente: un pulso emitido junto a la pared I con condiciones (N,D) se registra con armónicos 1,3,5,7 en la pared I y **nada** en la pared II; con (D,N) ocurre exactamente lo contrario.
+Léase así: **los modos de número KK impar vienen en dos familias espejo**. La familia $(+,-)$ vive en nuestra pared y está anulada en la pared sombra; la familia $(-,+)$ está anulada en nuestra pared y vive en la sombra. Los modos de número KK par $(+,+)$ viven en ambas, y $(-,-)$ en ninguna. Esto es, con toda exactitud, el mecanismo que propone la hipótesis: la misma onda 5D, al "ir hacia nuestro lado" sólo puede materializarse en los modos no nulos en la pared I; al "ir hacia el otro lado" sólo en los no nulos en la pared II. Y los dos conjuntos son complementarios para los modos impares. La figura `4_Resultados/figuras/fig1_modos_S1_Z2xZ2p.png` muestra los cuatro sectores, y la simulación 1+1 de `fig6_simulacion_dos_paredes.png` (ilustración numérica del mismo teorema, no evidencia) lo muestra dinámicamente: un pulso emitido junto a la pared I con condiciones (N,D) se registra con armónicos 1,3,5,7 en la pared I y **nada** en la pared II; con (D,N) ocurre exactamente lo contrario.
 
 **Condición necesaria y suficiente (nivel de campo libre):** para que exista selección de paridad *dependiente del lado* hacen falta
 1. **dos puntos fijos** (paredes) en la dimensión extra, y

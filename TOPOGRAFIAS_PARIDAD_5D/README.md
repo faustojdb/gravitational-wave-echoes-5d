@@ -10,7 +10,9 @@ Una fusión de agujeros negros o una supernova emite ondas gravitacionales que t
 
 1. La selección par/impar **dependiente del lado** exige dos paredes **inequivalentes**: el orbifold $S^1/(Z_2\times Z_2')$ (intervalo con fase de Scherk–Schwarz). En él los modos impares vienen en dos familias espejo, una visible sólo desde nuestra pared y otra sólo desde la pared sombra; los pares se ven desde ambas.
 2. Topografías sin paredes (círculo, **botella de Klein**, $RP^2$, Möbius) filtran por paridad **del campo**, no **del lado**: no tienen "lados".
-3. Esa topografía existe y está publicada (Kawamura 2001; Barbieri–Hall–Nomura 2001; Nilse 2006). Para que sus modos caigan en la banda de LIGO sin violar los tests de laboratorio debe ser **warped** (Randall–Sundrum); con cuerda negra entre branas (Seahra–Clarkson–Maartens 2005) la estabilidad fija $f_1\gtrsim460\,(30M_\odot/M)$ Hz. El cálculo de ondas gravitacionales en este orbifold warped **no existe en la literatura**: es el trabajo a hacer.
+3. Esa topografía existe y está publicada (Kawamura 2001; Barbieri–Hall–Nomura 2001; Nilse 2006). **Con paredes puramente dimensionales y geometría plana el efecto no es observable** (radio permitido < 39 μm ⇒ f₁ > 10¹² Hz). Sólo entra en la banda de LIGO si se agrega un supuesto físico adicional: warping sostenido por una brana con tensión (Randall–Sundrum, cuerda negra de Seahra–Clarkson–Maartens 2005), que fija $f_1\gtrsim460\,(30M_\odot/M)$ Hz. El cálculo de ondas gravitacionales en ese orbifold warped no existe en la literatura.
+
+**Niveles de afirmación (ver CLAUDE.md):** (a) teorema: selección de paridad por lado en $S^1/(Z_2\times Z_2')$; (b) supuesto de modelo: warping con brana física; (c) dato: cotas publicadas de LVK y de laboratorio. Nada de esta carpeta usa datos sintéticos como evidencia; el análisis con strain real está en `5_Datos_Reales/`.
 
 ## Estructura
 
@@ -19,16 +21,21 @@ TOPOGRAFIAS_PARIDAD_5D/
 ├── README.md                                   ← este archivo
 ├── 1_Teoria/
 │   ├── 01_criterio_de_seleccion_por_paridad.md ← formalismo KK, paridad ⇔ Neumann/Dirichlet, criterio de dos paredes
-│   └── 02_catalogo_topografias_candidatas.md   ← tabla de 11 topografías, características requeridas, ¿existen?
+│   ├── 02_catalogo_topografias_candidatas.md   ← tabla de 11 topografías, características requeridas, ¿existen?
+│   └── 03_prediccion_independiente_del_modelo.md ← lo que TODAS las variantes predicen en común
 ├── 2_Bibliografia/
 │   └── bibliografia_anotada.md                 ← 36 referencias; ✅ = verificada en esta sesión, ⚠️ = de memoria
 ├── 3_Codigo/
 │   └── modos_paridad_topografias.py            ← espectros y funciones de modo por topografía, simulación 1+1, RS, cuerda negra
-└── 4_Resultados/
-    ├── CONCLUSIONES.md                         ← síntesis, aciertos/correcciones, predicciones falsables, próximos pasos
-    ├── tabla_resumen.md                        ← tablas generadas por el código
-    ├── resumen_numerico.json
-    └── figuras/fig1 … fig7
+├── 4_Resultados/
+│   ├── CONCLUSIONES.md                         ← síntesis en tres niveles (teorema / modelo / dato), próximos pasos
+│   ├── tabla_resumen.md                        ← tablas generadas por el código
+│   ├── resumen_numerico.json
+│   └── figuras/fig1 … fig7
+└── 5_Datos_Reales/
+    ├── PROTOCOLO.md                            ← protocolo fijado ANTES de mirar los datos
+    ├── busqueda_lineas_tardias.py              ← descarga strain de GWOSC y busca líneas tardías (con controles)
+    └── resultados/                             ← salidas del análisis sobre datos reales
 ```
 
 ## Reproducir
@@ -48,5 +55,5 @@ python3 modos_paridad_topografias.py          # ~1 min; escribe 4_Resultados/
 | fig3 | Botella de Klein (selección por paridad del campo) y banda de Möbius (espectro semientero) |
 | fig4 | Randall–Sundrum: modo cero ligado vs. onda de agua, potencial volcán, torre KK en branas UV/IR |
 | fig5 | Cuerda negra RS: frecuencias KK vs. separación de branas y bandas LIGO/LISA |
-| fig6 | Simulación 1+1: pulso junto a la pared I con contornos NN, ND, DN, DD; espectro visto en cada pared |
+| fig6 | Simulación 1+1 (**ilustración numérica de un teorema, no evidencia**): pulso junto a la pared I con contornos NN, ND, DN, DD; espectro visto en cada pared |
 | fig7 | Frecuencia KK mínima impuesta por la estabilidad de Gregory–Laflamme vs. masa del agujero negro |
