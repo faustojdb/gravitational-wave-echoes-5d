@@ -76,3 +76,12 @@
 [07:11:54] evento GW200129_065458 (SNR 26.8, Mf 60.2)
 [07:12:00]   GW200129_065458 H1 W1: ok, off válidas=224 (vetadas A=0, B=0)
 [07:12:00]   GW200129_065458 H1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:12:05]   GW200129_065458 L1 W1: on-source vetada (flags=False, amp=True); excluido
+[07:12:05]   GW200129_065458 L1 W2: on-source vetada (flags=False, amp=True); excluido
+[07:12:09]   GW200129_065458 V1 W1: ok, off válidas=224 (vetadas A=0, B=0)
+[07:12:10]   GW200129_065458 V1 W2: ok, off válidas=56 (vetadas A=0, B=0)
+[07:12:10]   W1: dets=['H1', 'V1'] zmax_on=14.60 @ 1111 Hz, p_ind=0.464 (n_nulas=112, nul std=2.19)
+[07:12:10]   W2: dets=['H1', 'V1'] zmax_on=15.48 @ 1076 Hz, p_ind=0.250 (n_nulas=28, nul std=2.02)
+[07:12:10] evento GW200202_154313 (SNR 10.8, Mf 16.76)
+[07:12:15]   GW200202_154313 H1 W1: ok, off válidas=222 (vetadas A=0, B=2)
+[07:12:15]   GW200202_154313 H1 W2: ok, off válidas=54 (vetadas A=0, B=2)
