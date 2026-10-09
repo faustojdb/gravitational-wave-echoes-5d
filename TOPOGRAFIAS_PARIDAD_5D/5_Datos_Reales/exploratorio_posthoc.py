@@ -18,7 +18,7 @@ Usa los arrays guardados por el análisis principal (Enmienda 3).
 import json, os, sys
 import numpy as np
 
-outdir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "resultados")
+outdir = os.path.join(os.path.dirname(os.path.abspath(__file__)), sys.argv[1] if len(sys.argv) > 1 else "resultados")
 rng = np.random.default_rng(20261009)
 NREP = 2000
 CLIPS = [5.0, 10.0, 20.0]   # recortes de z por bin (suma sobre detectores)
@@ -28,6 +28,8 @@ res = {"advertencia": "EXPLORATORIO POST HOC. No confirmatorio. Recortes elegido
 for vn in ("W1", "W2"):
     d = np.load(os.path.join(outdir, f"apilado_{vn}.npz"), allow_pickle=True)
     f = d["f"]; on = d["z_on"]; nev = on.shape[0]
+    if len(f) != on.shape[1]:
+        f = f[:on.shape[1]]
     nul = [d[f"z_nul_{e}"] for e in range(nev)]
     res["ventanas"][vn] = {}
     for clip in CLIPS:

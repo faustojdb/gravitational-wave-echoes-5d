@@ -12,7 +12,7 @@ Una fusión de agujeros negros o una supernova emite ondas gravitacionales que t
 2. Topografías sin paredes (círculo, **botella de Klein**, $RP^2$, Möbius) filtran por paridad **del campo**, no **del lado**: no tienen "lados".
 3. Esa topografía existe y está publicada (Kawamura 2001; Barbieri–Hall–Nomura 2001; Nilse 2006). **Con paredes puramente dimensionales y geometría plana el efecto no es observable** (radio permitido < 39 μm ⇒ f₁ > 10¹² Hz). Sólo entra en la banda de LIGO si se agrega un supuesto físico adicional: warping sostenido por una brana con tensión (Randall–Sundrum, cuerda negra de Seahra–Clarkson–Maartens 2005), que fija $f_1\gtrsim460\,(30M_\odot/M)$ Hz. El cálculo de ondas gravitacionales en ese orbifold warped no existe en la literatura.
 
-4. **Resultado sobre datos reales (9 oct 2026): negativo.** Búsqueda ciega de líneas tardías de frecuencia fija en 18 fusiones BBH de GWTC-3 (strain GWOSC, H1+L1, protocolo pre-registrado, nula por el mismo pipeline): p = 0.98 (W1) y 0.73 (W2); el máximo observado está por debajo de la mediana de la nula. Detalle en `5_Datos_Reales/resultados/REPORTE.md`.
+4. **Resultado sobre datos reales (9 oct 2026): negativo, en dos versiones pre-registradas.** Búsqueda ciega de líneas tardías de frecuencia fija en 18 fusiones BBH de GWTC-3 (strain GWOSC, nula por el mismo pipeline). v1 (H1+L1): p = 0.98 y 0.73. v2 (H1+L1+V1, veto de glitches a priori con banderas CBC_CAT2 y umbral simétrico de 6σ): p = 0.95 y 0.68. En ambas el máximo observado está por debajo de la mediana de la nula. Detalle en `5_Datos_Reales/resultados/REPORTE.md` y `5_Datos_Reales/resultados_v2/REPORTE.md`.
 
 **Niveles de afirmación (ver CLAUDE.md):** (a) teorema: selección de paridad por lado en $S^1/(Z_2\times Z_2')$; (b) supuesto de modelo: warping con brana física; (c) dato: cotas publicadas de LVK y de laboratorio. Nada de esta carpeta usa datos sintéticos como evidencia; el análisis con strain real está en `5_Datos_Reales/`.
 
@@ -38,7 +38,10 @@ TOPOGRAFIAS_PARIDAD_5D/
     ├── PROTOCOLO.md                            ← protocolo fijado ANTES de mirar los datos
     ├── busqueda_lineas_tardias.py              ← descarga strain de GWOSC y busca líneas tardías (con controles)
     ├── exploratorio_posthoc.py                 ← sensibilidad con recorte de glitches (post hoc, NO confirmatorio)
-    └── resultados/REPORTE.md                   ← resultado: negativo; tablas, figuras, limitaciones
+    ├── resultados/REPORTE.md                   ← v1 (H1+L1): negativo; tablas, figuras, limitaciones
+    ├── PROTOCOLO_v2.md                         ← v2 fijado antes de correr: veto a priori (CAT2 + 6σ simétrico) y Virgo
+    ├── busqueda_lineas_tardias_v2.py
+    └── resultados_v2/REPORTE.md                ← v2 (H1+L1+V1): negativo; comparación de sensibilidad v1/v2
 ```
 
 ## Reproducir
